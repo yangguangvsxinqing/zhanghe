@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileExplorerSearchActivity"
+    android:background="#fcfcfc">
+
+    <ListView
+        android:id="@+id/listview_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fcfcfc"
+        android:divider="#e1e1e1"
+        android:dividerHeight="1px"
+        android:paddingLeft="7dp">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/llayout_no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:paddingTop="100dp"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageview_no_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_nosearchresults" />
+        <TextView
+            android:id="@+id/textview_no_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/no_search_result"
+            android:textColor="#898989"
+            android:textSize="20sp"/>
+        
+        
+    </LinearLayout>
+
+</FrameLayout>

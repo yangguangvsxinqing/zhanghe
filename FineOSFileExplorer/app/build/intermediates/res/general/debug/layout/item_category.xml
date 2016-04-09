@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:id="@+id/txt_cate_name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="11dp"
+        android:gravity="center_horizontal"
+        android:text="@string/apk_text"
+        android:textColor="@color/fineos_text_color"
+        android:textSize="15sp"
+        android:drawablePadding="@dimen/category_drawable_top_padding"/>
+
+    <TextView
+        android:id="@+id/txt_cate_count"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cate_name"
+        android:paddingBottom="11dp"
+        android:text="@string/loading"
+        android:textColor="@color/fineos_second_level_small"
+        android:textSize="@dimen/fineos_second_level_small"
+        android:gravity="center_horizontal"
+        />
+
+</merge><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/item_category.xml -->

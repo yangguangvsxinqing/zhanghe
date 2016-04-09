@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="category_drawable_top_padding">7dp</dimen>
+    <dimen name="category_name_size">14px</dimen>
+    <dimen name="circle_stroke">20dp</dimen>
+    <dimen name="file_search_view_margin_start">10dp</dimen>
+    <dimen name="file_view_image_side_length">31dp</dimen>
+    <dimen name="have_clean_tools_padding">60dp</dimen>
+    <dimen name="inner_circle_radius">83dp</dimen>
+    <dimen name="menu_text_size_ch">20sp</dimen>
+    <dimen name="menu_text_size_eng">8sp</dimen>
+    <dimen name="no_cleaning_tools_padding">10dp</dimen>
+    <dimen name="onethrid_screen_width">120dp</dimen>
+    <dimen name="present_number_size">57dp</dimen>
+    <dimen name="search_button_padding">5dp</dimen>
+    <dimen name="search_dialog_y_offset">4dp</dimen>
+    <dimen name="search_input_padding_top">12dp</dimen>
+    <dimen name="search_triangle_padding">5dp</dimen>
+    <dimen name="search_view_image_side_length">26dp</dimen>
+    <dimen name="storage_button_height_big">64dp</dimen>
+    <dimen name="storage_button_height_small">46dp</dimen>
+    <dimen name="storage_text_size_big">17sp</dimen>
+    <dimen name="storage_text_size_small">14sp</dimen>
+    <dimen name="towthrid_screen_width">240dp</dimen>
+    <dimen name="used_text_size">18dp</dimen>
+</resources>

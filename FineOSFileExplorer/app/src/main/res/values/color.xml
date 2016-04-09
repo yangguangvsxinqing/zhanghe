@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="picCategoryColor">#f3cf3f</color>
+    <color name="musicCategoryColor">#ee6388</color>
+    <color name="vedioCategoryColor">#a19cff</color>
+    <color name="apkkCategoryColor">#84f250</color>
+    <color name="docCategoryColor">#77cbff</color>
+    <color name="zipCategoryColor">#ffb05d</color>
+    <color name="otherCategoryColor">#37db9f</color>
+    <color name="freeSpaceCategoryColor">#f3f3f3</color>
+    <color name="fontCategoryFirstColor">#636363</color>
+    <color name="fontCategorySecondColor">#a4a4a4</color>
+    <color name="disable_operation_color">#979797</color>
+    <color name="focused_pathBar_color">#656464</color>
+    <color name="unfocused_pathBar_color">#898989</color>
+    <color name="txt_hint_color">#FF0000</color>
+    <color name="list_item_bg">#ffffff</color>
+    <color name="list_pressed_bg">#f3f3f3</color>
+    <color name="list_txt_pressed_color">#9A303030</color>
+    <color name="list_txt_color">#ff656464</color>
+    <color name="txt_color">#656464</color>
+    <color name="fineos_page_default_color">#ffffff</color>
+    <color name="fineos_text_color">#303030</color>
+    <color name="fineos_divider_color">#e1e1e1</color>
+
+    <color name="doov_al822_actionbar">#999999</color>
+    <color name="blu_actionbar_color">#ffffff</color>
+    <color name="search_bar_font_color">#7d7d7d</color>
+    <color name="fineos_statusbar_color">#ffffffff</color>
+    <color name="fineos_edittext_hint_color">#c8c8c8</color>
+    <color name="fineos_second_level_small">#939393</color>
+    
+</resources>

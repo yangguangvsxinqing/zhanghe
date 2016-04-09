@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout 
+        android:id="@+id/llayout_no_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="invisible"
+        >
+    
+    <ImageView 
+        android:id="@+id/image_no_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_nosd"/>
+    
+    <TextView 
+        android:id="@+id/textview_no_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/no_sd_card" 
+        android:textColor="#898989"       
+        />  
+    </LinearLayout>
+    
+    
+</RelativeLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/activity_file_explorer_main.xml -->

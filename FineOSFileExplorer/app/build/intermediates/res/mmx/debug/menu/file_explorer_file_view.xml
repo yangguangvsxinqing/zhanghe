@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="never"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_new_folder"
+        android:showAsAction="never"
+        android:title="@string/newfolder"/>
+    <item
+        android:id="@+id/action_show_hidden"
+        android:showAsAction="never"
+        android:title="@string/show_hidden_files"/>
+    <item
+        android:id="@+id/action_sort"
+        android:showAsAction="never"
+        android:title="@string/sort"/>
+
+</menu><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/menu/file_explorer_file_view.xml -->

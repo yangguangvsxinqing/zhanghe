@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ubuntu/codes/FineOSFileExplorer/app/libs/eventbus-2.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
+        <dex dex="/home/ubuntu/codes/FineOSFileExplorer/app/build/intermediates/pre-dexed/general/release/eventbus-2.2.1-0b88ea21a50c7a59a83fdb6b85c31af5a0d06de7.jar" />
+    </item>
+    <item
+        jar="/home/ubuntu/codes/FineOSFileExplorer/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/home/ubuntu/codes/FineOSFileExplorer/app/build/intermediates/pre-dexed/general/release/universal-image-loader-1.9.3-eea8d05fd7df4d4b2bbea99727a81dde6b0dae7c.jar" />
+    </item>
+    <item
+        jar="/home/ubuntu/codes/FineOSFileExplorer/app/libs/fineos_hotknot_lib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e9973ede0f6a83603663f9e19a8e46647e0c1d7">
+        <dex dex="/home/ubuntu/codes/FineOSFileExplorer/app/build/intermediates/pre-dexed/general/release/fineos_hotknot_lib-59eefb7e1ffe6e58d4faf26cbc44822415ce3981.jar" />
+    </item>
+
+</items>

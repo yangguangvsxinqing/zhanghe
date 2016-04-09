@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/fineos_page_default_color">
+
+    <include android:id="@+id/layout_category"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/tablelayout_file_category"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:id="@+id/view_space_holder"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@id/layout_category"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/llayout_center"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_below="@id/view_space_holder"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.fineos.fileexplorer.views.CategoryBar
+            android:id="@+id/category_bar"
+            android:layout_width="284dp"
+            android:layout_height="6dp" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_category_spec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category_bar"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:paddingLeft="37dp"
+            android:paddingRight="37dp"
+            android:showDividers="middle"
+            android:divider="@drawable/file_status_divider">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView android:id="@+id/textview_pic_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_picture"/>
+                <TextView android:id="@+id/textview_music_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_music"/>
+                <TextView android:id="@+id/textview_videos_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_video"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView android:id="@+id/textview_apk_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_apks"/>
+                <TextView android:id="@+id/textview_doc_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_doc"/>
+                <TextView android:id="@+id/textview_zip_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_zip"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView android:id="@+id/textview_other_info"
+                    style="@style/CategorySpecStyle"
+                    android:drawableLeft="@drawable/color_other"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/flayout_clean_button"
+            android:layout_width="match_parent"
+            android:layout_below="@id/linearlayout_category_spec"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button_clean_files"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_clean_green_normal"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_storage_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_available_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fineos_text_color"
+                android:textSize="@dimen/fineos_instruction_text_size"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_storage_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:divider="@color/fineos_divider_color"
+        android:dividerHeight="1px"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px "
+        android:background="@color/fineos_divider_color"
+        android:layout_above="@id/listview_storage_list"
+        />
+
+</RelativeLayout>

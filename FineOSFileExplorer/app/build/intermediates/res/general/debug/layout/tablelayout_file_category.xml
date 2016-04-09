@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fileexplorer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout
+        android:id="@+id/table_categories"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <com.fineos.fileexplorer.views.CategoryItemView
+                android:layout_weight="1"
+                fileexplorer:category_name = "@string/picture_text"
+                fileexplorer:category_id = "PIC"
+                fileexplorer:category_icon = "@drawable/selector_pic_button"/>
+
+            <com.fineos.fileexplorer.views.CategoryItemView
+                android:layout_weight="1"
+                fileexplorer:category_name = "@string/music_text"
+                fileexplorer:category_id = "MUSIC"
+                fileexplorer:category_icon = "@drawable/selector_music_button"/>
+
+            <com.fineos.fileexplorer.views.CategoryItemView
+                fileexplorer:category_name = "@string/video_text"
+                fileexplorer:category_id = "VIDEO"
+                fileexplorer:category_icon = "@drawable/selector_video_button"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="1"
+                android:background="#dddddd" />
+        </TableRow>
+
+        <TableRow>
+            <com.fineos.fileexplorer.views.CategoryItemView
+                android:layout_weight="1"
+                fileexplorer:category_name = "@string/doc_text"
+                fileexplorer:category_id = "DOC"
+                fileexplorer:category_icon = "@drawable/selector_doc_button"
+                />
+
+            <com.fineos.fileexplorer.views.CategoryItemView
+                android:layout_weight="1"
+                fileexplorer:category_name = "@string/apk_text"
+                fileexplorer:category_id = "APK"
+                fileexplorer:category_icon = "@drawable/selector_apk_button"
+                />
+
+            <com.fineos.fileexplorer.views.CategoryItemView
+                android:layout_weight="1"
+                fileexplorer:category_name = "@string/zip_text"
+                fileexplorer:category_id = "ZIP"
+                fileexplorer:category_icon = "@drawable/selector_zip_button"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="1"
+                android:background="#dddddd" />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#dddddd"
+        android:layout_alignBottom="@id/table_categories"
+        android:layout_marginStart="@dimen/onethrid_screen_width" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#dddddd"
+        android:layout_alignBottom="@id/table_categories"
+        android:layout_marginStart="@dimen/towthrid_screen_width"/>
+
+</RelativeLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/tablelayout_file_category.xml -->

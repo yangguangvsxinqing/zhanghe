@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/main/assets"/></dataSet><dataSet config="tplink"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/tplink/assets"/></dataSet><dataSet config="release"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/release/assets"/></dataSet><dataSet config="tplinkRelease"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/tplinkRelease/assets"/></dataSet></merger>

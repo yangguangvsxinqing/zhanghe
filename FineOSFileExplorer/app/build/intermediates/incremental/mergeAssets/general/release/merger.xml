@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/main/assets"/></dataSet><dataSet config="general"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/general/assets"/></dataSet><dataSet config="release"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/release/assets"/></dataSet><dataSet config="generalRelease"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/generalRelease/assets"/></dataSet></merger>

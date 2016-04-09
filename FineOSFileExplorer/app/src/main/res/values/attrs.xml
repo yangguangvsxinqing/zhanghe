@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <declare-styleable name="MainPageCategory">
+            <attr name="category_name" format="string" />
+            <attr name="category_icon" format="reference"/>
+            <attr name="category_id" format="string" />
+        </declare-styleable>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/androidTest/res"/><source path="/home/ubuntu/codes/FineOSFileExplorer/app/build/generated/res/rs/androidTest/tplink/debug"/><source path="/home/ubuntu/codes/FineOSFileExplorer/app/build/generated/res/generated/androidTest/tplink/debug"/></dataSet><dataSet config="androidTestTplink"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/androidTestTplink/res"/></dataSet><mergedItems/></merger>

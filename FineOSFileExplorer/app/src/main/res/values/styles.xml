@@ -1,0 +1,159 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="app_theme" parent="android:Theme.Material.Light">
+        <item name="android:textViewStyle">@style/default_text_style</item>
+        <item name="android:buttonStyle">@style/default_button_style</item>
+    </style>
+
+    <style name="FileExplorerTheme" parent="@style/app_theme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:actionBarStyle">@style/FileViewActionBar</item>
+        <item name="tabPageIndicator">@style/CustomTabPageIndicator</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimaryDark">@color/fineos_statusbar_color</item>
+    </style>
+
+    <style name="StyledSearchPage" parent="android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/FileViewActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/fineos_page_default_color</item>
+        <item name="android:colorPrimaryDark">@color/fineos_statusbar_color</item>
+    </style>
+
+    <style name="FileViewTheme" parent="@style/app_theme">
+        <item name="android:actionBarStyle">@style/FileViewActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:actionOverflowButtonStyle">@style/fineos_overflow_button</item>
+        <item name="android:colorPrimaryDark">@color/fineos_statusbar_color</item>
+        <!--<item name="android:scrollbarThumbVertical">@drawable/scrollbar_doov</item>-->
+        <!--<item name="android:actionOverflowButtonStyle">@style/FileViewOverflow</item>-->
+    </style>
+
+    <style name="main_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blu_actionbar_color</item>
+        <item name="android:height">48dp</item>
+    </style>
+
+    <style name="FileViewActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/actionbar</item>
+        <item name="android:height">48dp</item>
+    </style>
+
+    <!--<item name="android:src">@drawable/ic_menu_normal</item>-->
+    <style name="FileViewOverflow" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#626262</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <drawable name="backgroundcolor">#ffffb05d</drawable>
+
+    <style name="CategorySpecStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:textColor">@color/fineos_text_color</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:layout_marginLeft">2dip</item>
+    </style>
+
+    <style name="SearchCategorySelectStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/fineos_text_color</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="SearchCategoryVerticalDivideLine">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:gravity">top</item>
+        <item name="android:background">?android:attr/listDividerAlertDialog</item>
+    </style>
+
+    <style name="SearchCategoryHorizontalDivideLine">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:attr/listDividerAlertDialog</item>
+    </style>
+
+    <style name="FileViewOperationButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#0000</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="fineos_checkbox">
+        <item name="android:button">@drawable/doov_chkbox_style</item>
+    </style>
+
+    <style name="fineos_overflow_button">
+        <item name="android:width">0dp</item>
+        <item name="android:height">0dp</item>
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
+
+    </style>
+
+    <style name="actionbar_main_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/fineos_text_color</item>
+        <item name="android:textSize">@dimen/fineos_actionbar_title</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="default_text_style" parent="android:Widget.Material.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/fineos_default_text_size</item>
+    </style>
+
+    <style name="default_button_style" parent="android:Widget.Material.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="menu_dialog_style" parent="android:Theme.Material.Dialog">
+        <item name="android:textViewStyle">@style/default_text_style</item>
+        <item name="android:buttonStyle">@style/default_button_style</item>
+    </style>
+
+</resources>

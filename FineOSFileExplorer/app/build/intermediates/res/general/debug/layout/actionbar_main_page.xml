@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the app name and search button block -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_apptitle_and_search_button"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@drawable/actionbar"
+    android:transitionName="transition_search"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/textview_app_name"
+        style="@style/actionbar_main_title" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/textview_app_name"
+        android:background="@android:color/transparent"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/selector_search_button" />
+</RelativeLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/actionbar_main_page.xml -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choose_board"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_list_item"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="14dp"
+        android:text="@string/send"
+        android:textColor="@color/list_item_title_color"/>
+
+    <View style="@style/SearchCategoryHorizontalDivideLine" />
+
+    <Button
+        android:id="@+id/button_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_list_item"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="14dp"
+        android:text="@string/file_info"
+        android:textColor="@color/list_item_title_color"/>
+
+    <View style="@style/SearchCategoryHorizontalDivideLine" />
+
+    <Button
+        android:id="@+id/button_rename"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_list_item"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="14dp"
+        android:text="@string/rename"
+        android:textColor="@color/list_item_title_color"/>
+
+    <View style="@style/SearchCategoryHorizontalDivideLine" />
+
+    <Button
+        android:id="@+id/button_hotknot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_list_item"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="14dp"
+        android:text="@string/hotknot"
+        android:textColor="@color/list_item_title_color"/>
+
+</LinearLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/more_operations_dialog.xml -->

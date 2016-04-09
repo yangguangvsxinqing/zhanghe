@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fineos.fileexplorer"
+    android:versionCode="24"
+    android:versionName="1.1.9_201500519" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.HOTKNOT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+
+        <activity
+            android:name="com.fineos.fileexplorer.activity.FileExplorerMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FileExplorerTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fineos.fileexplorer.activity.FileExplorerSearchActivity"
+            android:label="@string/title_activity_search"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledSearchPage"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            >
+        <!--use android:windowSoftInputMode="adjustPan" to hide keyboard on first visit search page.-->
+        </activity>
+        <activity
+            android:name=".activity.FileViewActivity"
+            android:label="@string/title_activity_file_explorer_file_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/FileViewTheme" >
+             <intent-filter >
+                <action android:name="android.intent.action.PICK" />
+                
+                <category android:name="android.intent.category.DEFAULT" />
+                
+                <data android:scheme="file" android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fineos.fileexplorer.OPEN_DIRECTORY" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="com.android.fileexplorer.action.FILE_SINGLE_SEL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                 <action android:name="com.mediatek.filemanager.ADD_FILE" />
+                 <category android:name="android.intent.category.DEFAULT" />
+                 <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.fineos.fileexplorer.activity.DialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop">
+        </activity>
+
+        <activity
+            android:name="com.fineos.fileexplorer.activity.CategoryViewActivity"
+            android:label="@string/title_activity_file_explorer_file_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/FileViewTheme" >
+        </activity>
+        
+        <service 
+    	    android:name="com.fineos.fileexplorer.service.FileOperationService"
+    	    android:label="@string/app_name"
+    	    android:process=":file_operation"></service>
+
+        <service
+            android:name="com.fineos.fileexplorer.operations.FileOperationService"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".activity.HotKnotDialogActivity"
+            android:label="@string/title_activity_hot_knot_dialog"
+            android:theme="@android:style/Theme.Holo.Dialog">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/search_label"
+    android:searchMode="showSearchLabelAsBadge"
+    android:includeInGlobalSearch="true"
+    android:queryAfterZeroResults="true"
+/><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/xml/searchable.xml -->

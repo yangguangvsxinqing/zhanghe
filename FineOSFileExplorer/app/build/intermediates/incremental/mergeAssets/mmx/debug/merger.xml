@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/main/assets"/></dataSet><dataSet config="mmx"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/mmx/assets"/></dataSet><dataSet config="debug"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/debug/assets"/></dataSet><dataSet config="mmxDebug"><source path="/home/ubuntu/codes/FineOSFileExplorer/app/src/mmxDebug/assets"/></dataSet></merger>

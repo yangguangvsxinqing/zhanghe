@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.fineos.fileexplorer"
+        minSdkVersion 21
+        targetSdkVersion 22
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    productFlavors {
+        general {
+            versionName "general20151221"
+        }
+        mmx {
+            versionName "mmx20151221"
+        }
+        tplink{
+            versionName "tplink20151221"
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile files('libs/eventbus-2.2.1.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/fineos_hotknot_lib.jar')
+    testCompile 'junit:junit:4.12'
+    provided project(':fineos-framework')
+}

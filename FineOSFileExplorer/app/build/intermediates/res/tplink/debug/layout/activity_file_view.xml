@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileExplorerFileViewActivity"
+    android:background="#f3f3f3">
+   
+    <ListView
+            android:id="@+id/listview_file_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/fineos_page_default_color"
+            android:divider="#e1e1e1"
+            android:dividerHeight="1px">
+    </ListView>
+
+    
+    <LinearLayout
+        android:id="@+id/llayout_loading_or_no_file"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:background="@color/fineos_page_default_color"
+        >
+
+        <TextView
+            android:id="@+id/textview_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/now_loading"
+            android:textColor="#898989"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imageview_no_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_nofiles"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textview_no_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/no_file"
+            android:textColor="#898989"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llyout_operation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choose_board"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/imagebutton_copy_file"
+            style="@style/FileViewOperationButton"
+            android:src="@drawable/selector_copy_button" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_cut_file"
+            style="@style/FileViewOperationButton"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/selector_cut_button" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_delete_file"
+            style="@style/FileViewOperationButton"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/selector_delete_button" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_more_option"
+            style="@style/FileViewOperationButton"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/selector_more_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyout_paste_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/choose_board"
+        android:orientation="horizontal"
+        android:paddingLeft="120dp"
+        android:paddingRight="120dp"
+        android:visibility="gone" 
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imagebutton_paste_file"
+            style="@style/FileViewOperationButton"
+            android:src="@drawable/selector_paste_button" 
+            android:layout_weight="1"/>
+        
+        <View 
+            android:layout_height="1dp"
+            android:layout_width="30dp"/>
+
+        
+        <ImageButton
+            android:id="@+id/imagebutton_cancel_paste"
+            style="@style/FileViewOperationButton"
+            android:src="@drawable/selector_cancel_button"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/activity_file_view.xml -->

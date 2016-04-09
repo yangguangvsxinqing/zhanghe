@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fineos-framework.fineos-framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fineos-framework/fineos-framework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

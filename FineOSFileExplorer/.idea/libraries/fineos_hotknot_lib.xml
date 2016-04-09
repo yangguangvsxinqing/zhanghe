@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fineos_hotknot_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/fineos_hotknot_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

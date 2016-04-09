@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textview_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/material_button_bg"
+        android:gravity="start|center_vertical"
+        android:paddingStart="14dp"
+        android:textAllCaps="false"
+        android:textColor="@color/list_item_title_color"
+        android:textSize="@dimen/fineos_default_text_size"/>
