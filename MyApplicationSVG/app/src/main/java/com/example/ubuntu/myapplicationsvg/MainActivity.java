@@ -22,11 +22,6 @@ public class MainActivity extends AppCompatActivity {
             ((Animatable) drawable).start();
         }
 
-       /* AnimatedVectorDrawable mAnimatedVectorDrawable =  (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.weather_vector);//得到对应的AnimatedVectorDrawable对象
-        androidImageView.setImageDrawable(mAnimatedVectorDrawable);
-        if(mAnimatedVectorDrawable!=null){
-            mAnimatedVectorDrawable.start();
-        }*/
     }
 
 }
