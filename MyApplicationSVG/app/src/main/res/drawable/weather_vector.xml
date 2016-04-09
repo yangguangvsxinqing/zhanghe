@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/weather">
+
+    <target
+        android:name="raindrop"
+        android:animation="@animator/raindrop_animator" />
+    <target
+        android:name="raindrop1"
+        android:animation="@animator/raindrop_animator2" />
+    <target
+        android:name="raindrop2"
+        android:animation="@animator/raindrop_animator2" />
+    <target
+        android:name="raindrop3"
+        android:animation="@animator/raindrop_animator2" />
+
+</animated-vector>

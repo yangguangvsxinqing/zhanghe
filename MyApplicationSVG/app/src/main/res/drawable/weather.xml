@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="266dp"
+    android:height="266dp"
+    android:viewportHeight="266"
+    android:viewportWidth="266">
+    <group android:name="weather">
+
+        <group
+            android:name="raindrop"
+            >
+            <path
+                android:name="raindrop1"
+
+                android:fillColor="#FFFFFF"
+                android:pathData="M97.3,190.3l-10.5,14.4c-1,1.2-1.6,2.8-1.6,4.5c0,3.9,3.1,7,7,7
+c3.9,0,7-3.1,7-7C99.2,209,97.3,190.3,97.3,190.3z" />
+            <path
+                android:name="raindrop2"
+                android:fillColor="#FFFFFF"
+                android:pathData="M131.5,195.4l-16.3,22.3c-1.6,1.9-2.5,4.3-2.5,7
+c0,6,4.9,10.8,10.8,10.8c6,0,10.8-4.9,10.8-10.8C134.3,224.4,131.5,195.4,131.5,195.4z" />
+            <path
+                android:name="raindrop3"
+                android:fillColor="#FFFFFF"
+                android:pathData="M168.2,190.3l-10.5,14.4c-1,1.2-1.6,2.8-1.6,4.5c0,3.9,3.1,7,7,7
+c3.9,0,7-3.1,7-7C170.1,209,168.2,190.3,168.2,190.3z" />
+        </group>
+
+
+        <path
+            android:name="cloud"
+            android:fillColor="#FFFFFF"
+            android:pathData="M249.9,106.4c0-41.9-34-75.9-75.9-75.9
+c-31.1,0-57.7,18.7-69.5,45.4c-8.9-5.6-19.5-8.9-30.8-8.9c-31.9,0-57.7,25.8-57.7,57.7s25.8,57.7,57.7,57.7c0.1,0,0.3,0,0.4,0v0
+h102v-0.1C217.1,181.1,249.9,147.6,249.9,106.4z" />
+    </group>
+</vector>
+

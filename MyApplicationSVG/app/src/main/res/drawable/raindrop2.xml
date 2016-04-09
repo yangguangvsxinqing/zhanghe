@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="266dp"
+    android:height="266dp"
+    android:viewportWidth="266"
+    android:viewportHeight="266">
+
+    <path
+        android:name="raindrop2"
+        android:fillColor="#FFFFFF"
+        android:pathData="M131.5,195.4l-16.3,22.3c-1.6,1.9-2.5,4.3-2.5,7
+c0,6,4.9,10.8,10.8,10.8c6,0,10.8-4.9,10.8-10.8C134.3,224.4,131.5,195.4,131.5,195.4z" />
+</vector>
