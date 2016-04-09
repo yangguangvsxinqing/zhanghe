@@ -1,0 +1,90 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="app_style" parent="android:Theme.Holo.Light">
+        <!--     <item name="android:windowBackground">@android:color/black</item> -->
+        <!--<item name="android:actionBarStyle">@style/action_bar_style</item>-->
+        <!--     <item name="android:windowIsTranslucent">true</item> -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionModeCloseButtonStyle">@string/cancel</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back</item>
+        <item name="android:actionModeBackground">@drawable/broad_top</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <!--      <item name="android:windowContentOverlay">@null</item> -->
+    </style>
+
+    <!--Unified control   @android:style/Theme.Material.Light  app_style -->
+    <!--@com.fineos:style/Theme.Holo.Light.FineOS-->
+    <style name="main_style" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/notes_actionbar</item>
+        <item name="android:colorPrimaryDark">@color/notes_actionbar</item>
+        <item name="android:windowContentOverlay">@drawable/ab_solid_shadow_holo</item>
+        <item name="android:colorEdgeEffect">@color/notes_edge_effect</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back</item>
+        <item name="android:actionModeBackground">@color/notes_actionmode</item>
+    </style>
+    <!--Unified control -source can be used-Widget.Material.ActionBar-->
+    <style name="action_bar_style" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/notes_actionbar</item>
+        <item name="android:colorPrimaryDark">@color/notes_actionbar</item>
+        <item name="android:colorEdgeEffect">@color/notes_edge_effect</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/actionbar_default_style</item>
+    </style>
+
+
+    <style name="SlidingMenuImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">22.5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="SlidingMenuTextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/write</item>
+        <item name="android:textSize">@dimen/slidingmenuSize</item>
+    </style>
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="SuperSpinner" >
+        <item name="android:windowEnterAnimation">@anim/spinner_show_enter</item>
+        <item name="android:windowExitAnimation">@anim/spinner_show_exit</item>
+    </style>
+
+    <style name="actionbar_default_style" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="android:background">@color/notes_actionbar</item>
+    </style>
+
+</resources>

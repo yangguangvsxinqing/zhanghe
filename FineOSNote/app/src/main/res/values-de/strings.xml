@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">"Notiz"</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="hint_title">Überschrift</string>
+    <string name="hint_detail">Bitte geben Sie Details ein.</string>
+    <string name="manage">Ordnerverwaltung</string>
+    <string name="tip1">Diese Klassifizierung ist leer.</string>
+    <string name="tip2">Verwenden Sie die Schaltfläche unten, um Memos direkt \n in dem entsprechenden Ordner anzulegen.</string>
+    <string name="toast">Fehler beim Hinzufügen. Der Inhalt des Memos darf nicht leer sein.</string>
+    <string name="allnote">Alle Memos</string>
+    <string name="allrecode">Anrufaufzeichnung</string>
+    <string name="share_title">Senden an</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Moments</string>
+    <string name="emai">E-Mail</string>
+    <string name="save">Herunterladen</string>
+    <string name="savesucess">Bild gespeichert unter</string>
+    <string name="search_hint">"Suche"</string>
+    <string name="search_note_nofind">Kein entsprechendes Bild gefunden</string>
+    <string name="select_all">"Alles auswählen"</string>
+    <string name="unselect_all">Auswahl aufheben</string>
+    <string name="select_folder">Ordner auswählen</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="insert_pictrue">Bild einfügen</string>
+    <string name="graffiti_crop_pictrue">Graffiti-Bild zuschneiden</string>
+    <string name="quit">Beenden</string>
+    <string name="ok">"OK"</string>
+    <string name="last_time">Letzte Bearbeitungszeit:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">Ohne Titel</string>
+    <string name="tip_nodetail">Kein Inhalt</string>
+    <string name="save_node_tip">Bitte fügen Sie Inhalt ein.</string>
+    <string name="delete_note">Memo löschen</string>
+    <string name="delete_folder">Ordner löschen</string>
+    <string name="rename_folder">Ordner umbenennen</string>
+    <string name="addfolder">Ordner hinzufügen</string>
+    <string name="move_note_title">Memo verschieben</string>
+    <string name="move_note_message">Möchten Sie das Memo verschieben nach</string>
+    <string name="delete_folder_message">Möchten Sie diesen Ordner mit allen darin enthaltenen Dateien löschen?</string>
+    <string name="delete_note_message">Möchten Sie das ausgewählte Memo löschen?</string>
+    <string name="rename_folder_message">Möchten Sie diesen Ordner umbenennen?</string>
+    <string name="preview_note">Vorschau</string>
+    <string name="new_note">Neues Memo</string>
+    <string name="edit">"Bearbeiten"</string>
+    <string name="done">"Fertig"</string>
+    <string name="save_dialogtitle_addnote">Speichern</string>
+    <string name="delete_dialogtitle_addnote">Löschen</string>
+    <string name="details_dialogtitle_addnote">Details</string>
+    <string name="save_dialogmessage_addnote">Möchten Sie es speichern?</string>
+    <string name="delete_dialogmessage_addnote">Möchten Sie es löschen?</string>
+    <string name="details_dialogmessage_addnote">Der Name des Bildes ist:</string>
+    <string name="save_sucess_addnote">Das Bild wurde gespeichert unter</string>
+    <string name="save_failed_addnote">Beim Speichern ist ein Fehler aufgetreten.</string>
+    <string name="month">Monat</string>
+    <string name="save_dialog_graffity">Möchten Sie die App beenden?</string>
+    <string name="clear_dialog_graffity">Möchten Sie alles löschen?</string>
+    <string name="test_toast">LongItemClick!</string>
+    <string name="selected_count">ausgewählt</string>
+    <string name="addfolder_hint">Maximal 16 Zeichen</string>
+    <string name="addfolder_outmax_warn">Maximal 16 Zeichen</string>
+    <string name="addfolder_empt_warn">Bitte geben Sie Ihren Gruppennamen ein.</string>
+    <string name="addfolder_samename_warn">Der Name ist bereits vorhanden.</string>
+    <string name="fineos_logo">von fineos</string>
+    <string name="progress_message">Daten werden verarbeitet. Bitte warten...</string>
+    <string name="fileTooLarge">Datei zu groß</string>
+ <!--HQ01532662-->
+    <string name="chosesoftware">Bitte App auswählen</string>
+  <!--dpc add storage-->
+    <string name="inner_storage_name">"Telefon"</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_home_title_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/tv_back_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_note"
+        android:textColor="@drawable/actionbar_text_color"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_back"
+        android:drawablePadding="15dp"
+        android:textSize="@dimen/note_titleSize" />
+
+<!--<ImageView-->
+        <!--android:id="@+id/iv_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:paddingRight="16dp"-->
+        <!--android:src="@drawable/ic_back" />-->
+<ImageView
+        android:id="@+id/iv_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/addnote_actionbar_layout_marginEnd"
+        android:src="@drawable/btn_share" />
+ <TextView
+        android:id="@+id/tv_ed_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/addnote_actionbar_layout_marginEnd"
+        android:textColor="@color/write"
+        android:textSize="18sp"
+     android:visibility="gone"/>
+
+</RelativeLayout>

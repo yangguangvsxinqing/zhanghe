@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">"Ghi chú"</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="hello_world">Chào thế giới!</string>
+    <string name="cancel">"Hủy"</string>
+    <string name="hint_title">tiêu đề</string>
+    <string name="hint_detail">Xin nhập chi tiết</string>
+    <string name="manage">Quản lý thư mục</string>
+    <string name="tip1">Phân loại này trống</string>
+    <string name="tip2">Bấm nút dưới đây để trực tiếp thêm một mục ghi nhớ vào thư mục tương ứng</string>
+    <string name="toast">Thêm không được, nội dung nhập không được để trống</string>
+    <string name="allnote">Tất cả Ghi Chú</string>
+    <string name="allrecode">Ghi Âm Cuộc Gọi</string>
+    <string name="share_title">Gửi Đến</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Khoảnh Khắc</string>
+    <string name="emai">Email</string>
+    <string name="save">Tải về</string>
+    <string name="savesucess">ảnh được lưu vào</string>
+    <string name="search_hint">"Tìm kiếm"</string>
+    <string name="search_note_nofind">Không tìm được tập tin tương ứng</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="unselect_all">Bỏ Chọn Tất Cả</string>
+    <string name="select_folder">Chọn Thư Mục</string>
+    <string name="graffiti">Tranh Tường</string>
+    <string name="insert_pictrue">Chèn Ảnh</string>
+    <string name="graffiti_crop_pictrue">Ảnh Cắt Tranh Tường</string>
+    <string name="quit">Thoát</string>
+    <string name="ok">"OK"</string>
+    <string name="last_time">lần sửa cuối:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">Không có tiêu đề</string>
+    <string name="tip_nodetail">không có nội dung</string>
+    <string name="save_node_tip">Xin nhập nội dung</string>
+    <string name="delete_note">Xóa Ghi Chú</string>
+    <string name="delete_folder">Xóa Thư Mục</string>
+    <string name="rename_folder">Đổi Tên Thư Mục</string>
+    <string name="addfolder">Thêm Thư Mục</string>
+    <string name="move_note_title">Chuyển Thư Mục</string>
+    <string name="move_note_message">Bạn muốn chuyển ghi chú đã chọn đến</string>
+    <string name="delete_folder_message">Bạn muốn xóa thư mục này và tất cả tập tin trong thư mục này?</string>
+    <string name="delete_note_message">Bạn muốn xóa ghi chú đã chọn?</string>
+    <string name="rename_folder_message">Bạn muốn đổi tên thư mục này?</string>
+    <string name="preview_note">Xem trước</string>
+    <string name="new_note">Ghi Chú mới</string>
+    <string name="edit">"Chỉnh sửa"</string>
+    <string name="done">Hoàn tất</string>
+    <string name="save_dialogtitle_addnote">lưu</string>
+    <string name="delete_dialogtitle_addnote">xóa</string>
+    <string name="details_dialogtitle_addnote">chi tiết</string>
+    <string name="save_dialogmessage_addnote">Bạn muốn lưu nó lại?</string>
+    <string name="delete_dialogmessage_addnote">Bạn muốn xóa nó?</string>
+    <string name="details_dialogmessage_addnote">Tên ảnh này là:</string>
+    <string name="save_sucess_addnote">Ảnh này đã được lưu vào</string>
+    <string name="save_failed_addnote">không lưu được</string>
+    <string name="month">Tháng</string>
+    <string name="save_dialog_graffity">Bạn muốn rời đi?</string>
+    <string name="clear_dialog_graffity">Bạn muốn xóa toàn bộ nó?</string>
+    <string name="test_toast">"LongItemClick!"</string>
+    <string name="selected_count">được chọn</string>
+    <string name="addfolder_hint">Tối đa 16 ký tự</string>
+    <string name="addfolder_outmax_warn">tối đa 16 ký tự</string>
+    <string name="addfolder_empt_warn">Xin nhập tên nhóm của bạn</string>
+    <string name="addfolder_samename_warn">Tên đã tồn tại rồi</string>
+    <string name="fineos_logo">từ fineos</string>
+    <string name="progress_message">Đang xử lý, xin chờ...</string>
+    <string name="fileTooLarge">tập tin quá lớn</string>
+    <!--HQ01532662-->
+    <string name="chosesoftware">Vui lòng chọn Một ứng dụng</string>
+   <!--dpc add storage-->
+    <string name="inner_storage_name">"Điện thoại"</string>
+</resources>

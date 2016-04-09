@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E668A" >
+
+    <RelativeLayout
+        android:id="@+id/setting"
+        android:layout_width="fill_parent"
+        android:layout_height="218dp" >
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:background="#215546" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/picture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/write"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+             >
+
+            <!--<ImageView-->
+                <!--android:id="@+id/one"-->
+                <!--style="@style/SlidingMenuImage"-->
+                <!--android:src="@drawable/ic_all" />-->
+
+            <!--<TextView-->
+                <!--style="@style/SlidingMenuTextView"-->
+                <!--android:layout_toRightOf="@id/one"-->
+                <!--android:text="@string/allnote" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp" >-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two"-->
+                <!--style="@style/SlidingMenuImage"-->
+                <!--android:src="@drawable/ic_callrecords" />-->
+
+            <!--<TextView-->
+                <!--style="@style/SlidingMenuTextView"-->
+                <!--android:layout_toRightOf="@id/two"-->
+                <!--android:text="@string/allrecode" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp" >-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/three"-->
+                <!--style="@style/SlidingMenuImage"-->
+                <!--android:src="@drawable/ic_normal" />-->
+
+            <!--<TextView-->
+                <!--style="@style/SlidingMenuTextView"-->
+                <!--android:layout_toRightOf="@id/three"-->
+                 <!--/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp" >-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/four"-->
+                <!--style="@style/SlidingMenuImage"-->
+                <!--android:src="@drawable/ic_add" />-->
+
+            <!--<TextView-->
+                <!--style="@style/SlidingMenuTextView"-->
+                <!--android:layout_toRightOf="@id/four"-->
+                <!--android:text="@string/addfolder" />-->
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

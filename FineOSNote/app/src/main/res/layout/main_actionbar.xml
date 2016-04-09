@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relayout_titlebar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+        android:id="@+id/check_titlte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/allnote"
+        android:singleLine="true"
+        android:maxEms="16"
+        android:button="@null"
+        android:drawablePadding="9dp"
+        android:drawableRight="@drawable/check_state"
+        android:textSize="@dimen/action_titleSize"
+        android:checked="false"
+        android:textColor="@drawable/actionbar_text_color"/>
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        android:src="@drawable/note_menu" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_actionbar_mode"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="200dp" >
+
+
+    <TextView
+        android:id="@+id/tv_selected"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/write"
+        android:layout_marginStart="108dp"
+        android:textSize="@dimen/note_titleSize"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/tv_selectall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="@color/write"
+        android:textSize="@dimen/note_titleSize"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+	android:focusable="true"
+android:focusableInTouchMode="true" 
+        android:text="@string/select_all" />
+
+</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/multi_select_actionbar.xml -->

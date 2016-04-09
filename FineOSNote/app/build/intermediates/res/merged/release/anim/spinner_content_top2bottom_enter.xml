@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <translate android:interpolator="@android:interpolator/anticipate_overshoot"
+        android:fromYDelta="-100%"
+        android:toYDelta="0%"
+        android:duration="@integer/spinner_anim_content_duration" />
+</set><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/spinner_content_top2bottom_enter.xml -->

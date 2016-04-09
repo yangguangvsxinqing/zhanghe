@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">บันทึก</string>
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="hello_world">สวัสดีชาวโลก!</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="hint_title">ชื่อเรื่อง</string>
+    <string name="hint_detail">โปรดป้อนรายละเอียด</string>
+    <string name="manage">โปรแกรมจัดการโฟลเดอร์</string>
+    <string name="tip1">การจัดประเภทนี้ว่างเปล่า</string>
+    <string name="tip2">คลิกที่ปุ่มด้านล่างเพื่อเพิ่มการสาธิตไปที่ \n โฟลเดอร์ที่เกี่ยวข้องโดยตรง</string>
+    <string name="toast">เพิ่มไม่สำเร็จ เนื้อหาเข้าต้องไม่ว่างเปล่า</string>
+    <string name="allnote">บันทึกย่อทั้งหมด</string>
+    <string name="allrecode">สิ่งบันทึกการโทร</string>
+    <string name="share_title">ส่งถึง</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Moments</string>
+    <string name="emai">อีเมล</string>
+    <string name="save">ดาวน์โหลด</string>
+    <string name="savesucess">บันทึกรูปภาพไปไว้ที่</string>
+    <string name="search_hint">"ค้นหา"</string>
+    <string name="search_note_nofind">ไม่พบไฟล์ที่ตรงกัน</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="unselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="select_folder">เลือกโฟลเดอร์</string>
+    <string name="graffiti">หุ่นจำลอง</string>
+    <string name="insert_pictrue">แทรกรูปภาพ</string>
+    <string name="graffiti_crop_pictrue">ครอบรูปภาพหุ่นจำลอง</string>
+    <string name="quit">ออก</string>
+    <string name="ok">"ตกลง"</string>
+    <string name="last_time">เวลาแก้ไขครั้งล่าสุด:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">ไม่มีชื่อเรื่อง</string>
+    <string name="tip_nodetail">ไม่มีเนื้อหา</string>
+    <string name="save_node_tip">โปรดป้อนเนื้อหา</string>
+    <string name="delete_note">ลบบันทึกย่อ</string>
+    <string name="delete_folder">ลบโฟลเดอร์</string>
+    <string name="rename_folder">เปลี่ยนชื่อโฟลเดอร์</string>
+    <string name="addfolder">เพิ่มโฟลเดอร์</string>
+    <string name="move_note_title">ย้ายบันทึกย่อ</string>
+    <string name="move_note_message">คุณต้องการย้ายบันทึกย่อที่เลือกไปที่</string>
+    <string name="delete_folder_message">คุณต้องการลบโฟลเดอร์นี้และไฟล์ทั้งหมดในโฟลเดอร์นี้หรือไม่</string>
+    <string name="delete_note_message">คุณต้องการลบบันทึกย่อที่้เลือกหรือไม่</string>
+    <string name="rename_folder_message">คุณต้องการเปลี่ยนชื่อโฟลเดอร์นี้หรือไม่</string>
+    <string name="preview_note">ภาพตัวอย่าง</string>
+    <string name="new_note">บันทึกย่อใหม่</string>
+    <string name="edit">"แก้ไข"</string>
+    <string name="done">เสร็จ</string>
+    <string name="save_dialogtitle_addnote">บันทึก</string>
+    <string name="delete_dialogtitle_addnote">ลบ</string>
+    <string name="details_dialogtitle_addnote">รายละเอียด</string>
+    <string name="save_dialogmessage_addnote">คุณต้องการบันทึกหรือไม่</string>
+    <string name="delete_dialogmessage_addnote">คุณต้องการลบหรือไม่</string>
+    <string name="details_dialogmessage_addnote">ชื่อภาพนี้คือ :</string>
+    <string name="save_sucess_addnote">บันทึกรูปภาพนี้ไปไว้ที่</string>
+    <string name="save_failed_addnote">บันทึกไม่สำเร็จ</string>
+    <string name="month">เดือน</string>
+    <string name="save_dialog_graffity">คุณต้องการออกหรือไม่</string>
+    <string name="clear_dialog_graffity">คุณต้องการล้างทั้งหมดหรือไม่</string>
+    <string name="test_toast">"คลิกยาวที่รายการ!"</string>
+    <string name="selected_count">ที่เลือก</string>
+    <string name="addfolder_hint">อักขระสูงสุด 16 ตัว</string>
+    <string name="addfolder_outmax_warn">อักขระสูงสุด 16 ตัว</string>
+    <string name="addfolder_empt_warn">โปรดป้อนชื่อกลุ่มของคุณ</string>
+    <string name="addfolder_samename_warn">มีชื่ออยู่แล้ว</string>
+    <string name="fineos_logo">จาก fineos</string>
+    <string name="progress_message">กำลังประมวลผล โปรดรอ...</string>
+    <string name="fileTooLarge">ไฟล์ใหญ่เกินไป</string>
+   <!--HQ01532662-->
+    <string name="chosesoftware">โปรดเลือกแอพลิเคชัน</string>
+   <!--dpc add storage-->
+    <string name="inner_storage_name">โทรศัพท์</string>
+</resources>

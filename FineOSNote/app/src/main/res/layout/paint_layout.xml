@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_size"
+    android:orientation="horizontal"
+    android:id="@+id/rg_paintlayout"
+    >
+
+    <RadioButton
+        android:id="@+id/paint_choose_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_one" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_tow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_tow" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_three" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_four" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_five" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_six" />
+
+    <RadioButton
+        android:id="@+id/paint_choose_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:button="@null"
+        android:background="@drawable/paint_choose_seven" />
+</RadioGroup>

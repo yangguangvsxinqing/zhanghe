@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relayout_boot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/write">
+
+
+    <ScrollView
+
+        android:id="@+id/scroll_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@android:color/white"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/addnote_layout_marginStart"
+            android:layout_marginEnd="@dimen/addnote_layout_marginEnd"
+            android:minHeight="450dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="@dimen/addnote_layout_marginStart"
+                android:layout_marginEnd="@dimen/addnote_layout_marginEnd"
+                android:inputType="textCapWords|textMultiLine"
+                android:background="@null"
+                android:singleLine="false"
+		android:maxLength="1500"
+                android:gravity="start"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textSize="@dimen/note_detailSize" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <include
+        layout="@layout/add_bg_select"
+        android:layout_width="fill_parent"
+        android:layout_height="91dp"
+        android:layout_above="@+id/devide_view"
+        android:background="@color/addnote_layout_HorizontalScrollView"></include>
+
+    <View
+        android:id="@+id/devide_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/bottom_menu"
+        android:background="@color/addnote_layout_view2" />
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/write"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ly_bootom_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_bootom_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_menu_bg"
+                android:button="@null"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_bootom_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_bootom_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_menu_photo"
+                android:button="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_bootom_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_bootom_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_menu_picture"
+                android:button="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_bootom_pen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_bootom_pen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_menu_pen"
+                android:button="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

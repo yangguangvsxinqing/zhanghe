@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/control_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:background="@color/write"
+        android:orientation="horizontal">
+        <!-- image -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/choose_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/graffiti_choose_picture" />
+
+            <ImageView
+                android:layout_width="1dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="2dip"
+                 />
+        </RelativeLayout>
+
+        <!-- color -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/choose_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/graffiti_choose_color" />
+
+            <ImageView
+                android:layout_width="1dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="2dip"
+                />
+        </RelativeLayout>
+        <!-- paint -->
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/choose_paint_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/graffiti_choose_thickness" />
+
+            <ImageView
+                android:layout_width="1dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="2dip"
+                />
+        </RelativeLayout>
+        <!-- delete -->
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/canvas_delete_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/graffiti_choose_revert" />
+
+            <ImageView
+                android:layout_width="1dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="2dip"
+                 />
+        </RelativeLayout>
+
+        <!-- clear -->
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/canvas_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/graffiti_choose_delete" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_devide"
+        android:layout_width="fill_parent"
+        android:layout_height="0.25dp"
+        android:layout_below="@id/control_view"
+        android:background="#d0d4d8"></View>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/v_devide">
+
+        <com.fineos.notes.view.WriteView
+            android:id="@+id/write_view_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          />
+
+        <com.fineos.notes.view.MoveView
+            android:id="@+id/move_view_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/show_left_image"
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="#a9a9a9"
+            android:layout_marginStart="20dip"
+            android:layout_marginTop="30dip"
+            android:layout_marginBottom="30dip"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/show_top_image"
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:background="#a9a9a9"
+            android:layout_marginStart="20dip"
+            android:layout_marginTop="30dip"
+            android:layout_marginEnd="20dip"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/show_right_image"
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="#a9a9a9"
+            android:layout_marginEnd="20dip"
+            android:layout_marginTop="30dip"
+            android:layout_gravity="right"
+            android:layout_marginBottom="30dip"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/show_bottom_image"
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:background="#a9a9a9"
+            android:layout_marginStart="20dip"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="30dip"
+            android:layout_marginEnd="20dip"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/control_image_view"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_below="@+id/title_layout"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="35dip"
+            android:layout_marginStart="25dip"
+            android:layout_marginEnd="25dip"
+            android:visibility="gone"
+            android:background="#88000000">
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_touch_big"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dip"
+                    android:background="@drawable/ic_image_big"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_touch_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:background="@drawable/ic_image_small"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginStart="35dip"
+                    android:layout_marginBottom="8dip"
+                    android:background="#22000000" />
+                <Button
+                    android:id="@+id/image_touch_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="40dip"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:text="@android:string/ok"
+                    android:background="@android:color/transparent"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/graffiti_layout.xml -->

@@ -1,0 +1,145 @@
+<com.fineos.notes.view.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fineos="http://schemas.android.com/apk/res/com.fineos"
+    android:id="@+id/id_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@color/write"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/slidingmenu_layout" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/write"
+            android:orientation="vertical">
+
+
+            <com.fineos.notes.view.SuperSpinner
+                android:id="@+id/spinner_menu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="invisible" />
+
+            <!--<include layout="@layout/searchview_layout"-->
+            <!--/>-->
+
+            <fineos.widget.SwimViewLayout
+                android:id="@+id/swimLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/write">
+
+                <ListView
+                    android:id="@+id/gridNotes"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:divider="@color/write"
+                    android:dividerHeight="15dp"
+                />
+
+                <TextView
+                    android:id="@+id/tv_note_nofind"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="30dp"
+                    android:layout_marginTop="56dp"
+                    android:background="@color/write"
+                    android:text="@string/search_note_nofind"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/empt_tip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/write"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_empt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="99dp"
+                        android:background="@drawable/ic_nofiles2" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_empt"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="20dp"
+                        android:text="@string/tip1"
+                        android:textColor="#b5b5b5"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv1"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        android:lineSpacingExtra="5dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/tip2"
+                        android:textColor="#b5b5b5"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/btn_new_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/fineos_new_note_white_bg"
+                    android:src="@drawable/fineos_new_note"/>
+                <!--<fineos.widget.ColorImageView-->
+                    <!--android:id="@+id/btn_new_note"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="bottom|center_horizontal"-->
+                    <!--android:paddingBottom="16dp"-->
+		            <!--fineos:themeColorID="@color/notes_add_note"-->
+                    <!--android:src="@com.fineos:drawable/btn_panel_add_color"  />-->
+
+                <LinearLayout
+                    android:id="@+id/bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/top_divider"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_move"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:src="@drawable/move" />
+
+                    <ImageView
+                        android:id="@+id/iv_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:src="@drawable/delete" />
+                </LinearLayout>
+            </fineos.widget.SwimViewLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.fineos.notes.view.SlidingMenu>

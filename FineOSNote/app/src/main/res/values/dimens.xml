@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="note_titleSize">18sp</dimen>
+    <dimen name="note_detailSize">16sp</dimen>
+    <dimen name="slidingmenuSize">15sp</dimen>
+    <dimen name="action_titleSize">18sp</dimen>
+    <dimen name="margin">14dp</dimen>
+    <dimen name="actionbar_title">20sp</dimen>
+    <dimen name="actionbar_left_text">18sp</dimen>
+    <dimen name="actionbar_right_text">18sp</dimen>
+
+    <dimen name="search_text_size">20sp</dimen>
+
+
+    <dimen name="size1_paintPopup">2sp</dimen>
+    <dimen name="size2_paintPopup">4sp</dimen>
+    <dimen name="size3_paintPopup">6sp</dimen>
+    <dimen name="size4_paintPopup">8sp</dimen>
+    <dimen name="size5_paintPopup">12sp</dimen>
+    <dimen name="size6_paintPopup">14sp</dimen>
+    <dimen name="size7_paintPopup">18sp</dimen>
+
+    <dimen name="addfolder_warn_textSize">14sp</dimen>
+
+    <dimen name="fineos_widget_spinner_margen">80dp</dimen>
+
+    <integer name="spinner_anim_duration">50</integer>
+    <integer name="spinner_anim_duration_exit">350</integer>
+    <integer name="spinner_anim_content_duration">300</integer>
+
+    <dimen name="cropimageview_layout_margin">16dp</dimen>
+    <dimen name="addnote_layout_marginStart">5dp</dimen>
+    <dimen name="addnote_layout_marginEnd">5dp</dimen>
+    <dimen name="addnote_actionbar_layout_marginEnd">16dp</dimen>
+    <!--<dimen name="share_icon_marginRight">9dp</dimen>-->
+</resources>

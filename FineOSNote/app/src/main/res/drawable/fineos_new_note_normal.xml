@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <item
+    android:id="@+id/shade"
+    android:drawable="@drawable/fineos_all_theme_bg_add"/>
+ <item
+    android:id="@+id/normal"
+    android:drawable="@drawable/fineos_all_theme_group_add"/>
+    
+</layer-list> 

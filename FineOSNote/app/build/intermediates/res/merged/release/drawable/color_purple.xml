@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/ic_color7"/>
+    <item android:state_checked="true"  android:drawable="@drawable/ic_color7_focuse"/>
+    <!--<item android:state_selected="true"  android:drawable="@drawable/ic_color7_focuse"/>-->
+    <!--<item android:state_pressed="true"  android:drawable="@drawable/ic_color7_pressed"/>-->
+</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/color_purple.xml -->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Notas</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Olá, mundo!</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="hint_title">título</string>
+    <string name="hint_detail">insira os detalhes</string>
+    <string name="manage">Gerenciar pasta</string>
+    <string name="tip1">Essa classificação está vazia</string>
+    <string name="tip2">Clique no botão abaixo para adicionar uma anotação diretamente na pasta correspondente</string>
+    <string name="toast">Falha na inclusão, o conteúdo de entrada não pode ser vazio</string>
+    <string name="allnote">Todas as anotações</string>
+    <string name="allrecode">Gravação de chamada</string>
+    <string name="share_title">Enviar para</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Moments</string>
+    <string name="emai">Email</string>
+    <string name="save">Baixar</string>
+    <string name="savesucess">imagem salva em</string>
+    <string name="search_hint">"Pesquisar"</string>
+    <string name="search_note_nofind">Não foi encontrado um arquivo correspondente</string>
+    <string name="select_all">"Selecionar tudo"</string>
+    <string name="unselect_all">Desmarcar tudo</string>
+    <string name="select_folder">Selecionar pasta</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="insert_pictrue">Inserir imagem</string>
+    <string name="graffiti_crop_pictrue">Imagem de corte de graffiti</string>
+    <string name="quit">Sair</string>
+    <string name="ok">"OK"</string>
+    <string name="last_time">horário da última edição:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">Sem título</string>
+    <string name="tip_nodetail">não há conteúdo</string>
+    <string name="save_node_tip">Insira o conteúdo</string>
+    <string name="delete_note">Excluir anotação</string>
+    <string name="delete_folder">Excluir pasta</string>
+    <string name="rename_folder">Renomear pasta</string>
+    <string name="addfolder">Adicionar pasta</string>
+    <string name="move_note_title">Mover anotação</string>
+    <string name="move_note_message">Deseja mover a anotação selecionada para</string>
+    <string name="delete_folder_message">Deseja excluir essa pasta e todos os arquivos dessa pasta?</string>
+    <string name="delete_note_message">Deseja excluir a anotação selecionada?</string>
+    <string name="rename_folder_message">Deseja renomear essa pasta?</string>
+    <string name="preview_note">Visualizar</string>
+    <string name="new_note">Nova anotação</string>
+    <string name="edit">"Editar"</string>
+    <string name="done">"Concluído"</string>
+    <string name="save_dialogtitle_addnote">salvar</string>
+    <string name="delete_dialogtitle_addnote">excluir</string>
+    <string name="details_dialogtitle_addnote">detalhes</string>
+    <string name="save_dialogmessage_addnote">Deseja salvar?</string>
+    <string name="delete_dialogmessage_addnote">Deseja excluir?</string>
+    <string name="details_dialogmessage_addnote">O nome da imagem é:</string>
+    <string name="save_sucess_addnote">A imagem foi salva em</string>
+    <string name="save_failed_addnote">falha ao salvar</string>
+    <string name="month">Mês</string>
+    <string name="save_dialog_graffity">Deseja sair?</string>
+    <string name="clear_dialog_graffity">Deseja apagar tudo?</string>
+    <string name="test_toast">"LongItemClick!"</string>
+    <string name="selected_count">selecionado</string>
+    <string name="addfolder_hint">Máximo de 16 caracteres</string>
+    <string name="addfolder_outmax_warn">16 caracteres no máximo</string>
+    <string name="addfolder_empt_warn">Insira o nome do grupo</string>
+    <string name="addfolder_samename_warn">O nome já existe</string>
+    <string name="fineos_logo">do fineos</string>
+    <string name="progress_message">Processando, aguarde...</string>
+    <string name="fileTooLarge">arquivo muito grande</string>
+    <!--HQ01532662-->
+    <string name="chosesoftware">Por favor, selecione um aplicativo</string>
+<!--dpc add storage-->
+    <string name="inner_storage_name">Telefone</string>
+</resources>

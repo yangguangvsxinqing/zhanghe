@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_notebg"
+    android:layout_width="fill_parent"
+    android:background="@color/write"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/ly_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:id="@+id/et_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:hint="@string/hint_detail"
+            android:maxLines="4"
+            android:textSize="@dimen/note_detailSize" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/et_detail"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/dataColor" />
+        <ImageView
+            android:id="@+id/iv_picture_icon"
+            android:layout_below="@+id/et_detail"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/note_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_chosen"
+        android:visibility="gone" />
+
+</FrameLayout>

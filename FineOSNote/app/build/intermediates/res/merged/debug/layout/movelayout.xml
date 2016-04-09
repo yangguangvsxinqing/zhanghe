@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/list_notefolder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+</LinearLayout>
+<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/movelayout.xml -->

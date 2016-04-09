@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+    <ImageView
+        android:id="@+id/iv_show_insertImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         />
+    <EditText
+        android:id="@+id/et_show_inertContext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/note_detailSize"
+        android:maxLength="1500"
+        />
+    <TextView
+        android:id="@+id/view_dynamic_bootom"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:visibility="visible">
+
+    </TextView>
+</LinearLayout>

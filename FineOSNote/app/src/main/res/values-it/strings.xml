@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">"Promemoria"</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="hello_world">Ciao mondo!</string>
+    <string name="cancel">"Annulla"</string>
+    <string name="hint_title">title_trans</string>
+    <string name="hint_detail">inserisci dettagli</string>
+    <string name="manage">Gestione cartelle</string>
+    <string name="tip1">Questa classificazione è vuota</string>
+    <string name="tip2">Clicca sul pulsante seguente per aggiungere un promemoria direttamente nella cartella corrispondente</string>
+    <string name="toast">Aggiunta non riuscita, il contenuto inserito non può essere vuoto</string>
+    <string name="allnote">Tutti i promemoria</string>
+    <string name="allrecode">Registrazione chiamate</string>
+    <string name="share_title">Invia a</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Momenti</string>
+    <string name="emai">e-mail</string>
+    <string name="save">Scarica</string>
+    <string name="savesucess">immagine salvata in</string>
+    <string name="search_hint">"Cerca"</string>
+    <string name="search_note_nofind">Nessun file corrispondente trovato</string>
+    <string name="select_all">"Seleziona tutto"</string>
+    <string name="unselect_all">Deseleziona tutto</string>
+    <string name="select_folder">Seleziona cartella</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="insert_pictrue">Inserisci immagine</string>
+    <string name="graffiti_crop_pictrue">Immagine ritagliata graffiti</string>
+    <string name="quit">Esci</string>
+    <string name="ok">"OK"</string>
+    <string name="last_time">orario ultima modifica:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">title_trans</string>
+    <string name="tip_nodetail">nessun contenuto</string>
+    <string name="save_node_tip">Inserisci il contenuto</string>
+    <string name="delete_note">Elimina nota</string>
+    <string name="delete_folder">Elimina cartella</string>
+    <string name="rename_folder">Rinomina cartella</string>
+    <string name="addfolder">Aggiungi cartella</string>
+    <string name="move_note_title">Sposta nota</string>
+    <string name="move_note_message">Spostare la nota selezionata in</string>
+    <string name="delete_folder_message">Eliminare questa cartella e tutti i file che contiene?</string>
+    <string name="delete_note_message">Eliminare la nota selezionata?</string>
+    <string name="rename_folder_message">Rinominare questa cartella ?</string>
+    <string name="preview_note">Anteprima</string>
+    <string name="new_note">Nuova nota</string>
+    <string name="edit">"Modifica"</string>
+    <string name="done">"Fine"</string>
+    <string name="save_dialogtitle_addnote">salva</string>
+    <string name="delete_dialogtitle_addnote">elimina</string>
+    <string name="details_dialogtitle_addnote">dettagli</string>
+    <string name="save_dialogmessage_addnote">Salvare?</string>
+    <string name="delete_dialogmessage_addnote">Eliminare?</string>
+    <string name="details_dialogmessage_addnote">Il nome di questa immagine è:</string>
+    <string name="save_sucess_addnote">Questa immagine è stata salvata su</string>
+    <string name="save_failed_addnote">salvataggio non riuscito</string>
+    <string name="month">Mese</string>
+    <string name="save_dialog_graffity">Uscire?</string>
+    <string name="clear_dialog_graffity">Cancellare tutto?</string>
+    <string name="test_toast">"LongItemClick!"</string>
+    <string name="selected_count">selezionato</string>
+    <string name="addfolder_hint">Massimo 16 caratteri</string>
+    <string name="addfolder_outmax_warn">16 caratteri massimo</string>
+    <string name="addfolder_empt_warn">Inserisci il nome del gruppo</string>
+    <string name="addfolder_samename_warn">Il nome esiste già</string>
+    <string name="fineos_logo">da fineos</string>
+    <string name="progress_message">Elaborazione, attendi...</string>
+    <string name="fileTooLarge">file troppo grande</string>
+ <!--HQ01532662-->
+    <string name="chosesoftware">Scegli applicazione</string>
+ <!--dpc add storage-->
+    <string name="inner_storage_name">"Telefono"</string>
+</resources>

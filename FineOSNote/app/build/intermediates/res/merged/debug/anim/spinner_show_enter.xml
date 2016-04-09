@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <alpha
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:fromAlpha="0.9"
+        android:toAlpha="1"
+        android:duration="50" />
+    <!--
+    <translate android:fromYDelta="-10%" android:toYDelta="0%" />
+    -->
+
+
+</set><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/spinner_show_enter.xml -->

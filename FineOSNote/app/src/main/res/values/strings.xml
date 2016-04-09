@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes</string>
+    <string name="action_settings">settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="hint_title">title</string>
+    <string name="hint_detail">please enter details</string>
+    <string name="manage">Folder manage</string>
+    <string name="tip1">This classification is empty</string>
+    <string name="tip2">Click the button below to add a memo directly \n to the corresponding folder</string>
+    <string name="toast">Add failed, input content can not be empty</string>
+
+    <string name="allnote">All Notes</string>
+    <string name="allrecode">Call Recording</string>
+    <string name="share_title">Send To</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">WeChat</string>
+    <string name="pengyouquan">Moments</string>
+<!--HQ01579026-->
+   <string name="emai">More</string>
+    <!--<string name="emai">Mail</string>-->
+    <string name="save">Picture</string>
+    <string name="savesucess">picture saved to </string>
+    <string name="search_hint">Search</string>
+    <string name="search_note_nofind">No matching file found</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Deselect All</string>
+    <string name="select_folder">Select Folder</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="insert_pictrue">Insert Picture</string>
+    <string name="graffiti_crop_pictrue">Graffiti Crop Picture</string>
+    <string name="quit">Quit</string>
+    <string name="ok">OK</string>
+    <string name="last_time">last edit time:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">No title</string>
+    <string name="tip_nodetail">no content</string>
+    <string name="save_node_tip">Please enter content</string>
+
+
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_folder">Delete Folder</string>
+    <string name="rename_folder">Rename Folder</string>
+    <string name="addfolder">Add Folder</string>
+    <string name="move_note_title">Move Note</string>
+    <string name="move_note_message">Do you want to move selected note to </string>
+    <string name="delete_folder_message">Do you want to delete this folder and all the files in this folder?</string>
+    <string name="delete_note_message">Do you want to delete selected note?</string>
+    <string name="rename_folder_message">Do you want to rename this folder?</string>
+
+    <string name="preview_note">Preview</string>
+    <string name="new_note">New Note</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+
+
+    <string name="save_dialogtitle_addnote">save</string>
+    <string name="delete_dialogtitle_addnote">delete</string>
+    <string name="details_dialogtitle_addnote">details</string>
+    <string name="save_dialogmessage_addnote">Do you want to save it ?</string>
+    <string name="delete_dialogmessage_addnote">Do you want to delete it ?</string>
+    <string name="details_dialogmessage_addnote">This picture name is :</string>
+    <string name="save_sucess_addnote">This picture has been saved to</string>
+    <string name="save_failed_addnote">save failed</string>
+
+    <string name="month">Month</string>
+    <string name="save_dialog_graffity">Do you want to leave?</string>
+    <string name="clear_dialog_graffity">Do you want to clear all of it?</string>
+    <string name="selected_count">selected</string>
+    <string name="addfolder_hint">Maximum of 16 characters</string>
+    <string name="addfolder_outmax_warn">16 characters maximum</string>
+    <string name="addfolder_empt_warn">Please enter your group name</string>
+    <string name="addfolder_samename_warn">Name already exists</string>
+
+    <string name="progress_message">Processing,please wait...</string>
+    <string name="fileTooLarge">file too large</string>
+    <!--HQ01532662-->
+    <string name="chosesoftware">Please Select An Application</string>
+
+    <!--dpc add storage 1860-->
+    <!--<string name="inner_storage_name">Phone storage</string>-->
+    <!--<string name="watermark">via YU Notes</string>-->
+    <!--FineOS-->
+    <!--dpc add storage 815,1520-->
+    <string name="inner_storage_name">Phone</string>
+    <string name="watermark">via FineOS Notes</string>
+    <!--<string name="watermark">via BLU Notes</string>-->
+
+</resources>

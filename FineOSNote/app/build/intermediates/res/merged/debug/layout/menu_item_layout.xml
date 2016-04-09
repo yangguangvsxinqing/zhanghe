@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textview_menu_item"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/selector_list_item"
+    android:gravity="start|center_vertical"
+    android:paddingLeft="14dp"
+    android:textColor="@color/note_show"
+    />
+
+<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/menu_item_layout.xml -->

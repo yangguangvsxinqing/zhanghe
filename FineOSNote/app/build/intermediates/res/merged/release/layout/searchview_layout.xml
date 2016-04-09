@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/relayout_searchView"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_inputbox"
+        >
+
+        <ImageView
+            android:id="@+id/iv_search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="6dp"
+            android:clickable="true"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/tv_search_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/iv_search_icon"
+            android:layout_marginStart="9dp"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:background="@null"
+            android:textColor="#a0a0a0"
+            android:text="@string/search_hint"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/ed_search_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textFilter"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/iv_search_icon"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="30dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/search_text_size"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/iv_search_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:visibility="gone"
+            android:src="@drawable/search_close_button_bg" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/searchbg"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/seach_bg"></ImageView>
+</FrameLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/searchview_layout.xml -->

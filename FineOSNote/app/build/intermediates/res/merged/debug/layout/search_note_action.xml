@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+   <ImageView
+        android:id="@+id/tv_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_back"/>
+    <EditText
+        android:id="@+id/ed_search"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical|"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:textSize="16sp"
+        android:textColor="@color/write"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:maxEms="16"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:textColorHint="@color/searhintColor"
+         />
+    <ImageView
+        android:id="@+id/iv_clear_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/search_clear"
+        android:visibility="gone"
+        />
+<!--<SearchView-->
+    <!--android:layout_marginStart="15dp"-->
+    <!--android:id="@+id/searchView"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:queryHint="@string/search_hint"-->
+    <!--android:imeOptions="actionSearch"-->
+    <!--android:iconifiedByDefault="false"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</SearchView>-->
+</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/search_note_action.xml -->

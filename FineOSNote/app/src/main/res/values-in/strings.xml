@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">"Catatan"</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cancel">"Batal"</string>
+    <string name="hint_title">judul</string>
+    <string name="hint_detail">masukkan detail</string>
+    <string name="manage">Pengelolaan folder</string>
+    <string name="tip1">Klasifikasi ini kosong</string>
+    <string name="tip2">Klik tombol di bawah ini untuk menambah memo langsung \n ke folder yang sesuai</string>
+    <string name="toast">Gagal menambahkan, konten input tidak boleh kosong</string>
+    <string name="allnote">Semua Catatan</string>
+    <string name="allrecode">Perekaman Panggilan</string>
+    <string name="share_title">Kirim Ke</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Momen</string>
+    <string name="emai">Email</string>
+    <string name="save">Unduh</string>
+    <string name="savesucess">gambar disimpan ke</string>
+    <string name="search_hint">"Penelusuran"</string>
+    <string name="search_note_nofind">Tidak ditemukan file yang cocok</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="unselect_all">Batal Pilih Semua</string>
+    <string name="select_folder">Pilih folder</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="insert_pictrue">Masukkan Gambar</string>
+    <string name="graffiti_crop_pictrue">Gambar Pangkas Graffiti</string>
+    <string name="quit">Keluar</string>
+    <string name="ok">"Oke"</string>
+    <string name="last_time">waktu pengeditan terakhir:\t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">Tidak ada judul</string>
+    <string name="tip_nodetail">tidak ada konten</string>
+    <string name="save_node_tip">Masukkan konten</string>
+    <string name="delete_note">Hapus Catatan</string>
+    <string name="delete_folder">Hapus Folder</string>
+    <string name="rename_folder">Ubah Nama Folder</string>
+    <string name="addfolder">Tambah Folder</string>
+    <string name="move_note_title">Pindahkan Catatan</string>
+    <string name="move_note_message">Ingin memindahkan catatan yang dipilih ke</string>
+    <string name="delete_folder_message">Ingin menghapus folder ini dan semua file di folder ini?</string>
+    <string name="delete_note_message">Ingin menghapus catatan yang dipilih?</string>
+    <string name="rename_folder_message">Ingin mengubah nama folder ini?</string>
+    <string name="preview_note">Pratinjau</string>
+    <string name="new_note">Catatan Baru</string>
+    <string name="edit">"Edit"</string>
+    <string name="done">Selesai</string>
+    <string name="save_dialogtitle_addnote">simpan</string>
+    <string name="delete_dialogtitle_addnote">hapus</string>
+    <string name="details_dialogtitle_addnote">detail</string>
+    <string name="save_dialogmessage_addnote">Tetap ingin menyimpannya?</string>
+    <string name="delete_dialogmessage_addnote">Tetap ingin menghapusnya?</string>
+    <string name="details_dialogmessage_addnote">Nama gambar ini adalah:</string>
+    <string name="save_sucess_addnote">Gambar ini telah disimpan ke</string>
+    <string name="save_failed_addnote">gagal menyimpan</string>
+    <string name="month">Bulan</string>
+    <string name="save_dialog_graffity">Anda ingin meninggalkannya?</string>
+    <string name="clear_dialog_graffity">Anda ingin menghapus semuanya?</string>
+    <string name="test_toast">"LongItemClick!"</string>
+    <string name="selected_count">dipilih</string>
+    <string name="addfolder_hint">Maksimal 16 karakter</string>
+    <string name="addfolder_outmax_warn">Maksimal 16 karakter</string>
+    <string name="addfolder_empt_warn">Masukkan nama grup Anda</string>
+    <string name="addfolder_samename_warn">Nama sudah ada</string>
+    <string name="fineos_logo">dari fineos</string>
+    <string name="progress_message">Sedang memproses, tunggu ...</string>
+    <string name="fileTooLarge">file terlalu besar</string>
+<!--HQ01532662-->
+    <string name="chosesoftware">Silakan pilih aplikasi</string>
+   <!--dpc add storage-->
+    <string name="inner_storage_name">"Telepon"</string>
+</resources>

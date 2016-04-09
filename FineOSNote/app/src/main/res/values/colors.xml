@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="write">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+
+    <color name="green">#00D3C2</color>
+    <color name="notes_actionbar">#ff00D3C2</color>
+    <color name="notes_add_note">#ff00D3C2</color>
+    <color name="notes_actionmode">#ff00D3C2</color>
+    <color name="notes_edge_effect">#ff00ef5b</color>
+
+    <color name="red">#FF0000</color>
+    <color name="searhintColor">#9affffff</color>
+    <color name="titlechangeColor">#9affffff</color>
+    <color name="titlenormalColor">#ffffff</color>
+    <color name="hintColor">#c8c8c8</color>
+    <color name="addnote_layout_view">#3CFFFFFF</color>
+    <color name="addnote_layout_view2">#e1e1e1</color>
+    <color name="addnote_layout_HorizontalScrollView">#e6e6e6</color>
+    <color name="note_show">#646464</color>
+    <color name="crop_btnColor">#646464</color>
+
+    <color name="black_ColorPopup">#000000</color>
+    <color name="red_ColorPopup">#e23123</color>
+    <color name="orange_ColorPopup">#ed7b35</color>
+    <color name="yellow_ColorPopup">#fad43d</color>
+    <color name="green_ColorPopup">#2edc78</color>
+    <color name="blue_ColorPopup">#3ca4ea</color>
+    <color name="purple_ColorPopup">#b487d6</color>
+
+
+
+    <color name="bg_letter_1_devide">#ffffff</color>
+    <color name="bg_letter_2_devide">#fff4f5</color>
+    <color name="bg_letter_3_devide">#e5f4fb</color>
+    <color name="bg_letter_4_devide">#9c9da0</color>
+    <color name="bg_letter_5_devide">#ffceb4</color>
+
+    <color name="bg_letter_1_title">#64ad9c</color>
+    <color name="bg_letter_2_title">#852f00</color>
+    <color name="bg_letter_3_title">#4685b5</color>
+    <color name="bg_letter_4_title">#e1e1e2</color>
+    <color name="bg_letter_0_title">#6c3c08</color>
+    
+    
+    <color name="bg_letter_1_detail">#00857c</color>
+    <color name="bg_letter_2_detail">#852f00</color>
+    <color name="bg_letter_3_detail">#bc002f</color>
+    <color name="bg_letter_4_detail">#5835c3</color>
+    <color name="bg_letter_0_detail">#303030</color>
+
+    <color name="bg_letter_time">#aaaaaa</color>
+    <color name="bg_letter_devide">#ffffff</color>
+
+    <color name="search_view_color">#9affffff</color>
+
+    <color name="list_item_bg">#ffffff</color>
+    <color name="list_pressed_bg">#f3f3f3</color>
+
+    <color name="dataColor">#2E000000</color>
+    <color name="top_menu_list_selected_color">#00d3c2</color>
+    <color name="list_text_selected_color">#00d3c2</color>
+    <color name="movelistColor">#303030</color>
+
+
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">"Мої нотатки"</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="hello_world">Привіт, світ!</string>
+    <string name="cancel">"Скасувати"</string>
+    <string name="hint_title">заголовок</string>
+    <string name="hint_detail">будь ласка, введіть деталі</string>
+    <string name="manage">Управляти папкою</string>
+    <string name="tip1">Ця класифікація порожня</string>
+    <string name="tip2">Натиснути кнопку нижче, щоб додати нагадування напряму \n до відповідної папки</string>
+    <string name="toast">Не вдалося додати, введений вміст не повинен бути порожнім</string>
+    <string name="allnote">Всі примітки</string>
+    <string name="allrecode">Запис дзвінка</string>
+    <string name="share_title">Відправити до</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="pengyouquan">Moments</string>
+    <string name="emai">Ел. пошта</string>
+    <string name="save">Скачати</string>
+    <string name="savesucess">зображення збережено у</string>
+    <string name="search_hint">"Пошук"</string>
+    <string name="search_note_nofind">Не знайдено відповідностей</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Відмінити вибір всіх</string>
+    <string name="select_folder">Вибрати папку</string>
+    <string name="graffiti">Графіті</string>
+    <string name="insert_pictrue">Вставити зображення</string>
+    <string name="graffiti_crop_pictrue">Обрізане зображення графіті</string>
+    <string name="quit">Вийти</string>
+    <string name="ok">"OK"</string>
+    <string name="last_time">останнє редагування: \t</string>
+    <string name="um_999">999</string>
+    <string name="tip_notitle">Немає заголовку</string>
+    <string name="tip_nodetail">немає вмісту</string>
+    <string name="save_node_tip">Будь ласка, введіть вміст</string>
+    <string name="delete_note">Видалити примітку</string>
+    <string name="delete_folder">Видалити папку</string>
+    <string name="rename_folder">Переіменувати паку</string>
+    <string name="addfolder">Додати папку</string>
+    <string name="move_note_title">Перемістити примітку</string>
+    <string name="move_note_message">Ви бажаєте перемістити вибрану примітку до</string>
+    <string name="delete_folder_message">Ви бажаєте видалити цю папку та всі файли у цій папці?</string>
+    <string name="delete_note_message">Ви бажаєте видалити вибрану примітку?</string>
+    <string name="rename_folder_message">Ви бажаєте переіменувати цю папку?</string>
+    <string name="preview_note">Перегляд</string>
+    <string name="new_note">Нова примітка</string>
+    <string name="edit">"Редаг."</string>
+    <string name="done">Done</string>
+    <string name="save_dialogtitle_addnote">зберегти</string>
+    <string name="delete_dialogtitle_addnote">видалити</string>
+    <string name="details_dialogtitle_addnote">деталі</string>
+    <string name="save_dialogmessage_addnote">Ви бажаєте зберегти її?</string>
+    <string name="delete_dialogmessage_addnote">Ви бажаєте видалити її?</string>
+    <string name="details_dialogmessage_addnote">Назва цього зображення:</string>
+    <string name="save_sucess_addnote">Це зображення було збережено до</string>
+    <string name="save_failed_addnote">не вдалося зберегти</string>
+    <string name="month">Місяць</string>
+    <string name="save_dialog_graffity">Ви бажаєте вийти?</string>
+    <string name="clear_dialog_graffity">Ви хочете очистите все?</string>
+    <string name="test_toast">"LongItemClick!"</string>
+    <string name="selected_count">вибрані</string>
+    <string name="addfolder_hint">Максимум 16 символів</string>
+    <string name="addfolder_outmax_warn">Максимум 16 символів</string>
+    <string name="addfolder_empt_warn">Будь ласка, введіть назву групи</string>
+    <string name="addfolder_samename_warn">Назва вже існує</string>
+    <string name="fineos_logo">із fineos</string>
+    <string name="progress_message">Обробка, будь ласка, зачекайте...</string>
+    <string name="fileTooLarge">Файл занадто великий</string>
+ <!--HQ01532662-->
+    <string name="chosesoftware">Будь ласка, виберіть додаток</string>
+  <!--dpc add storage-->
+    <string name="inner_storage_name">"Телефон"</string>
+</resources>

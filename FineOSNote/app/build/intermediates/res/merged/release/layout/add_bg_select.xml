@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/hs_view"
+    android:background="@color/addnote_layout_HorizontalScrollView"
+    android:scrollbars="none"
+    android:visibility="gone">
+    <RadioGroup
+        android:id="@+id/rg_select_bg"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="fill_parent">
+        <RadioButton
+            android:id="@+id/rb_bg_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_small_1"
+            />
+        <RadioButton
+            android:id="@+id/rb_bg_aqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/bg_small_2"
+            />
+        <RadioButton
+            android:id="@+id/rb_bg_pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/bg_small_3"
+            />
+        <RadioButton
+            android:id="@+id/rb_bg_wathet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/bg_small_4"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_bg_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/bg_small_5"
+            />
+    </RadioGroup>
+</HorizontalScrollView><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/add_bg_select.xml -->
