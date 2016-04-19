@@ -5,4 +5,4 @@
         android:drawable="@drawable/shape_manage_button" />
     <item 
         android:drawable="@android:color/transparent" />
- </selector><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/drawable/selector_manage_button.xml -->
+ </selector><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/selector_manage_button.xml -->

@@ -10,6 +10,7 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fineos.fileexplorer.BuildConfig;
 import com.fineos.fileexplorer.R;
 
 import java.io.File;
@@ -28,22 +29,22 @@ public class StringUtils {
     public static final String STORAGE_SDCARD1 = "/storage/sdcard1";
     public static final String STORAGE_USBOTG = "/storage/usbotg";
     public static final String STORAGE_EMULATED_0 = "/storage/emulated/0";
-
-
-    public static String getProperStorageSizeString(Long size){
-		double countInKB = Math.ceil(size / 1024);
+    public static final String STORAGE_EMULATED_legacy = "/storage/emulated/legacy";
+    public static final String STORAGE_SDCARD875 = "/storage/6233-3566";
+    public static String getProperStorageSizeString(Long size, Context context){
+		double countInKB = Math.ceil(size / 1024f);
         DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.getDefault());
 		DecimalFormat format = 	new DecimalFormat("#.#", symbols);
 		if(countInKB > 999){
 			double countInMB = countInKB / 1024;
 			if(countInMB > 999){
 				double countInGb = countInMB / 1024;
-				return format.format(countInGb) + "GB";
+				return format.format(countInGb) + context.getString(R.string.storage_unit_gb);
 			}else{
-				return format.format(countInMB) + "MB";
+				return format.format(countInMB) + context.getString(R.string.storage_unit_mb);
 			}
 		}else{
-			return format.format(countInKB) + "KB";
+			return format.format(countInKB) + context.getString(R.string.storage_unit_kb);
 		}
 	}
 	
@@ -264,13 +265,39 @@ public class StringUtils {
             resultString = filePath.replace(STORAGE_USBOTG, "USB");
         }else {
             if (sdCardIsMainStorage) {
-                if(filePath.startsWith(STORAGE_SDCARD0))resultString = filePath.replace(STORAGE_SDCARD0, extraSDCardName);
-                if(filePath.startsWith(STORAGE_SDCARD1))resultString = filePath.replace(STORAGE_SDCARD1, phoneStorageName);
-            }else{
-                if(filePath.startsWith(STORAGE_SDCARD0))resultString = filePath.replace(STORAGE_SDCARD0, phoneStorageName);
-                if(filePath.startsWith(STORAGE_SDCARD1))resultString = filePath.replace(STORAGE_SDCARD1, extraSDCardName);
+                if (filePath.startsWith(STORAGE_SDCARD0))
+                    resultString = filePath.replace(STORAGE_SDCARD0, extraSDCardName);
+                if (filePath.startsWith(STORAGE_SDCARD1))
+                    resultString = filePath.replace(STORAGE_SDCARD1, phoneStorageName);
+            } else {
+                if (filePath.startsWith(STORAGE_SDCARD0))
+                    resultString = filePath.replace(STORAGE_SDCARD0, phoneStorageName);
+                if (filePath.startsWith(STORAGE_SDCARD1))
+                    resultString = filePath.replace(STORAGE_SDCARD1, extraSDCardName);
             }
-            if(filePath.startsWith(STORAGE_EMULATED_0))resultString = filePath.replace(STORAGE_EMULATED_0, phoneStorageName);
+            if (filePath.startsWith(STORAGE_EMULATED_0))
+                resultString = filePath.replace(STORAGE_EMULATED_0, phoneStorageName);
+
+            if (!BuildConfig.DEFAULT_STORAGE_PATH) {
+                if (filePath.startsWith(STORAGE_EMULATED_legacy))
+                    resultString = filePath.replace(STORAGE_EMULATED_legacy, phoneStorageName);
+                if (filePath.startsWith(STORAGE_SDCARD0))
+                    resultString = filePath.replace(STORAGE_SDCARD0, extraSDCardName);
+            }
+            if (BuildConfig.DEFAULT_STORAGE_PATH_zaw875) {
+                if (filePath.startsWith(STORAGE_EMULATED_0)){
+                    resultString = filePath.replace(STORAGE_EMULATED_0, phoneStorageName);
+                }else {
+                    String sdCardname = filePath;
+                    String sdCardname2 = null;
+                    sdCardname2= sdCardname.substring(0,18);
+                    Log.i("zhanghe","sdCardname ="+sdCardname +"  sdCardname2="+sdCardname2);
+                    resultString =filePath.replace(sdCardname2,extraSDCardName);
+                }
+
+
+            }
+
         }
         if (resultString.isEmpty()) {
             return filePath;
@@ -278,4 +305,14 @@ public class StringUtils {
         return resultString;
     }
 
+    public  static String getSDPath(){
+        File sdDir = null;
+        boolean sdCardExist = Environment.getExternalStorageState()
+                .equals(android.os.Environment.MEDIA_MOUNTED);//判断sd卡是否存在
+        if(sdCardExist)
+        {
+            sdDir = Environment.getExternalStorageDirectory();//获取跟目录
+        }
+        return sdDir.toString();
+    }
 }

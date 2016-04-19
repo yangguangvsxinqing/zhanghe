@@ -21,7 +21,6 @@ package com.fineos.fileexplorer.service;
 
 import android.app.Activity;
 import fineos.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -50,6 +49,10 @@ public class IntentBuilder {
             intent.setDataAndType(uri, type);
             Log.d(TAG, "viewFile: uri : " + uri + " type : " + type);
             try{
+                //add by fineos for blu 1805
+                if (type.contains("image/")) {
+                    intent.setPackage("com.fineos.gallery3d");
+                }
                 activity.startActivity(intent);
                 activity.overridePendingTransition(0,0);
             }catch(Exception e){
@@ -59,7 +62,8 @@ public class IntentBuilder {
             			Toast.LENGTH_SHORT).show();       	
             }
 
-        } else {
+        }
+        else {
             // unknown MimeType
             AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
             dialogBuilder.setTitle(R.string.dialog_select_type);
@@ -102,37 +106,51 @@ public class IntentBuilder {
     }
     
     public static Intent buildSendFile(ArrayList<File> files) {
-        ArrayList<Uri> uris = new ArrayList<Uri>();
-
-        String mimeType = "unknown/unknown";
-        for (File file : files) {
-            if (file.isDirectory())
-                continue;
-            mimeType = getMimeType(file.getName());
-            Log.d(TAG, "file mime type : " + mimeType);
-            Uri u = Uri.fromFile(file);
-            Log.d(TAG, "buildSendFile: file uri : " + u.toString());
-            uris.add(u);
-        }
-
-
-        if (uris.size() == 0)
-            return null;
-
-        boolean multiple = uris.size() > 1;
-        Intent intent = new Intent(multiple ? android.content.Intent.ACTION_SEND_MULTIPLE
-                : android.content.Intent.ACTION_SEND);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
-
-        if (multiple) {
-            intent.setType("*/*");
-            intent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
-        } else {
+        if(files.size() <= 0) return null;
+        if (files.size() == 1) {
+            File file = files.get(0);
+            String mimeType = getMimeType(file.getName());
+            Uri uri = Uri.fromFile(file);
+            Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType(mimeType);
-            intent.putExtra(Intent.EXTRA_STREAM, uris.get(0));
+            intent.putExtra(Intent.EXTRA_STREAM, uri);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            Log.d(TAG, "buildSendFile: mime : " + mimeType + " uri : " + uri);
+            return intent;
+        }else{
+            ArrayList<Uri> uris = new ArrayList<>();
+            String guessMimeType = getMimeType(files.get(0).getName());
+            String fileType = "unknown";
+            boolean sameType = false;
+            if (guessMimeType.contains("/") && !guessMimeType.contains("unknown")) {
+                fileType = guessMimeType.substring(0, guessMimeType.indexOf("/"));
+                guessMimeType = fileType + "/*";
+                sameType = true;
+            }
+            for (File file : files) {
+                if (file.isDirectory())
+                    continue;
+                String mimeType = getMimeType(file.getName());
+                if (!guessMimeType.equals("unknown/unknown") && !mimeType.contains(fileType)) {
+                    sameType = false;
+                }
+                Uri uri = Uri.fromFile(file);
+                uris.add(uri);
+                Log.d(TAG, "buildSendFile: add uri : " + uri);
+            }
+            if(uris.size() == 0) return null;
+            Intent intent = new Intent(android.content.Intent.ACTION_SEND_MULTIPLE);
+            if (sameType) {
+                intent.setType(guessMimeType);
+                Log.d(TAG, "buildSendFile: send multiple file, type : " + guessMimeType);
+            }else{
+                intent.setType("*/*");
+                Log.d(TAG, "buildSendFile: send multiple file, type : */*");
+            }
+            intent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            return intent;
         }
-        Log.d(TAG, "buildSendFile: intent type : " + intent.getType());
-        return intent;
     }
 
     private static String getMimeType(String filePath) {
@@ -145,7 +163,7 @@ public class IntentBuilder {
         if (ext.equals("mtz")) {
             mimeType = "application/miui-mtz";
         }
-        if (ext.equals("imy") || ext.equals("ape")) {
+        if (ext.equals("imy") || ext.equals("ape") || ext.equals("awb")) {
             mimeType = "audio/mpeg";
         }
         return mimeType != null ? mimeType : "unknown/unknown";

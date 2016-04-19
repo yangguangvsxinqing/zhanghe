@@ -1,6 +1,7 @@
 package com.fineos.fileexplorer.operations;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.fineos.fileexplorer.util.FileUtils;
 
@@ -12,11 +13,12 @@ import java.util.ArrayList;
  */
 public class MoveFileExecutor implements FileOperationListener{
 
+    private static final String TAG = "MoveFileExecutor";
     private final Context context;
     private FileOperationListener listener;
     private ArrayList<String> sameStoragePathList = new ArrayList<String>();
     private ArrayList<String> differentStoragePathList = new ArrayList<String>();
-    private int taskCount = 3;
+    private int taskCount = 0;
 
 
     public MoveFileExecutor(Context context, FileOperationListener listener) {
@@ -42,6 +44,7 @@ public class MoveFileExecutor implements FileOperationListener{
             }
             if (inSameStorage(sourcePath, destinationDirPath)) {
                 sameStoragePathList.add(sourcePath);
+                taskCount++;
             }else {
                 differentStoragePathList.add(sourcePath);
             }
@@ -66,14 +69,15 @@ public class MoveFileExecutor implements FileOperationListener{
     }
 
     private void moveFileWithCopy(ArrayList<String> sourcePathList, String destinationDirPath) {
+        taskCount++;
         CopyFileExecutor executor = new CopyFileExecutor(context, this);
         executor.execute(sourcePathList, destinationDirPath);
     }
 
     private void moveFileByRename(ArrayList<String> sourcePathList, String destinationDirPath) {
-        if (sourcePathList == null || sourcePathList.size() == 0) {
-            decraseTaskCount();
-        }
+//        if (sourcePathList == null || sourcePathList.size() == 0) {
+//            decraseTaskCount();
+//        }
         for (String sourcePath : sourcePathList) {
             String renamePath = getUniqueRenamePath(destinationDirPath, sourcePath);
             RenameFileExecutor renameFileExecutor = new RenameFileExecutor(this, context);
@@ -102,18 +106,22 @@ public class MoveFileExecutor implements FileOperationListener{
 
     @Override
     public void onFinish(String action, boolean isSuccess) {
-        decraseTaskCount();
+        if(!action.equals(FileOperationService.DELETE_ACTION)) {
+            decraseTaskCount();
+        }
         if (action.equals(FileOperationService.COPY_ACTION) && isSuccess) {
             DeleteFileExecutor executor = new DeleteFileExecutor(context, this);
             executor.execute(differentStoragePathList);
             return;
         }
         if (isSuccess && taskCount == 0) {
+            Log.d(TAG, "onFinish: call finish move files.");
             listener.onFinish(FileOperationService.MOVE_ACTION, true);
         }
     }
 
     private synchronized void decraseTaskCount() {
+        Log.d(TAG, "decraseTaskCount: current task count : " + taskCount);
         taskCount--;
     }
 

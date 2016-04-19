@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">প্রথম hotknot চালু করুন.</string>
 	<string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
 	<string name="hotknot_hint">তাদের মুখভঙ্গি সঙ্গে দুটি ফোনের বন্ধ করে চালু hotknot যত্ন সহকারে সংরক্ষণ করুন.</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

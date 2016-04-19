@@ -35,7 +35,8 @@
     <string name="default_file_title">FinOS :)</string>
     <string name="default_file_type">Default Type!</string>
     <string name="default_file_date">It is my birthday!</string>
-    <string name="default_file_count">999 items</string>
+    <string name="default_file_count">999 item(s)</string>
+    <string name="show_word_item_single">" item"</string>
     <string name="show_word_item"> Items</string>
     <string name="show_word_selected">Selected </string>
     <string name="cancel">Cancel</string>
@@ -115,6 +116,9 @@
     <string name="hotknot_hint">Please close two phones with their faces and keep hotknot turning on.</string>
     <string name="cannot_copy_to_self">Cannot copy a directory to itself.</string>
     <string name="target_storage_is_full">Copy failed. Target storage is full.</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 
 
 </resources>

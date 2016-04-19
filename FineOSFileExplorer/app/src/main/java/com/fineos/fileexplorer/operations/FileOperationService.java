@@ -3,6 +3,7 @@ package com.fineos.fileexplorer.operations;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.os.Process;
 import android.util.Log;
 
 import de.greenrobot.event.EventBus;
@@ -29,6 +30,8 @@ public class FileOperationService extends Service implements FileOperationListen
 
     private EventBus mEventBus = EventBus.getDefault();
     private IFileOperationHelper mHelper;
+
+
 
     @Override
     public IBinder onBind(Intent intent) {

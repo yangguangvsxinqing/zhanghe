@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">กรุณาเปิด Hotknot ก่อน</string>
     <string name="title_activity_hot_knot_dialog">กิจกรรมแบบโต้ตอบของ HotKnot</string>
     <string name="hotknot_hint">"กรุณาถือโทรศัพท์สองเครื่องไว้ใกล้ๆ กัน โดยต้องเปิด HotKnot ไว้แล้ว และโทรศัพท์ทั้งสองเครื่องไม่ได้อยู่ในโหมดล็อค</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

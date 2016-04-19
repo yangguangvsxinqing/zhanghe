@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">ပထမဦးဆုံး hotknot တွင်ဖွင့်ပေးပါ။</string>
 	<string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
 	<string name="hotknot_hint">သူတို့မျက်နှာများနှင့်အတူနှစ်ဦးဖုန်းများပိတ်ဖို့နဲ့မဖွင့် hotknot စောင့်ရှောက်ပေးပါ။</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

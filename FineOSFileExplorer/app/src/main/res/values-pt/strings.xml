@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">"Ligue antes o hotknot."</string>
 	<string name="title_activity_hot_knot_dialog">"Atividade de diálogo do HotKnot"</string>
 	<string name="hotknot_hint">"Segure dois fones próximos entre si, verifique se o hotknot está ligado e se ambos os fones estão no modo travado."</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

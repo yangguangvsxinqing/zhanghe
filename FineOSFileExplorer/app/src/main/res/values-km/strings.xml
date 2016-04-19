@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">សូម​បើក hotknot ដំបូង​។</string>
 	<string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
 	<string name="hotknot_hint">សូម​បិទ​ទូរស័ព្ទ​ទាំង​ពីរ​ជា​មួយ​នឹង​មុខ​របស់​ពួក​គេ​និង​រក្សា hotknot បើក​។</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

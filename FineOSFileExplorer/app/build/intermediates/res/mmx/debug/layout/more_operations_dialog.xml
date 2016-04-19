@@ -52,4 +52,4 @@
         android:text="@string/hotknot"
         android:textColor="@color/list_item_title_color"/>
 
-</LinearLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/more_operations_dialog.xml -->
+</LinearLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/more_operations_dialog.xml -->

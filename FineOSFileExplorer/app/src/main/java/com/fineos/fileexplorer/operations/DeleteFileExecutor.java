@@ -1,6 +1,7 @@
 package com.fineos.fileexplorer.operations;
 
 import android.content.Context;
+import android.os.Process;
 import android.provider.MediaStore;
 import android.util.Log;
 
@@ -82,6 +83,7 @@ public class DeleteFileExecutor {
 
         @Override
         public void run() {
+            Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
             listener.onOperationStart();
             try {
                 deleteFiles(deletePathList);

@@ -39,10 +39,10 @@
     <string name="cancel">"Hủy"</string>
     <string name="confirm">"OK"</string>
     <string name="select_all">"Chọn Tất Cả"</string>
-    <string name="refresh">"Cập Nhật"</string>
+    <string name="refresh">"Làm mới"</string>
     <string name="refresh_success">"Đọc Danh Sách Tập Tin Thành Công!"</string>
     <string name="newfolder">"Thư Mục Mới"</string>
-    <string name="show_hidden_files">"Hiện Tập Tin Ẩn"</string>
+    <string name="show_hidden_files">"Hiện tập tin ẩn"</string>
     <string name="hide_hidden_files">"Ẩn Tập Tin Ẩn"</string>
     <string name="create_folder">"Thư Mục Mới"</string>
     <string name="create_folder_message">"Nhập tên thư mục"</string>
@@ -94,7 +94,7 @@
     <string name="file_name_already_exists">"Đã có tên tập tin này rồi"</string>
     <string name="loading">"Đang đọc..."</string>
     <string name="file_count">"(%1$s)"</string>
-    <string name="storage_name">Dung lượnglưutrữ:</string>
+    <string name="storage_name">Dung lượng lưu trữ:</string>
     <string name="choose_storage">"Xin Chọn Thiết Bị Lưu Trữ:"</string>
     <string name="un_select_all">"Bỏ Chọn Tất Cả"</string>
     <string name="extension_change_alert_title">"Cảnh Báo Việc Sửa Đuôi Tập Tin"</string>
@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"Xin mở hotknot lên trước đã."</string>
     <string name="title_activity_hot_knot_dialog">"Hoạt Động Của Hộp Thoại HotKnot"</string>
     <string name="hotknot_hint">"Xin giữ hai điện thoại ở gần nhau, bảo đảm hotknot đã được mở lên và cả hai điện thoại đều đang ở chế độ không khóa."</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

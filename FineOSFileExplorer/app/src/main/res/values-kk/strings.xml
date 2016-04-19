@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">Бірінші hotknot қосыңыз сұраймыз.</string>
 	<string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
 	<string name="hotknot_hint">Олардың тұлғалары екі телефондарды жабу және қосу hotknot сақтаңыз.</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

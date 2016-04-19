@@ -21,7 +21,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.ListView;
@@ -44,7 +43,6 @@ import com.fineos.fileexplorer.views.PathButton;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -376,7 +374,7 @@ public class FileViewActivity extends Activity implements LoaderCallbacks<List<S
      * Get a string list instead of a File list from business layer.
      */
     private ArrayList<FileInfo> getFileInfoList(String directoryPath) {
-        return mBussiness.getFileList(directoryPath);
+        return mBussiness.buildFileList(directoryPath);
     }
 
     /**

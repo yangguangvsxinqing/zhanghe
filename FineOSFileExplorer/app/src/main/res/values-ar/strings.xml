@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"يرجى تشغيل وظيفة hotknot أولاً".</string>
     <string name="title_activity_hot_knot_dialog">"نشاط حوار hotknot"</string>
     <string name="hotknot_hint">"يرجى تثبيت هاتفين بالقرب من بعضهما البعض والتأكد من تشغيل وظيفة hotknot ومن أن الهاتفان ليسا في نمط القفل".</string>
+    <string name="storage_unit_gb">جيجا بيات</string>
+    <string name="storage_unit_mb">ميجا بايت</string>
+    <string name="storage_unit_kb">كيلو بايت</string>
 </resources>

@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/btn_check_off_holo_dark" android:state_checked="false"/>
     <item android:drawable="@drawable/btn_check_off_holo_dark"/>
 
-</selector><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/drawable/doov_chkbox_style.xml -->
+</selector><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/doov_chkbox_style.xml -->

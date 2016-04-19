@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="action_settings">"Ajustes"</string>
     <string name="apk_text">"APK"</string>
@@ -102,6 +102,9 @@
     <string name="sort_by_type">"Tipo"</string>
     <string name="storage_info_title">"%1$s %2$s/%3$s"</string>
     <string name="storage_name">"Almacenamiento:"</string>
+    <string name="storage_unit_gb">" GB"</string>
+    <string name="storage_unit_kb">" KB"</string>
+    <string name="storage_unit_mb">" MB"</string>
     <string name="title_activity_file_explorer_file_view">"Gestión de archivos (recomendado)"</string>
     <string name="title_activity_hot_knot_dialog">"Actividad de HotKnot"</string>
     <string name="title_activity_search">"Buscar páginas"</string>

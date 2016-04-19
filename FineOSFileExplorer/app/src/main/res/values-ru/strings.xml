@@ -110,4 +110,7 @@
     <string name="need_turn_on_hotknot">"Пожалуйста, сначала включите HotKnot."</string>
     <string name="title_activity_hot_knot_dialog">"Диалог HotKnot"</string>
     <string name="hotknot_hint">"Поместите рядом два телефона, вкючите HotKnot и проверьте, что оба телефона не в закрытом режиме."</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

@@ -30,7 +30,7 @@ public class SearchResultView extends RelativeLayout {
 	private Context mContext;
 	public static final String LOAD_THUMBNAIL = "load_thumbnail";
 	private SimpleImageLoadingListener mImageLoadListener = new ImageDisplayListener();
-	
+
 	@Override
 	protected void onFinishInflate() {
 		super.onFinishInflate();
@@ -82,7 +82,7 @@ public class SearchResultView extends RelativeLayout {
 	private  class ImageDisplayListener extends SimpleImageLoadingListener {
 
 //		static final List<String> displayedImages = Collections.synchronizedList(new LinkedList<String>());
-		
+
 		@Override
 		public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
 		   if(mFileInfo.getFileCategory() != FileCategory.PIC){

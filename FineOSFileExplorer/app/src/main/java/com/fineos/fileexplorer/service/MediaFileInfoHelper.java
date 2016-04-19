@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Files.FileColumns;
+import android.provider.Settings;
 import android.util.Log;
 
 import com.fineos.fileexplorer.entity.FileInfo;
@@ -87,75 +88,76 @@ public class MediaFileInfoHelper implements IMediaFileInfoHelper,
 	}
 
 	private MediaCategoryInfo queryCategoryInfo(FileCategory fileCategory) {
-//		Log.d(TAG, "uri: " + uri + "selection : " + selection);
-//        Log.d("acmllaugh1", "queryCategoryInfo (line 89): uri : " + uri + " selection : " + selection);
-//		String[] projection = new String[2];
-//		this.projection.toArray(projection);
-//        if (selection.length() < 1) {
-//            selection = "_size > 0";
-//        }
-//        Cursor c = context.getContentResolver().query(uri, projection, selection, null, null);
-//		if (c == null) {
-//			Log.e(TAG, "fail to query uri:" + uri);
-//			return null;
-//		}
-//		if (c.moveToNext()) {
-//			Log.v(TAG, "Retrieved " + fileCategory.name() + " info >>> count:"
-//					+ c.getLong(0) + " size:" + c.getLong(1));
-//			MediaCategoryInfo mediaCategoryInfo = new MediaCategoryInfo();
-//			mediaCategoryInfo.setMediaCategory(fileCategory);
-//			mediaCategoryInfo.setMediaCount(c.getLong(0));// 0 refers to the count.
-//			mediaCategoryInfo.setMediaSize(c.getLong(1));// 1 refers to size.
-//			c.close();
-//			return mediaCategoryInfo;
-//		}
-//		return null;
+		Log.d(TAG, "uri: " + uri + "selection : " + selection);
+        Log.d("acmllaugh1", "queryCategoryInfo (line 89): uri : " + uri + " selection : " + selection);
+		MediaCategoryInfo mediaCategoryInfo = new MediaCategoryInfo();
+		mediaCategoryInfo.setMediaCategory(fileCategory);
+		String[] projection = new String[2];
+		this.projection.toArray(projection);
+        if (selection.length() < 1) {
+            selection = "_size > 0";
+        }
+        Cursor c = context.getContentResolver().query(uri, projection, selection, null, null);
+		if (c == null) {
+			Log.e(TAG, "fail to query uri:" + uri);
+			return mediaCategoryInfo;
+		}
+		if (c.moveToNext()) {
+			Log.v(TAG, "Retrieved " + fileCategory.name() + " info >>> count:"
+					+ c.getLong(0) + " size:" + c.getLong(1));
+			mediaCategoryInfo.setMediaCategory(fileCategory);
+			mediaCategoryInfo.setMediaCount(c.getLong(0));// 0 refers to the count.
+			mediaCategoryInfo.setMediaSize(c.getLong(1));// 1 refers to size.
+			c.close();
+			return mediaCategoryInfo;
+		}
+		return mediaCategoryInfo;
 
-        Uri queryUri = uri;
-        String[] projection = new String[]{FileColumns.DATA};
-        Cursor c = context.getContentResolver().query(queryUri, projection, selection, null, null);
-        if (c == null) {
-            Log.e(TAG, "fail to query uri:" + uri);
-			return null;
-        }
-        // Cursor is not null, read category files data.
-        MediaCategoryInfo mediaCategoryInfo = new MediaCategoryInfo();
-        mediaCategoryInfo.setMediaCategory(fileCategory);
-        long fileSize = 0;
-        long fileCount = 0;
-        while (c.moveToNext()) {
-            String filePath = c.getString(c.getColumnIndex(FileColumns.DATA));
-            if (filePath == null) {
-                //TODO : tell system to delete this line.
-                continue;
-            }
-            File file = new File(filePath);
-            if (file.exists()) {
-                if (!file.isHidden()) {
-                    fileSize += file.length();
-                    fileCount++;
-                }
-            }else{
-                try {
-                    // We need to tell system database this file does not exist any more.
-                    Uri uri = MediaStore.Files.getContentUri("external");
-                    String[] filePathArg = {file.getAbsolutePath()};
-                    context.getContentResolver().delete(uri, FileColumns.DATA + "=?", filePathArg);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-        if (fileCount > 0 /*&& fileSize > 0*/) {
-            mediaCategoryInfo.setMediaCount(fileCount);
-            mediaCategoryInfo.setMediaSize(fileSize);
-        }
-        try {
-            c.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return mediaCategoryInfo;
+//        Uri queryUri = uri;
+//        String[] projection = new String[]{FileColumns.DATA};
+//        Cursor c = context.getContentResolver().query(queryUri, projection, selection, null, null);
+//        if (c == null) {
+//            Log.e(TAG, "fail to query uri:" + uri);
+//			return null;
+//        }
+//        // Cursor is not null, read category files data.
+//        MediaCategoryInfo mediaCategoryInfo = new MediaCategoryInfo();
+//        mediaCategoryInfo.setMediaCategory(fileCategory);
+//        long fileSize = 0;
+//        long fileCount = 0;
+//        while (c.moveToNext()) {
+//            String filePath = c.getString(c.getColumnIndex(FileColumns.DATA));
+//            if (filePath == null) {
+//                //TODO : tell system to delete this line.
+//                continue;
+//            }
+//            File file = new File(filePath);
+//            if (file.exists()) {
+//                if (!file.isHidden()) {
+//                    fileSize += file.length();
+//                    fileCount++;
+//                }
+//            }else{
+//                try {
+//                    // We need to tell system database this file does not exist any more.
+//                    Uri uri = MediaStore.Files.getContentUri("external");
+//                    String[] filePathArg = {file.getAbsolutePath()};
+//                    context.getContentResolver().delete(uri, FileColumns.DATA + "=?", filePathArg);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }
+//        if (fileCount > 0 /*&& fileSize > 0*/) {
+//            mediaCategoryInfo.setMediaCount(fileCount);
+//            mediaCategoryInfo.setMediaSize(fileSize);
+//        }
+//        try {
+//            c.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return mediaCategoryInfo;
 	}
 
 	private void buildSearchParams(FileCategory fileCategory) {

@@ -1,6 +1,7 @@
 package com.fineos.fileexplorer.operations;
 
 import android.content.Context;
+import android.os.Process;
 import android.util.Log;
 
 import com.fineos.fileexplorer.util.FileUtils;
@@ -118,6 +119,7 @@ public class CopyFileExecutor {
         @Override
         public void run() {
             try {
+                Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
                 File destFile = new File(destDir);
                 FileUtils.checkFileExistAndCanWrite(destFile);
                 FileUtils.checkSpaceNotZero(destFile);

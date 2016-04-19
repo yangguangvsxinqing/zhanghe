@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"Πρώτα ενεργοποιήστε τη λειτουργία HotKnot."</string>
     <string name="title_activity_hot_knot_dialog">"Δραστηριότητα διαλόγου HotKnot"</string>
     <string name="hotknot_hint">"Κρατήστε τα δύο τηλέφωνα κοντά, βεβαιωθείτε ότι είναι ενεργοποιημένη η λειτουργία HotΚnot και ότι και τα δύο τηλέφωνα δεν είναι κλειδωμένα."</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

@@ -162,8 +162,6 @@ public class FileSearchLoader implements IFileSearchHelper {
                 .append(") OR (").append(FileColumns.DATA).append(" LIKE '%.docx' ")
                 .append(") OR (").append(FileColumns.DATA).append(" LIKE '%.ppt' ")
                 .append(") OR (").append(FileColumns.DATA).append(" LIKE '%.pptx')");
-
-
         selection.append(")");
         return selection.toString();
     }

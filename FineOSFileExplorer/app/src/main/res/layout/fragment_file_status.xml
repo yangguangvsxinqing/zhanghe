@@ -35,12 +35,10 @@
             android:id="@+id/linearlayout_category_spec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/category_bar"
             android:orientation="vertical"
-            android:layout_centerHorizontal="true"
             android:paddingTop="10dp"
-            android:paddingLeft="37dp"
-            android:paddingRight="37dp"
+            android:paddingStart="37dp"
+            android:paddingEnd="37dp"
             android:showDividers="middle"
             android:divider="@drawable/file_status_divider">
             <LinearLayout
@@ -50,27 +48,27 @@
                 >
                 <TextView android:id="@+id/textview_pic_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_picture"/>
+                    android:drawableStart="@drawable/color_picture"/>
                 <TextView android:id="@+id/textview_music_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_music"/>
+                    android:drawableStart="@drawable/color_music"/>
                 <TextView android:id="@+id/textview_videos_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_video"/>
+                    android:drawableStart="@drawable/color_video"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="horizontal">
                 <TextView android:id="@+id/textview_apk_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_apks"/>
+                    android:drawableStart="@drawable/color_apks"/>
                 <TextView android:id="@+id/textview_doc_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_doc"/>
+                    android:drawableStart="@drawable/color_doc"/>
                 <TextView android:id="@+id/textview_zip_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_zip"/>
+                    android:drawableStart="@drawable/color_zip"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -78,7 +76,7 @@
                 android:orientation="horizontal" >
                 <TextView android:id="@+id/textview_other_info"
                     style="@style/CategorySpecStyle"
-                    android:drawableLeft="@drawable/color_other"/>
+                    android:drawableStart="@drawable/color_other"/>
             </LinearLayout>
         </LinearLayout>
 

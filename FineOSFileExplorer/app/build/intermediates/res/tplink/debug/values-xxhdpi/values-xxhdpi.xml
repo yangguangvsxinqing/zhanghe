@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values-xxhdpi/dimens.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-xxhdpi/dimens.xml -->
     <eat-comment/>
     <dimen name="category_drawable_top_padding">5dp</dimen>
     <dimen name="file_search_view_margin_start">10dp</dimen>

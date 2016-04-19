@@ -83,7 +83,7 @@ public class CustomSearchView extends SearchView implements OnClickListener{
     		searchEditFrameLinearLayout.removeViewAt(0);//remove the default search icon.
 			int queryTextViewId = getResources().getIdentifier("android:id/search_src_text", null, null);
             AutoCompleteTextView autoComplete = (AutoCompleteTextView) this.findViewById(queryTextViewId);
-            autoComplete.setFilters(new InputFilter[] { new InputFilter.LengthFilter(MAX_TEXT_LENGTH) });
+            autoComplete.setFilters(new InputFilter[]{new InputFilter.LengthFilter(MAX_TEXT_LENGTH)});
             autoComplete.setPadding(0, getResources().getDimensionPixelSize(R.dimen.search_input_padding_top), 0, 0);
             autoComplete.setTextSize(17);
 			autoComplete.setHintTextColor(getResources().getColor(R.color.fineos_edittext_hint_color));

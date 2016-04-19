@@ -3,9 +3,12 @@ package com.fineos.fileexplorer.views;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -20,6 +23,7 @@ import com.fineos.fileexplorer.R;
 import com.fineos.fileexplorer.adapters.IFileListAdapter;
 import com.fineos.fileexplorer.entity.FileInfo;
 import com.fineos.fileexplorer.entity.FileInfo.FileCategory;
+import com.fineos.fileexplorer.util.FileExplorerSettings;
 import com.fineos.fileexplorer.util.ImageLoaderUtil;
 import com.fineos.fileexplorer.util.StringUtils;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -34,7 +38,6 @@ import java.lang.ref.WeakReference;
 public class FileItemView extends RelativeLayout {
 
 	private FileInfo mFile;
-	private FileCategory fileCategory;
 	private Context mContext;
 	private IFileListAdapter mAdapter;
 	private OnCheckedChangeListener checkBoxListener;
@@ -44,6 +47,7 @@ public class FileItemView extends RelativeLayout {
 	private TextView fileNameTextView;
 	private TextView fileLastModifiedTimeTextView;
 	private TextView subFileCountTextView;
+	private APKIconLoadTask mAPKIconLoadTask;
 
 	@Override
 	protected void onFinishInflate() {
@@ -92,21 +96,22 @@ public class FileItemView extends RelativeLayout {
 				.formatDateString(mContext, mFile.getLastModified()));
 		int subFilesCount = mFile.getSubFilesCount();
 		if(subFilesCount >= 0){
-			this.subFileCountTextView.setText(subFilesCount + getResources().getString(R.string.show_word_item));
+			if(subFilesCount <= 1 && FileExplorerSettings.currentLanguageIsEnglish()){
+				this.subFileCountTextView.setText(subFilesCount + getResources().getString(R.string.show_word_item_single));
+			}else {
+				this.subFileCountTextView.setText(subFilesCount + getResources().getString(R.string.show_word_item));
+			}
 		}else{
-			this.subFileCountTextView.setText(StringUtils.getProperStorageSizeString(mFile.getLength()));
+			this.subFileCountTextView.setText(StringUtils.getProperStorageSizeString(mFile.getLength(), getContext()));
 		}
+		if(mAPKIconLoadTask != null) mAPKIconLoadTask.cancel();
         if (mFile.getFileCategory() == FileCategory.APK) {
-			showAPKIcon();
+			mAPKIconLoadTask = new APKIconLoadTask(mFile.getFilePath());
+			mAPKIconLoadTask.start();
             return;
         }
-		if (fileCategory != null) {
-			this.fileIconView.setImageResource(FileCategory
-					.getImageResourceByCategory(fileCategory, mFile.getFileName()));
-		} else {
-			this.fileIconView.setImageResource(FileCategory
-					.getImageResourceByFile(mFile));
-		}
+		this.fileIconView.setImageResource(FileCategory
+				.getImageResourceByFile(mFile));
 		if(mFile.getFileCategory() == FileCategory.PIC){
 			String imageUri = "file://" + mFile.getFilePath();
 			DisplayImageOptions options = ImageLoaderUtil.getOption();
@@ -114,7 +119,6 @@ public class FileItemView extends RelativeLayout {
 			ImageSize targetSize = new ImageSize(sideLength
 					, sideLength);
 			ImageLoader.getInstance().loadImage(imageUri, targetSize, options, new ImageDisplayListener(mFile.getFilePath()));
-//			ImageLoader.getInstance().displayImage(imageUri, fileIconView, options, imageLoadListener);
 		}
     }
 
@@ -122,8 +126,7 @@ public class FileItemView extends RelativeLayout {
 		PackageManager pm = mContext.getPackageManager();
 		PackageInfo pi = pm.getPackageArchiveInfo(mFile.getFilePath(), 0);
 		if (pi == null || pi.applicationInfo == null) {
-			fileIconView.setImageResource(FileCategory
-					.getImageResourceByCategory(fileCategory, mFile.getFileName()));
+			this.fileIconView.setImageResource(R.drawable.ic_apks);
 		}else{
 			// the secret are these two lines....
 			pi.applicationInfo.sourceDir       = mFile.getFilePath();
@@ -171,8 +174,21 @@ public class FileItemView extends RelativeLayout {
 	public boolean isCheckBoxChecked(){
 		return this.checkbox.isChecked();
 	}
-	
-	
+
+
+	public void onLoadAPKIconComplete(final Drawable icon, final String filepath) {
+		Handler handler = new Handler(Looper.getMainLooper());
+		handler.post(new Runnable() {
+			@Override
+			public void run() {
+				if (mFile.getFilePath().equals(filepath)) {
+					fileIconView.setImageDrawable(icon);
+				}
+			}
+		});
+	}
+
+
 	private  class ImageDisplayListener extends SimpleImageLoadingListener {
 
 		private String mFilePath;
@@ -188,4 +204,43 @@ public class FileItemView extends RelativeLayout {
 			}
 		}
 	}
+
+
+	private class APKIconLoadTask extends Thread {
+		String apkPath;
+		boolean cancelFlag;
+
+		public APKIconLoadTask(String filepath) {
+			apkPath = filepath;
+		}
+
+		@Override
+		public void run() {
+			super.run();
+			try {
+				PackageManager pm = mContext.getPackageManager();
+				PackageInfo pi = pm.getPackageArchiveInfo(mFile.getFilePath(), 0);
+				if(cancelFlag) return;
+				if (pi == null || pi.applicationInfo == null) {
+                    onLoadAPKIconComplete(getResources().getDrawable(R.drawable.ic_apks, null), apkPath);
+                }else{
+                    // the secret are these two lines....
+                    pi.applicationInfo.sourceDir       = mFile.getFilePath();
+                    pi.applicationInfo.publicSourceDir = mFile.getFilePath();
+                    Drawable apkIcon = pi.applicationInfo.loadIcon(pm);
+					if(cancelFlag) return;
+                    onLoadAPKIconComplete(apkIcon, apkPath);
+                }
+			} catch (Resources.NotFoundException e) {
+				e.printStackTrace();
+				onLoadAPKIconComplete(getResources().getDrawable(R.drawable.ic_apks, null), apkPath);
+			}
+		}
+
+		public void cancel() {
+			cancelFlag = true;
+		}
+	}
+
+
 }

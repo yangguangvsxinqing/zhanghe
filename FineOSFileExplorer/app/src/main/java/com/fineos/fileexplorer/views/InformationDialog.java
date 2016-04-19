@@ -27,6 +27,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.fineos.fileexplorer.R;
+import com.fineos.fileexplorer.entity.FileInfo;
 import com.fineos.fileexplorer.util.StringUtils;
 
 import java.io.File;
@@ -50,12 +51,12 @@ public class InformationDialog extends AlertDialog {
             setIcon(R.drawable.ic_file);
             asyncGetSize();
         } else {
-            setIcon(R.drawable.ic_other);
+            setIcon(FileInfo.FileCategory.getImageResourceByFile(mFile));
         }
         setTitle(mFile.getName());
 
         ((TextView) mView.findViewById(R.id.information_size))
-                .setText(StringUtils.getProperStorageSizeString(mFile.length()));
+                .setText(StringUtils.getProperStorageSizeString(mFile.length(), getContext()));
         ((TextView) mView.findViewById(R.id.information_location))
                 .setText(StringUtils.getProperPathString(mFile.getPath(), getContext()));
         ((TextView) mView.findViewById(R.id.information_modified)).setText(StringUtils
@@ -137,7 +138,7 @@ public class InformationDialog extends AlertDialog {
     private String formatFileSizeString(long size) {
         String ret = "";
         if (size >= 1024) {
-            ret = StringUtils.getProperStorageSizeString(size);
+            ret = StringUtils.getProperStorageSizeString(size, getContext());
             ret += (" (" + mContext.getResources().getString(R.string.file_size, size) + ")");
         } else {
             ret = mContext.getResources().getString(R.string.file_size, size);

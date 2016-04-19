@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"Lütfen önce hotknot\'u açın."</string>
     <string name="title_activity_hot_knot_dialog">"HotKnot İletişim Etkinliği"</string>
     <string name="hotknot_hint">"Lütfen iki telefonu yakın biçimde tutun, hotknot\'un açık olduğundan ve her iki telefonunda kilitli modda olmadığından emin olun."</string>
-   </resources>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
+</resources>

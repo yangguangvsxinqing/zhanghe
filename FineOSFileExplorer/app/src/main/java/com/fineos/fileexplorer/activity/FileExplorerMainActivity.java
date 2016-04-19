@@ -47,7 +47,6 @@ public class FileExplorerMainActivity extends Activity implements
     private View mActionBarCustomView;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,7 +123,6 @@ public class FileExplorerMainActivity extends Activity implements
         };
         searchButton.setOnClickListener(onClickListener);
         appNameText.setOnClickListener(onClickListener);
-
     }
 
     @Override

@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"Aktivieren Sie zuerst HotKnot."</string>
     <string name="title_activity_hot_knot_dialog">"HotKnot-Dialogaktivität"</string>
     <string name="hotknot_hint">"Halten Sie die beiden Mobiltelefone aneinander, stellen Sie sich, dass HotKnot eingeschaltet ist, und dass die Mobiltelefone nicht verriegelt sind."</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

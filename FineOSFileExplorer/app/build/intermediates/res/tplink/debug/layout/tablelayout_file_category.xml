@@ -83,4 +83,4 @@
         android:layout_alignBottom="@id/table_categories"
         android:layout_marginStart="@dimen/towthrid_screen_width"/>
 
-</RelativeLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/tablelayout_file_category.xml -->
+</RelativeLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/tablelayout_file_category.xml -->

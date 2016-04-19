@@ -7,10 +7,15 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -219,22 +224,51 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
         }
     }
 
-    private void setCategoriesSizeTextViews() {
+    private void setCategoriesViews() {
         setStorageStateTextView();
-        setCategorySizeTextViewExceptOthersCategory();
-        setOthersCategoryTextView();
+        setCategorySizeTextViews();
 //        LinearLayout layout = (LinearLayout) mRootView.findViewById(R.id.linearlayout_category_spec);
 //        layout.setVisibility(View.VISIBLE);
 
     }
 
-    private void setCategorySizeTextViewExceptOthersCategory() {
+    private void setCategorySizeTextViews() {
         for (MediaCategoryInfo mediaCategoryInfo : mMediaInfoList) {
             FileInfo.FileCategory category = mediaCategoryInfo.getMediaCategory();
             TextView categoryCountTextView = mCategoryInfoMap.get(category);
             String categoryCountTextString = getCategoryCountTextString(mediaCategoryInfo);
+            if (isRightToLeft()) {
+                categoryCountTextView.setTextDirection(View.TEXT_DIRECTION_RTL);
+                categoryCountTextView.setGravity(Gravity.RIGHT);
+                categoryCountTextView.setCompoundDrawablesWithIntrinsicBounds(null, null, getCategoryDrawable(category), null);
+                categoryCountTextView.setMinLines(2);
+            }
             categoryCountTextView.setText(categoryCountTextString);
         }
+        setOthersCategoryTextView();
+    }
+
+    private Drawable getCategoryDrawable(FileInfo.FileCategory category) {
+        switch (category) {
+            case PIC:
+                return getResources().getDrawable(R.drawable.color_picture, null);
+            case MUSIC:
+                return getResources().getDrawable(R.drawable.color_music, null);
+            case VIDEO:
+                return getResources().getDrawable(R.drawable.color_video, null);
+            case APK:
+                return getResources().getDrawable(R.drawable.color_apks, null);
+            case DOC:
+                return getResources().getDrawable(R.drawable.color_doc, null);
+            case ZIP:
+                return getResources().getDrawable(R.drawable.color_zip, null);
+        }
+        return getResources().getDrawable(R.drawable.color_other, null);
+    }
+
+    private boolean isRightToLeft() {
+        Configuration config = getResources().getConfiguration();
+        return config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL;
     }
 
     private void setStorageStateTextView() {
@@ -244,8 +278,16 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
 
     private void setOthersCategoryTextView() {
         TextView othersCategorySizeTextView = mCategoryInfoMap.get(FileInfo.FileCategory.OTHER);
-        othersCategorySizeTextView.setText(getString(R.string.other_text) + " : "
-                + StringUtils.getProperStorageSizeString(getOtherFilesLength()));
+        StringBuilder builder = new StringBuilder();
+        builder.append(getString(R.string.other_text))
+                .append(" : ")
+                .append(StringUtils.getProperStorageSizeString(getOtherFilesLength(), getActivity()));
+        if (isRightToLeft()) {
+            othersCategorySizeTextView.setTextDirection(View.TEXT_DIRECTION_RTL);
+            othersCategorySizeTextView.setGravity(Gravity.RIGHT);
+            othersCategorySizeTextView.setCompoundDrawablesWithIntrinsicBounds(null, null, getCategoryDrawable(FileInfo.FileCategory.OTHER), null);
+        }
+        othersCategorySizeTextView.setText(builder);
     }
 
     private String getCategoryCountTextString(MediaCategoryInfo mediaCategoryInfo) {
@@ -271,7 +313,7 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
                 infoTextBuilder.append(getString(R.string.zip_text));
                 break;
         }
-        infoTextBuilder.append(": ").append(StringUtils.getProperStorageSizeString(mediaCategoryInfo.getMediaSize()));
+        infoTextBuilder.append(": ").append(StringUtils.getProperStorageSizeString(mediaCategoryInfo.getMediaSize(), getActivity()));
         return infoTextBuilder.toString();
     }
 
@@ -279,8 +321,8 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
     private String getStateTitleString() {
         String textBase = getString(R.string.storage_info_title);
         String storageName = getString(R.string.storage_name);
-        String availableSpace = StringUtils.getProperStorageSizeString(getStorageAvailableSpace());
-        String totalSize = StringUtils.getProperStorageSizeString(getStorageTotalSpace());
+        String availableSpace = StringUtils.getProperStorageSizeString(getStorageAvailableSpace(), getActivity());
+        String totalSize = StringUtils.getProperStorageSizeString(getStorageTotalSpace(), getActivity());
         Log.d("acmllaugh1", "getStateTitleString (line 269): total size text : " + totalSize);
         return String.format(textBase, storageName, availableSpace, totalSize);
     }
@@ -330,6 +372,7 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
     public void updateStorageInfoList(ArrayList<StorageInfo> storageInfoList) {
         mStorageInfoList = storageInfoList;
         mStorageAdapter.setStorageList(storageInfoList);
+        startInitFileStatus();
     }
 
     public class InitFileStatusTask extends
@@ -352,7 +395,7 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
             } else {
                 mRootView.setVisibility(View.VISIBLE);
                 setupCategoryIcon();
-                setCategoriesSizeTextViews();
+                setCategoriesViews();
                 setUpCategoryBar();
                 determineCenterLayoutHeight();
             }
@@ -514,6 +557,7 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
             holder.storageButton.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    if(!checkStorageAvailable(info.path))return;
                     stopTask();
                     Intent intent = new Intent(getActivity(), FileViewActivity.class);
                     intent.setAction(OPEN_DIRECTORY_ACTION);
@@ -532,6 +576,12 @@ public final class FileStatusFragment extends Fragment implements OnClickListene
             notifyDataSetChanged();
         }
 
+    }
+
+    private boolean checkStorageAvailable(String path) {
+        File file = new File(path);
+        if(file.exists() && file.canRead() && file.canWrite()) return true;
+        return false;
     }
 
 

@@ -172,13 +172,14 @@ public class FileSortHelper {
         @Override
         public int doCompare(FileInfo object1, FileInfo object2) {
 
+            if(object1.isDirectory() && object2.isDirectory()) return 0;
+
             if (object1.isDirectory()) {
                 return -1;
             }
             if (object2.isDirectory()) {
                 return 1;
             }
-
             int result = StringUtils.getExtFromFilename(object1.getFileName()).compareToIgnoreCase(
             		StringUtils.getExtFromFilename(object2.getFileName()));
             if (result != 0)

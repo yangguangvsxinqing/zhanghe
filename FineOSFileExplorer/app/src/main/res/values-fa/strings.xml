@@ -109,4 +109,7 @@
     <string name="need_turn_on_hotknot">"لطفاً ابتدا hotknot را روشن کنید."</string>
     <string name="title_activity_hot_knot_dialog">"فعالیت کادر گفتگوی HotKnot"</string>
     <string name="hotknot_hint">"لطفاً دو تلفن را نزدیک هم بگیرید و دقت کنید hotknot روشن باشد و قفل هر دو تلفن باز شده باشد."</string>
+    <string name="storage_unit_gb">گ‌ب</string>
+    <string name="storage_unit_mb">م‌ب</string>
+    <string name="storage_unit_kb">ک‌ب</string>
 </resources>

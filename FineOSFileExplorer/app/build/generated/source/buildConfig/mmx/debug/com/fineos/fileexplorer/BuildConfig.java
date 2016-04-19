@@ -10,4 +10,7 @@ public final class BuildConfig {
   public static final String FLAVOR = "mmx";
   public static final int VERSION_CODE = 24;
   public static final String VERSION_NAME = "mmx20151221";
+  // Fields from default config.
+  public static final boolean DEFAULT_STORAGE_PATH = true;
+  public static final boolean DEFAULT_STORAGE_PATH_zaw875 = false;
 }

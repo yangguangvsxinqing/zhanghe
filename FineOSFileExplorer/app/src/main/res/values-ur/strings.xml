@@ -103,5 +103,8 @@
 	<string name="no_file_in_directory">کوئی فائلوں!</string>
 	<string name="external_storage_name">&quot;USB سٹوریج:&quot;</string>
 	<string name="rename_empty_string">فائل کا نام غلط ہے یا خالی ہے، کا نام تبدیل نہیں کر سکتے.</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values-vi/strings.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-vi/strings.xml -->
     <eat-comment/>
     <string name="action_settings">"Cài Đặt"</string>
     <string name="apk_text">"APK"</string>
@@ -79,7 +79,7 @@
     <string name="other_text">"KHÁC"</string>
     <string name="picture_text">"ẢNH"</string>
     <string name="please_wait">"Xin Chờ"</string>
-    <string name="refresh">"Cập Nhật"</string>
+    <string name="refresh">"Làm mới"</string>
     <string name="refresh_success">"Đọc Danh Sách Tập Tin Thành Công!"</string>
     <string name="rename">"Đổi tên"</string>
     <string name="rename_empty_string">"Tên tập tin không hợp lệ hoặc để trống. Không đổi tên được."</string>
@@ -92,7 +92,7 @@
     <string name="select_all">"Chọn Tất Cả"</string>
     <string name="select_hint">"Chọn tập tin trước đã."</string>
     <string name="send">"Gửi"</string>
-    <string name="show_hidden_files">"Hiện Tập Tin Ẩn"</string>
+    <string name="show_hidden_files">"Hiện tập tin ẩn"</string>
     <string name="show_word_item">"Mục"</string>
     <string name="show_word_selected">"Đã được chọn"</string>
     <string name="sort">Sắp theo</string>
@@ -101,7 +101,10 @@
     <string name="sort_by_size">"Kích thước (lớn - nhỏ)"</string>
     <string name="sort_by_type">"Loại"</string>
     <string name="storage_info_title">"%1$s %2$s/%3$s"</string>
-    <string name="storage_name">Dung lượnglưutrữ:</string>
+    <string name="storage_name">Dung lượng lưu trữ:</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_kb">KB</string>
+    <string name="storage_unit_mb">MB</string>
     <string name="title_activity_file_explorer_file_view">"Quản Lý Tập Tin (nên dùng)"</string>
     <string name="title_activity_hot_knot_dialog">"Hoạt Động Của Hộp Thoại HotKnot"</string>
     <string name="title_activity_search">"Tìm trang"</string>

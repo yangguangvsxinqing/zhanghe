@@ -5,4 +5,4 @@
         android:drawable="@drawable/ic_option_menu_pressed" />
     <item 
         android:drawable="@drawable/ic_option_menu" />
- </selector><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/drawable/selector_file_opt_button.xml -->
+ </selector><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/selector_file_opt_button.xml -->

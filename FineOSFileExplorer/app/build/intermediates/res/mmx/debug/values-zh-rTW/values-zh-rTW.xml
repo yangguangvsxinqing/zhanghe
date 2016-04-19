@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values-zh-rTW/strings.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-zh-rTW/strings.xml -->
     <eat-comment/>
     <string name="action_settings">設置</string>
     <string name="apk_text">安裝包</string>
@@ -100,6 +100,9 @@
     <string name="sort_by_type">類型</string>
     <string name="storage_info_title">%1$s 可用%2$s/%3$s</string>
     <string name="storage_name">存儲:</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_kb">KB</string>
+    <string name="storage_unit_mb">MB</string>
     <string name="title_activity_file_explorer_file_view">文件管理(推薦)</string>
     <string name="title_activity_search">搜索頁面</string>
     <string name="un_select_all">全不選</string>

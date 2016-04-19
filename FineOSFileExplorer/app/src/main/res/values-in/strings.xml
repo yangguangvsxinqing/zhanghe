@@ -111,4 +111,7 @@
     <string name="title_activity_hot_knot_dialog">"Aktivitas Dialog HotKnot"</string>
     <string name="hotknot_hint">"Dekatkan dua ponsel, pastikan hotknot sudah aktif, dan kedua ponsel tidak dalam mode terkunci."</string>
     <string name="cannot_copy_to_self">Cannot copy a directory to itself.</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_mb">MB</string>
+    <string name="storage_unit_kb">KB</string>
 </resources>

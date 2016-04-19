@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
     android:fromXDelta="100%p" android:toXDelta="0%p"
-    android:duration="@android:integer/config_mediumAnimTime"/><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/anim/slide_in_right.xml -->
+    android:duration="@android:integer/config_mediumAnimTime"/><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/anim/slide_in_right.xml -->

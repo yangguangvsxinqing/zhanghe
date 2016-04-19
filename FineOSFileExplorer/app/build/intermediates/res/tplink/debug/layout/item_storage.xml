@@ -17,4 +17,4 @@
         android:textColor="@color/list_item_title_color"
         android:drawableEnd="@drawable/ic_arrow_right"/>
 
-</LinearLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/item_storage.xml -->
+</LinearLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/item_storage.xml -->

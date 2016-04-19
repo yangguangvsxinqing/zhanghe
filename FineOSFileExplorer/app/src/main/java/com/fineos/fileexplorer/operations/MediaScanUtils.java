@@ -50,10 +50,14 @@ public class MediaScanUtils {
     public static void updateFile(Context context, String sourceFilePath, String renameToFilePath) {
         ArrayList<String> filePathList = new ArrayList<String>();
         File file = new File(renameToFilePath);
+        boolean isDirectory = file.isDirectory();
         buildSubFilePathList(file, filePathList);
         Uri uri = MediaStore.Files.getContentUri("external");
-        String deleteSelection = MediaStore.Files.FileColumns.DATA + " like ?";;
-        int rowsDeleted = context.getContentResolver().delete(uri, deleteSelection, new String[]{sourceFilePath + "%"});
+        String deleteSelection = MediaStore.Files.FileColumns.DATA + " like ?";
+        int rowsDeleted = context.getContentResolver().delete(uri, deleteSelection, new String[]{sourceFilePath});
+        if(isDirectory){
+            context.getContentResolver().delete(uri, deleteSelection, new String[]{sourceFilePath + "/%"});
+        }
         Log.d("acmllaugh1", "updateFile (line 70): rows deleted : " + rowsDeleted);
         String[] pathList = new String[filePathList.size()];
         pathList = filePathList.toArray(pathList);

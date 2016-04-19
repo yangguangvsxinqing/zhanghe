@@ -97,4 +97,4 @@
             android:textSize="@dimen/fineos_second_level_small"  />
     </LinearLayout>-->
 
-</com.fineos.fileexplorer.views.FileItemView><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/file_item.xml -->
+</com.fineos.fileexplorer.views.FileItemView><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/file_item.xml -->

@@ -25,4 +25,4 @@
         android:textColor="@android:color/black"
         android:textSelectHandle="@drawable/empty_text_cursor"/>
 
-</LinearLayout><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/layout/textinput_dialog.xml -->
+</LinearLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/textinput_dialog.xml -->

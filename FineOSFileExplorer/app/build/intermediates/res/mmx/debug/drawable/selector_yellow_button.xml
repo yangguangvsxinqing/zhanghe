@@ -5,4 +5,4 @@
         android:drawable="@drawable/btn_clean_yellow_pressed" />
     <item 
         android:drawable="@drawable/btn_clean_yellow_normal" />
- </selector><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/drawable/selector_yellow_button.xml -->
+ </selector><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/selector_yellow_button.xml -->

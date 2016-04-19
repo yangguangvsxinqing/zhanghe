@@ -135,6 +135,12 @@ public class FileExplorerSearchActivity extends Activity implements
         getWindow().setSharedElementReturnTransition(null);
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        hideKeyboard(this, mSearchView);
+    }
+
     private void sendScanDiskBoardCast() {
         try {
             Intent intent = new Intent(Intent.ACTION_MEDIA_MOUNTED, Uri.parse("file://"

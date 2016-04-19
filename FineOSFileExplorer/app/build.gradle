@@ -8,6 +8,17 @@ android {
         applicationId "com.fineos.fileexplorer"
         minSdkVersion 21
         targetSdkVersion 22
+        buildConfigField "boolean", "DEFAULT_STORAGE_PATH", "true"
+        buildConfigField "boolean", "DEFAULT_STORAGE_PATH_zaw875", "false"
+    }
+
+    signingConfigs {
+        fineosKey {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('keystore/release.keystore')
+            storePassword 'android'
+        }
     }
 
     lintOptions {
@@ -17,6 +28,11 @@ android {
     buildTypes {
         release {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.fineosKey
+        }
+
+        debug {
+            signingConfig signingConfigs.fineosKey
         }
     }
 
@@ -28,7 +44,15 @@ android {
             versionName "mmx20151221"
         }
         tplink{
-            versionName "tplink20151221"
+            versionName "tplink20150120"
+        }
+        zsl1805{
+            versionName "zslblu20160125"
+            buildConfigField "boolean", "DEFAULT_STORAGE_PATH", "false"
+        }
+        zaw875{
+            versionName "zaw87520160203"
+            buildConfigField "boolean", "DEFAULT_STORAGE_PATH_zaw875", "true"
         }
     }
     lintOptions {
@@ -37,9 +61,9 @@ android {
 }
 
 dependencies {
+    provided project(':fineos-framework')
     compile files('libs/eventbus-2.2.1.jar')
     compile files('libs/universal-image-loader-1.9.3.jar')
     compile files('libs/fineos_hotknot_lib.jar')
     testCompile 'junit:junit:4.12'
-    provided project(':fineos-framework')
 }

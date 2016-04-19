@@ -5,4 +5,4 @@
     android:repeatCount="infinite"
     android:repeatMode="reverse"
     android:toAlpha="0.3" />
-<!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/anim/button_fade.xml -->
+<!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/anim/button_fade.xml -->

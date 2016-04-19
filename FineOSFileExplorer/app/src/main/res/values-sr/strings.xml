@@ -103,5 +103,8 @@
 	<string name="no_need_sort">Само један фајл.</string>
 	<string name="no_file_in_directory">Но филес!</string>
 	<string name="external_storage_name">&quot;УСБ Стораге:&quot;</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

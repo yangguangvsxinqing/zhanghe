@@ -229,7 +229,6 @@ public class FileInfo {
 		
 
 		public static FileCategory getFileCategory(String filename) {
-
 			String lowercaseFilename = filename.toLowerCase();
 			int lastIndexOfDot = lowercaseFilename.lastIndexOf('.');
 			// if filename starts with "."(a hidden file in linux) or filename
@@ -309,7 +308,7 @@ public class FileInfo {
         }
 
 		public static int getImageResourceByFile(FileInfo file) {
-			if (file.isDirectory()) {
+			if (file.isDirectory() || file.getFileCategory() == null) {
 				return R.drawable.ic_file;
 			}
 			return getImageResourceByCategory(file.getFileCategory(), file.getFileName());
@@ -320,6 +319,9 @@ public class FileInfo {
 				return R.drawable.ic_file;
 			}
 			FileCategory fileCategory = getFileCategory(file);
+			if(fileCategory == null){
+				return R.drawable.ic_file;
+			}
 			return getImageResourceByCategory(fileCategory, file.getName());
 		}
 		

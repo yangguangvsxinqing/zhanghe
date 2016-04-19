@@ -42,4 +42,9 @@ public class SearchCursorAdapter extends CursorAdapter {
 		return cursorInflater.inflate(R.layout.viewlist_search_result, parent, false);
 	}
 
+	@Override
+	public int getCount() {
+		if(getCursor() != null && getCursor().isClosed()) return 0;
+		return super.getCount();
+	}
 }

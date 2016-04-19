@@ -65,7 +65,6 @@ public class FileOperationService extends IntentService implements MediaScannerC
 		super.onCreate();
 		mMediaScanConnection = new MediaScannerConnection(this, this);
 	}
-	
 
 	@Override
 	protected void onHandleIntent(Intent intent) {
@@ -431,8 +430,8 @@ public class FileOperationService extends IntentService implements MediaScannerC
 	private boolean destDirSpaceEnough(File sourceFile, File destDir) {
 		long currentUsableSpace = destDir.getUsableSpace();
 		long sourceFileLength = getFileLength(sourceFile);
-		Log.d("FileOperationService", "usable space : " + StringUtils.getProperStorageSizeString(currentUsableSpace));
-		Log.d("FileOperationService", "source file length : " + StringUtils.getProperStorageSizeString(sourceFileLength));
+//		Log.d("FileOperationService", "usable space : " + StringUtils.getProperStorageSizeString(currentUsableSpace));
+//		Log.d("FileOperationService", "source file length : " + StringUtils.getProperStorageSizeString(sourceFileLength));
 		if(currentUsableSpace > sourceFileLength){
 			return true;
 		}

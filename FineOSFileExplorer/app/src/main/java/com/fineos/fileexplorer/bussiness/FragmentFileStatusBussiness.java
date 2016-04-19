@@ -48,17 +48,7 @@ public class FragmentFileStatusBussiness {
 	public ArrayList<MediaCategoryInfo> getMediaFileInfoList() {
 		return mediaFileInfoList;
 	}
-	
-	
-	public String getStorageTotalSize() {
-		//获取给定存储总大小
-		return StringUtils.getProperStorageSizeString(storageInfo.totalSize);
-	}
 
-	public String getStorageAvailableSize(String storagePath) {
-		//获取给定存储的可用空间大小
-		return StringUtils.getProperStorageSizeString(storageInfo.availableSize);
-	}
 
 	
 }

@@ -42,9 +42,9 @@ public class StorageObserver extends BroadcastReceiver {
 			Intent dialogIntent = new Intent(context, DialogActivity.class);
 			dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			context.startActivity(dialogIntent);
-			for(StorageInfoLoader loader : mLoaderList){
-				loader.onContentChanged();
-			}	
+		}
+		for(StorageInfoLoader loader : mLoaderList){
+			loader.onContentChanged();
 		}
 	}
 	

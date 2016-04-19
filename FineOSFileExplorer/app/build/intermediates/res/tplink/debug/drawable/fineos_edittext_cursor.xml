@@ -2,4 +2,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >
     <size android:width="1dp" />
     <solid android:color="#009cff"  />
-</shape><!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/drawable/fineos_edittext_cursor.xml -->
+</shape><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/fineos_edittext_cursor.xml -->

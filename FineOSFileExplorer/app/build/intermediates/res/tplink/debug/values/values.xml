@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/color.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="apkkCategoryColor">#84f250</color>
     <color name="blu_actionbar_color">#ffffff</color>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
@@ -28,7 +28,7 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/color.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="disable_operation_color">#979797</color>
     <color name="docCategoryColor">#77cbff</color>
@@ -55,7 +55,7 @@
     <color name="txt_hint_color">#FF0000</color>
     <color name="unfocused_pathBar_color">#898989</color>
     <color name="vedioCategoryColor">#a19cff</color>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__colors.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__colors.xml -->
     <eat-comment/>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
@@ -65,7 +65,7 @@
     <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
     <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
     <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/color.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="zipCategoryColor">#ffb05d</color>
     <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
@@ -74,14 +74,14 @@
     <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="tabPageIndicator"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="category_drawable_top_padding">7dp</dimen>
     <dimen name="category_name_size">14px</dimen>
     <dimen name="circle_stroke">20dp</dimen>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -96,7 +96,7 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="file_search_view_margin_start">10dp</dimen>
     <dimen name="file_view_image_side_length">31dp</dimen>
@@ -126,17 +126,17 @@
     <dimen name="storage_text_size_small">14sp</dimen>
     <dimen name="towthrid_screen_width">240dp</dimen>
     <dimen name="used_text_size">18dp</dimen>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <drawable name="backgroundcolor">#ffffb05d</drawable>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="apk_text">APK</string>
@@ -154,7 +154,7 @@
     <string name="create_file_fail">Create file failed.</string>
     <string name="create_folder">New Folder</string>
     <string name="create_folder_message">Enter folder name</string>
-    <string name="default_file_count">999 items</string>
+    <string name="default_file_count">999 item(s)</string>
     <string name="default_file_date">It is my birthday!</string>
     <string name="default_file_title">FinOS :)</string>
     <string name="default_file_type">Default Type!</string>
@@ -232,6 +232,7 @@
     <string name="send">Send</string>
     <string name="show_hidden_files">Show Hidden Files</string>
     <string name="show_word_item"> Items</string>
+    <string name="show_word_item_single">" item"</string>
     <string name="show_word_selected">Selected </string>
     <string name="sort">Sort By</string>
     <string name="sort_by_date">Date (new - old)</string>
@@ -240,6 +241,9 @@
     <string name="sort_by_type">Type</string>
     <string name="storage_info_title">%1$s %2$s/%3$s</string>
     <string name="storage_name">Storage:</string>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_kb">KB</string>
+    <string name="storage_unit_mb">MB</string>
     <string name="target_storage_is_full">Copy failed. Target storage is full.</string>
     <string name="title_activity_file_explorer_file_view">FileExplorer(recommended)</string>
     <string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
@@ -249,7 +253,7 @@
     <string name="video_text">VIDEO</string>
     <string name="yes">Yes</string>
     <string name="zip_text">ZIP</string>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
 
@@ -258,11 +262,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">0dip</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:gravity">left</item>
+        <item name="android:gravity">start</item>
         <item name="android:drawablePadding">5px</item>
         <item name="android:textColor">@color/fineos_text_color</item>
         <item name="android:textSize">11dp</item>
-        <item name="android:layout_marginLeft">2dip</item>
+        <item name="android:layout_marginStart">2dip</item>
     </style>
     <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
         <item name="android:background">@drawable/custom_tab_indicator</item>
@@ -346,7 +350,7 @@
         <item name="android:windowBackground">@color/fineos_page_default_color</item>
         <item name="android:colorPrimaryDark">@color/fineos_statusbar_color</item>
     </style>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/vpi__styles.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/vpi__styles.xml -->
     <eat-comment/>
     <style name="TextAppearance.TabPageIndicator" parent="Widget">
         <item name="android:textStyle">bold</item>
@@ -373,7 +377,7 @@
         <item name="android:textSize">12sp</item>
         <item name="android:maxLines">1</item>
     </style>
-    <!-- From: file:/home/ubuntu/codes/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="actionbar_main_title">
         <item name="android:layout_width">wrap_content</item>

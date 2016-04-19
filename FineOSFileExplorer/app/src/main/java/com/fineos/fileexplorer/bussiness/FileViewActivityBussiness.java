@@ -47,6 +47,7 @@ import com.fineos.fileexplorer.service.FileOperationService.OperationType;
 import com.fineos.fileexplorer.service.FileSortHelper;
 import com.fineos.fileexplorer.service.FileSortHelper.SortMethod;
 import com.fineos.fileexplorer.service.IntentBuilder;
+import com.fineos.fileexplorer.util.FileExplorerSettings;
 import com.fineos.fileexplorer.util.FileUtils;
 import com.fineos.fileexplorer.util.StringUtils;
 import com.fineos.fileexplorer.views.FileItemView;
@@ -56,12 +57,12 @@ import com.fineos.fileexplorer.views.StorageChooseDialog;
 import com.fineos.fileexplorer.views.TextInputDialog;
 import com.fineos.fileexplorer.views.TextInputDialog.OnFinishListener;
 import com.fineos.fineossupportlibrary.hotknot.HotKnotAdapterWrapper;
-import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.io.File;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Stack;
 
 import de.greenrobot.event.EventBus;
@@ -70,6 +71,7 @@ import fineos.app.ProgressDialog;
 
 public class FileViewActivityBussiness implements IFileViewBussiness{
 
+	private static final String TAG = "FileViewBussiness";
 	private static final String FILE_VIEW_PREF = "fileViewPref";
 	private static final String SAVED_SORT_METHOD = "sortMethod";
 	public static final String SAVED_SHOW_HIDDEN_FILES = "showHiddenFiles";
@@ -457,7 +459,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
     /**
 	 * Get String list of the files under given directory path.
 	 * */
-	public ArrayList<FileInfo> getFileList(String directoryPath) {
+	public ArrayList<FileInfo> buildFileList(String directoryPath) {
 		File[] files = (new File(directoryPath)).listFiles();
 		currentFileList = new ArrayList<FileInfo>();
 		if(files == null) return currentFileList;
@@ -472,7 +474,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 				}
 			}
 		}
-		currentFileList = (ArrayList<FileInfo>) onSortMethodChanged(mSortMethod);
+		sortFileList(mSortMethod);
 		return currentFileList;
 	}
 
@@ -530,7 +532,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
         }
 	}
 
-    private void recordCurrentPosition() {
+	private void recordCurrentPosition() {
         int position = fileListView.getFirstVisiblePosition();
         Log.d("acmllaugh1", "recordCurrentPosition (line 509): push position : " + position);
         if (mPositionRecords != null) {
@@ -609,7 +611,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
                 setCurrentDirectoryPath(path);
                 File newPath = new File(path);
                 if(newPath.canRead()){
-                    currentFileList = getFileList(path);
+                    buildFileList(path);
                     mActivity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -737,7 +739,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 		mSelectAllButton.setText(mActivity.getString(R.string.select_all));
 	}
 
-    private Animation getAnimation(Animations animationNeeded) {
+	private Animation getAnimation(Animations animationNeeded) {
 		switch (animationNeeded) {
 		case SELECTION_BAR_IN: {
 			if (selectionBarInAnimation == null)
@@ -847,12 +849,12 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
     }
 
     public void onEvent(final OperationResult result) {
+		Log.d(TAG, "onEvent: received operation result : " + result.toString());
 		refresh();
 		dismissProcessDialog();
 		mActivity.runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				clearSelection();
 				if(currentSelectionState == SelectionState.OPERATION){
 					hideOperationView();
 				}
@@ -861,6 +863,9 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 				}
 				if (result.getResult() == OperationResult.OperationResultType.TARGET_STORAGE_IS_FULL) {
 					Toast.makeText(mActivity, R.string.target_storage_is_full, Toast.LENGTH_SHORT).show();
+				}
+				if (result.getResult() == OperationResult.OperationResultType.FILE_IO_ERROR) {
+					Toast.makeText(mActivity, R.string.copy_ioe_detail, Toast.LENGTH_SHORT).show();
 				}
 			}
 		});
@@ -1077,7 +1082,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 			refresh();
 		} else {
 			Log.d("acmllaugh1", "copyFile: start copy file service.");
-			if(mFileListObject != null){
+			if (mFileListObject != null) {
 				mFileListObject.pasteIsDown = true;
 			}
 			startCopyService(selectedFileList);
@@ -1274,8 +1279,15 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 		mActivity.runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				selectCountText.setText(context.getString(R.string.show_word_selected)
-						+ " " + i + " " + context.getString(R.string.show_word_item));
+				String text = "";
+				if (i <= 1 && FileExplorerSettings.currentLanguageIsEnglish()) {
+					text = context.getString(R.string.show_word_selected)
+							+ " " + i + context.getString(R.string.show_word_item_single);
+				}else {
+					text = context.getString(R.string.show_word_selected)
+							+ " " + i + " " + context.getString(R.string.show_word_item);
+				}
+				selectCountText.setText(text);
 			}
 		});
 	}
@@ -1365,7 +1377,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 					int position, long arg3) {
 				mSortMethod = FileSortHelper.sortArr.get(position);
 				saveSortMethod(mSortMethod);
-				currentFileList = (ArrayList<FileInfo>) onSortMethodChanged(mSortMethod);
+				sortFileList(mSortMethod);
 				mActivity.setFileListToListView(currentFileList, currentDirectoryPath);
 				mActivity.getSortDialog().dismiss();
 			}
@@ -1390,15 +1402,11 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
     }
 
 
-	public List onSortMethodChanged(SortMethod sortMethod) {
+	public void sortFileList(SortMethod sortMethod) {
 		if(mSortHelper == null){
 			mSortHelper = new FileSortHelper();
 		}
-//		StringUtils.printLog("FileViewActivityBussiness", "sortMethod " + sortMethod.name());
-		currentFileList = (ArrayList<FileInfo>)mSortHelper
-					.setSortMethod(sortMethod)
-					.sortFileList(currentFileList);
-		return currentFileList;
+		mSortHelper.setSortMethod(sortMethod).sortFileList(currentFileList);
 	}
 
 	public OnClickListener getInformationButtonListener() {
@@ -1484,7 +1492,6 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 
     private void doRenameFile(final String text) {
         final File file = selectedFileList.get(0);
-
         if (text == null || text.isEmpty()) {
             Toast.makeText(mActivity, mActivity.getString(com.fineos.fileexplorer.R.string.rename_empty_string), Toast.LENGTH_SHORT).show();
             return;
@@ -1496,7 +1503,7 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 				indexOfDot = text.length();
 				Log.i("zhanghe","text.length="+text.length());
 			}
-		 	filename = text.substring(0, indexOfDot);
+			filename = text.substring(0, indexOfDot);
 		}
 		if (filename.isEmpty()) {
 			Toast.makeText(mActivity, mActivity.getString(com.fineos.fileexplorer.R.string.rename_empty_string), Toast.LENGTH_SHORT).show();
@@ -1559,13 +1566,6 @@ public class FileViewActivityBussiness implements IFileViewBussiness{
 		}catch(Exception e){
 			// Do nothing.
 		}
-//        try {
-//            ImageLoader.getInstance().clearMemoryCache();
-//            ImageLoader.getInstance().clearDiskCache();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
     }
 
 	public void checkPasteViewRemain() {

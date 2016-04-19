@@ -50,7 +50,7 @@ public class CategoryViewActivity extends FileViewActivity {
             if (msg.obj != null && msg.obj instanceof ArrayList) {
                 ArrayList<FileInfo> fileList = (ArrayList<FileInfo>) msg.obj;
                 mBussiness.setCurrentFileList(fileList);
-                fileList = (ArrayList<FileInfo>) mBussiness.onSortMethodChanged(mBussiness.getSortMethod());
+                mBussiness.sortFileList(mBussiness.getSortMethod());
                 setFileListToListView(fileList, mDirectoryPath);
                 showFileListView();
             }
@@ -274,24 +274,28 @@ public class CategoryViewActivity extends FileViewActivity {
                 Thread thread = new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        ArrayList<FileInfo> fileList = new ArrayList<FileInfo>();
-                        if (dataCursor.moveToFirst()) {
-                            mBussiness.showNoFileView(false);
-                            int idColumn = dataCursor.getColumnIndex(MediaStore.Files.FileColumns._ID);
-                            int pathColumn = dataCursor.getColumnIndex(MediaStore.Files.FileColumns.DATA);
-                            do {
-                                String filePath = dataCursor.getString(pathColumn);
-                                int fileID = dataCursor.getInt(idColumn);
-                                File file = new File(filePath);
-                                if (file.exists() && file.length() >= 0 && !file.isHidden()) {
-                                    FileInfo newFileInfo = new FileInfo(file, mFileCategory, false);
-                                    newFileInfo.setDbId(fileID);
-                                    fileList.add(newFileInfo);
-                                }
-                            } while (!dataCursor.isClosed() && dataCursor.moveToNext());
-                            Message msg = new Message();
-                            msg.obj = fileList;
-                            mHandler.sendMessage(msg);
+                        try {
+                            ArrayList<FileInfo> fileList = new ArrayList<FileInfo>();
+                            if (dataCursor.moveToFirst()) {
+                                mBussiness.showNoFileView(false);
+                                int idColumn = dataCursor.getColumnIndex(MediaStore.Files.FileColumns._ID);
+                                int pathColumn = dataCursor.getColumnIndex(MediaStore.Files.FileColumns.DATA);
+                                do {
+                                    String filePath = dataCursor.getString(pathColumn);
+                                    int fileID = dataCursor.getInt(idColumn);
+                                    File file = new File(filePath);
+                                    if (file.exists() && file.length() >= 0 && !file.isHidden()) {
+                                        FileInfo newFileInfo = new FileInfo(file, mFileCategory, false);
+                                        newFileInfo.setDbId(fileID);
+                                        fileList.add(newFileInfo);
+                                    }
+                                } while (!dataCursor.isClosed() && dataCursor.moveToNext());
+                                Message msg = new Message();
+                                msg.obj = fileList;
+                                mHandler.sendMessage(msg);
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
                         }
                     }
                 });

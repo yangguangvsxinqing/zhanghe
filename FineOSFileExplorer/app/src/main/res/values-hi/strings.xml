@@ -109,5 +109,8 @@
 	<string name="need_turn_on_hotknot">पहले hotknot चालू करें।</string>
 	<string name="title_activity_hot_knot_dialog">HotKnotDialogActivity</string>
 	<string name="hotknot_hint">उनके चेहरे के साथ दो फोन बंद करें और पर निर्णायक hotknot रखें।</string>
+	<string name="storage_unit_gb">GB</string>
+	<string name="storage_unit_mb">MB</string>
+	<string name="storage_unit_kb">KB</string>
 
 </resources>

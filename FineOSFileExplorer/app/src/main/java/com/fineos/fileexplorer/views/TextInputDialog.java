@@ -166,7 +166,7 @@ public class TextInputDialog extends AlertDialog {
                                     WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
                     // Select text with out extension.
                     if (inputHasExtension()) {
-                        mFolderNameEditText.setSelection(0, mInputText.indexOf("."));
+                        mFolderNameEditText.setSelection(0, mInputText.lastIndexOf("."));
                     }
                 }
             }
