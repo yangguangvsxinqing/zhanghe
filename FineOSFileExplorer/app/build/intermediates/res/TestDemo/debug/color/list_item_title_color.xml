@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:color="@color/list_txt_pressed_color"/> <!-- pressed -->
+    <item android:state_focused="true"
+        android:color="@color/list_txt_pressed_color"/> <!-- focused -->
+    <item android:color="@color/fineos_text_color"/>  <!--default -->
+</selector><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/color/list_item_title_color.xml -->

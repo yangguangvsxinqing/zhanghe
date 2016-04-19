@@ -28,6 +28,7 @@
     <color name="blu_actionbar_color">#ffffff</color>
     <color name="search_bar_font_color">#7d7d7d</color>
     <color name="fineos_statusbar_color">#ffffffff</color>
+    <color name="fineos_material_button_bg_color">#ffffffff</color>
     <color name="fineos_edittext_hint_color">#c8c8c8</color>
     <color name="fineos_second_level_small">#939393</color>
     

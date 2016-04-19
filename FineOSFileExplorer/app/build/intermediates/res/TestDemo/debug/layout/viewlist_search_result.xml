@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fineos.fileexplorer.views.SearchResultView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:background="@drawable/material_button_bg">
+
+    <ImageView
+        android:id="@+id/imageview_search_result_file_icon"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="6dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/default_search_result_iamge_description" />
+    
+    <TextView
+        android:id="@+id/textview_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="6dp"
+        android:layout_toEndOf="@id/imageview_search_result_file_icon"
+        android:text="@string/default_search_result_file_name"
+        android:textColor="@color/fineos_text_color"
+        android:textSize="@dimen/fineos_first_level_big"
+        android:singleLine="true"/>
+    
+    <TextView
+        android:id="@+id/textview_file_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageview_search_result_file_icon"
+        android:layout_below="@id/textview_file_name"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/default_search_result_file_path"
+        android:textColor="@color/fineos_second_level_small"
+        android:textSize="@dimen/fineos_second_level_small"
+        />
+
+
+
+</com.fineos.fileexplorer.views.SearchResultView > 
+<!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/viewlist_search_result.xml -->

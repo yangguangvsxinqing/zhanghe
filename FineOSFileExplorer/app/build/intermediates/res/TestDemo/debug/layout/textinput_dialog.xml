@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/text_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/txt_hint_color"
+        android:text="@string/file_name_hint"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/edittext_dialog"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="fill_horizontal"
+        android:inputType="textCapSentences"
+        android:selectAllOnFocus="true"
+        android:maxLength="120"
+        android:textColor="@android:color/black"
+        android:textSelectHandle="@drawable/empty_text_cursor"/>
+
+</LinearLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/textinput_dialog.xml -->

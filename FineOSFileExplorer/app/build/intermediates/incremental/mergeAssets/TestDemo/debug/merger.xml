@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/assets"/></dataSet><dataSet config="TestDemo"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/TestDemo/assets"/></dataSet><dataSet config="debug"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/debug/assets"/></dataSet><dataSet config="TestDemoDebug"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/TestDemoDebug/assets"/></dataSet></merger>

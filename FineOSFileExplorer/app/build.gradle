@@ -54,6 +54,11 @@ android {
             versionName "zaw87520160203"
             buildConfigField "boolean", "DEFAULT_STORAGE_PATH_zaw875", "true"
         }
+
+        TestDemo{
+            versionName "test20160419"
+
+        }
     }
     lintOptions {
         abortOnError false

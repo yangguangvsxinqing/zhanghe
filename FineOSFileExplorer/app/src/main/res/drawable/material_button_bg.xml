@@ -4,7 +4,7 @@
     <item>
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <corners android:radius="1dp" />
-            <solid android:color="@color/fineos_statusbar_color" />
+            <solid android:color="@color/fineos_material_button_bg_color" />
         </shape>
     </item>
 </ripple>
