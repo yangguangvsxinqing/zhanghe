@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/androidTest/res"/><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/generated/res/rs/androidTest/ROM2/debug"/><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/generated/res/generated/androidTest/ROM2/debug"/></dataSet><dataSet config="androidTestROM2"><source path="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/androidTestROM2/res"/></dataSet><mergedItems/></merger>

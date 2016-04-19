@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_file_view_topbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/actionbar" >
+
+    <RelativeLayout
+        android:id="@+id/linearlayout_outer_path_bar"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+        
+
+        <!-- back arrow, used to return to main page of file explorer app. -->
+
+        <ImageButton
+            android:id="@+id/button_back_to_mainpage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_back_button" />
+
+        <Button
+            android:id="@+id/button_root_path"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/button_back_to_mainpage"
+            android:background="@drawable/selector_path_button"
+            android:textColor="@color/fineos_text_color"
+            android:textSize="@dimen/fineos_default_text_size"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/layer_big"
+            />
+        	
+
+        <!-- One big right arrow(used after word "Phone" which represent root directory of sd card) -->
+
+        <HorizontalScrollView
+            android:id="@+id/scrollview_file_path_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/button_root_path"
+            android:overScrollMode="never"
+            android:layout_marginBottom="-5dp"
+            android:scrollbars="none"
+            android:layout_marginRight="50dp">
+
+            <LinearLayout
+                android:id="@+id/llayout_file_path_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- This is the more operation menu shown on right of action bar. -->
+
+        <ImageButton
+            android:id="@+id/file_operation_menu"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:longClickable="true"
+            android:paddingRight="16dp"
+            android:src="@drawable/selector_file_opt_button" />
+    </RelativeLayout>
+
+    <!-- Selection bar when user long click on file(s) in file list -->
+
+    <RelativeLayout
+        android:id="@+id/rlayout_selection_bar"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/list_item_title_color"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textSize="@dimen/fineos_action_bar_txt_size" />
+
+        <TextView
+            android:id="@+id/txtview_selection_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/fineos_action_bar_txt_size"
+            android:textColor="@color/fineos_text_color"/>
+
+        <!-- The select all button is not currently used. But it may be back in the future. by acmllaugh -->
+
+        <Button
+            android:id="@+id/button_select_all"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/list_item_title_color"
+            android:text="@string/select_all"
+            android:textSize="@dimen/fineos_action_bar_txt_size"
+            android:textAllCaps="false"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</FrameLayout> <!-- End of top bar. -->
+
+<!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/actionbar_fileview.xml -->

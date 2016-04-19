@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line"
+    >
+    <size
+        android:height="1px"
+        android:width="0dp"
+        />
+    <solid android:color="#e1e1e1" />
+</shape><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/drawable/shape_list_divider.xml -->

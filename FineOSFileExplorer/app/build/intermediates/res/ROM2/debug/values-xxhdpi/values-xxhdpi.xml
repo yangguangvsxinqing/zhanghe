@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-xxhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="category_drawable_top_padding">5dp</dimen>
+    <dimen name="file_search_view_margin_start">10dp</dimen>
+    <dimen name="file_view_image_side_length">31dp</dimen>
+    <dimen name="onethrid_screen_width">120dp</dimen>
+    <dimen name="search_view_image_side_length">31dp</dimen>
+    <dimen name="towthrid_screen_width">240dp</dimen>
+</resources>

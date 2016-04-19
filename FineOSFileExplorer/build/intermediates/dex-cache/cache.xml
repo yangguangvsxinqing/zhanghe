@@ -6,21 +6,21 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/TestDemo/debug/universal-image-loader-1.9.3-65909623241012db1bb2923871cedd2320f6f31e.jar" />
+        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/ROM2/debug/universal-image-loader-1.9.3-65909623241012db1bb2923871cedd2320f6f31e.jar" />
     </item>
     <item
         jar="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/libs/fineos_hotknot_lib.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4e9973ede0f6a83603663f9e19a8e46647e0c1d7">
-        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/TestDemo/debug/fineos_hotknot_lib-2ba132641824be0c7ddc9c62194c0f1173c718ed.jar" />
+        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/ROM2/debug/fineos_hotknot_lib-2ba132641824be0c7ddc9c62194c0f1173c718ed.jar" />
     </item>
     <item
         jar="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/libs/eventbus-2.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
-        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/TestDemo/debug/eventbus-2.2.1-5e729e022f1a70e28347a2773c7ec8dae2a5835b.jar" />
+        <dex dex="/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/build/intermediates/pre-dexed/ROM2/debug/eventbus-2.2.1-5e729e022f1a70e28347a2773c7ec8dae2a5835b.jar" />
     </item>
 
 </items>

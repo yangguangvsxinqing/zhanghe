@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/board_seachchoose">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_select_cetegory_all"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/search_category_all" />
+
+        <View style="@style/SearchCategoryVerticalDivideLine" />
+
+        <Button
+            android:id="@+id/button_select_cetegory_picture"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/picture_text" />
+
+        <View style="@style/SearchCategoryVerticalDivideLine" />
+
+        <Button
+            android:id="@+id/button_select_cetegory_music"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/music_text" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:background="#dddddd" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_select_cetegory_video"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/video_text" />
+
+        <View style="@style/SearchCategoryVerticalDivideLine" />
+
+        <Button
+            android:id="@+id/button_select_cetegory_doc"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/doc_text" />
+
+        <View style="@style/SearchCategoryVerticalDivideLine"
+            />
+
+        <Button
+            android:id="@+id/button_select_cetegory_apk"
+            style="@style/SearchCategorySelectStyle"
+            android:text="@string/apk_text" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/layout/tablelayout_file_category_dialog.xml -->

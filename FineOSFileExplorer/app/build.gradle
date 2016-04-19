@@ -55,8 +55,8 @@ android {
             buildConfigField "boolean", "DEFAULT_STORAGE_PATH_zaw875", "true"
         }
 
-        TestDemo{
-            versionName "test20160419"
+        ROM2{
+            versionName "ROM2.020160419"
 
         }
     }

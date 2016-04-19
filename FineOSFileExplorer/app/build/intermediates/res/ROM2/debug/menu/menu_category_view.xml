@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="never"
+        android:title="@string/refresh"/>
+
+    <item
+        android:id="@+id/action_sort"
+        android:showAsAction="never"
+        android:title="@string/sort"/>
+
+</menu><!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/menu/menu_category_view.xml -->

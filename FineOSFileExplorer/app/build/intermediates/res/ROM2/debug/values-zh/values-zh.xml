@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-zh/dimens.xml -->
+    <eat-comment/>
+    <dimen name="fineos_action_bar_txt_size">18sp</dimen>
+    <!-- From: file:/home/ubuntu/codes/zhanghe/FineOSFileExplorer/app/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="storage_unit_gb">GB</string>
+    <string name="storage_unit_kb">KB</string>
+    <string name="storage_unit_mb">MB</string>
+</resources>
