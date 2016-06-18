@@ -1,0 +1,39 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+	
+    <com.example.volley.largebitmap.LargeImageView
+        android:id="@+id/id_largetImageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="30%"
+        app:layout_marginPercent="30%"
+        android:visibility="gone"/>
+   <android.support.v7.widget.RecyclerView 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/test_view"
+       >
+       
+   </android.support.v7.widget.RecyclerView>
+   
+   <Button 
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:id="@+id/test"
+       android:layout_marginTop="350dp"
+       />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/anim_view"
+	    android:gravity="center"
+        android:textColor="@android:color/white"
+	    android:visibility="gone"
+	    />
+</android.support.percent.PercentRelativeLayout>

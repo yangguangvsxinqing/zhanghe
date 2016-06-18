@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.volley"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.volley.customview.CustomView1 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText = "测试测试"
+        custom:titleTextColor = "#ffffff"
+        custom:titleTextSize = "30sp"
+        android:layout_centerInParent="true"
+        />
+    <com.example.volley.customview.CustomImageView 
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        custom:Image="@drawable/ic_launcher"
+        custom:titleText = "测试测试"
+        custom:titleTextColor = "#ffffff"
+        custom:titleTextSize = "30sp"
+        custom:ImageScaleType="center"
+        />
+
+</RelativeLayout>
