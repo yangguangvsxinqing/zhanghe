@@ -3,4 +3,4 @@
     <item android:state_pressed="true" android:drawable="@color/list_pressed_bg" />
     <item android:state_focused="true" android:drawable="@color/list_pressed_bg" />
     <item android:drawable="@color/list_item_bg" />
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/selector_list_item.xml -->
+</selector>

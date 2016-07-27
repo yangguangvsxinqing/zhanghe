@@ -37,6 +37,7 @@
 		android:maxLength="1500"
                 android:gravity="start"
                 android:paddingTop="6dp"
+                android:paddingBottom="6dp"
                 android:textSize="@dimen/note_detailSize" />
         </LinearLayout>
 
@@ -131,4 +132,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/addnote_layout.xml -->
+</RelativeLayout>

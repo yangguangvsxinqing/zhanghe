@@ -19,4 +19,3 @@
     <item android:state_pressed="true" android:drawable="@drawable/delete_pressed" />
 </selector>
 
-<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/search_close_button_bg.xml -->

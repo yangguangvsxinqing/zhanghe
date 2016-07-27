@@ -29,4 +29,4 @@
         android:textColor="@drawable/actionbar_text_color"
         android:textSize="18sp" />
 
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/graffiti_actionbar.xml -->
+</RelativeLayout>

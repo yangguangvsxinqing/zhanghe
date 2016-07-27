@@ -6,4 +6,4 @@
     </translate>
     <alpha android:fromAlpha="1" android:toAlpha="0" android:interpolator="@android:anim/accelerate_interpolator"
         android:duration="1000"></alpha>
-</set><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/pophidden_anim.xml -->
+</set>

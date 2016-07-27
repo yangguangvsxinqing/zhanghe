@@ -14,4 +14,3 @@
         android:textColor="@drawable/actionbar_text_color"
         android:text="@string/select_folder"/>
 </LinearLayout>
-<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/move_actionbar.xml -->

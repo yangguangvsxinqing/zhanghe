@@ -69,4 +69,4 @@
         android:layout_marginTop="18dp"
         android:button="@null"
         android:background="@drawable/paint_choose_seven" />
-</RadioGroup><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/paint_layout.xml -->
+</RadioGroup>

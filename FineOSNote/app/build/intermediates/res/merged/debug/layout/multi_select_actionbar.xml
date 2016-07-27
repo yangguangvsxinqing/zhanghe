@@ -32,4 +32,4 @@
 android:focusableInTouchMode="true" 
         android:text="@string/select_all" />
 
-</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/multi_select_actionbar.xml -->
+</LinearLayout>

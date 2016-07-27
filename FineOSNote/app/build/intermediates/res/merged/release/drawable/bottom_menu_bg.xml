@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/ic_letter_pressed"  android:state_checked="true" />
     <item android:drawable="@drawable/ic_letter_normal" android:state_checked="false"/>
 
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/bottom_menu_bg.xml -->
+</selector>

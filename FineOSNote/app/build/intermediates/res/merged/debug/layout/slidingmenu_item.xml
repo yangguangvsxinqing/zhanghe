@@ -22,4 +22,4 @@
         android:textColor="@color/write"
         android:textSize="15sp" />
 
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/slidingmenu_item.xml -->
+</RelativeLayout>

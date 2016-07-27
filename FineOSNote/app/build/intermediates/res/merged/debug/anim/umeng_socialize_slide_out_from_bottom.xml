@@ -4,4 +4,4 @@
     android:fromXDelta="0.0%"
     android:fromYDelta="0.0%"
     android:toXDelta="0.0%"
-    android:toYDelta="100.0%" /><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/umeng_socialize_slide_out_from_bottom.xml -->
+    android:toYDelta="100.0%" />

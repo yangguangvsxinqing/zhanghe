@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/values-ar/strings.xml -->
-    <eat-comment/>
     <string name="action_settings">إعدادات</string>
     <string name="addfolder">إضافة مجلد</string>
     <string name="addfolder_empt_warn">يرجى إدخال اسم المجموعة الخاصة بك</string>
@@ -30,7 +28,8 @@
     <string name="graffiti">رسم جرافيتي</string>
     <string name="graffiti_crop_pictrue">قص صورة رسم جرافيتي</string>
     <string name="hello_world">Hello world!</string>
-    <string name="hint_detail">يُرجر إدخال يُرجى</string>
+    <string name="hint_detail">يُرجى إدخال التفاصيل
+</string>
     <string name="hint_title">عنوان</string>
     <string name="inner_storage_name">الهاتف"</string>
     <string name="insert_pictrue">إدارج صورة</string>

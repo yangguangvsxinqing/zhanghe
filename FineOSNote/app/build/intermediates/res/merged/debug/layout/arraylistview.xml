@@ -4,4 +4,4 @@
     android:background="@drawable/simple_expandable_list_item"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-</ListView><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/arraylistview.xml -->
+</ListView>

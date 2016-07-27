@@ -50,4 +50,4 @@
         android:visibility="gone"
         android:textColor="@color/write" />
 
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/slidingmenu_layout.xml -->
+</RelativeLayout>

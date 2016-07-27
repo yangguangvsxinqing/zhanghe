@@ -21,4 +21,4 @@
         android:layout_centerVertical="true"
         android:textColor="@color/write"
         android:textSize="15sp" />
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/manage_delete_item.xml -->
+</RelativeLayout>

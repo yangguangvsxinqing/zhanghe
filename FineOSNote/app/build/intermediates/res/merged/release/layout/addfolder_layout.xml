@@ -25,4 +25,4 @@
         android:visibility="gone"
         android:textSize="@dimen/addfolder_warn_textSize"
        />
-</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/addfolder_layout.xml -->
+</LinearLayout>

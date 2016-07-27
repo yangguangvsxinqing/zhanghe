@@ -4,4 +4,4 @@
         android:fromAlpha="1"
         android:toAlpha="0"
         android:duration="@integer/spinner_anim_content_duration" />
-</set><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/spinner_bg_exit.xml -->
+</set>

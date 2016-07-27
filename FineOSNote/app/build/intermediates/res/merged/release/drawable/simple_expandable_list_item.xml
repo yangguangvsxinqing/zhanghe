@@ -2,4 +2,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:radius="5dp"></corners>
     <solid android:color="@color/write"></solid>
-</shape><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/simple_expandable_list_item.xml -->
+</shape>

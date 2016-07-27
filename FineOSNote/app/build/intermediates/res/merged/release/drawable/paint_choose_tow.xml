@@ -5,4 +5,3 @@
     <!--<item android:state_selected="true"  android:drawable="@drawable/ic_color1_focuse"/>-->
     <item android:state_pressed="true"  android:drawable="@drawable/ic_size2_pressed"/>
 </selector>
-<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/paint_choose_tow.xml -->

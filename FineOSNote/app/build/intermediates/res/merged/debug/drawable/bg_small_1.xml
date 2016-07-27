@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/bg_letter_small1_focuse" android:state_checked="true"/>
     <item android:drawable="@drawable/bg_letter_small1_normal" android:state_checked="false"/>
 
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/bg_small_1.xml -->
+</selector>

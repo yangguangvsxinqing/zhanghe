@@ -3,4 +3,4 @@
     <item android:state_pressed="true"
           android:drawable="@drawable/ic_ab_back_holo_dark_am_pressed" /> <!-- pressed -->
     <item android:drawable="@drawable/ic_ab_back_holo_dark_am_normal" /> <!-- default -->
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/ic_back.xml -->
+</selector>

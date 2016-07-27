@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/values-ms-rMY/strings.xml -->
-    <eat-comment/>
     <string name="action_settings">Tetapan</string>
     <string name="addfolder">Tambahkan Folder</string>
     <string name="addfolder_empt_warn">Sila masukkan nama kumpulan anda</string>

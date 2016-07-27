@@ -39,7 +39,7 @@
             android:id="@+id/ed_search_input"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="textFilter"
+            android:inputType="textFilter|textAutoComplete"
             android:singleLine="true"
             android:layout_toRightOf="@+id/iv_search_icon"
             android:layout_marginStart="14dp"
@@ -67,4 +67,4 @@
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/seach_bg"></ImageView>
-</FrameLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/searchview_layout.xml -->
+</FrameLayout>

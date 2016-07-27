@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/ic_clear_search_api_disabled_holo_light" android:state_pressed="true"/>
     <item android:drawable="@drawable/ic_clear_search_api_holo_light" android:state_pressed="false"/>
 
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/search_clear.xml -->
+</selector>

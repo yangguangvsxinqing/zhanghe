@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/values-zh-rHK/strings.xml -->
-    <eat-comment/>
     <string name="action_settings">設定</string>
     <string name="addfolder">新增文件夾</string>
     <string name="addfolder_empt_warn">分類名稱不能為空</string>
@@ -24,7 +22,7 @@
     <string name="details_dialogtitle_addnote">詳細訊息</string>
     <string name="done">完成</string>
     <string name="edit">編輯</string>
-    <string name="emai">電子郵件</string>
+    <string name="emai">更多</string>
     <string name="fileTooLarge">文件太大</string>
     <string name="graffiti">塗鴉</string>
     <string name="graffiti_crop_pictrue">塗鴉裁剪圖片</string>

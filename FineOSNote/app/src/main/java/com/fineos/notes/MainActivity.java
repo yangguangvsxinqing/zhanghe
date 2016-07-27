@@ -9,6 +9,7 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -119,8 +120,9 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
     private  boolean isActionMode = false;
     //@}
 //    private EditText addfolderText;
-//    private TextView
-
+//    private TextVie//
+//HQ01809083 HQ01809123
+     private int countsSelected;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -181,7 +183,7 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
 
 
         addSearchView(gridNotes);
-        gridNotes.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
+        gridNotes.setChoiceMode(GridView.CHOICE_MODE_MULTIPLE_MODAL);
         mChoiceModeListener = new GridChoiceModeListener();
         gridNotes.setMultiChoiceModeListener(mChoiceModeListener);
         gridNotes.setOnItemClickListener(new GridOnItemListener());
@@ -243,8 +245,10 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
         searchInput = (EditText) view_searchLayout.findViewById(R.id.ed_search_input);
         searchHint = (TextView) view_searchLayout.findViewById(R.id.tv_search_hint);
         searchClear = (ImageView) view_searchLayout.findViewById(R.id.iv_search_clear);
-
+//        searchInput.setInputType(InputType.TYPE_CLASS_TEXT
+//                | InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE);
         searchInput.addTextChangedListener(new TextWatchListener());
+
         searchInput.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
@@ -353,7 +357,9 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
     private void setFolderData(String folder) {
         menu.setVisibility(View.VISIBLE);
 //        gridNotes.removeHeaderView(view_searchLayout);
-
+        //M: dupengcan ,other folder note marginTop is too large @{
+        searchbg.setVisibility(View.GONE);
+        //@}
         searchView.setVisibility(View.GONE);
 
         List<HashMap<String, Object>> list = new ArrayList<HashMap<String, Object>>();
@@ -581,6 +587,12 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
                 searchInput.requestFocus();
                 break;
             case R.id.iv_move:
+                //HQ01809123 @{
+                if (countsSelected == 0) {
+                    cancleDelete();
+                    break;
+                }
+                //@}
                 ArrayList<Integer> idList = new ArrayList<Integer>();
                 NotesListAdapter idSizeAdapter = mNotesListAdapter;
                 for (int i = 0; i < idSizeAdapter.getSelectItems().size(); i++) {
@@ -593,6 +605,12 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
                 startActivityForResult(intent1, Constant.MOVENOTE_REQUESTCODE);
                 break;
             case R.id.iv_delete:
+                //HQ01809083 @{
+                if (countsSelected == 0) {
+                    cancleDelete();
+                    break;
+                }
+                //@}
 //                deleteNote(folderName);
                 operaDialog(selectedForlderName, getString(R.string.delete_note), getString(R.string.delete_note_message));
                 break;
@@ -807,7 +825,7 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
                 .setNegativeButton(getString(R.string.cancel), null)
                 .show();
         //HQ01713377
-        CommonUtil.openKeybord(editText,MainActivity.this);
+        CommonUtil.openKeybord(editText, MainActivity.this);
         alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -873,18 +891,20 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                mNotesListAdapter.getSelectItems().clear();
-                                mNotesListAdapter.unChooseAll();
-                                mNotesListAdapter.setActionModeState(false);
-                                gridNotes.setChoiceMode(GridView.CHOICE_MODE_MULTIPLE_MODAL);
-                                gridNotes.setMultiChoiceModeListener(mChoiceModeListener);
-//								gridViewNotesBind();
-                                mNotesListAdapter.notifyDataSetChanged();
-
+                                cancleDelete();
                             }
                         }).show();
     }
-
+//HQ01809083 @{
+    private void cancleDelete() {
+        mNotesListAdapter.getSelectItems().clear();
+        mNotesListAdapter.unChooseAll();
+        mNotesListAdapter.setActionModeState(false);
+        gridNotes.setChoiceMode(GridView.CHOICE_MODE_MULTIPLE_MODAL);
+        gridNotes.setMultiChoiceModeListener(mChoiceModeListener);
+        mNotesListAdapter.notifyDataSetChanged();
+    }
+//@}
 
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -1170,7 +1190,6 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
     public void onBackPressed() {
         if (searchInput.isFocused()) {
             searchInput.setText("");
-            Log.w("test", "onBackPressed");
             searchInput.clearFocus();
         } else {
             super.onBackPressed();
@@ -1184,7 +1203,6 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
         actionMode = mode;
         mNotesListAdapter.setActionModeState(true);
         mMenu.setScroll(false);
-        Log.w("test", "onActionModeStarted");
         super.onActionModeStarted(mode);
     }
 
@@ -1206,7 +1224,7 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
         public TextView mSelectedConvCount, mAllSelected, mCancle;
         private boolean allCheckMode;
         private NotesListAdapter modeAdapter;
-
+        private int gridCounts ;
         @Override
         public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
 
@@ -1230,14 +1248,28 @@ public class MainActivity extends Activity implements OnClickListener, CompoundB
             }
             mAllSelected.setText(getString(R.string.select_all));
             modeAdapter = mNotesListAdapter;
+            //HQ01808578 @{
+            gridCounts = modeAdapter.getCount();
+            //@}
             mAllSelected.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (allCheckMode) {
+                //M:HQ01808578 unChooseAll exit ActionMode @
+                        for (int position = 1; position <= gridCounts; position++) {
+                            gridNotes.setItemChecked(position,false);
+                        }
+                //@}
                         modeAdapter.unChooseAll();
                         mAllSelected.setText(getString(R.string.select_all));
                         allCheckMode = false;
                     } else {
+                        //M:HQ01808578 @{
+                        for (int position = 1; position <= gridCounts; position++) {
+                            Log.w("checked", "allCheckMode position=" +  position);
+                            gridNotes.setItemChecked(position,true);
+                        }
+                        //@}
                         modeAdapter.chooseAll();
                         mAllSelected.setText(getString(R.string.unselect_all));
                         allCheckMode = true;
@@ -1346,6 +1378,7 @@ mAllSelected.requestFocus();
 
         public int setSeletedCountShow() {
             int selectedCount = modeAdapter.getChooseItemCount();
+            countsSelected =selectedCount;
             mSelectedConvCount.setText(Integer.toString(selectedCount));
             return selectedCount;
         }

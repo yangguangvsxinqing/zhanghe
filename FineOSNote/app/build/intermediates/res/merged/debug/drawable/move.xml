@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/ic_move_pressed" android:state_pressed="true"></item>
     <item android:drawable="@drawable/ic_move_normal" android:state_pressed="false"></item>
 
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/move.xml -->
+</selector>

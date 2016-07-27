@@ -53,4 +53,4 @@
             android:layout_weight="1"
             android:src="@drawable/delete" />
     </LinearLayout>
-</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/search_note.xml -->
+</LinearLayout>

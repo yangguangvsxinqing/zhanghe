@@ -53,4 +53,4 @@
             android:background="@drawable/bg_small_5"
             />
     </RadioGroup>
-</HorizontalScrollView><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/add_bg_select.xml -->
+</HorizontalScrollView>

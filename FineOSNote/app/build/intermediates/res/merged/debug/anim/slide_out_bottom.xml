@@ -4,4 +4,4 @@
             android:duration="@android:integer/config_shortAnimTime"/>
 	<alpha android:fromAlpha="1.0" android:toAlpha="0"
             android:duration="@android:integer/config_shortAnimTime" />
-</set><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/anim/slide_out_bottom.xml -->
+</set>

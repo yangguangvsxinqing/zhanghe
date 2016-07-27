@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/ic_search_pressed"  android:state_pressed="true" />
     <item android:drawable="@drawable/ic_search_normal" android:state_pressed="false"/>
 
-</selector><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/search_title.xml -->
+</selector>

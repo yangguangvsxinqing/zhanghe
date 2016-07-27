@@ -304,10 +304,15 @@ public class AddNoteActivity extends Activity implements OnClickListener, RadioG
                             dynamic_editText.setText(content);
                         }
                         if (path != null) {
-                            countPicture ++;
-                            /**
-                             * 1
-                             */
+                            //HQ01784660 @{
+                            File file = new File(path);
+                            boolean isFileExit = file.exists();
+                            //@}
+                            if (isFileExit) {
+                                countPicture++;
+                                /**
+                                 * 1
+                                 */
 //                            Bitmap smalBitmap = ImageTools.getZoomImage(path, 636, 1120);
 //                            Log.w(Constant.TAG, "AddNoteActivity imageView.getWidth() imageView.getHeight():" + imageView.getWidth() + " " + imageView.getHeight());
 //                            Log.w(Constant.TAG, "AddNoteActivity smalBitmap.getWidth() smalBitmap.getHeight():" + smalBitmap.getWidth() + " " + smalBitmap.getHeight());
@@ -354,10 +359,11 @@ public class AddNoteActivity extends Activity implements OnClickListener, RadioG
                                 @Override
                                 public void onLoadingCancelled(String s, View view) {
 
-                                }
-                            });
-
-
+                                    }
+                                });
+                            } else {
+                                imageView.setBackgroundResource(R.drawable.ic_picture_no_big);
+                            }
                         }
 
                     }
@@ -466,6 +472,7 @@ public class AddNoteActivity extends Activity implements OnClickListener, RadioG
                 // 打开照相机的方法
                 try {
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE, null);
+                    intent.setPackage("com.fineos.camera");
                     // 指定拍摄照片保存路径 否则获取的是缩略图。 tempImage.PNG
                     Uri imageUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(), "tempImage.PNG"));
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
@@ -480,11 +487,15 @@ public class AddNoteActivity extends Activity implements OnClickListener, RadioG
                 break;
             case R.id.cb_bootom_picture:
                 selectBg.setChecked(false);
+
                 Intent picture = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                picture.setPackage("com.fineos.gallery3d");
                 startActivityForResult(picture, Constant.PICTURE_REQUESTCODE);
+
                 break;
             case R.id.cb_bootom_pen:
                 selectBg.setChecked(false);
+
                 Intent intent = new Intent(this, GraffitiActivity.class);
                 intent.putExtra("noteId", note_id);
                 intent.putExtra("intentFlag", 1);
@@ -880,7 +891,7 @@ noteLayout.setFocusableInTouchMode(true);
 //                MyHandler myHandler =new MyHandler(shareBitmap);
 //                new MyThread(myHandler).start();
 //                sharedPicture = ScreenUtils.savePic(ScreenUtils.compressImage(bitmap));
-                   // initSocialSDK(shareBitmap);
+                    initSocialSDK(shareBitmap);
                     showShareDialog();
                     if (dynamic_bootom_view != null) {
                         dynamic_bootom_view.setVisibility(View.GONE);
@@ -927,6 +938,7 @@ noteLayout.setFocusableInTouchMode(true);
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
+                        Log.w("dpc", "AddNoteActivity iv_save");
                         sharedPicture = null;
                         sharedPicture = ScreenUtils.savePic(AddNoteActivity.this, shareBitmap, "download");
                         myHandler.sendEmptyMessage(2);
@@ -941,7 +953,6 @@ noteLayout.setFocusableInTouchMode(true);
     private class  MyHandler extends  Handler{
         @Override
         public void handleMessage(Message msg) {
-            Log.w("dpc", "handleMessage sharedPicture=" + sharedPicture);
             switch (msg.what) {
                 case 1:// send to email
                     if(!TextUtils.isEmpty(sharedPicture) ){

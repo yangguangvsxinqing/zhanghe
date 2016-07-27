@@ -24,4 +24,4 @@
         android:layout_centerVertical="true"
         android:src="@drawable/manage_delete" />
 
-</RelativeLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/manage_actionbar.xml -->
+</RelativeLayout>

@@ -16,4 +16,4 @@
         android:drawableLeft="@drawable/add_icon"
         android:textSize="15sp" />
 
-</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/move_menu_item.xml -->
+</LinearLayout>

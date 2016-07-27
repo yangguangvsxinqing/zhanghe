@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/values-zh-rCN/strings.xml -->
-    <eat-comment/>
     <string name="action_settings">设置</string>
     <string name="addfolder">添加文件夹</string>
     <string name="addfolder_empt_warn">分类名称不能为空</string>
@@ -25,7 +23,7 @@
     <string name="details_dialogtitle_addnote">详细信息</string>
     <string name="done">完成</string>
     <string name="edit">编辑</string>
-    <string name="emai">电子邮件</string>
+    <string name="emai">更多</string>
     <string name="fileTooLarge">文件太大</string>
     <string name="graffiti">涂鸦</string>
     <string name="graffiti_crop_pictrue">涂鸦裁剪图片</string>

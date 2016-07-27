@@ -3,4 +3,3 @@
     <item android:state_pressed="true" android:drawable="@drawable/magnify_pressed" />
     <item android:drawable="@drawable/magnify_normal" />     
 </selector>
-<!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/drawable/ic_image_big.xml -->

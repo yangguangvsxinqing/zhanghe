@@ -29,4 +29,4 @@
         android:visibility="visible">
 
     </TextView>
-</LinearLayout><!-- From: file:/media/disk_1/code2/fineos_t2/FineOSNote/app/src/main/res/layout/dynamic_note_view.xml -->
+</LinearLayout>
