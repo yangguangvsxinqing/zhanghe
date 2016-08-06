@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- background -->
+	<item android:id="@android:id/background"
+		android:drawable="@drawable/ic_qs_brightness_bar_dn"/>
+    <!-- progress-->
+    <!--<item android:id="@+android:id/SecondaryProgress">
+    <clip android:drawable="@drawable/ic_qs_brightness_bar_dn" />
+    </item>-->
+	<item android:id="@android:id/progress"
+	>
+	<clip android:drawable="@drawable/ic_qs_brightness_bar_up" 
+	/>
+	</item>
+</layer-list>

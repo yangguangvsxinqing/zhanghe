@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+      Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="preferences_show_lunar_title">Lunar</string>
+    <string name="preferences_show_lunar_on">Show</string>
+    <string name="preferences_show_lunar_off">Hide</string>
+    <string name="select_date_td732">Go To</string>
+    <string name="chineseNumber1">一</string>
+    <string name="chineseNumber2">二</string>
+    <string name="chineseNumber3">三</string>
+    <string name="chineseNumber4">四</string>
+    <string name="chineseNumber5">五</string>
+    <string name="chineseNumber6">六</string>
+    <string name="chineseNumber7">七</string>
+    <string name="chineseNumber8">八</string>
+    <string name="chineseNumber9">九</string>
+    <string name="chineseNumber10">十</string>
+    <string name="chineseNumber11">十一</string>
+    <string name="chineseNumber12">十二</string>
+    <string name="chineseTen0">初</string>
+    <string name="chineseTen1">十</string>
+    <string name="chineseTen2">廿</string>
+    <string name="chineseTen3">三</string>
+    <string name="chineseTen4">二</string>
+    <string name="animals0">鼠</string>
+    <string name="animals1">牛</string>
+    <string name="animals2">虎</string>
+    <string name="animals3">兔</string>
+    <string name="animals4">龙</string>
+    <string name="animals5">蛇</string>
+    <string name="animals6">马</string>
+    <string name="animals7">羊</string>
+    <string name="animals8">猴</string>
+    <string name="animals9">鸡</string>
+    <string name="animals10">狗</string>
+    <string name="animals11">猪</string>
+    <string name="jia">甲</string>
+    <string name="yi">乙</string>
+    <string name="bing">丙</string>
+    <string name="ding">丁</string>
+    <string name="wutian">戊</string>
+    <string name="ji">己</string>
+    <string name="geng">庚</string>
+    <string name="xin">辛</string>
+    <string name="ren">壬</string>
+    <string name="gui">癸</string>
+    <string name="zi">子</string>
+    <string name="chou">丑</string>
+    <string name="choufan">醜</string>
+    <string name="yin">寅</string>
+    <string name="mao">卯</string>
+    <string name="chen">辰</string>
+    <string name="si">巳</string>
+    <string name="wudi">午</string>
+    <string name="wei">未</string>
+    <string name="shen">申</string>
+    <string name="you">酉</string>
+    <string name="xu">戌</string>
+    <string name="hai">亥</string>
+    <string name="leap_month">闰</string>
+    <string name="month">月</string>
+    <string name="zheng">正</string>
+    <string name="zhou">周</string>
+    <string name="year">年</string>
+    <string name="day_ri">日</string>
+    <string name="terms0">小寒</string>
+    <string name="terms1">大寒</string>
+    <string name="terms2">立春</string>
+    <string name="terms3">雨水</string>
+    <string name="terms4">惊蛰</string>
+    <string name="terms5">春分</string>
+    <string name="terms6">清明</string>
+    <string name="terms7">谷雨</string>
+    <string name="terms8">立夏</string>
+    <string name="terms9">小满</string>
+    <string name="terms10">芒种</string>
+    <string name="terms11">夏至</string>
+    <string name="terms12">小暑</string>
+    <string name="terms13">大暑</string>
+    <string name="terms14">立秋</string>
+    <string name="terms15">处暑</string>
+    <string name="terms16">白露</string>
+    <string name="terms17">秋分</string>
+    <string name="terms18">寒露</string>
+    <string name="terms19">霜降</string>
+    <string name="terms20">立冬</string>
+    <string name="terms21">小雪</string>
+    <string name="terms22">大雪</string>
+    <string name="terms23">冬至</string>
+    <string name="chunjie">春节</string>
+    <string name="yuanxiao">元宵节</string>
+    <string name="duanwu">端午节</string>
+    <string name="zhongqiu">中秋节</string>
+    <string name="chongyang">重阳节</string>
+    <string name="laba">腊八</string>
+    <string name="xiaonian">小年</string>
+    <string name="chuxi">除夕</string>
+    <string name="qixi">七夕</string>
+    <string name="new_Year_day">元旦</string>
+    <string name="valentin_day">情人节</string>
+    <string name="women_day">妇女节</string>
+    <string name="arbor_day">植树节</string>
+    <string name="tomb_day">清明节</string>
+    <string name="labol_day">劳动节</string>
+    <string name="youth_day">青年节</string>
+    <string name="children_day">儿童节</string>
+    <!-- add 20130702 spreadst of 181042 no communist day start -->
+    <string name="Communist_day">建党节</string>
+    <!-- add 20130702 spreadst of 181042 no communist day end -->
+    <string name="army_day">建军节</string>
+    <string name="teacher_day">教师节</string>
+    <string name="national_day">国庆节</string>
+    <string name="christmas_day">圣诞节</string>
+
+</resources>

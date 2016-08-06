@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<!-- [HQ_BOWAY_KEYGUARD] modify -->
+<com.android.systemui.statusbar.fifthlock.KeyguardBottomAreaViewHQ
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_bottom_lock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:id="@+id/keyguard_rlayout_areaview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/keyguard_bottom_bg" >
+
+    <com.android.systemui.statusbar.fifthlock.KeyguardClockView
+        android:id="@+id/keyguard_kcv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" >
+    </com.android.systemui.statusbar.fifthlock.KeyguardClockView>
+
+    <com.android.systemui.statusbar.fifthlock.KeyguardUnreadView
+        android:id="@+id/keyguard_iv_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:src="@drawable/keyguard_bottom_phone" >
+    </com.android.systemui.statusbar.fifthlock.KeyguardUnreadView>
+
+    <ImageView
+        android:id="@+id/keyguard_iv_camera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:src="@drawable/keyguard_bottom_camera" >
+    </ImageView>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/keyguard_llyout_arrow_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/keyguard_rlayout_areaview"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/keyguard_bottom_arrow" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/keyguard_arrow_hints"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="@dimen/keyguard_arrow_hints_size" />
+</LinearLayout>
+</com.android.systemui.statusbar.fifthlock.KeyguardBottomAreaViewHQ>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<!-- fineos RECENTS_CLEAN_ANIMATION start -->
+    <integer name="clean_gif_interval">40</integer>  
+	<!-- fineos RECENTS_CLEAN_ANIMATION end -->
+</resources>

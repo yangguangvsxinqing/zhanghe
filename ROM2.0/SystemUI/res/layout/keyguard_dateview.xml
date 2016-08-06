@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dateview_tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/keyguard_clock_time_size" />
+
+    <TextView
+        android:id="@+id/dateview_tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyguard_clock_dateview_height"
+        android:layout_below="@id/dateview_tv_time"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/keyguard_clock_date_size" />
+
+</RelativeLayout>

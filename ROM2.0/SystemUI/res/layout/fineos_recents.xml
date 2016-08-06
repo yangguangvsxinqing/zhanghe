@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recents_root"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+    <!-- Status Bar Scrim View -->
+
+	 <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+
+	 
+    <ImageView
+        android:id="@+id/status_bar_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:scaleType="fitXY"
+        android:src="@drawable/recents_status_gradient" />
+
+    <!-- Recents View -->
+    <com.android.systemui.recents.views.RecentsView
+        android:id="@+id/recents_view"
+        android:layout_width="match_parent" 
+        android:layout_height="500dip"
+        android:focusable="true"
+        />
+
+    <!-- Empty View -->
+    <ViewStub android:id="@+id/empty_view_stub"
+           android:layout="@layout/recents_empty"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+
+    <!-- Debug Overlay View -->
+    <ViewStub android:id="@+id/debug_overlay_stub"
+           android:layout="@layout/recents_debug_overlay"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+
+    <!-- Nav Bar Scrim View -->
+    <ImageView
+        android:id="@+id/nav_bar_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:scaleType="fitXY" />
+
+
+			<LinearLayout
+			     android:id="@+id/memInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_weight="1.0"
+                android:orientation="horizontal"
+                android:layout_marginTop="510dip"
+                android:gravity="center">
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:text="@string/fineos_memreyInfoStr"/>
+                    
+                    <TextView 
+                    android:id="@+id/freeMemreyInfoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:textColor="@color/fineos_freeMemreyInfoColor"/>
+
+                     <TextView 
+                    android:id="@+id/totalMemreyInfoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"/>
+                    
+            </LinearLayout>
+
+	<ImageView android:id="@+id/removeAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_recent_clear"
+            android:layout_marginTop="530dip"
+            android:layout_marginLeft="150dip"
+         /> 
+
+	 <ImageView
+            android:id="@+id/removeAllTween"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fineos_del_tween"
+            android:layout_marginTop="530dip"
+            android:layout_marginLeft="150dip"
+    		 android:visibility="gone" />
+
+	 </RelativeLayout>
+	 
+		<!-- fineos RECENTS_CLEAN_ANIMATION start -->
+		<com.android.systemui.recents.CircleBackground
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="69dp"
+			android:layout_height="69dp"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginBottom="40dp"
+			android:id="@+id/circle_background"
+			android:visibility="gone">
+		</com.android.systemui.recents.CircleBackground>
+		
+		<ImageView
+			android:id="@+id/clean_icon_bg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginBottom="40dp"
+			android:src="@drawable/clean_bg"
+			android:visibility="gone"
+			 />
+		<ImageView
+			android:id="@+id/clean_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginBottom="40dp"
+			 />
+ 
+		<!-- fineos RECENTS_CLEAN_ANIMATION end -->
+
+</FrameLayout>

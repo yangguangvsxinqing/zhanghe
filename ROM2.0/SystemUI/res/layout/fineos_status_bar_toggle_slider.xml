@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2015
+ FineOS Adamstander
+-->
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+    >
+    <CheckBox
+        android:id="@+id/toggle"
+        android:layout_width="@dimen/fineos_qs_settings_brightness_icon_auto"
+        android:layout_height="@dimen/fineos_qs_settings_brightness_icon_auto"
+        android:layout_marginLeft ="@dimen/fineos_qs_settings_brightness_icon_three"
+        android:layout_centerVertical="true"
+        android:button="@null"
+        android:background="@drawable/fineos_status_bar_toggle_button"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible"
+        />
+<!--        android:progressDrawable="@drawable/seekbar_img"-->
+    <com.android.systemui.settings.ToggleSeekBar
+        android:id="@+id/slider"
+        android:layout_height="wrap_content"
+        android:minHeight="10dip"
+        android:maxHeight="10dip"
+        android:layout_width="@dimen/fineos_qs_settings_brightness_slider_width"
+        android:layout_marginLeft ="@dimen/fineos_qs_settings_brightness_icon_one"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/toggle"    
+        android:thumb="@drawable/fineos_ic_brightness_thumb"  
+        android:splitTrack="false"
+	android:progressDrawable="@drawable/fineos_brightness_slider_bg"
+        android:contentDescription="@string/accessibility_brightness"
+        />
+    <ImageView
+        android:layout_width="@dimen/fineos_qs_settings_brightness_icon_little_width"
+        android:layout_height="@dimen/fineos_qs_settings_brightness_icon_little_height"
+        android:layout_marginLeft ="@dimen/fineos_qs_settings_brightness_icon_two"	 
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/slider"
+        android:src="@drawable/fineos_ic_qs_brightness_high"
+        />        
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/toggle"
+        android:layout_alignEnd="@id/toggle"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingTop="26dp"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:visibility="gone"
+        />
+</merge>
