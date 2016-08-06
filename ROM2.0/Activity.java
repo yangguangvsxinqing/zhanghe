@@ -1231,15 +1231,13 @@ public class Activity extends ContextThemeWrapper
         getApplication().dispatchActivityResumed(this);
         mActivityTransitionState.onResume();
         mCalled = true;
-		
-		////FineOS start
+
         //fineos STATUSBAR_ICON_COLOR_SUPPORT start
         int bgColor = getWindow().getStatusBarColor();
         Intent intent = new Intent("android.fineos.action.UPDATE_STATUSBAR_ICON_COLOR");
         intent.putExtra("bg_color", bgColor);
         sendBroadcast(intent);
         //fineos STATUSBAR_ICON_COLOR_SUPPORT end
-        ////FineOS end
 
     }
 
