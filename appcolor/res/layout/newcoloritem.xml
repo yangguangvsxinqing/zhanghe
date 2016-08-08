@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/color_item_width"
+    android:layout_height="@dimen/color_item_height"
+    android:background="#00000000" >
+    
+
+    
+    <ImageView
+        android:id="@+id/coloricon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="@dimen/color_item_size1"
+        android:layout_height="@dimen/color_item_size1"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_border1" />
+    
+    <ImageView
+        android:id="@+id/item_context1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/coloricon"
+        android:layout_width="@dimen/color_item_size2"
+        android:layout_height="@dimen/color_item_size1"
+        android:layout_marginLeft="@dimen/color_item_gap"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_border2" />
+    
+    <ImageView
+        android:id="@+id/item_context2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/coloricon"
+        android:layout_marginTop="@dimen/color_item_gap"
+        android:layout_width="@dimen/color_item_size1"
+        android:layout_height="@dimen/color_item_size2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_border3" />
+    
+    <ImageView
+        android:id="@+id/item_add_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/item_context2"
+        android:layout_marginTop="@dimen/color_item_gap"
+        android:layout_marginLeft="@dimen/color_item_gap"
+        android:layout_width="@dimen/color_item_size2"
+        android:layout_height="@dimen/color_item_size2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_border4" />
+     
+    <ImageView
+        android:id="@+id/ic_choose"
+        android:layout_width="@dimen/color_item_width"
+        android:layout_height="@dimen/color_item_height"
+        android:visibility="gone"
+        android:src="@drawable/ic_choose" />
+    
+       <ImageView
+        android:id="@+id/coloricon1"
+        android:layout_marginLeft="6dp"
+         android:layout_marginTop="6dp"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:src="@drawable/btn_radio_on_disabled_focused_holo_light_1" />
+</RelativeLayout>

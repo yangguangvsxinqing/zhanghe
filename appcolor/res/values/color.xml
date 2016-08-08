@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="first">#FF009cff</color>
+    <color name="second">#FFfaca21</color>
+    <color name="third">#FFff8a00</color>
+    <color name="fourth">#FFfd6631</color>
+    <color name="fifth">#FFff8873</color>
+    <color name="sixth">#FFf04b58</color>
+    <color name="seventh">#FFff83ba</color>
+    <color name="eigth">#FFe8427c</color>
+    <color name="ningth">#FF9385c4</color>
+    <color name="tenth">#FF2e69d7</color>
+    <color name="eleventh">#FF17c3bb</color>
+    <color name="twelveth">#FF004741</color>
+    <color name="thirteenth">#FF383446</color>
+    <color name="fourteenth">#FF60391d</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="Status_bar_background">#ffffff</color>
+</resources>

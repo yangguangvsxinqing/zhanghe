@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="/mnt/disk2/workspace2/new-Rom2.0/ROM_ZAL826/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar"/>
+	<classpathentry exported="true" kind="lib" path="/mnt/disk2/workspace2/new-Rom2.0/ROM_ZAL826/out/target/common/obj/JAVA_LIBRARIES/fineos-framework_intermediates/classes.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/oop"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/fineos_framework_new"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

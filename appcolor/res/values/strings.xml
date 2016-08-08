@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Colors</string>
+    <string name="checkall">Select All</string>
+    <string name="checknone">Deselect All</string>
+    <string name="colorchange">Subject color</string>
+    <string name="applying">Applying color</string>
+    <string name="apply">Apply</string>
+    <string name="finished">Color apply success</string>
+    <string name="failed">Color apply failed</string>
+
+    <integer-array name="fine1" translatable="false">
+		<item>0xff5b419b</item>
+		<item>0xff866b7a</item>
+		<item>0xffa9909e</item>
+		<item>0xffe93d4a</item>
+	</integer-array>
+	
+    <integer-array name="fine2" translatable="false">
+		<item>0xff1f464a</item>
+		<item>0xff306953</item>
+		<item>0xffb8df79</item>
+		<item>0xff9d52af</item>
+	</integer-array>
+	
+    <integer-array name="fine3" translatable="false">
+		<item>0xff7a5a50</item>
+		<item>0xff3a5a6b</item>
+		<item>0xff6ac8c8</item>
+		<item>0xffffbe59</item>
+	</integer-array>
+	
+    <integer-array name="fine4" translatable="false">
+		<item>0xff687078</item>
+		<item>0xff2e9c7c</item>
+		<item>0xffa0d8c3</item>
+		<item>0xffff4f84</item>
+	</integer-array>
+	
+    <integer-array name="fine5" translatable="false">
+		<item>0xffe93d4a</item>
+		<item>0xff2aa8cb</item>
+		<item>0xff71c5dc</item>
+		<item>0xffff7d87</item>
+	</integer-array>
+	
+    <integer-array name="fine6" translatable="false">
+		<item>0xff009cff</item>
+		<item>0xff1e98e5</item>
+		<item>0xff62c2ff</item>
+		<item>0xff006cff</item>
+	</integer-array>
+	
+    <integer-array name="fine7" translatable="false">
+		<item>0xff36393b</item>
+		<item>0xff45555f</item>
+		<item>0xff7a98aa</item>
+		<item>0xff7a98aa</item>
+	</integer-array>
+	
+    <integer-array name="fineos_softly" translatable="false">
+		<item>0xff00b76c</item>
+		<item>0xff00cd79</item>
+		<item>0xff00e894</item>
+		<item>0xff009cff</item>
+	</integer-array>
+	
+    <integer-array name="fineos_beautiful_day" translatable="false">
+		<item>0xff783763</item>
+		<item>0xff657bb9</item>
+		<item>0xff8ba1e0</item>
+		<item>0xff783763</item>
+	</integer-array>
+	
+    <integer-array name="fineos_elegant_pink" translatable="false">
+		<item>0xffff7494</item>
+		<item>0xffed9098</item>
+		<item>0xfffdafb6</item>
+		<item>0xffff7494</item>
+	</integer-array>
+	
+    <integer-array name="fineos_girl" translatable="false">
+		<item>0xffff7676</item>
+		<item>0xfffa5959</item>
+		<item>0xffff7676</item>
+		<item>0xfff03745</item>
+	</integer-array>
+	
+	<integer-array name="fineos_night" translatable="false">
+		<item>0xff352629</item>
+		<item>0xfff35925</item>
+		<item>0xffff8f53</item>
+		<item>0xfff35925</item>
+	</integer-array>
+	
+    <integer-array name="fineos_glory_gold" translatable="false">
+		<item>0xff291813</item>
+		<item>0xffcf7d12</item>
+		<item>0xffda9825</item>
+		<item>0xffdb8b00</item>
+	</integer-array>
+    
+	<integer-array name="default_fineos" translatable="false">
+		<item>0xff4c7ef9</item>
+		<item>0xff40cd28</item>
+		<item>0xff4cdc34</item>
+		<item>0xff4c7ef9</item>
+	</integer-array>
+
+</resources>

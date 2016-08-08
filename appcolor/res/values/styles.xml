@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="ThemeColorEditorStyle" parent="android:Theme.Light">
+    </style>
+        <!-- Variant of the holographic (dark) theme with no action bar. -->
+    <style name="appThemecolor" parent="android:Theme.Material.Light">
+       <!--   <item name="android:colorPrimaryDark">@color/Status_bar_background</item>
+       -->
+    </style>
+</resources>
+ 

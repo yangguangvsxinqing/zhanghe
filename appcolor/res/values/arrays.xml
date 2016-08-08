@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <integer-array name="ColorsListName" translatable="false">
+        <!--  -->
+        <item>@string/systemui_qs_color</item>
+        <item>@string/fineos_actionbar</item>
+        <item>@string/mms_content1</item>
+        <item>@string/mms_content2</item>
+        <item>@string/fineos_button</item>
+        
+        <item>@string/fineos_number_picker</item>
+        <item>@string/fineos_statusbar</item>
+        <item>@string/calendar_statusbar</item>
+        <item>@string/calendar_actionbar</item>
+        <item>@string/calendar_addevent</item>
+        <item>@string/calendar_weektoday</item>
+        <item>@string/calendar_edge_effect</item>
+        <item>@string/deskclock_title_color</item>
+        <item>@string/deskclock_addbutton_color</item>
+        <item>@string/deskclock_light_blue</item>
+        <item>@string/deskclock_dark_blue</item>
+        <item>@string/calculator_action_normal</item>
+        <item>@string/calculator_action_press</item>
+        <item>@string/calculator_cursor</item>
+        <item>@string/dialer_contact_actionbar_title</item>
+        <item>@string/dialer_mms_actionbar_title</item>
+        <item>@string/dialer_dialpad_key_number</item>
+        <item>@string/dialer_addbutton_color</item>
+        <item>@string/dialer_actionbar_bg_color</item>
+        <item>@string/dialer_edge_effect</item>
+        <item>@string/notes_actionbar</item>
+        <item>@string/notes_add_note</item>
+        <item>@string/notes_actionmode</item>
+        <item>@string/notes_edge_effect</item>
+        <item>@string/gallery_timeline_color</item>
+        <item>@string/gallery_main_tab_color</item>
+        <item>@string/gallery_main_tab_unselected_color</item>
+    </integer-array>
+    <integer-array name="ColorsListValue" translatable="false">
+        <item>@string/systemui_qs_color_value</item>
+        <item>@string/fineos_actionbar_value</item>
+        <item>@string/mms_content1_value</item>
+        <item>@string/mms_content2_value</item>
+        <item>@string/fineos_button_value</item>
+        
+        <item>@string/fineos_number_picker_value</item>
+        <item>@string/fineos_statusbar_value</item>
+        
+        <item>@string/calendar_statusbar_value</item>
+        <item>@string/calendar_actionbar_value</item>
+        <item>@string/calendar_addevent_value</item>
+        <item>@string/calendar_weektoday_value</item>
+        <item>@string/calendar_edge_effect_value</item>
+        <item>@string/deskclock_title_color_value</item>
+        <item>@string/deskclock_addbutton_color_value</item>
+        <item>@string/deskclock_light_blue_value</item>
+        <item>@string/deskclock_dark_blue_value</item>
+        <item>@string/calculator_action_normal_value</item>
+        <item>@string/calculator_action_press_value</item>
+        <item>@string/calculator_cursor_value</item>
+        <item>@string/dialer_contact_actionbar_title_value</item>
+        <item>@string/dialer_mms_actionbar_title_value</item>
+        <item>@string/dialer_dialpad_key_number_value</item>
+        <item>@string/dialer_addbutton_color_value</item>
+        <item>@string/dialer_actionbar_bg_color_value</item>
+        <item>@string/dialer_edge_effect_value</item>
+        <item>@string/notes_actionbar_value</item>
+        <item>@string/notes_add_note_value</item>
+        <item>@string/notes_actionmode_value</item>
+        <item>@string/notes_edge_effect_value</item>
+        <item>@string/gallery_timeline_color_value</item>
+        <item>@string/gallery_main_tab_color_value</item>
+        <item>@string/gallery_main_tab_unselected_color_value</item>
+    </integer-array>
+
+    <string name="fineos_statusbar_value">0xff5b419b</string>
+    <string name="fineos_actionbar_value">0xff5b419b</string>
+    <string name="fineos_button_value">0xffe93d4a</string>
+    <string name="mms_content1_value">0xff866b7a</string>
+    <string name="mms_content2_value">0xffa9909e</string>
+    <string name="fineos_number_picker_value">ffff7494</string>
+    <string name="systemui_qs_color_value">0xff5b419b</string>
+    <string name="calendar_statusbar_value">ffff7494</string>
+    <string name="calendar_actionbar_value">ffff7494</string>
+    <string name="calendar_addevent_value">0xffe93d4a</string>
+    <string name="calendar_weektoday_value">ffff7494</string>
+    <string name="calendar_edge_effect_value">ffff7494</string>
+    <string name="deskclock_title_color_value">ffff7494</string>
+    <string name="deskclock_addbutton_color_value">ffff7494</string>
+    <string name="deskclock_light_blue_value">ffff7494</string>
+    <string name="deskclock_dark_blue_value">ffff7494</string>
+    <string name="calculator_action_normal_value">ffff7494</string>
+    <string name="calculator_action_press_value">af1d1e22</string>
+    <string name="calculator_cursor_value">ffff7494</string>
+    <string name="dialer_contact_actionbar_title_value">ffff7494</string>
+    <string name="dialer_mms_actionbar_title_value">ffff7494</string>
+    <string name="dialer_dialpad_key_number_value">ffff7494</string>
+    <string name="dialer_addbutton_color_value">0xffe93d4a</string>
+    <string name="dialer_actionbar_bg_color_value">ffff7494</string>
+    <string name="dialer_edge_effect_value">ffff7494</string>
+    <string name="notes_actionbar_value">ffff7494</string>
+    <string name="notes_add_note_value">ffff7494</string>
+    <string name="notes_actionmode_value">ffff7494</string>
+    <string name="notes_edge_effect_value">ffff7494</string>
+    <string name="gallery_timeline_color_value">ffff7494</string>
+    <string name="gallery_main_tab_color_value">ffff7494</string>
+    <string name="gallery_main_tab_unselected_color_value">ffff7494</string>
+    
+    <string name="fineos_statusbar">"fineos_statusbar"</string>
+    <string name="fineos_actionbar">fineos_actionbar</string>
+    <string name="fineos_button">fineos_button</string>
+    <string name="mms_content1">mms_content1</string>
+    <string name="mms_content2">mms_content2</string>
+    <string name="fineos_number_picker">fineos_number_picker</string>
+    <string name="systemui_qs_color">systemui_qs_color</string>
+    <string name="calendar_statusbar">calendar_statusbar</string>
+    <string name="calendar_actionbar">calendar_actionbar</string>
+    <string name="calendar_addevent">calendar_addevent</string>
+    <string name="calendar_weektoday">calendar_weektoday</string>
+    <string name="calendar_edge_effect">calendar_edge_effect</string>
+    <string name="deskclock_title_color">deskclock_title_color</string>
+    <string name="deskclock_addbutton_color">deskclock_addbutton_color</string>
+    <string name="deskclock_light_blue">deskclock_light_blue</string>
+    <string name="deskclock_dark_blue">deskclock_dark_blue</string>
+    <string name="calculator_action_normal">calculator_action_normal</string>
+    <string name="calculator_action_press">calculator_action_press</string>
+    <string name="calculator_cursor">calculator_cursor</string>
+    <string name="dialer_contact_actionbar_title">dialer_contact_actionbar_title</string>
+    <string name="dialer_mms_actionbar_title">dialer_mms_actionbar_title</string>
+    <string name="dialer_dialpad_key_number">dialer_dialpad_key_number</string>
+    <string name="dialer_addbutton_color">dialer_addbutton_color</string>
+    <string name="dialer_actionbar_bg_color">dialer_actionbar_bg_color</string>
+    <string name="dialer_edge_effect">dialer_edge_effect</string>
+    <string name="notes_actionbar">notes_actionbar</string>
+    <string name="notes_add_note">notes_add_note</string>
+    <string name="notes_actionmode">notes_actionmode</string>
+    <string name="notes_edge_effect">notes_edge_effect</string>
+    <string name="gallery_timeline_color">gallery_timeline_color</string>
+    <string name="gallery_main_tab_color">gallery_main_tab_color</string>
+    <string name="gallery_main_tab_unselected_color">gallery_main_tab_unselected_color</string>
+
+</resources>

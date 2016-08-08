@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"色彩"</string>
+    <string name="checkall">"全选"</string>
+    <string name="checknone">"全不选"</string>
+    <string name="colorchange">"主题变色"</string>
+    <string name="applying">"色彩应用中"</string>
+    <string name="apply">"应用"</string>
+    <string name="finished">"色彩切换已成功"</string>
+    <string name="failed">"色彩切换失败"</string>
+</resources>
