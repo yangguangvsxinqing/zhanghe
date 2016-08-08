@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_switchbutton_demo" />
+
+    <com.example.myprojectdemo.SwitchButton
+        android:id="@+id/sb_fineos"
+        style="@style/SwitchButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        app:kswAnimationDuration="300"
+        app:kswBackDrawable="@drawable/fineos_back_drawable"
+        app:kswBackMeasureRatio="1.4"
+        app:kswThumbDrawable="@drawable/fineos_thumb_selector"
+        app:kswThumbMarginBottom="-8dp"
+        app:kswThumbMarginLeft="-5dp"
+        app:kswThumbMarginRight="-5dp"
+        app:kswThumbMarginTop="-2.5dp" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#242424"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <com.example.myprojectdemo.ShimmerTextView
+            android:id="@+id/shimmer_tv"
+            style="@style/MyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shimmer"
+            android:textColor="#444"
+            android:textSize="50sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleAnimation"
+            android:text="@string/toggle_animation" />
+    </LinearLayout>
+
+</LinearLayout>
