@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/menu/theme_main.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/menu/theme_main.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/menu/theme_detail.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/menu/theme_detail.xml"
+    }
+]

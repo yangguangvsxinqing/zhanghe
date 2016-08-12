@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:background="@color/white">	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/appinfo_tabs"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" >
+	
+		<include
+			android:id="@+id/appinfo_topbar"
+			android:layout_alignParentTop="true"
+			layout="@layout/appinfo_top_bar" /> 
+
+    <LinearLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_below="@id/appinfo_topbar"
+        android:background="@drawable/bg_tab_header" >
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/appinfo_hl_text"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@+id/text_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/appinfo_nor_text"
+            android:textSize="16.0dip" />
+
+    </LinearLayout>
+   
+		<RelativeLayout 
+		    android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:id="@+id/bottom_bar"
+       		android:orientation="horizontal"
+       		android:layout_alignParentBottom="true"
+       		android:background="@drawable/appinfo_bottom_bg"
+		    >
+
+		    <ProgressBar
+	        	android:id="@+id/app_download_progressbar"
+	        	android:layout_width="@dimen/appinfo_progressbar_w" android:layout_height="wrap_content"
+	        	android:layout_centerInParent="true"
+	        	android:max="100" style="@style/bg_detail_progressbar" />
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:orientation="horizontal"
+		        android:gravity="center"
+		        >
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/air_download"
+		        android:background="@drawable/btn_manage_downloading_start"
+		        />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/air_download_text"
+		        android:layout_marginLeft="13dip"
+		        android:textColor="@color/title_text_blue"
+		        android:textSize="18dip"
+		        android:text="@string/app_download"
+		        />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/air_download_bytes"
+		        android:layout_marginLeft="13dip"
+		        android:textColor="@color/title_text_blue"
+		        android:textSize="18dip"
+		        />
+		    </LinearLayout>
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/to_contact"
+		        android:layout_centerVertical="true"
+		        android:layout_toLeftOf="@id/app_download_progressbar"
+		        android:paddingRight="18dip"
+		        android:src="@drawable/ic_tab_contact"
+		    />
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/to_download"
+		        android:layout_centerVertical="true"
+				android:layout_toRightOf="@id/app_download_progressbar"
+				android:paddingLeft="18dip"
+				android:src="@drawable/ic_tab_downmanage"
+		        />
+		</RelativeLayout>
+		
+	<com.huaqin.market.ui.MarketPage
+        android:id="@+id/viewpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/tab_layout"
+        android:layout_above="@id/bottom_bar"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation">
+    </com.huaqin.market.ui.MarketPage>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+       		android:layout_height="fill_parent"
+       		android:layout_below="@id/tab_layout"
+       		android:layout_above="@id/bottom_bar">
+		<FrameLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_below="@id/tab_layout" />
+		</LinearLayout>
+		<ImageView
+        android:id="@+id/cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/viewpage"
+        android:scaleType="matrix"
+        android:src="@drawable/arrow_two" />
+	</RelativeLayout>
+		
+	<include
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+		layout="@layout/fullscreen_loading_indicator" />
+</LinearLayout>
+<!--  <TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:background="@color/white">	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/appinfo_tabs"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" >
+	
+		<include
+			android:id="@+id/appinfo_topbar"
+			android:layout_alignParentTop="true"
+			layout="@layout/appinfo_top_bar" /> 
+		<LinearLayout android:id="@+id/tab_layout" 
+			android:layout_width="fill_parent" android:layout_height="46dip"
+			android:layout_below="@id/appinfo_topbar"
+			android:paddingLeft="20dip" android:paddingTop="4dip"
+			android:paddingRight="20dip" android:paddingBottom="4dip"
+			android:background="@drawable/bg_tab_header">
+			<TabWidget 
+				android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingLeft="2dip" android:paddingTop="2dip"
+				android:paddingRight="2dip" android:paddingBottom="2dip"
+				android:gravity="center"
+				android:background="@drawable/bg_tab_header_inner" />
+
+		</LinearLayout>
+		
+		<RelativeLayout 
+		    android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:id="@+id/bottom_bar"
+       		android:orientation="horizontal"
+       		android:layout_alignParentBottom="true"
+       		android:background="@drawable/bg_tab_header"
+		    >
+
+
+
+		    <ProgressBar
+	        	android:id="@+id/app_download_progressbar"
+	        	android:layout_width="200dip" android:layout_height="wrap_content"
+	        	android:layout_centerInParent="true"
+	        	android:max="100" style="@style/bg_detail_progressbar" />
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:orientation="horizontal"
+		        android:gravity="center"
+		        >
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/air_download"
+		        android:background="@drawable/btn_manage_downloading_start"
+		        />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/air_download_text"
+		        android:textColor="@android:color/white"
+		        android:text="@string/app_download"
+		        />
+		    </LinearLayout>
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/to_contact"
+		        android:layout_centerVertical="true"
+		        android:layout_toLeftOf="@id/app_download_progressbar"
+		        android:paddingRight="18dip"
+		        android:src="@drawable/ic_tab_contact"
+		    />
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/to_download"
+		        android:layout_centerVertical="true"
+				android:layout_toRightOf="@id/app_download_progressbar"
+				android:paddingLeft="18dip"
+				android:src="@drawable/ic_tab_downmanage"
+		        />
+		</RelativeLayout>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+       		android:layout_height="fill_parent"
+       		android:layout_below="@id/tab_layout"
+       		android:layout_above="@id/bottom_bar">
+		<com.huaqin.market.ui.MarketPage
+    		android:id="@+id/viewpage"
+     		android:layout_width="fill_parent"
+       		android:layout_height="fill_parent" >
+		</com.huaqin.market.ui.MarketPage>
+		<FrameLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_below="@id/tab_layout" />
+		</LinearLayout>
+	</RelativeLayout>
+		
+	<include
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+		layout="@layout/fullscreen_loading_indicator" />
+</TabHost>-->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_wallpaper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/text_area"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/wallpaper_text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/wallpaper_text_bg"
+            android:gravity="center"
+            android:text="@string/wallpaper_apply_lockscreen_wallpaper"
+            android:textSize="@dimen/text_size1" />
+
+        <TextView
+            android:id="@+id/wallpaper_text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/wallpaper_text_bg"
+            android:gravity="center"
+            android:text="@string/wallpaper_apply_desktop_wallpaper"
+            android:textSize="@dimen/text_size1" />
+
+        <TextView
+            android:id="@+id/wallpaper_text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/wallpaper_text_bg"
+            android:gravity="center"
+            android:text="@string/wallpaper_apply_all_wallpaper"
+            android:textSize="@dimen/text_size1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_cancle"
+            android:text="@string/btn_cancle"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size1" />
+
+        <Button
+            android:id="@+id/btn_theme_apply"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_btn_apply"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size1" />
+    </LinearLayout>
+
+</RelativeLayout>

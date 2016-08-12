@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2013, The ChameleonOS Project
+**
+** * Licensed under the GNU GPLv2 license
+**
+** The text of the license can be found in the LICENSE file
+** or at https://www.gnu.org/licenses/gpl-2.0.txt
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/loadingIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+        <GridView
+            android:id="@+id/coverflow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:paddingTop="@dimen/local_gridview_paddingtop_allthemes"
+            android:paddingLeft="@dimen/local_gridview_paddingLeft_allthemes"
+            android:paddingRight="@dimen/local_gridview_paddingRight_allthemes"
+            android:numColumns="@integer/gridviewNumColumns"
+            android:horizontalSpacing="@dimen/local_gridview_horizontalSpacing_allthemes"
+            android:verticalSpacing="@dimen/local_gridview_verticalSpacing_allthemes"
+            android:stretchMode="columnWidth"
+            android:scrollbars="none" 
+            android:overScrollMode="never"
+            android:visibility="visible"
+            android:background="@color/theme_bg_color"
+            />
+    </FrameLayout>
+
+</LinearLayout>

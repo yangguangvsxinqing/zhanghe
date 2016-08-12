@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<!--  	<GridView xmlns:Android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/GridView" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:numColumns="2"
+		android:listSelector="@drawable/thistu"
+		android:horizontalSpacing="0dp" android:verticalSpacing="0dp"
+		android:columnWidth="150dp" android:stretchMode="columnWidth"
+		android:gravity="center"></GridView>-->
+	<LinearLayout
+	    android:layout_width="wrap_content" 
+    	android:layout_height="fill_parent" 
+    	android:scrollbars="vertical"
+    	android:orientation="vertical"
+    	android:background="@drawable/bg_list_view"
+	    >
+	    
+	    <ScrollView android:id="@+id/scroll_content"
+	        android:layout_height="wrap_content" 
+        	android:layout_width="fill_parent" > 
+        	    <LinearLayout android:id="@+id/linearLayout1"  
+        android:layout_width="fill_parent" android:layout_height="wrap_content"  
+        android:orientation="vertical">
+	        
+        	<com.huaqin.market.ui.MyGridView xmlns:android="http://schemas.android.com/apk/res/android" 
+            	android:id="@+id/gridview"     			
+            	android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:numColumns="2"
+    			android:horizontalSpacing="0dp" android:verticalSpacing="0dp"
+    			android:stretchMode="columnWidth"
+    			android:listSelector="@android:color/transparent"
+				android:background="@drawable/bg_list_view">             
+        	</com.huaqin.market.ui.MyGridView> 
+
+        	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:layout_width="fill_parent"
+    			android:layout_height="55dip"
+    			android:background="@color/list_item_bg"
+    			android:orientation="vertical" >
+    			<View 
+        			android:layout_width="fill_parent"
+    				android:layout_height="55dip"
+    				android:background="@drawable/bg_list_view"
+        		/>
+			</LinearLayout>
+			</LinearLayout>
+    	</ScrollView>
+	<View 
+	    android:id="@+id/agridview"
+        android:layout_width="fill_parent"
+    	android:layout_height="55dip"
+    	android:layout_below="@id/gridview"
+    	android:background="@drawable/bg_list_view"
+        />
+	</LinearLayout>
+	<include
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		layout="@layout/low_speed_indicator" />
+	
+	<include
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		layout="@layout/fullscreen_loading_indicator"
+		android:visibility="visible" />
+	
+</merge>

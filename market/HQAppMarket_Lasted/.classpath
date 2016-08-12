@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/mel_class"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/mel_tel"/>
+	<classpathentry exported="true" kind="lib" path="/home/ubuntu/share/HQAppMarket_Lasted_code/HQAppMarket_Lasted_code/HQAppMarket_Lasted/lib/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/android"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/home/ubuntu/share/HQAppMarket_Lasted_code/HQAppMarket_Lasted_code/HQAppMarket_Lasted/lib/json.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ule_api.1.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ule_sdk20130602701.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/UPPayAssistEx.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/UPPayPluginEx.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

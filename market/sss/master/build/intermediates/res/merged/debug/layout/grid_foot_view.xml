@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fineos_actionbar_height"
+    android:background="#8c444444"
+    android:layout_gravity="bottom|center_horizontal"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fineos_actionbar_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView 
+            android:id="@+id/progressimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@anim/fineos_loading_anim"/>
+
+        <TextView 
+            android:gravity="center"
+            android:textSize="@dimen/text_17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"/>
+        
+    </LinearLayout>
+    
+</FrameLayout>

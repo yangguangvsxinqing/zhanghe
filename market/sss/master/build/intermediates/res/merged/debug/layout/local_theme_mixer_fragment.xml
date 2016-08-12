@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_bg_color">
+
+    <com.fineos.theme.ui.HeaderGridView
+        android:id="@+id/custom_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="@dimen/local_gridview_horizontalSpacing_allthemes"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/local_gridview_verticalSpacing_allthemes" >
+    </com.fineos.theme.ui.HeaderGridView>
+
+    <TextView
+        android:id="@+id/empty_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/loading_faild"
+        android:textColor="@color/text_empty"
+        android:textSize="@dimen/text_15sp"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/theme_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:background="@anim/fineos_white_loading_anim" />
+
+</RelativeLayout>

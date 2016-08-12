@@ -1,0 +1,76 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .topdeps
+* .topmsg
+* Android.mk
+* ic_launcher-web.png
+* proguard-project.txt
+* proguard.flags
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => master/src/main/AndroidManifest.xml
+* assets/ => master/src/main/assets/
+* libs/Baidu-Frontia-Android-2.0.8.jar => master/libs/Baidu-Frontia-Android-2.0.8.jar
+* libs/FineOSGoogleBillingSDK.jar => master/libs/FineOSGoogleBillingSDK.jar
+* libs/GDTUnion_TBS_SDK.4.8.504.jar => master/libs/GDTUnion_TBS_SDK.4.8.504.jar
+* libs/InMobi-5.0.0.jar => master/libs/InMobi-5.0.0.jar
+* libs/ROMCenter_V1.1.3.jar => master/libs/ROMCenter_V1.1.3.jar
+* libs/armeabi-v7a/libcocklogic.so => master/src/main/jniLibs/armeabi-v7a/libcocklogic.so
+* libs/armeabi-v7a/libtnet-2.1.20.1-agoo.so => master/src/main/jniLibs/armeabi-v7a/libtnet-2.1.20.1-agoo.so
+* libs/armeabi/libbdpush_V2_1.so => master/src/main/jniLibs/armeabi/libbdpush_V2_1.so
+* libs/armeabi/libbspatch.so => master/src/main/jniLibs/armeabi/libbspatch.so
+* libs/armeabi/libcocklogic.so => master/src/main/jniLibs/armeabi/libcocklogic.so
+* libs/armeabi/libtnet-2.1.20.1-agoo.so => master/src/main/jniLibs/armeabi/libtnet-2.1.20.1-agoo.so
+* libs/chaos_support.jar => master/libs/chaos_support.jar
+* libs/cmadsdk_world_2.4.3_1508211840.jar => master/libs/cmadsdk_world_2.4.3_1508211840.jar
+* libs/mips/libbdpush_V2_1.so => master/src/main/jniLibs/mips/libbdpush_V2_1.so
+* libs/mips/libcocklogic.so => master/src/main/jniLibs/mips/libcocklogic.so
+* libs/mips/libtnet-2.1.20.1-agoo.so => master/src/main/jniLibs/mips/libtnet-2.1.20.1-agoo.so
+* libs/nineoldandroids-2.4.0.jar => master/libs/nineoldandroids-2.4.0.jar
+* libs/umeng-analytics-v5.5.3.jar => master/libs/umeng-analytics-v5.5.3.jar
+* libs/umeng-lib_v2.6.0.jar => master/libs/umeng-lib_v2.6.0.jar
+* libs/umeng-update-v2.6.0.1.jar => master/libs/umeng-update-v2.6.0.1.jar
+* libs/volley.jar => master/libs/volley.jar
+* libs/x86/libcocklogic.so => master/src/main/jniLibs/x86/libcocklogic.so
+* libs/x86/libtnet-2.1.20.1-agoo.so => master/src/main/jniLibs/x86/libtnet-2.1.20.1-agoo.so
+* lint.xml => master/lint.xml
+* res/ => master/src/main/res/
+* src/ => master/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

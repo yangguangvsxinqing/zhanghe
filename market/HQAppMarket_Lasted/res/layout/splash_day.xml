@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg_login" >
+
+	<LinearLayout
+	    android:id="@+id/splash_login_layout" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_marginBottom="20.0dip"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/splash_login" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="5dip"
+			android:textSize="16dip"
+			style="@style/splash_login_font" 
+			android:text="@string/app_login"
+			/>
+	</LinearLayout>
+
+</RelativeLayout>

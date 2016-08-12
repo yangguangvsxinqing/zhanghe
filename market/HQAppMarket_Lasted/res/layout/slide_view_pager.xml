@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:umadsdk="http://schemas.android.com/apk/res/com.LoveBus"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+	<RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="@drawable/title_bg" >
+        
+	    <TextView 
+	        android:id="@+id/marketName"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/app_name"
+        	android:textColor="@color/white"
+        	android:layout_marginLeft="12dip"
+        	android:layout_centerVertical="true"
+        	android:textSize="20dip"
+	        />
+	    <TextView 
+	       	android:id="@+id/manage"
+        	android:layout_width="@dimen/title_manage_w"
+        	android:layout_height="fill_parent"
+        	android:text="@string/tab_title_manage"
+        	android:textColor="@color/white"
+        	android:gravity="center"
+        	android:layout_centerVertical="true"
+        	android:layout_marginRight="@dimen/title_manage_mr"
+        	android:textSize="@dimen/title_text_size"
+        	android:layout_alignParentRight="true"
+	       />  
+	    <ImageView 
+	        android:id="@+id/interval"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toLeftOf="@id/manage"
+        	android:layout_marginRight="@dimen/title_interval_mr"
+        	android:layout_centerVertical="true"
+        	android:background="@drawable/title_interval"
+	        />
+	    <TextView 
+	       	android:id="@+id/search"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:text="@string/tab_title_search"
+        	android:textColor="@color/white"
+        	android:gravity="center"
+        	android:layout_marginRight="@dimen/title_search_mr"
+        	android:textSize="@dimen/title_text_size"
+        	android:layout_centerVertical="true"
+        	android:layout_toLeftOf="@id/interval"
+	       /> 
+	    <ImageView 
+	        android:id="@+id/manage_flag"
+	        android:layout_alignParentRight="true"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginRight="5dip"
+        	android:visibility="gone"
+        	android:background="@drawable/manage_flag"
+	        />   
+	  
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="25dip"
+        android:layout_below="@id/linearLayout1"
+        android:background="@drawable/bg_tab_header" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/slideview_title_size"
+            android:shadowRadius="3.0"
+	    	android:shadowDy="1.0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/title_text_blue"
+			 android:textSize="@dimen/slideview_title_size"
+            android:shadowRadius="3.0"
+	    	android:shadowDy="1.0"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/title_text_blue"
+             android:textSize="@dimen/slideview_title_size"
+            android:shadowRadius="3.0"
+	    	android:shadowDy="1.0"/>
+    </LinearLayout>
+   <ImageView 
+        android:id="@+id/new_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dip"
+        android:layout_marginLeft="@dimen/title_newflag_mr"
+        android:visibility="gone"
+        android:background="@drawable/ic_new_flag"
+       />
+    <com.huaqin.market.ui.MarketPage
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/linearLayout2"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation">
+    </com.huaqin.market.ui.MarketPage>
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vPager"
+        android:scaleType="matrix"
+        android:contentDescription="@string/app_cursor"
+        android:src="@drawable/a" />
+	<include
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		layout="@layout/translateanimation_icon" />     
+</RelativeLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.huaqin.market" android:versionName="4.0.78" android:versionCode="10407" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+	<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+	<uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED" />
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" /> 
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/> 
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>     
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/> 
+
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    
+    
+    <!-- Added-s by JimmyJin for Ule -->
+    
+        <!-- add  permission -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Wifi related -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Added-e by JimmyJin for Ule -->
+    
+    
+    
+	<application android:icon="@drawable/logo" android:label="@string/app_name" android:theme="@style/ContentOverlay">
+	       <!-- 渠道号 -->
+    <meta-data android:value="HQ" android:name="ChannelID"/> 
+    <meta-data android:name="channel" android:value="uleandroidsdk" />	
+		<activity android:name=".SplashActivity" android:label="@string/app_name"
+
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" 
+			android:theme="@style/ContentOverlay">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		    
+	<!-- Added-s by JimmyJin for Ule -->
+		        
+	        <activity
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" 
+            android:name="com.huaqin.market.ui.UleActivity" 
+>
+        </activity>
+        
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" 
+            android:name="com.tom.ule.android.ui.wgt.Main"
+            android:windowSoftInputMode="stateHidden|adjustPan" 
+           >
+        </activity>	        
+
+		<activity 
+		    android:name="com.tcl.hyt.unionpay.plugin.activity.IndexActivity"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges ="keyboardHidden|orientation">
+		</activity>
+		<activity 
+		    android:name="com.tcl.hyt.unionpay.plugin.activity.LoadingActivity"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges ="keyboardHidden|orientation">
+		</activity>
+		
+		<activity
+            android:name="com.tom.ule.android.ui.PhoneRechargeRules"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+		        
+	<!-- Added-e by JimmyJin for Ule -->
+		    
+		<activity android:name=".MarketBrowser" android:launchMode="singleTask"
+			android:theme="@style/My.Translucent"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			android:windowSoftInputMode="stateHidden|adjustPan" >
+			<item name="android:windowIsTranslucent">true</item>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".SlideViewPager" android:theme="@android:style/Theme.NoTitleBar"
+		    android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+			<intent-filter>
+				<action android:name="com.huaqin.intent.action.ACTION_PACKAGE_ADDED" />
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".NewAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+		    android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".RankAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".CategoryAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".SearchAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="ManageAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		
+		<activity android:name=".ui.AppInfoPreloadActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+			<!-- Added-s By JimmyJin for Pudding Project -->
+			<intent-filter>
+				<action android:name="com.huaqin.intent.action.APPSPRITE_APP_DETIAL" />
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+			<!-- Added-e By JimmyJin for Pudding Project -->
+		</activity>		
+				
+		<activity android:name=".utils.OptionsMenu"  android:theme="@style/Theme.TranslucentTwo"
+		    android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".ui.AppInfoActivity" android:theme="@style/My.Translucent"
+		    android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+			<intent-filter>
+				<action android:name="com.huaqin.intent.action.ACTION_PACKAGE_ADDED" />
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.AppInfoDetailActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".ui.AppInfoCommentsActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+		</activity>
+		<activity android:name=".ui.AppInfoRelativeActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".ui.AddCommentDetailActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustResize"/>
+		<activity android:name=".ui.UpdateCommentDetailActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustResize"/>  
+		
+		<activity android:name=".ui.AddContactActivity" 
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" 
+			 android:theme="@style/Transparent"/>
+		<activity android:name=".ui.SubjectInfoActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+					
+		<activity android:name=".ui.CategoryInfoActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+			<!-- Added-s By JimmyJin for Pudding Project -->
+			<intent-filter>
+				<action android:name="com.huaqin.intent.action.APPSPRITE_PUDDING_LIST" />
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+			<!-- Added-e By JimmyJin for Pudding Project -->
+		</activity>			
+		<activity android:name=".ui.SearchHotActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		
+		<activity android:name=".ui.SettingsActivity" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		
+		<activity android:name=".list.RecommandAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"/>
+		<activity android:name=".list.NewAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.RelatedAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.SortAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.SortGameListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.SubjectListActivity" android:theme="@android:style/Theme.NoTitleBar"
+		    android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" >
+			<intent-filter>
+				<action android:name="com.huaqin.intent.action.ACTION_PACKAGE_ADDED" />		
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".list.RankAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.CategoryListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"/>
+		<activity android:name=".list.CategoryAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.SearchAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.InstalledAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.UpgradeAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.DownloadAppBrowser" android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.DownloadedAppListActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity android:name=".list.DownloadingAppListActivity"
+			android:screenOrientation="portrait"
+			android:label="@string/app_downloading_intro"
+			android:configChanges="keyboardHidden|orientation" >
+		    <intent-filter>
+				<action android:name="com.hauqin.intent.action.APP_DOWNLOAD_START" /> 
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.VersionActivity" 
+		    android:screenOrientation="portrait"
+		    android:theme="@style/Transparent"/>
+		<activity android:name=".ui.TabWebActivity" 
+		    android:screenOrientation="portrait"
+		    android:theme="@style/Transparent"/>
+		<activity android:name=".ui.UninstallHintActivity" 
+		    android:screenOrientation="portrait"
+		    />
+		    
+		<provider android:name=".download.DownloadProvider" 
+			android:authorities="hqdownloads" /> 
+		<service android:name=".download.DownloadService" />
+		<service android:name=".MarketBackgroundService" />
+		<receiver android:name=".download.DownloadReceiver"
+			android:exported="false">
+			<intent-filter>
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> 
+				<action android:name="android.intent.action.USER_PRESENT" /> 
+				<action android:name="android.intent.action.TIME_SET" />
+			</intent-filter>
+		</receiver>
+
+<!-- Added-s By JimmyJin for Pudding Project -->		
+		<receiver android:name=".PuddingBroadcastReceiver">
+            <intent-filter>   
+             <action android:name="android.intent.action.PACKAGE_ADDED" />      
+             <data android:scheme="package" />   
+            </intent-filter>   
+		</receiver>
+<!-- Added-e By JimmyJin for Pudding Project -->
+	</application>
+</manifest>

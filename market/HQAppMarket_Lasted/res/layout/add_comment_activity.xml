@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical"
+	android:background="@drawable/bg_list_view" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<include android:id="@+id/comment_title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		layout="\@layout/asset_info_header" />
+	<LinearLayout android:gravity="center_vertical"
+		android:layout_gravity="bottom" android:orientation="horizontal"
+		android:id="@+id/ok_panel" android:paddingLeft="4.0dip"
+		android:paddingTop="2.0dip" android:paddingRight="4.0dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<Button android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="@android:color/white" android:layout_gravity="center_vertical"
+			android:id="@+id/ok_button" android:layout_marginBottom="5.0dip"
+			android:layout_width="0.0dip" android:layout_height="wrap_content"
+			android:layout_marginLeft="20.0dip" android:text="@string/btn_ok"
+			android:layout_weight="2.0" />
+		<Button android:id="@+id/dummybutton" android:background="@android:color/transparent"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="0.5" />
+		<Button android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="@android:color/white" android:layout_gravity="center_vertical"
+			android:id="@+id/cancel_button" android:layout_marginBottom="5.0dip"
+			android:layout_width="0.0dip" android:layout_height="wrap_content"
+			android:layout_marginRight="20.0dip" android:text="@string/btn_cancel"
+			android:layout_weight="2.0" />
+	</LinearLayout>
+	<ScrollView android:id="@+id/comment_main"
+		android:background="@android:color/transparent" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:fillViewport="true"
+		android:layout_above="@+id/ok_panel" android:layout_below="@+id/comment_title">
+		<LinearLayout android:gravity="top" android:orientation="vertical"
+			android:paddingLeft="5.0dip" android:paddingTop="20.0dip"
+			android:paddingRight="5.0dip" android:scrollbars="vertical"
+			android:layout_width="fill_parent" android:layout_height="0.0dip"
+			android:layout_weight="1.0">
+			<TextView android:textAppearance="?android:textAppearanceMedium"
+				android:textColor="#ff515151" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/please_comment" />
+			<LinearLayout android:orientation="horizontal"
+				android:paddingTop="5.0dip" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<RatingBar android:id="@+id/rating_bar"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:numStars="5" android:stepSize="1.0" style="\@style/IWRatingBarLarge" />
+				<View android:layout_width="0.0dip" android:layout_height="1.0dip"
+					android:layout_weight="1.0" />
+				<TextView android:textAppearance="?android:textAppearanceMedium"
+					android:textColor="#ff515151" android:id="@+id/rating_indicator"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</LinearLayout>
+			<EditText android:gravity="top" android:id="@+id/comment_text"
+				android:padding="8.0dip" android:scrollbars="vertical"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="20.0dip" android:hint="@string/add_hint"
+				android:lines="10" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

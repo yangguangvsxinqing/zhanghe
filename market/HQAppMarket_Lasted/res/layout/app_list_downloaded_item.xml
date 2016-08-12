@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/app_listitem_group"
+	android:layout_width="fill_parent" 
+	android:layout_height="70dip"
+	android:minHeight="70dip">
+	
+	<ImageView
+		android:id="@+id/app_listitem_more"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"
+		android:padding="8.0dip" 
+		android:layout_marginRight="8.0dip" android:layout_alignParentRight="true"
+		android:layout_centerVertical="true" android:src="@drawable/ic_manage_downloaded_item" />
+	<RelativeLayout
+	    android:id="@+id/app_listitem_tray"
+	    android:layout_width="48.0dip" android:layout_height="48.0dip"
+		android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip"
+		android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+		android:background="@drawable/icon_bg"
+	    >
+	<ImageView 
+		android:id="@+id/app_listitem_icon"
+		android:layout_width="42dip" android:layout_height="42dip"
+		android:layout_centerInParent="true"
+		android:background="@android:color/transparent" />
+	</RelativeLayout>
+	
+	<TextView android:id="@+id/app_listitem_name"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginRight="2.0dip" android:layout_toLeftOf="@id/app_listitem_more"
+		android:layout_toRightOf="@id/app_listitem_tray" android:layout_marginTop="4.0dip"
+		style="@style/app_name_font" />
+	
+	<TextView
+		android:id="@+id/app_listitem_info_2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginRight="2.0dip" android:layout_toRightOf="@id/app_listitem_tray"
+		android:layout_below="@id/app_listitem_name" android:layout_marginBottom="4.0dip"
+		 android:layout_marginTop="4.0dip" android:visibility="gone"
+		style="@style/list_font_s_normal" />
+	
+</RelativeLayout>

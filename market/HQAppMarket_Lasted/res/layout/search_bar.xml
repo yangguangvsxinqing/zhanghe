@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/search_bar_layout"
+	android:layout_width="wrap_content" android:layout_height="58dip"
+	android:orientation="horizontal"
+	android:background="@drawable/title_bg">
+	
+	<AutoCompleteTextView 
+		android:id="@+id/search_bar_text"
+		android:layout_width="@dimen/searchbar_w" android:layout_height="wrap_content"
+		android:textColor="@color/title_text_blue"
+		android:background="@drawable/bg_search_topbar_edittext"
+		android:layout_centerInParent="true"
+		android:textSize="20dip"
+		android:hint="@string/search_hint" android:scrollHorizontally="true"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:singleLine="true" android:maxLength="10" 
+		android:dropDownVerticalOffset="-1dip"
+		android:dropDownWidth="@dimen/searchbar_w"
+		android:completionThreshold="1"/>
+	<Button
+		android:id="@+id/btn_search"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="5dip"
+	    android:layout_toRightOf="@id/search_bar_text"
+		android:background="@drawable/btn_search"/>
+	<Button
+		android:id="@+id/btn_search_clear"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="5dip"
+		android:layout_toLeftOf="@id/search_bar_text"
+		android:background="@drawable/btn_search_clear" />
+		
+</RelativeLayout>

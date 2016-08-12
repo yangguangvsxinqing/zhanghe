@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="66.0dip"
+	android:id="@+id/app_listitem_installed">
+	
+	<ImageButton
+		android:id="@+id/app_listitem_operate"
+		android:layout_width="48.0dip" android:layout_height="fill_parent"
+		android:layout_alignParentRight="true" android:layout_centerVertical="true"
+		android:padding="8.0dip" android:focusable="true"
+		android:background="@null" android:src="@drawable/btn_manage_downloaded_uninstall" />
+	
+	<ImageView
+		android:id="@+id/app_listitem_splitter"
+		android:layout_width="1.0dip" android:layout_height="fill_parent"
+		android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip"
+		android:layout_toLeftOf="@id/app_listitem_operate"
+		android:src="@color/vertical_splitter_color" />
+	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/app_listitem_group"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_toLeftOf="@id/app_listitem_splitter"
+		android:paddingTop="12.0dip" android:paddingBottom="12.0dip"
+		android:focusable="true" android:clickable="true" >
+	<RelativeLayout
+	    android:id="@+id/app_listitem_tray"
+	    android:layout_width="48.0dip" android:layout_height="48.0dip"
+		android:layout_marginLeft="13.0dip" android:layout_marginRight="6.0dip"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true" 
+		android:background="@drawable/icon_bg"
+	    >
+	<ImageView 
+		android:id="@+id/app_listitem_icon"
+		android:layout_width="42dip" android:layout_height="42dip"
+		android:layout_centerInParent="true"
+		android:background="@android:color/transparent" />
+	</RelativeLayout>
+		<TextView
+			android:id="@+id/app_listitem_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="2.0dip" android:layout_alignParentTop="true"
+			android:layout_toRightOf="@id/app_listitem_tray"
+			android:singleLine="true" style="@style/app_name_font" />
+		<TextView
+			android:id="@+id/app_listitem_updateversion"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="2.0dip" android:layout_below="@id/app_listitem_name"
+			android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+			android:singleLine="true" style="@style/app_new_font" />
+		<TextView
+			android:id="@+id/app_listitem_currentversion"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="2.0dip"
+			android:layout_toLeftOf="@id/app_listitem_updateversion"
+			android:layout_toRightOf="@id/app_listitem_tray"
+			android:layout_below="@id/app_listitem_name"
+			android:layout_alignParentBottom="true"
+			android:singleLine="true" style="@style/list_font_s_normal" />
+	</RelativeLayout>
+	
+</RelativeLayout>

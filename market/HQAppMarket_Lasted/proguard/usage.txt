@@ -1,0 +1,839 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.huaqin.android.market.sdk.ApplicationProvider:
+    public ApplicationProvider()
+    public static com.huaqin.android.market.sdk.bean.ApplicationList getCategoricalList(int,int,int)
+    public static com.huaqin.android.market.sdk.bean.ApplicationList getSortList(int,int,int)
+    public static com.huaqin.android.market.sdk.bean.ApplicationList getUpdateList(com.huaqin.android.market.sdk.bean.InstalledApp[])
+    public static com.huaqin.android.market.sdk.bean.ApplicationList getBatchInstallList()
+    public static com.huaqin.android.market.sdk.bean.BatchInstallComment postBatchInstallComment(com.huaqin.android.market.sdk.bean.BatchInstallComment)
+    public static com.huaqin.android.market.sdk.bean.BatchInstallComment putBatchInstallComment(com.huaqin.android.market.sdk.bean.BatchInstallComment)
+    public static com.huaqin.android.market.sdk.bean.BatchInstallCommentList getBatchInstallComments(int)
+com.huaqin.android.market.sdk.CategoryProvider
+com.huaqin.android.market.sdk.ClientInfo:
+    public static final java.lang.String USER_AGENT
+    public static final java.lang.String API_Version
+    public static final java.lang.String USER_ID
+    public static final java.lang.String CLIENT_ID
+    public static final java.lang.String DEVICE_ID
+    public static final java.lang.String SUBSCRIBER_ID
+    public static final java.lang.String ACCESS_TOKEN
+    public ClientInfo()
+    public static java.lang.String getApiVersion()
+    public static java.lang.String getHeaderValue(java.lang.String)
+    public static void setClientId(java.lang.String)
+    public static void setAccessToken(java.lang.String)
+    public static void setGzipEncoding(boolean)
+com.huaqin.android.market.sdk.ClientPvProvider:
+    public ClientPvProvider()
+com.huaqin.android.market.sdk.Constants
+com.huaqin.android.market.sdk.NewSubjectProvider:
+    public NewSubjectProvider()
+com.huaqin.android.market.sdk.PudSubjectProvider
+com.huaqin.android.market.sdk.ReportProvider:
+    public ReportProvider()
+    public static java.lang.String postDownloadBegin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    public static java.lang.String postDownloadEnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    public static java.lang.String postInstallInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.huaqin.android.market.sdk.ServiceProvider:
+    public ServiceProvider()
+    public static com.huaqin.android.market.sdk.bean.AuthStates authenticate(java.lang.String,java.lang.String)
+    public static com.huaqin.android.market.sdk.bean.AdInfo getAdInfo()
+    public static com.huaqin.android.market.sdk.bean.AdInfoList getAdInfoList()
+    public static com.huaqin.android.market.sdk.bean.AdInfo getOneAdInfo(int)
+    public static java.lang.String postUserInfoEx(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.huaqin.android.market.sdk.SortProvider:
+    public SortProvider()
+com.huaqin.android.market.sdk.SubjectProvider
+com.huaqin.android.market.sdk.rest.BaseResource:
+    public BaseResource()
+    protected static java.lang.Object get(java.lang.String,java.lang.reflect.Type)
+com.huaqin.android.market.sdk.rest.BaseResource$5
+com.huaqin.android.market.sdk.rest.DecompressingEntity:
+    private static final int BUFFER_SIZE
+com.huaqin.market.BuildConfig
+com.huaqin.market.ManageAppBrowser:
+    private static final int TAB_ID_INSTALLED
+    private static final int TAB_ID_UPGRADE
+    private static final int TAB_ID_DOWNLOAD
+    private static final java.lang.String TAB_INSTALLED
+    private static final java.lang.String TAB_UPGRADE
+    private static final java.lang.String TAB_DOWNLOAD
+com.huaqin.market.MarketBackgroundService:
+    private static final java.lang.String TAG
+com.huaqin.market.MarketBrowser:
+    public static final java.lang.String TAB_NEW
+    public static final java.lang.String TAB_RANK
+    public static final java.lang.String TAB_CATEGORY
+    public static final java.lang.String TAB_SEARCH
+    public static final java.lang.String TAB_MANAGE
+    public static final java.lang.String TAB_CATEAPP
+    public static final java.lang.String TAB_ULE
+    public static final java.lang.String TAB_VER
+    public static final java.lang.String TAB_WEB
+    public static final java.lang.String NEW_TAB_GAME
+    public static final java.lang.String NEW_TAB_APP
+    public static final int TAB_ID_NEW
+    public static final int TAB_ID_RANK
+    public static final int TAB_ID_CATEGORY
+    public static final int TAB_ID_SEARCH
+    public static final int TAB_ID_MANAGE
+    public static final int TAB_ID_ULE
+    public static final int TAB_ID_VER
+    public static final int NEW_TAB_ID_GAME
+    public static final int NEW_TAB_ID_APP
+    private static final int ACTION_CHECK_SELF_UPDATE
+    private static final int DIALOG_CONFIRM_EXIT
+    private static final int DIALOG_UPDATE_AVALIABLE
+    private static final int DIALOG_NOTIFI_AVALIABLE
+    private static final int DIALOG_SDCARD_NOT_AMOUNT
+    private static final int DIALOG_SDCARD_NOT_ENOUGH
+    private static android.view.WindowManager mWindowManager
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_USER_REGISTER
+    private static final int ACTION_USER_PARTNER
+    private static final int ACTION_USER_INFO
+    private static final int ACTION_USER_NOTIFY
+    private static final java.lang.String TAG
+    private void initCategoryTab()
+    private void initSearchTab()
+    private void initManageTab()
+com.huaqin.market.NewAppBrowser:
+    private static final int TAB_ID_RECOMMEND
+    private static final int TAB_ID_LIKE
+    private static final int TAB_ID_NEW
+    private static final java.lang.String TAB_RECOMMEND
+    private static final java.lang.String TAB_LIKE
+    private static final java.lang.String TAB_NEW
+    public static final int FLEEP_DISTANCE
+com.huaqin.market.PuddingBroadcastReceiver:
+    private static final java.lang.String TAG
+com.huaqin.market.R:
+    public R()
+com.huaqin.market.RankAppBrowser:
+    private static final int TAB_ID_WEEK
+    private static final int TAB_ID_MONTH
+    private static final int TAB_ID_SUMMARY
+    private static final java.lang.String TAB_WEEK
+    private static final java.lang.String TAB_MONTH
+    private static final java.lang.String TAB_TOTAL
+com.huaqin.market.SearchAppBrowser:
+    public static final java.lang.String TAG
+    public static final java.lang.String SEARCH_REQUEST
+    public static final java.lang.String SEARCH_RESULT
+    public static final java.lang.String SEARCH_MAIN
+    private static final int TAB_ID_SEARCH_HOT
+    private static final int TAB_ID_SEARCH_RESULT
+    private static final java.lang.String TAB_SEARCH_HOT
+    private static final java.lang.String TAB_SEARCH_RESULT
+    private static final int ACTION_APPNAMES_LIST
+    private static final int ACTION_NETWORK_ERROR
+    private void setCurrentTab(int)
+com.huaqin.market.SplashActivity:
+    public static final java.lang.String ACTION_ADD_SHORTCUT
+    public static final java.lang.String PACKAGE_NAME
+    public static final java.lang.String PREFS_NAME
+    private static final int ACTION_INSTALL_LOG
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_NEW_ACTIVITY
+    private static final int ACTION_VFALG
+    private static final int DIALOG_NETWORK_ERROR
+com.huaqin.market.download.DownloadNotification:
+    static final java.lang.String LOGTAG
+    static final java.lang.String WHERE_RUNNING
+    static final java.lang.String WHERE_COMPLETED
+    public void cancelNotification(long)
+com.huaqin.market.download.DownloadTask:
+    public static final int STATE_DOWNLOADING
+    public static final int STATE_PAUSE
+    public static final int STATE_FINISH
+    private static final java.lang.String TAG
+    private static final java.lang.String TAG_1
+    int getState()
+com.huaqin.market.download.Helpers$Lexer:
+    public static final int TOKEN_START
+    public static final int TOKEN_OPEN_PAREN
+    public static final int TOKEN_CLOSE_PAREN
+    public static final int TOKEN_AND_OR
+    public static final int TOKEN_COLUMN
+    public static final int TOKEN_COMPARE
+    public static final int TOKEN_VALUE
+    public static final int TOKEN_IS
+    public static final int TOKEN_NULL
+    public static final int TOKEN_END
+com.huaqin.market.list.AppListAdapter:
+    private static final java.lang.String TAG
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int NON_HOTTYPE
+    private static final int HOTTYPE_START
+    private static final int HOTTYPE_HOT
+    private static final int HOTTYPE_OFFICAL
+com.huaqin.market.list.AppListAdapter$ViewHolder:
+    android.view.View mParent
+com.huaqin.market.list.CategoryAppListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int DIALOG_NETWORK_ERROR
+    private android.view.animation.Animation icon_push_in
+com.huaqin.market.list.CategoryListActivity:
+    private static final int ACTION_CATEGORY_LIST
+    private static final int ACTION_CATEGORY_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private void clearPendingThumbRequest()
+com.huaqin.market.list.CategoryListActivity$CategoryAdapter:
+    public java.lang.String getThumbURL(int)
+com.huaqin.market.list.DownloadAppBrowser:
+    private static final int TAB_ID_DOWNLOADED
+    private static final int TAB_ID_DOWNLOADING
+    private static final java.lang.String TAB_DOWNLOADED
+    private static final java.lang.String TAB_DOWNLOADING
+com.huaqin.market.list.DownloadedAppListActivity:
+    public static final java.lang.String ACTION_APP_DELETED
+    private static final int CONTEXT_MENU_DELETE_FILE
+    private static final int CONTEXT_MENU_CANCLE
+com.huaqin.market.list.DownloadingAppListActivity:
+    private static final java.lang.String TAG
+    public static final java.lang.String ACTION_APP_DELETED
+    private static final int CONTEXT_MENU_DELETE_FILE
+    private static final int CONTEXT_MENU_CANCLE
+    private static final int PROGRESSBAR_UPDATEING
+    private static java.lang.String getItemViewTag(int)
+    private static java.lang.String getControlViewTag(int)
+com.huaqin.market.list.ImageAdapter
+com.huaqin.market.list.InstalledAppListActivity:
+    private static final int ACTION_PACKAGE_LIST
+com.huaqin.market.list.NewAppListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    public static final java.lang.String NEW_LOAD
+    private android.graphics.drawable.AnimationDrawable smallLoadingAnimation
+    private android.view.animation.Animation icon_push_in
+    public void startAnimation()
+com.huaqin.market.list.RankAppListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int DIALOG_NETWORK_ERROR
+    private android.view.animation.Animation icon_push_in
+com.huaqin.market.list.RecommandAppListActivity:
+    private static final int ACTION_LOGIN
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_TOP_APP_DETIAL
+    private static final int ACTION_TOP_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_TOP_LAYOUT_DETIAL
+    private static final int ACTION_APP_ICON_SHOW
+    private static final int HEADVIEW_MIN_HEIGHT
+    private static final int DIALOG_NETWORK_ERROR
+    public static final int IMAGE_CHANGE
+    public static final int DATE_LOAD
+    public static final int ICON_SHOW
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int ACTION_USER_PV
+    private com.huaqin.market.webservice.Request mTopLayoutRequest
+    private android.view.animation.Animation icon_push_in
+com.huaqin.market.list.RecommandAppListActivity$DrawableAnim
+com.huaqin.market.list.RelatedAppListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int DIALOG_NETWORK_ERROR
+com.huaqin.market.list.SearchAppListActivity:
+    private static final int ACTION_SEARCH_APP_LIST_HEAD
+    private static final int ACTION_SEARCH_APP_LIST
+    private static final int ACTION_SEARCH_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int DIALOG_NETWORK_ERROR
+    private android.view.animation.Animation icon_push_in
+com.huaqin.market.list.SortAppListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private android.graphics.drawable.AnimationDrawable smallLoadingAnimation
+    private android.view.animation.Animation icon_push_in
+    public void startAnimation()
+com.huaqin.market.list.SortGameListActivity:
+    private static final int ACTION_APP_LIST
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int PROGRESSBAR_UPDATEING
+    private android.graphics.drawable.AnimationDrawable smallLoadingAnimation
+    private android.view.animation.Animation icon_push_in
+    public void startAnimation()
+com.huaqin.market.list.SubjectListActivity:
+    private static final int ACTION_SUBJECT_LIST
+    private static final int ACTION_SUBJECT_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_USER_PV
+    private static final int DIALOG_NETWORK_ERROR
+    public static final java.lang.String SUB_LOAD
+com.huaqin.market.list.UpgradeAppListActivity:
+    private static final java.lang.String TAG
+    private static final int ACTION_APPS_LIST
+    private static final int ACTION_UPDATE_AVALIABLE_APPS
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int DIALOG_SDCARD_NOT_AMOUNT
+    private static final int DIALOG_SDCARD_NOT_ENOUGH
+    private static final int DIALOG_UPGRADE_DOWNLOADING
+com.huaqin.market.list.UpgradeAppListAdapter$ViewHolder:
+    android.view.View mParent
+com.huaqin.market.model.Application2:
+    private static final long serialVersionUID
+    private int feeType
+    private int feeAmount
+    public java.lang.String getKeywords()
+    public java.lang.String getAuthor()
+    public int getVersionCode()
+    public int getFeeType()
+    public int getFeeAmount()
+    public java.util.Date getUpdateTime()
+com.huaqin.market.model.Comment2:
+    private static final long serialVersionUID
+    public void setCommentId(int)
+    public void setAppId(int)
+    public void setClientId(java.lang.String)
+    public void setContent(java.lang.String)
+    public void setCreateTime(java.util.Date)
+    public void setDeviceId(java.lang.String)
+    public void setMemberId(java.lang.String)
+    public void setNickName(java.lang.String)
+    public void setSubscribeId(java.lang.String)
+    public void setStars(java.lang.Integer)
+com.huaqin.market.model.Subject2:
+    private static final long serialVersionUID
+    public java.lang.String getIcon()
+    public static long getSerialversionuid()
+com.huaqin.market.model.TopAppDetial:
+    public int subId
+com.huaqin.market.ui.AddCommentDetailActivity:
+    private static final int INSERT_COMMENT_CONTENT
+    private static final int ACTION_NETWORK_ERROR
+    private static final int COMMENT_CONTENT_NULL
+    private static final int COMMENT_CONTENT_OVERFLOW
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int DIALOG_COMMENT_CONTENT_NULL
+    private static final int DIALOG_COMMENT_CONTENT_OVERFLOW
+com.huaqin.market.ui.AddContactActivity:
+    private static final int INSERT_COMMENT_CONTENT
+    private static final int ACTION_NETWORK_ERROR
+    private static final int COMMENT_CONTENT_NULL
+    private static final int COMMENT_CONTENT_OVERFLOW
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int DIALOG_COMMENT_CONTENT_NULL
+    private static final int DIALOG_COMMENT_CONTENT_OVERFLOW
+com.huaqin.market.ui.AppInfoActivity:
+    private static final java.lang.String TAG
+    private static final int DIALOG_SDCARD_NOT_AMOUNT
+    private static final int DIALOG_SDCARD_NOT_ENOUGH
+    private static final int DIALOG_UPGRADE_DOWNLOADING
+    private static final int PROGRESSBAR_UPDATEING
+    public static final java.lang.String ACTION_DETAIL_DOWNLOAD
+    public static final java.lang.String ACTION_DETAIL_DOWNLOAD_REZUME
+    public static final java.lang.String ACTION_DETAIL_DOWNLOAD_PAUSE
+    public static final java.lang.String ACTION_DETAIL_FREE
+    private static final int ACTION_APP_ICON
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_USER_PV
+    private static final java.lang.String APP_DIR_NAME
+    private void postPV(java.lang.String)
+com.huaqin.market.ui.AppInfoActivity$7
+com.huaqin.market.ui.AppInfoCommentsActivity:
+    private static final int ACTION_LIST_COMMENTS
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_REFRESH_COMMENTS
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int DIALOG_APP_NOT_INSTALL
+    public static final java.lang.String ADD_COMMENT
+    public static final java.lang.String ADD_COMMENT_REFLASH
+com.huaqin.market.ui.AppInfoDetailActivity:
+    private static final int ACTION_APP_PREVIEW
+    private static final int ACTION_APP_RELATE
+    private static final int ACTION_NETWORK_ERROR
+    private static final int APP_INFO_DESCRIPTION_LINES
+    private static final int ACTION_APP_ICON
+com.huaqin.market.ui.AppInfoPreloadActivity:
+    private static final int ACTION_APP_DETAIL
+    private static final int ACTION_NETWORK_ERROR
+    public static final java.lang.String TAB_APPINFO
+    private static final java.lang.String TAG
+    private static final int ACTION_USER_INFO
+com.huaqin.market.ui.AppSecurityPermissions:
+    private static final java.lang.String TAG
+    public int getPermissionCount()
+com.huaqin.market.ui.CategoryInfoActivity:
+    private static final int TAB_ID_BY_DOWNLOAD
+    private static final int TAB_ID_BY_RATING
+    private static final int TAB_ID_BY_DATE
+    private static final java.lang.String TAB_BY_DOWNLOAD
+    private static final java.lang.String TAB_BY_RATING
+    private static final java.lang.String TAB_BY_DATE
+    private static final java.lang.String TAG
+    private static final int ACTION_USER_INFO
+    private static final int ACTION_NETWORK_ERROR
+    private static final java.lang.String APP_DIR_NAME
+com.huaqin.market.ui.LoadingAnimation:
+    public static final int SIZE_SMALL
+    public static final int SIZE_MEDIUM
+    public static final int SIZE_LARGE
+    public static final int DEFAULT_DURATION
+    private static final int ANI_NUMBER
+    private static final int WIDTH_SMALL
+    private static final int WIDTH_MEDIUM
+    private static final int WIDTH_LARGE
+    private static final int HEIGHT_SMALL
+    private static final int HEIGHT_MEDIUM
+    private static final int HEIGHT_LARGE
+    private static final int SIDE_SMALL
+    private static final int SIDE_SMALL_F
+    private static final int SIDE_MEDIUM
+    private static final int SIDE_MEDIUM_F
+    private static final int SIDE_LARGE
+    private static final int SIDE_LARGE_F
+    public LoadingAnimation(android.content.Context)
+    public int getMinWidth()
+    public int getMinHeight()
+com.huaqin.market.ui.MarketPage:
+    public static void setTouchIntercept(boolean)
+com.huaqin.market.ui.SearchHotActivity:
+    private static final int ACTION_HOTWORDS_LIST
+    private static final int ACTION_APPNAMES_LIST
+    private static final int ACTION_NETWORK_ERROR
+    private static final int DIALOG_NETWORK_ERROR
+    private void addSearchDatabaseRequest()
+com.huaqin.market.ui.SearchHotActivity$6
+com.huaqin.market.ui.SettingsActivity:
+    private static final java.lang.String KEY_BUFFER_ICON
+com.huaqin.market.ui.SubjectInfoActivity:
+    private static final int ACTION_TOPIC_CONTENT
+    private static final int ACTION_TOPIC_IMAGE
+    private static final int ACTION_TOPIC_APP
+    private static final int ACTION_TOPIC_APP_THUMB
+    private static final int ACTION_UP_COMMENT_CONTENT
+    private static final int ACTION_DOWN_COMMENT_CONTENT
+    private static final int ACTION_NETWORK_ERROR
+    private static final int ACTION_USER_PV
+    private static final int PROGRESSBAR_UPDATEING
+    private static final int DIALOG_NETWORK_ERROR
+    private static final java.lang.String TAG
+com.huaqin.market.ui.TabWebActivity:
+    private static final int ACTION_USER_PV
+com.huaqin.market.ui.UninstallHintActivity:
+    private static final int UNINSTALL_FLAG
+    private static final int INSTALL_FLAG
+    private static final int INSTALL_COMPLETE_FLAG
+com.huaqin.market.ui.UpdateCommentDetailActivity:
+    private static final int UPDATE_COMMENT_CONTENT
+    private static final int ACTION_NETWORK_ERROR
+    private static final int COMMENT_CONTENT_NULL
+    private static final int COMMENT_CONTENT_OVERFLOW
+    private static final int DIALOG_NETWORK_ERROR
+    private static final int DIALOG_COMMENT_CONTENT_NULL
+    private static final int DIALOG_COMMENT_CONTENT_OVERFLOW
+com.huaqin.market.utils.CachedThumbnails:
+    private static final int MAX_SIZE
+    private static final int FREE_COUNT
+    public CachedThumbnails()
+com.huaqin.market.utils.Constant
+com.huaqin.market.utils.DeviceUtil:
+    public static final java.lang.String CLIENT_ID
+    public DeviceUtil()
+    public static java.lang.String getBuildModel()
+    public static java.lang.String getSDKVersion()
+com.huaqin.market.utils.FileManager:
+    public static final int BUFFER_SIZE
+    public static final java.lang.String APP_ICON
+    public static final java.lang.String SUB_ICON
+    public static final java.lang.String CATE_ICON
+    public static final java.lang.String APP_DIR_NAME
+    public FileManager()
+    public static void deleteFile(android.content.Context,java.lang.String)
+com.huaqin.market.utils.GlobalUtil:
+    public static boolean bAutoCreateShortcut
+    public GlobalUtil()
+    public static boolean allowInstallNonMarketApps(android.content.Context)
+    public static void showNonMarketAppDialog(android.content.Context)
+com.huaqin.market.utils.GlobalUtil$1
+com.huaqin.market.utils.KeywordsFlow:
+    public static final int IDX_X
+    public static final int IDX_Y
+    public static final int IDX_TXT_LENGTH
+    public static final int IDX_DIS_Y
+    public static final int ANIMATION_IN
+    public static final int ANIMATION_OUT
+    public static final int OUTSIDE_TO_LOCATION
+    public static final int LOCATION_TO_OUTSIDE
+    public static final int CENTER_TO_LOCATION
+    public static final int LOCATION_TO_CENTER
+    public static final long ANIM_DURATION
+    public static final int MAX
+    public static final int TEXT_SIZE_MAX
+    public static final int TEXT_SIZE_MIN
+    public long getDuration()
+    public java.util.Vector getKeywords()
+    public void rubAllViews()
+com.huaqin.market.utils.Md5:
+    public Md5()
+com.huaqin.market.utils.OptionsMenu:
+    public static final java.lang.String ACTION_MENU_EXIT
+    public static final int EXIT_APPLICATION
+com.huaqin.market.utils.PackageUtil:
+    public static final java.lang.String ACTION_PACKAGE_UPDATED
+    public static final java.lang.String ACTION_PACKAGE_NOT_UPDATED
+    public static final int PACKAGE_NOT_INSTALLED
+    public static final int PACKAGE_INSTALLED
+    public static final int PACKAGE_UPDATE_AVAILABLE
+    private static final java.lang.String TAG
+    public PackageUtil()
+    public static boolean isSystemApp(android.content.pm.PackageManager,android.content.pm.ApplicationInfo)
+    public static boolean isSystemApp(android.content.pm.PackageManager,java.lang.String)
+    public static java.lang.String getPackageVersionName(android.content.pm.PackageManager,java.lang.String)
+    public static java.lang.String getAppSelfVersionName(android.content.Context)
+com.huaqin.market.utils.SearchAdapter:
+    public SearchAdapter(android.content.Context,int)
+    public SearchAdapter(android.content.Context,int,int)
+    public SearchAdapter(android.content.Context,int,int,java.lang.Object[])
+    public SearchAdapter(android.content.Context,int,java.util.List)
+    public SearchAdapter(android.content.Context,int,int,java.util.List)
+    public void add(java.lang.Object)
+    public void addAll(java.util.Collection)
+    public varargs void addAll(java.lang.Object[])
+    public void insert(java.lang.Object,int)
+    public void remove(java.lang.Object)
+    public void clear()
+    public void sort(java.util.Comparator)
+    public void setNotifyOnChange(boolean)
+    public android.content.Context getContext()
+    public int getPosition(java.lang.Object)
+    public void setDropDownViewResource(int)
+    public static com.huaqin.market.utils.SearchAdapter createFromResource(android.content.Context,int,int)
+com.huaqin.market.utils.TimeUtil:
+    public TimeUtil()
+com.huaqin.market.webservice.AppCacheEventHandler:
+    private static final java.lang.String THREAD_NAME
+com.huaqin.market.webservice.AppCacheService:
+    public static final int THREAD_COUNT
+    public static final int THREAD_LIST
+    public static final int THREAD_AD
+    private static final int MAX_PRIORITY
+    private static final int NORM_PRIORITY
+    public void getTopLayout(com.huaqin.market.webservice.Request)
+com.huaqin.market.webservice.AppCacheServiceAgent:
+    public static void freeInstance()
+com.huaqin.market.webservice.IMarketService:
+    public abstract void getTopicAppDetail(com.huaqin.market.webservice.Request)
+    public abstract void getCategoryAppList(com.huaqin.market.webservice.Request)
+    public abstract void getCategoriesList(com.huaqin.market.webservice.Request)
+    public abstract void getSubjectDetail(com.huaqin.market.webservice.Request)
+    public abstract void getTopApp(com.huaqin.market.webservice.Request)
+    public abstract void getTopAppIcon(com.huaqin.market.webservice.Request)
+    public abstract void getSearchDatabase(com.huaqin.market.webservice.Request)
+    public abstract void getNotice(com.huaqin.market.webservice.Request)
+    public abstract void getNewSubject(com.huaqin.market.webservice.Request)
+com.huaqin.market.webservice.MarketService:
+    public static final int THREAD_COUNT
+    public static final int THREAD_LIST
+    public static final int THREAD_THUMB
+    public static final int THREAD_OTHER
+    private static final int MAX_PRIORITY
+    private static final int NORM_PRIORITY
+    private static final int MIN_PRIORITY
+    public void getTopicAppDetail(com.huaqin.market.webservice.Request)
+    public void getCategoryAppList(com.huaqin.market.webservice.Request)
+    public void getCategoriesList(com.huaqin.market.webservice.Request)
+    public void getSubjectDetail(com.huaqin.market.webservice.Request)
+    public void getNewSubject(com.huaqin.market.webservice.Request)
+    public void getTopApp(com.huaqin.market.webservice.Request)
+    public void getTopAppIcon(com.huaqin.market.webservice.Request)
+    public void getNotice(com.huaqin.market.webservice.Request)
+    public void getSearchDatabase(com.huaqin.market.webservice.Request)
+com.huaqin.market.webservice.MarketServiceAgent:
+    private static final java.lang.String MARKET_ADDRESS
+    public com.huaqin.android.market.sdk.bean.NewSubject getSubjectDetail(int)
+    public java.lang.String getNewSubject()
+    public java.util.ArrayList getCategoriesList(int)
+    public com.huaqin.android.market.sdk.bean.Comment postComment(int,java.lang.String)
+com.huaqin.market.webservice.Request:
+    private java.lang.Object extra
+    public Request(long,int,boolean)
+    public long getId()
+    public java.lang.Object getExtra()
+    public java.lang.String getErrorMsg()
+    public boolean isAsync()
+    public void setExtra(java.lang.Object)
+    public void setErrorMsg(java.lang.String)
+com.huaqin.market.webservice.RequestHandler:
+    private static final java.lang.String THREAD_NAME
+com.huaqin.market.webservice.RequestQueue:
+    public synchronized int getPendingCount()
+com.repack.google.gson.CamelCaseSeparatorNamingPolicy
+com.repack.google.gson.CompositionFieldNamingPolicy
+com.repack.google.gson.DefaultTypeAdapters:
+    DefaultTypeAdapters()
+com.repack.google.gson.DefaultTypeAdapters$DefaultDateTypeAdapter:
+    DefaultTypeAdapters$DefaultDateTypeAdapter(int)
+com.repack.google.gson.FieldAttributes:
+    private static final java.lang.String MAX_CACHE_PROPERTY_NAME
+    public java.lang.Class getDeclaringClass()
+    java.lang.Object get(java.lang.Object)
+    java.lang.reflect.Field getFieldObject()
+com.repack.google.gson.FieldNamingPolicy
+com.repack.google.gson.FieldNamingStrategy
+com.repack.google.gson.FieldNamingStrategy2Adapter
+com.repack.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    public com.repack.google.gson.JsonElement toJsonTree(java.lang.Object)
+    public com.repack.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    public void toJson(java.lang.Object,java.lang.Appendable)
+    public java.lang.Object fromJson(java.io.Reader,java.lang.Class)
+    public java.lang.Object fromJson(com.repack.google.gson.JsonElement,java.lang.Class)
+    public java.lang.Object fromJson(com.repack.google.gson.JsonElement,java.lang.reflect.Type)
+com.repack.google.gson.GsonBuilder:
+    public com.repack.google.gson.GsonBuilder setVersion(double)
+    public varargs com.repack.google.gson.GsonBuilder excludeFieldsWithModifiers(int[])
+    public com.repack.google.gson.GsonBuilder generateNonExecutableJson()
+    public com.repack.google.gson.GsonBuilder excludeFieldsWithoutExposeAnnotation()
+    public com.repack.google.gson.GsonBuilder serializeNulls()
+    public com.repack.google.gson.GsonBuilder enableComplexMapKeySerialization()
+    public com.repack.google.gson.GsonBuilder disableInnerClassSerialization()
+    public com.repack.google.gson.GsonBuilder setLongSerializationPolicy(com.repack.google.gson.LongSerializationPolicy)
+    public com.repack.google.gson.GsonBuilder setFieldNamingPolicy(com.repack.google.gson.FieldNamingPolicy)
+    public com.repack.google.gson.GsonBuilder setFieldNamingStrategy(com.repack.google.gson.FieldNamingStrategy)
+    com.repack.google.gson.GsonBuilder setFieldNamingStrategy(com.repack.google.gson.FieldNamingStrategy2)
+    public varargs com.repack.google.gson.GsonBuilder setExclusionStrategies(com.repack.google.gson.ExclusionStrategy[])
+    public com.repack.google.gson.GsonBuilder addSerializationExclusionStrategy(com.repack.google.gson.ExclusionStrategy)
+    public com.repack.google.gson.GsonBuilder addDeserializationExclusionStrategy(com.repack.google.gson.ExclusionStrategy)
+    public com.repack.google.gson.GsonBuilder setPrettyPrinting()
+    public com.repack.google.gson.GsonBuilder disableHtmlEscaping()
+    public com.repack.google.gson.GsonBuilder setDateFormat(java.lang.String)
+    public com.repack.google.gson.GsonBuilder setDateFormat(int)
+    public com.repack.google.gson.GsonBuilder setDateFormat(int,int)
+    public com.repack.google.gson.GsonBuilder registerTypeHierarchyAdapter(java.lang.Class,java.lang.Object)
+    private com.repack.google.gson.GsonBuilder registerTypeHierarchyAdapter(java.lang.Class,java.lang.Object,boolean)
+    private com.repack.google.gson.GsonBuilder registerInstanceCreatorForTypeHierarchy(java.lang.Class,com.repack.google.gson.InstanceCreator,boolean)
+    private com.repack.google.gson.GsonBuilder registerSerializerForTypeHierarchy(java.lang.Class,com.repack.google.gson.JsonSerializer,boolean)
+    private com.repack.google.gson.GsonBuilder registerDeserializerForTypeHierarchy(java.lang.Class,com.repack.google.gson.JsonDeserializer,boolean)
+    public com.repack.google.gson.GsonBuilder serializeSpecialFloatingPointValues()
+com.repack.google.gson.GsonToMiniGsonTypeAdapterFactory$1:
+    public java.lang.Object deserialize(com.repack.google.gson.JsonElement,java.lang.reflect.Type)
+com.repack.google.gson.GsonToMiniGsonTypeAdapterFactory$2:
+    public com.repack.google.gson.JsonElement serialize(java.lang.Object)
+    public com.repack.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.repack.google.gson.JsonArray:
+    public void addAll(com.repack.google.gson.JsonArray)
+    public int size()
+    public com.repack.google.gson.JsonElement get(int)
+    public java.math.BigDecimal getAsBigDecimal()
+    public java.math.BigInteger getAsBigInteger()
+    public float getAsFloat()
+    public byte getAsByte()
+    public char getAsCharacter()
+    public short getAsShort()
+com.repack.google.gson.JsonDeserializationContext:
+    public abstract java.lang.Object deserialize(com.repack.google.gson.JsonElement,java.lang.reflect.Type)
+com.repack.google.gson.JsonElement:
+    public com.repack.google.gson.JsonNull getAsJsonNull()
+    public float getAsFloat()
+    public byte getAsByte()
+    public char getAsCharacter()
+    public java.math.BigDecimal getAsBigDecimal()
+    public java.math.BigInteger getAsBigInteger()
+    public short getAsShort()
+com.repack.google.gson.JsonElementVisitor
+com.repack.google.gson.JsonIOException:
+    private static final long serialVersionUID
+    public JsonIOException(java.lang.String,java.lang.Throwable)
+com.repack.google.gson.JsonObject:
+    public com.repack.google.gson.JsonElement remove(java.lang.String)
+    public void addProperty(java.lang.String,java.lang.String)
+    public void addProperty(java.lang.String,java.lang.Number)
+    public void addProperty(java.lang.String,java.lang.Boolean)
+    public void addProperty(java.lang.String,java.lang.Character)
+    private com.repack.google.gson.JsonElement createJsonElement(java.lang.Object)
+    public boolean has(java.lang.String)
+    public com.repack.google.gson.JsonElement get(java.lang.String)
+    public com.repack.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    public com.repack.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    public com.repack.google.gson.JsonObject getAsJsonObject(java.lang.String)
+com.repack.google.gson.JsonParseException:
+    static final long serialVersionUID
+com.repack.google.gson.JsonParser
+com.repack.google.gson.JsonPrimitive:
+    public JsonPrimitive(java.lang.Character)
+    JsonPrimitive(java.lang.Object)
+    public java.math.BigDecimal getAsBigDecimal()
+    public java.math.BigInteger getAsBigInteger()
+    public float getAsFloat()
+    public short getAsShort()
+    public byte getAsByte()
+    public char getAsCharacter()
+com.repack.google.gson.JsonSerializationContext:
+    public abstract com.repack.google.gson.JsonElement serialize(java.lang.Object)
+    public abstract com.repack.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.repack.google.gson.JsonStreamParser
+com.repack.google.gson.JsonSyntaxException:
+    private static final long serialVersionUID
+com.repack.google.gson.LongSerializationPolicy:
+    public com.repack.google.gson.JsonElement serialize(java.lang.Long)
+com.repack.google.gson.LongSerializationPolicy$DefaultStrategy:
+    public com.repack.google.gson.JsonElement serialize(java.lang.Long)
+com.repack.google.gson.LongSerializationPolicy$Strategy:
+    public abstract com.repack.google.gson.JsonElement serialize(java.lang.Long)
+com.repack.google.gson.LongSerializationPolicy$StringStrategy:
+    public com.repack.google.gson.JsonElement serialize(java.lang.Long)
+com.repack.google.gson.LowerCamelCaseSeparatorNamingPolicy
+com.repack.google.gson.LowerCaseNamingPolicy
+com.repack.google.gson.LruCache:
+    private static final long serialVersionUID
+com.repack.google.gson.ModifyFirstLetterNamingPolicy
+com.repack.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier
+com.repack.google.gson.UpperCamelCaseSeparatorNamingPolicy
+com.repack.google.gson.UpperCaseNamingPolicy
+com.repack.google.gson.VersionConstants
+com.repack.google.gson.annotations.package-info
+com.repack.google.gson.internal.$Gson$Preconditions:
+    public $Gson$Preconditions()
+    public static void checkState(boolean)
+com.repack.google.gson.internal.$Gson$Types:
+    private $Gson$Types()
+    public static boolean isArray(java.lang.reflect.Type)
+com.repack.google.gson.internal.$Gson$Types$GenericArrayTypeImpl:
+    private static final long serialVersionUID
+com.repack.google.gson.internal.$Gson$Types$ParameterizedTypeImpl:
+    private static final long serialVersionUID
+com.repack.google.gson.internal.$Gson$Types$WildcardTypeImpl:
+    private static final long serialVersionUID
+com.repack.google.gson.internal.ParameterizedTypeHandlerMap:
+    public synchronized void registerForTypeHierarchy(java.lang.Class,java.lang.Object,boolean)
+    public synchronized void registerForTypeHierarchy(com.repack.google.gson.internal.Pair,boolean)
+    private static int getIndexOfAnOverriddenHandler(java.lang.Class,java.util.List)
+    public synchronized void registerIfAbsent(com.repack.google.gson.internal.ParameterizedTypeHandlerMap)
+    private static int getIndexOfSpecificHandlerForTypeHierarchy(java.lang.Class,java.util.List)
+com.repack.google.gson.internal.Primitives:
+    private Primitives()
+    public static java.lang.Class unwrap(java.lang.Class)
+com.repack.google.gson.internal.Streams:
+    public Streams()
+com.repack.google.gson.internal.bind.JsonElementWriter:
+    public com.repack.google.gson.stream.JsonWriter value(double)
+    public void flush()
+com.repack.google.gson.internal.bind.MiniGson:
+    public java.util.List getFactories()
+com.repack.google.gson.internal.bind.MiniGson$Builder:
+    public com.repack.google.gson.internal.bind.MiniGson$Builder typeAdapter(com.repack.google.gson.reflect.TypeToken,com.repack.google.gson.internal.bind.TypeAdapter)
+    public com.repack.google.gson.internal.bind.MiniGson$Builder typeHierarchyAdapter(java.lang.Class,com.repack.google.gson.internal.bind.TypeAdapter)
+com.repack.google.gson.internal.bind.Reflection:
+    Reflection()
+com.repack.google.gson.internal.bind.TypeAdapter:
+    public final java.lang.String toJson(java.lang.Object)
+    public final void write(java.io.Writer,java.lang.Object)
+    public final java.lang.Object fromJson(java.lang.String)
+    public final java.lang.Object read(java.io.Reader)
+com.repack.google.gson.internal.bind.TypeAdapters:
+    private TypeAdapters()
+    public static com.repack.google.gson.internal.bind.TypeAdapter$Factory newFactory(com.repack.google.gson.reflect.TypeToken,com.repack.google.gson.internal.bind.TypeAdapter)
+com.repack.google.gson.internal.bind.TypeAdapters$20:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.repack.google.gson.internal.bind.TypeAdapters$24
+com.repack.google.gson.internal.package-info
+com.repack.google.gson.package-info
+com.repack.google.gson.reflect.TypeToken:
+    public boolean isAssignableFrom(java.lang.Class)
+    public boolean isAssignableFrom(java.lang.reflect.Type)
+    public boolean isAssignableFrom(com.repack.google.gson.reflect.TypeToken)
+    private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    private static varargs java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type,java.lang.Class[])
+    private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+com.repack.google.gson.reflect.package-info
+com.repack.google.gson.stream.JsonWriter:
+    public com.repack.google.gson.stream.JsonWriter value(double)
+    public void flush()
+com.repack.google.gson.stream.MalformedJsonException:
+    private static final long serialVersionUID
+    public MalformedJsonException(java.lang.String,java.lang.Throwable)
+    public MalformedJsonException(java.lang.Throwable)
+com.tom.pushmsg.pull.TomPushMsgGetInfo
+com.tom.pushmsg.pull.TomPushMsgService:
+    public static final java.lang.String VERSION
+    private static final java.lang.String VERSION_CODE
+    public static final java.lang.String PUSHMSG_PACKAGENAME
+    public static final java.lang.String PAGE_PARAM
+    public static final java.lang.String PAGE_MSG_ID
+    public static final java.lang.String PARTNER_ID
+    public static final java.lang.String Q_ID
+    public static final java.lang.String G_ID
+    public static final java.lang.String PUSH_ID
+    public static final java.lang.String PUSH_TYPE
+    public static final java.lang.String PAGE_INFO
+    public static final java.lang.String PAGE_NAME
+    private static final java.lang.String ACTION_CYCLE_MSG
+    private static final java.lang.String ACTION_SHOW_MSG
+    public static final java.lang.String ACTION_STOP_SERVICE
+    private static final java.lang.String PARAM_SHOW_MSG
+    public static final java.lang.String PARAM_STOP_MODE
+    public static final java.lang.String STOP_MODE_NEVER_RESTART
+    public static final java.lang.String STOP_NEVER_RESTART
+    private static final int NETWORK_STATE_NONE
+    private static final int NETWORK_STATE_WIFI
+    private static final int NETWORK_STATE_MOBILE
+    static final java.lang.String TAG
+    public static final java.lang.String PUSHMSGURL
+    static final int MSGPUSH_UIDERROR
+    static final int MSGPUSH_MSGINFOERROR
+    static final int MSGPUSH_EXECUTESUCCESS
+    static final int MSGPUSH_MSGTYPE_UPDATE
+    static final int MSGPUSH_MSGTYPE_MESSAGE_NOTICE
+    static final int MSGPUSH_MSGTYPE_MESSAGE_PRIVATE
+    public static final int MSGPUSH_PAGETYPE_NORMAL
+    public static final int MSGPUSH_PAGETYPE_PAGE
+    public static final int MSGPUSH_PAGETYPE_URL
+    public static final int MSGPUSH_PAGETYPE_DOWNLOAD
+    public static final int MSGPUSH_PAGETYPE_APP
+    static final java.lang.String MSGPUSHINFO_PREFS
+    static final java.lang.String MSGPUSHINFO_PREFS_MESSAGE_NOTICE
+    static final java.lang.String MSGPUSHINFO_PREFS_MESSAGE_PRIVATE
+    public static final java.lang.String MSGPUSHINFO_PREFS_MESSAGE_UID
+com.tom.pushmsg.pull.entity.PushMsgInfo:
+    private static final java.lang.String STATE_SUCCESS
+com.tom.pushmsg.pull.entity.PushMsgValue:
+    private static final long serialVersionUID
+com.tom.pushmsg.pull.utils.TomPushMsgLog:
+    5:5:public TomPushMsgLog()
+    29:32:public static void d(java.lang.String,java.lang.String)
+    41:44:public static void e(java.lang.String,java.lang.String)
+com.tom.pushmsg.pull.utils.TomPushMsgTools:
+    public static final java.lang.String CMPROXY
+    public static final java.lang.String CTPROXY
+    public static final java.lang.String PROT
+    36:36:public TomPushMsgTools()
+    53:70:public static byte[] getImageFromNet(java.lang.String)
+    82:102:public static java.lang.String MD5Encrypt(java.lang.String)
+    114:123:public static byte[] readInputStream(java.io.InputStream)
+    160:165:public static java.lang.String Base64Encode(byte[])
+    178:204:protected static char[] Base64EncodeBlock(byte[],int)
+    214:224:protected static char Base64GetChar(int)
+    238:256:public static byte[] Base64Decode(java.lang.String)
+    264:276:protected static int Base64GetValue(char)
+    328:337:public static final boolean toBoolFromStr(java.lang.String,boolean)
+    595:618:public static java.lang.String getMIMEType(java.io.File)

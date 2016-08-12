@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="NumColumnsIcons">2</integer>
+    <integer name="NumColumnsLockScreen">3</integer>
+    <integer name="NumColumnsTwo">2</integer>
+    <integer name="NumColumnsThree">3</integer>
+    <integer name="gridviewNumColumns">3</integer>
+    
+</resources>

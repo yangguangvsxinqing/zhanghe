@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- <include layout="@layout/theme_title_layout"/> -->
+
+        <ImageView
+            android:id="@+id/img_wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:shadowColor="@color/black"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:text="@string/wallpaper_preview_tip"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dip"
+            android:background="@drawable/ic_btn_bg_wallpaper"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/cancle"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_btn_cancle"
+                android:text="@string/btn_cancle"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_size1" />
+
+            <!-- android:layout_marginBottom="20dip" -->
+
+            <TextView
+                android:id="@+id/btn_theme_apply"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_btn_apply"
+                android:text="@string/btn_apply"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

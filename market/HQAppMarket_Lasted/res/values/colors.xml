@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="red">#77ff0000</color>
+	<color name="blue">#770000ff</color>
+	<color name="green">#7700ff00</color>
+	<color name="yellow">#77ffff00</color>
+	<color name="white">#ffffffff</color>
+	<color name="gray">#ff333333</color>
+	<color name="black">#ff000000</color>
+	<color name="pure_blue">#ff77c8f7</color>
+	<color name="light_black">#ff333333</color>
+	<color name="list_item_bg">#ffeff2f2</color>
+	<color name="screen_background_black">#ff000000</color>
+	<color name="translucent_background">#aa000000</color>
+	<color name="transparent_background">#00000000</color>
+	
+	<color name="verinfo">#ff349cf6</color>
+	<color name="verinfo_text">#ff464640</color>
+	<color name="appinfo_text">#98988e</color>
+	<color name="appinfo_hl_text">#ff1c79cc</color>
+	<color name="appinfo_nor_text">#76756e</color>
+	<color name="text_blue">#ff4699bb</color>
+	<color name="title_text_blue">#ff585859</color>
+	<color name="text_white">#ff1c79cc</color>
+	<color name="sub_text">#ff76756e</color>
+	<color name="tab_text_normal">#ff1e7490</color>
+	<color name="tab_text_foucs">#ff002d50</color>
+	<color name="solid_red">#ffff0000</color>
+	<color name="solid_blue">#ff0000ff</color>
+	<color name="solid_green">#ff00ff00</color>
+	<color name="solid_yellow">#ffffff00</color>
+	<color name="title_bar_shadow">#00000000</color>
+	<color name="shadow">#00000000</color>
+	<color name="hint_foreground_light">#ff808080</color>
+	<color name="silver_grey">#ff868686</color>
+	<color name="perms_dangerous_grp_color">#ffdd6826</color>
+	<color name="perms_dangerous_perm_color">#ffdd6826</color>
+	<color name="title_background">#ff828282</color>
+	<color name="view_background">#ff1c1c1c</color>
+	<color name="loading_line">#ff003c80</color>
+	<color name="search_hotword">#ff2f6aba</color>
+	<color name="comment_reply">#ff2f8a23</color>
+	
+	<color name="alert_color">#fff0a03c</color>
+	<color name="title_font_orange">#ff936100</color>
+	<color name="info_font_gray">#ffa5a5a5</color> 
+	<color name="info_font_orange">#ffff8a00</color> 
+	<color name="info_font_light_orange">#ffffad00</color> 
+  
+	<color name="forum_title_black">#ff535353</color>
+	<color name="topic_item_black">#ff555555</color>
+	<color name="topic_info_gray">#ff8c8c8c</color>
+	<color name="list_item_color_gray">#ffebebeb</color>
+	<color name="list_item_color_focused">#fff6e6b1</color>
+	<color name="category_divider">#ffe5e5e5</color>
+	<color name="market_list_item_color_gray">#ff929292</color>
+	
+	
+	<color name="text_gray">#ff969696</color>
+	<color name="text_dark_gray">#ff505050</color>
+	<color name="tab_text_gray">#ff808080</color>
+	<color name="tab_divider_gray">#ffc8c8c8</color> 
+	<color name="tab_font_black">#ff404040</color>
+	
+	<color name="copyright_font_color">#ffceab67</color>
+	<color name="vertical_splitter_color">#ffc8c8c8</color>
+	<color name="comment_author_color">#ffff9600</color>
+	
+	<drawable name="translucent_background">#7f000000</drawable>
+    <drawable name="transparent_button">#90000000</drawable>
+	
+</resources>

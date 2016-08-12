@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:background="@drawable/bg_list_view" >
+	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="4.0dip" android:paddingRight="4.0dip">
+		
+		<TextView
+			android:id="@+id/app_listitem_comment_author"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+			android:paddingLeft="4.0dip" android:paddingTop="4.0dip"
+			style="@style/comment_author_font"
+			android:singleLine="true" android:ellipsize="marquee" />"
+		
+		<TextView
+			android:id="@+id/app_listitem_comment_date"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="4.0dip" android:paddingTop="4.0dip"
+			android:layout_toRightOf="@id/app_listitem_comment_author"
+			style="@style/app_description_font" />
+		
+		<RatingBar
+			android:id="@+id/app_listitem_comment_stars"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" 
+			android:paddingBottom="4.0dip"
+			android:numStars="5" android:isIndicator="true"
+			style="@style/RatingBar" />
+		
+		<Button
+			android:id="@+id/app_listitem_comment_btn_edit" 
+			android:layout_width="64.0dip" android:layout_height="wrap_content"
+			android:layout_alignParentTop="true" 
+			android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" 
+			android:layout_marginBottom="4.0dip"
+			android:layout_alignParentRight="true" android:text="@string/btn_edit"
+			android:background="@drawable/btn_appinfo_comment_operate"
+			android:textAppearance="?android:textAppearanceSmall"
+			android:visibility="gone"
+			android:textColor="@android:color/black" android:gravity="center"/> 
+	</RelativeLayout>
+	
+	<TextView android:id="@+id/app_listitem_comment_content"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="5.0dip" android:paddingTop="10.0dip"
+		android:paddingRight="5.0dip" android:paddingBottom="10.0dip"
+		style="@style/comment_font" />
+	<View  
+  	android:layout_width="fill_parent"  
+  	android:layout_height="1dip"  
+  	android:layout_alignParentBottom="true"
+  	android:background="@drawable/line_catelist_divider"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_on_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_on_pressed_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_off_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_off_focused_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_off_pressed_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_close_bg_tap.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_close_bg_tap.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_btn_check_on_focused_holo_light.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/umeng_update_close_bg_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/umeng_update_close_bg_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	
+	<ImageView
+		android:id="@+id/perm_icon"
+		android:layout_width="30.0dip" android:layout_height="30.0dip"
+		android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+		android:scaleType="fitCenter"  />
+	
+	<TextView
+		android:id="@+id/permission_group"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingLeft="6.0dip" android:layout_toRightOf="@id/perm_icon"
+		android:layout_alignBaseline="@id/perm_icon"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:textStyle="bold" />
+	
+	<TextView
+		android:id="@+id/permission_list"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingLeft="6.0dip" android:paddingBottom="8.0dip"
+		android:layout_toRightOf="@id/perm_icon"
+		android:layout_below="@id/permission_group"
+		android:textAppearance="?android:textAppearanceSmall" />
+</RelativeLayout>

@@ -1,0 +1,2211 @@
+[
+    {
+        "outputFile": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/values-bn/values-bn.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 74,
+                    "endOffset": 125
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 810,
+                        "endColumn": 71,
+                        "endOffset": 880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 130,
+                    "endColumn": 46,
+                    "endOffset": 172
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 446,
+                        "endColumn": 43,
+                        "endOffset": 488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 177,
+                    "endColumn": 47,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 401,
+                        "endColumn": 44,
+                        "endOffset": 444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 225,
+                    "endColumn": 51,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 1,
+                        "startOffset": 6201,
+                        "endColumn": 48,
+                        "endOffset": 6248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 77,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 1,
+                        "startOffset": 6250,
+                        "endColumn": 74,
+                        "endOffset": 6323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 57,
+                    "endOffset": 408
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 1,
+                        "startOffset": 5954,
+                        "endColumn": 54,
+                        "endOffset": 6007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 413,
+                    "endColumn": 63,
+                    "endOffset": 472
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 1,
+                        "startOffset": 5764,
+                        "endColumn": 60,
+                        "endOffset": 5823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 477,
+                    "endColumn": 64,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 1,
+                        "startOffset": 5569,
+                        "endColumn": 61,
+                        "endOffset": 5629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 69,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 1,
+                        "startOffset": 5697,
+                        "endColumn": 66,
+                        "endOffset": 5762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 64,
+                    "endOffset": 672
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 1,
+                        "startOffset": 5507,
+                        "endColumn": 61,
+                        "endOffset": 5567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 677,
+                    "endColumn": 68,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 1,
+                        "startOffset": 5631,
+                        "endColumn": 65,
+                        "endOffset": 5695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endColumn": 49,
+                    "endOffset": 791
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 2684,
+                        "endColumn": 46,
+                        "endOffset": 2729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 796,
+                    "endColumn": 44,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 2642,
+                        "endColumn": 41,
+                        "endOffset": 2682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 48,
+                    "endOffset": 885
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3032,
+                        "endColumn": 45,
+                        "endOffset": 3076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 890,
+                    "endColumn": 51,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3127,
+                        "endColumn": 48,
+                        "endOffset": 3174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endColumn": 51,
+                    "endOffset": 989
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3078,
+                        "endColumn": 48,
+                        "endOffset": 3125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 994,
+                    "endColumn": 43,
+                    "endOffset": 1033
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 360,
+                        "endColumn": 40,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1038,
+                    "endColumn": 40,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 2994,
+                        "endColumn": 37,
+                        "endOffset": 3030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 42,
+                    "endOffset": 1117
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 2602,
+                        "endColumn": 39,
+                        "endOffset": 2640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1122,
+                    "endColumn": 41,
+                    "endOffset": 1159
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 2768,
+                        "endColumn": 38,
+                        "endOffset": 2805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1164,
+                    "endColumn": 57,
+                    "endOffset": 1217
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 2898,
+                        "endColumn": 54,
+                        "endOffset": 2951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1222,
+                    "endColumn": 56,
+                    "endOffset": 1274
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 2844,
+                        "endColumn": 53,
+                        "endOffset": 2896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1279,
+                    "endColumn": 39,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 2807,
+                        "endColumn": 36,
+                        "endOffset": 2842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 39,
+                    "endOffset": 1354
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 2731,
+                        "endColumn": 36,
+                        "endOffset": 2766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1359,
+                    "endColumn": 43,
+                    "endOffset": 1398
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 2953,
+                        "endColumn": 40,
+                        "endOffset": 2992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1403,
+                    "endColumn": 79,
+                    "endOffset": 1478
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 1,
+                        "startOffset": 4132,
+                        "endColumn": 76,
+                        "endOffset": 4207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1483,
+                    "endColumn": 58,
+                    "endOffset": 1537
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 1,
+                        "startOffset": 4952,
+                        "endColumn": 55,
+                        "endOffset": 5006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1542,
+                    "endColumn": 68,
+                    "endOffset": 1606
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 1,
+                        "startOffset": 3533,
+                        "endColumn": 65,
+                        "endOffset": 3597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1611,
+                    "endColumn": 45,
+                    "endOffset": 1652
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 1,
+                        "startOffset": 3599,
+                        "endColumn": 42,
+                        "endOffset": 3640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1657,
+                    "endColumn": 44,
+                    "endOffset": 1697
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 1,
+                        "startOffset": 3277,
+                        "endColumn": 41,
+                        "endOffset": 3317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1702,
+                    "endColumn": 65,
+                    "endOffset": 1763
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 1,
+                        "startOffset": 3371,
+                        "endColumn": 62,
+                        "endOffset": 3432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1768,
+                    "endColumn": 54,
+                    "endOffset": 1818
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 1,
+                        "startOffset": 3319,
+                        "endColumn": 51,
+                        "endOffset": 3369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1823,
+                    "endColumn": 74,
+                    "endOffset": 1893
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 3691,
+                        "endColumn": 71,
+                        "endOffset": 3761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1898,
+                    "endColumn": 51,
+                    "endOffset": 1945
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 1,
+                        "startOffset": 3642,
+                        "endColumn": 48,
+                        "endOffset": 3689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1950,
+                    "endColumn": 55,
+                    "endOffset": 2001
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 1,
+                        "startOffset": 3434,
+                        "endColumn": 52,
+                        "endOffset": 3485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2006,
+                    "endColumn": 43,
+                    "endOffset": 2045
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 1,
+                        "startOffset": 6916,
+                        "endColumn": 40,
+                        "endOffset": 6955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2050,
+                    "endColumn": 60,
+                    "endOffset": 2106
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1093,
+                        "endColumn": 57,
+                        "endOffset": 1149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2111,
+                    "endColumn": 54,
+                    "endOffset": 2161
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 882,
+                        "endColumn": 51,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2166,
+                    "endColumn": 47,
+                    "endOffset": 2209
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 1,
+                        "startOffset": 6828,
+                        "endColumn": 44,
+                        "endOffset": 6871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2214,
+                    "endColumn": 45,
+                    "endOffset": 2255
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 1,
+                        "startOffset": 6873,
+                        "endColumn": 42,
+                        "endOffset": 6914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2260,
+                    "endColumn": 118,
+                    "endOffset": 2374
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 1,
+                        "startOffset": 4836,
+                        "endColumn": 115,
+                        "endOffset": 4950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2379,
+                    "endColumn": 71,
+                    "endOffset": 2446
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 1,
+                        "startOffset": 4767,
+                        "endColumn": 68,
+                        "endOffset": 4834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2451,
+                    "endColumn": 80,
+                    "endOffset": 2527
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 1,
+                        "startOffset": 6123,
+                        "endColumn": 77,
+                        "endOffset": 6199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2532,
+                    "endColumn": 56,
+                    "endOffset": 2584
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 1,
+                        "startOffset": 6069,
+                        "endColumn": 53,
+                        "endOffset": 6121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2589,
+                    "endColumn": 81,
+                    "endOffset": 2666
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 1,
+                        "startOffset": 6325,
+                        "endColumn": 78,
+                        "endOffset": 6402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2671,
+                    "endColumn": 62,
+                    "endOffset": 2729
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 1,
+                        "startOffset": 6009,
+                        "endColumn": 59,
+                        "endOffset": 6067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2734,
+                    "endColumn": 56,
+                    "endOffset": 2786
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 3819,
+                        "endColumn": 53,
+                        "endOffset": 3871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2791,
+                    "endColumn": 82,
+                    "endOffset": 2869
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4052,
+                        "endColumn": 79,
+                        "endOffset": 4130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2874,
+                    "endColumn": 92,
+                    "endOffset": 2962
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 3873,
+                        "endColumn": 89,
+                        "endOffset": 3961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2967,
+                    "endColumn": 91,
+                    "endOffset": 3054
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 3963,
+                        "endColumn": 88,
+                        "endOffset": 4050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3059,
+                    "endColumn": 66,
+                    "endOffset": 3121
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 746,
+                        "endColumn": 63,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3126,
+                    "endColumn": 93,
+                    "endOffset": 3215
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 655,
+                        "endColumn": 90,
+                        "endOffset": 744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3220,
+                    "endColumn": 95,
+                    "endOffset": 3311
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 562,
+                        "endColumn": 92,
+                        "endOffset": 653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3316,
+                    "endColumn": 57,
+                    "endOffset": 3369
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 2547,
+                        "endColumn": 54,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3374,
+                    "endColumn": 46,
+                    "endOffset": 3416
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 270,
+                        "endColumn": 43,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3421,
+                    "endColumn": 48,
+                    "endOffset": 3465
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 1,
+                        "startOffset": 6782,
+                        "endColumn": 45,
+                        "endOffset": 6826
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3470,
+                    "endColumn": 51,
+                    "endOffset": 3517
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 103,
+                        "endColumn": 48,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3522,
+                    "endColumn": 54,
+                    "endOffset": 3572
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 152,
+                        "endColumn": 51,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3577,
+                    "endColumn": 52,
+                    "endOffset": 3625
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 49,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3630,
+                    "endColumn": 62,
+                    "endOffset": 3688
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 1,
+                        "startOffset": 5825,
+                        "endColumn": 59,
+                        "endOffset": 5883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3693,
+                    "endColumn": 59,
+                    "endOffset": 3748
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 1,
+                        "startOffset": 7052,
+                        "endColumn": 56,
+                        "endOffset": 7107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3753,
+                    "endColumn": 62,
+                    "endOffset": 3811
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 1,
+                        "startOffset": 6992,
+                        "endColumn": 59,
+                        "endOffset": 7050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3816,
+                    "endColumn": 80,
+                    "endOffset": 3892
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 1,
+                        "startOffset": 5071,
+                        "endColumn": 77,
+                        "endOffset": 5147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3897,
+                    "endColumn": 37,
+                    "endOffset": 3930
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 1,
+                        "startOffset": 6957,
+                        "endColumn": 34,
+                        "endOffset": 6990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3935,
+                    "endColumn": 78,
+                    "endOffset": 4009
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 934,
+                        "endColumn": 75,
+                        "endOffset": 1008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 4014,
+                    "endColumn": 85,
+                    "endOffset": 4095
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 1010,
+                        "endColumn": 82,
+                        "endOffset": 1091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4100,
+                    "endColumn": 71,
+                    "endOffset": 4167
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 1,
+                        "startOffset": 5885,
+                        "endColumn": 68,
+                        "endOffset": 5952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4172,
+                    "endColumn": 48,
+                    "endOffset": 4216
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1151,
+                        "endColumn": 45,
+                        "endOffset": 1195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4221,
+                    "endColumn": 287,
+                    "endOffset": 4504
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 1,
+                        "startOffset": 6497,
+                        "endColumn": 284,
+                        "endOffset": 6780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4509,
+                    "endColumn": 56,
+                    "endOffset": 4561
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1197,
+                        "endColumn": 53,
+                        "endOffset": 1249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4566,
+                    "endColumn": 102,
+                    "endOffset": 4664
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 1,
+                        "startOffset": 5225,
+                        "endColumn": 99,
+                        "endOffset": 5323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 4669,
+                    "endColumn": 107,
+                    "endOffset": 4772
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 1,
+                        "startOffset": 5402,
+                        "endColumn": 104,
+                        "endOffset": 5505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4777,
+                    "endColumn": 78,
+                    "endOffset": 4851
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 1,
+                        "startOffset": 5149,
+                        "endColumn": 75,
+                        "endOffset": 5223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 4856,
+                    "endColumn": 79,
+                    "endOffset": 4931
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 1,
+                        "startOffset": 5325,
+                        "endColumn": 76,
+                        "endOffset": 5400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4936,
+                    "endColumn": 58,
+                    "endOffset": 4990
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 1,
+                        "startOffset": 4312,
+                        "endColumn": 55,
+                        "endOffset": 4366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 4995,
+                    "endColumn": 57,
+                    "endOffset": 5048
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 1,
+                        "startOffset": 4368,
+                        "endColumn": 54,
+                        "endOffset": 4421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5053,
+                    "endColumn": 58,
+                    "endOffset": 5107
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 1,
+                        "startOffset": 3763,
+                        "endColumn": 55,
+                        "endOffset": 3817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5112,
+                    "endColumn": 51,
+                    "endOffset": 5159
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 1,
+                        "startOffset": 4209,
+                        "endColumn": 48,
+                        "endOffset": 4256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5164,
+                    "endColumn": 56,
+                    "endOffset": 5216
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 1,
+                        "startOffset": 4258,
+                        "endColumn": 53,
+                        "endOffset": 4310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5221,
+                    "endColumn": 55,
+                    "endOffset": 5272
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 1,
+                        "startOffset": 4714,
+                        "endColumn": 52,
+                        "endOffset": 4765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5277,
+                    "endColumn": 76,
+                    "endOffset": 5349
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 1,
+                        "startOffset": 7109,
+                        "endColumn": 73,
+                        "endOffset": 7181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5354,
+                    "endColumn": 74,
+                    "endOffset": 5424
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 490,
+                        "endColumn": 71,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5429,
+                    "endColumn": 76,
+                    "endOffset": 5501
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 1595,
+                        "endColumn": 73,
+                        "endOffset": 1667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5506,
+                    "endColumn": 49,
+                    "endOffset": 5551
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 1721,
+                        "endColumn": 46,
+                        "endOffset": 1766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5556,
+                    "endColumn": 49,
+                    "endOffset": 5601
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1251,
+                        "endColumn": 46,
+                        "endOffset": 1296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 5606,
+                    "endColumn": 68,
+                    "endOffset": 5670
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 1956,
+                        "endColumn": 65,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 5675,
+                    "endColumn": 71,
+                    "endOffset": 5742
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 1887,
+                        "endColumn": 68,
+                        "endOffset": 1954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 5747,
+                    "endColumn": 47,
+                    "endOffset": 5790
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1506,
+                        "endColumn": 44,
+                        "endOffset": 1549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 5795,
+                    "endColumn": 64,
+                    "endOffset": 5855
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2022,
+                        "endColumn": 61,
+                        "endOffset": 2082
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 5860,
+                    "endColumn": 57,
+                    "endOffset": 5913
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1451,
+                        "endColumn": 54,
+                        "endOffset": 1504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 5918,
+                    "endColumn": 58,
+                    "endOffset": 5972
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 1768,
+                        "endColumn": 55,
+                        "endOffset": 1822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 5977,
+                    "endColumn": 54,
+                    "endOffset": 6027
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 1669,
+                        "endColumn": 51,
+                        "endOffset": 1719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6032,
+                    "endColumn": 46,
+                    "endOffset": 6074
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 1551,
+                        "endColumn": 43,
+                        "endOffset": 1593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6079,
+                    "endColumn": 54,
+                    "endOffset": 6129
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1298,
+                        "endColumn": 51,
+                        "endOffset": 1348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 6134,
+                    "endColumn": 65,
+                    "endOffset": 6195
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 1824,
+                        "endColumn": 62,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 6200,
+                    "endColumn": 47,
+                    "endOffset": 6243
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1350,
+                        "endColumn": 44,
+                        "endOffset": 1393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 6248,
+                    "endColumn": 58,
+                    "endOffset": 6302
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1395,
+                        "endColumn": 55,
+                        "endOffset": 1449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 6307,
+                    "endColumn": 54,
+                    "endOffset": 6357
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3225,
+                        "endColumn": 51,
+                        "endOffset": 3275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 6362,
+                    "endColumn": 51,
+                    "endOffset": 6409
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 1,
+                        "startOffset": 3176,
+                        "endColumn": 48,
+                        "endOffset": 3223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 6414,
+                    "endColumn": 48,
+                    "endOffset": 6458
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 314,
+                        "endColumn": 45,
+                        "endOffset": 358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 6463,
+                    "endColumn": 73,
+                    "endOffset": 6532
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 2476,
+                        "endColumn": 70,
+                        "endOffset": 2545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 6537,
+                    "endColumn": 50,
+                    "endOffset": 6583
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2248,
+                        "endColumn": 47,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 6588,
+                    "endColumn": 49,
+                    "endOffset": 6633
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2144,
+                        "endColumn": 46,
+                        "endOffset": 2189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 6638,
+                    "endColumn": 70,
+                    "endOffset": 6704
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 2408,
+                        "endColumn": 67,
+                        "endOffset": 2474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6709,
+                    "endColumn": 59,
+                    "endOffset": 6764
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2191,
+                        "endColumn": 56,
+                        "endOffset": 2246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6769,
+                    "endColumn": 56,
+                    "endOffset": 6821
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2296,
+                        "endColumn": 53,
+                        "endOffset": 2348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6826,
+                    "endColumn": 60,
+                    "endOffset": 6882
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2350,
+                        "endColumn": 57,
+                        "endOffset": 2406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 6887,
+                    "endColumn": 68,
+                    "endOffset": 6951
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 204,
+                        "endColumn": 65,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6956,
+                    "endColumn": 95,
+                    "endOffset": 7047
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 1,
+                        "startOffset": 6404,
+                        "endColumn": 92,
+                        "endOffset": 6495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7052,
+                    "endColumn": 48,
+                    "endOffset": 7096
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 1,
+                        "startOffset": 3487,
+                        "endColumn": 45,
+                        "endOffset": 3531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 7101,
+                    "endColumn": 62,
+                    "endOffset": 7159
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 1,
+                        "startOffset": 4654,
+                        "endColumn": 59,
+                        "endOffset": 4712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 7164,
+                    "endColumn": 80,
+                    "endOffset": 7240
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 1,
+                        "startOffset": 4576,
+                        "endColumn": 77,
+                        "endOffset": 4652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 7245,
+                    "endColumn": 86,
+                    "endOffset": 7327
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 1,
+                        "startOffset": 4492,
+                        "endColumn": 83,
+                        "endOffset": 4574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 7332,
+                    "endColumn": 62,
+                    "endOffset": 7390
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2084,
+                        "endColumn": 59,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 7395,
+                    "endColumn": 65,
+                    "endOffset": 7456
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 1,
+                        "startOffset": 5008,
+                        "endColumn": 62,
+                        "endOffset": 5069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 7461,
+                    "endColumn": 71,
+                    "endOffset": 7528
+                },
+                "from": {
+                    "file": "/mnt/workplace/sss/master/src/main/res/values-bn/strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 1,
+                        "startOffset": 4423,
+                        "endColumn": 68,
+                        "endOffset": 4490
+                    }
+                }
+            }
+        ]
+    }
+]

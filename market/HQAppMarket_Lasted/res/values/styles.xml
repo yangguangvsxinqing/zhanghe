@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="IWRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:maxWidth">36.0px</item> 
+		<item name="android:maxHeight">10.0dip</item> 
+		<item name="android:indeterminateDrawable">@drawable/ic_star_small</item> 
+		<item name="android:progressDrawable">@drawable/ic_star_small</item> 
+		<item name="android:minWidth">36.0px</item> 
+		<item name="android:minHeight">10.0dip</item> 
+		<item name="android:thumb">@null</item> 
+		<item name="android:isIndicator">true</item> 
+	</style>
+	<style name="SubRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:maxWidth">36.0px</item> 
+		<item name="android:maxHeight">15.0dip</item> 
+		<item name="android:indeterminateDrawable">@drawable/ic_star_sub</item> 
+		<item name="android:progressDrawable">@drawable/ic_star_sub</item> 
+		<item name="android:minWidth">36.0px</item> 
+		<item name="android:minHeight">15.0dip</item> 
+		<item name="android:thumb">@null</item> 
+		<item name="android:isIndicator">true</item> 
+	</style>
+	<style name="CommentRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:maxWidth">66.0px</item> 
+		<item name="android:maxHeight">26.0dip</item> 
+		<item name="android:indeterminateDrawable">@drawable/ic_star_large</item> 
+		<item name="android:progressDrawable">@drawable/ic_star_large</item> 
+		<item name="android:minWidth">66.0px</item> 
+		<item name="android:minHeight">26.0dip</item>  
+		<item name="android:thumb">@null</item> 
+		<item name="android:isIndicator">false</item> 
+	</style>
+    <style name="tab_font">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/color_tab_text</item>
+    </style>
+    <style name="splash_text">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="topbar_title">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="list_font_m_bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="list_font_l_normal">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="list_font_s_normal">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+    <style name="list_font_s_dark">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_dark_gray</item>
+    </style>
+    <style name="Title_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="list_item_title_font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_font_orange</item>
+    </style>
+    <style name="list_item_number_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/info_font_orange</item>
+    </style>
+    <style name="forum_title_bold_font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/forum_title_black</item>
+    </style>
+    <style name="forum_title_noraml_font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/forum_title_black</item>
+    </style>
+    <style name="topic_list_font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/topic_item_black</item>
+    </style>
+    <style name="topic_list_info_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/topic_info_gray</item>
+    </style>
+    <style name="market_product_list_name_font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/topic_item_black</item>
+    </style>
+    <style name="market_product_list_shotdes_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/topic_item_black</item>
+    </style>
+    <style name="market_product_list_hint_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/market_list_item_color_gray</item>
+    </style>
+    <style name="market_top_bar_font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_font_orange</item>
+    </style>
+    <style name="about_info_font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_font_orange</item>
+    </style>
+    <style name="copyright_info_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/copyright_font_color</item>
+    </style>
+    <style name="RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxWidth">36dip</item>
+        <item name="android:maxHeight">11.0dip</item>
+        <item name="android:progressDrawable">@drawable/ic_star_small</item>
+        <item name="android:minWidth">36dip</item>
+        <item name="android:minHeight">11.0dip</item>
+    </style>
+    <style name="RatingBarLarge" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxWidth">140.0dip</item>
+        <item name="android:maxHeight">10.0dip</item>
+        <item name="android:progressDrawable">@drawable/ic_star_small</item>
+        <item name="android:minWidth">140.0dip</item>
+        <item name="android:minHeight">10.0dip</item>
+    </style>
+    <style name="list_font_m_normal">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+    <style name="app_name_font">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_text_blue</item>
+    </style>
+    <style name="app_new_font">
+        <item name="android:textSize">13.0sp</item> 
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/alert_color</item>
+    </style>
+    <style name="bg_manage_downloading_progressbar">
+        <item name="android:maxHeight">8.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/progressbar_test</item>
+        <item name="android:minHeight">8.0dip</item>
+    </style>
+    <style name="bg_detail_progressbar">
+        <item name="android:maxHeight">40.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/bg_manage_downloading_progressbar</item>
+        <item name="android:minHeight">40.0dip</item>
+    </style>
+        <style name="bg_listmenu_progressbar">
+        <item name="android:maxHeight">42.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/bg_listmenu_botton_progressbar</item>
+        <item name="android:minHeight">42.0dip</item>
+    </style>
+    <style name="notification_font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="app_description_font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/vertical_splitter_color</item>
+    </style>
+    <style name="NoticeDialog" parent="android:style/Theme.Dialog"> 
+    	<item name="android:windowNoTitle">true</item> 
+    	<item name="android:windowFrame">@null</item> 
+    	<item name="android:windowIsFloating">true</item> 
+   	 	<item name="android:windowIsTranslucent">false</item> 
+    	<item name="android:windowBackground">@null</item> 
+    	<item name="android:backgroundDimEnabled">false</item> 
+	</style> 
+    
+    <style name="app_name_white_font">
+        <item name="android:textSize">16.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="comment_author_font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/comment_author_color</item>
+    </style>
+    <style name="comment_font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="info_font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="splash_login_font">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+    <style name="Transparent">
+   <item  name="android:windowBackground">@color/transparent_background</item>
+   <item  name="android:windowNoTitle">true</item>
+   <item  name="android:windowIsTranslucent">true</item>
+   <item  name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+</style>
+	<style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+	</style>
+	<style name="Theme.TranslucentTwo" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="Theme.TranslucentButton" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/transparent_button</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+	</style>
+	<style name="ContentOverlay" parent="@android:style/Theme.Light">
+	    <item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+	<style name="My.Translucent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>	
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <bool name="show_custom_action_bar">true</bool>
+    <bool name="online_fonts_third">true</bool>
+    <bool name="google_billing_support">true</bool>
+</resources>

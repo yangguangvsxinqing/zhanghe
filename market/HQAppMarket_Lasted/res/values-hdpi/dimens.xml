@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_listitem_tray_size">40.0dip</dimen>
+    <dimen name="app_listitem_thumb_size">36.0dip</dimen>
+    <dimen name="app_listitem_size">52.0dip</dimen>
+    <dimen name="app_listitem_title_size">16.0dip</dimen>
+    
+	<dimen name="app_list_item_left_m">13.0dip</dimen>
+	<dimen name="app_listitem_title_w">120.0dip</dimen>
+	
+	<dimen name="app_listitem_button_w">50dip</dimen>
+	<dimen name="app_listitem_button_h">26dip</dimen>
+	
+	<dimen name="title_text_size">15dip</dimen>
+	<dimen name="title_manage_w">33dip</dimen>
+	<dimen name="title_manage_mr">7dip</dimen>
+	<dimen name="title_interval_mr">2dip</dimen>
+	<dimen name="title_search_mr">5dip</dimen>
+	
+	<dimen name="title_newflag_mr">179dip</dimen>
+	
+	<dimen name="searchbar_w">230dip</dimen>
+	
+	<dimen name="sub_listitem_button_w">60dip</dimen>
+	<dimen name="sub_listitem_button_h">32dip</dimen>
+    
+	
+	<dimen name="appinfo_progressbar_w">200dip</dimen>
+	
+	<dimen name="cate_listitem_size">53.5dip</dimen>
+	<dimen name="cate_listitem_tray_size">52.0dip</dimen>
+	<dimen name="cate_list_item_tray_left_p">8.0dip</dimen>
+	<dimen name="cate_listitem_size_w">46.0dip</dimen>
+	<dimen name="cate_listitem_size_h">47.0dip</dimen>
+	<dimen name="cate_listitem_left_p">13.0dip</dimen>
+	
+	<dimen name="slideview_title_size">15.0dip</dimen>
+	<dimen name="cate_title_text_size">15.0dip</dimen>
+	<dimen name="ver_image_height">270.0dip</dimen>
+	<dimen name="version_textview_mbottom">2.0dip</dimen>
+	<dimen name="ver_title_size">15.0dip</dimen>
+	<dimen name="ver_ad_size">13.0dip</dimen>
+	
+	<dimen name="sub_app_image">210dip</dimen>
+	<dimen name="line_bottom">1dip</dimen>
+</resources>

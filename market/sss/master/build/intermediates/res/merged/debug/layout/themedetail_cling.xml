@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:background="#80000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="157dp"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size"
+            android:text="@string/cling_action"
+            android:textColor="@android:color/white"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="@dimen/title_text_size"
+            android:text="@string/cling_discription"
+            android:textColor="@android:color/white"/>
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="96.5dp"
+            android:src="@drawable/cling_arrow"/>
+        
+        <ImageView 
+            android:id="@+id/cling_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cling_finger"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginRight="@dimen/cling_finger_move_distance"
+            android:layout_gravity="center_horizontal"/>
+        
+        <TextView
+            android:gravity="center"
+            android:id="@+id/ignore_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/cling_know"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="134dp"
+            android:textSize="@dimen/title_text_size"
+            android:background="@drawable/cling_button_bg"/>
+        
+    </LinearLayout>
+
+</FrameLayout>

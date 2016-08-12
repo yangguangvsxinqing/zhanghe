@@ -1,0 +1,165 @@
+# view AndroidManifest.xml #generated:141
+-keep class com.huaqin.market.CategoryAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.huaqin.market.ManageAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.huaqin.market.MarketBackgroundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.huaqin.market.MarketBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.huaqin.market.NewAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:294
+-keep class com.huaqin.market.PuddingBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.huaqin.market.RankAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.huaqin.market.SearchAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.huaqin.market.SlideViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.huaqin.market.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class com.huaqin.market.download.DownloadProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:284
+-keep class com.huaqin.market.download.DownloadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.huaqin.market.download.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.huaqin.market.list.CategoryAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.huaqin.market.list.CategoryListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class com.huaqin.market.list.DownloadAppBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class com.huaqin.market.list.DownloadedAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.huaqin.market.list.DownloadingAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.huaqin.market.list.InstalledAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.huaqin.market.list.NewAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class com.huaqin.market.list.RankAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.huaqin.market.list.RecommandAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.huaqin.market.list.RelatedAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.huaqin.market.list.SearchAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.huaqin.market.list.SortAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.huaqin.market.list.SortGameListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.huaqin.market.list.SubjectListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class com.huaqin.market.list.UpgradeAppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.huaqin.market.ui.AddCommentDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.huaqin.market.ui.AddContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.huaqin.market.ui.AppInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.huaqin.market.ui.AppInfoCommentsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.huaqin.market.ui.AppInfoDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.huaqin.market.ui.AppInfoPreloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.huaqin.market.ui.AppInfoRelativeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.huaqin.market.ui.CategoryInfoActivity { <init>(...); }
+
+# view res/xml/settings_preferences.xml #generated:31
+-keep class com.huaqin.market.ui.DialogExPreference { <init>(...); }
+
+# view res/layout/app_list_header.xml #generated:9
+# view res/layout/appinfo_detail_preview.xml #generated:32
+-keep class com.huaqin.market.ui.MarketGallery { <init>(...); }
+
+# view res/layout/appinfo_main.xml #generated:109
+# view res/layout/slide_view_pager.xml #generated:118
+# view res/layout/tab_category_browser.xml #generated:147
+-keep class com.huaqin.market.ui.MarketPage { <init>(...); }
+
+# view res/layout/cate_list.xml #generated:29
+-keep class com.huaqin.market.ui.MyGridView { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.huaqin.market.ui.SearchHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.huaqin.market.ui.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.huaqin.market.ui.SubjectInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:273
+-keep class com.huaqin.market.ui.TabWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.huaqin.market.ui.UleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.huaqin.market.ui.UninstallHintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.huaqin.market.ui.UpdateCommentDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.huaqin.market.ui.VersionActivity { <init>(...); }
+
+# view res/layout/search_hot_main.xml #generated:16
+-keep class com.huaqin.market.utils.KeywordsFlow { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.huaqin.market.utils.OptionsMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.tcl.hyt.unionpay.plugin.activity.IndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.tcl.hyt.unionpay.plugin.activity.LoadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.tom.ule.android.ui.PhoneRechargeRules { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.tom.ule.android.ui.wgt.Main { <init>(...); }
+

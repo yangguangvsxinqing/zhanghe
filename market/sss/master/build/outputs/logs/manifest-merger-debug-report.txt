@@ -1,0 +1,825 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:2:1-475:12
+	xmlns:android
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:5:5-53
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+permission#com.fineos.thememgr.permission.READ_SETTINGS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:8:5-13:44
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:11:9-54
+	android:protectionLevel
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:13:9-41
+	android:description
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:10:9-61
+	android:permissionGroup
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:12:9-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:9:9-68
+permission#com.fineos.thememgr.permission.WRITE_SETTINGS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:16:5-21:44
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:19:9-55
+	android:protectionLevel
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:21:9-41
+	android:description
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:18:9-62
+	android:permissionGroup
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:20:9-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:17:9-69
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:23:2-71
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:23:19-68
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:24:2-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:24:19-69
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:25:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:26:2-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:26:19-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:27:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:28:22-78
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:29:22-72
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:30:22-71
+uses-permission#android.permission.GET_TASKS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:31:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:32:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:33:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:34:5-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:34:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:35:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:36:22-78
+uses-permission#android.permission.ACCESS_THEME_SERVICE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.SET_WALLPAPER_COMPONENT
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:38:5-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:38:22-79
+uses-permission#android.permission.BIND_WALLPAPER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:39:5-73
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:39:22-70
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:41:5-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:41:22-76
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:42:5-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:42:22-79
+uses-permission#android.permission.VIBRATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:43:5-66
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:43:22-63
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:44:22-72
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:45:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:46:5-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:46:22-78
+uses-permission#android.permission.CLEAR_APP_USER_DATA
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:47:5-77
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:47:22-75
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:48:5-73
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:48:22-71
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:52:5-84
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:52:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:58:5-68
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:58:22-65
+uses-permission#android.permission.READ_SETTINGS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:60:5-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:60:22-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:62:5-71
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:62:22-68
+uses-permission#com.mephone.fonts.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:65:5-92
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:65:22-89
+uses-permission#com.mephone.fonts.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:66:5-101
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:66:22-98
+uses-permission#com.mephone.fonts.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:67:5-100
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:67:22-97
+uses-permission#android.permission.WRITE_APN_SETTINGS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:69:5-77
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:69:22-74
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:70:5-88
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:70:22-85
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:73:5-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:73:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:74:5-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:74:22-73
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:76:1-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:76:18-73
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:78:5-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:78:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:79:5-84
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:79:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:80:5-84
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:80:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:81:5-85
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:81:22-82
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:82:5-75
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:82:22-72
+uses-permission#com.android.vending.BILLING
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:85:5-67
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:85:22-64
+uses-permission#com.google.android.googleapps.permission.GOOGLE_AUTH
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:86:5-92
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:86:22-89
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:88:5-80
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:88:22-77
+uses-permission#android.permission.MANAGE_USERS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:89:5-71
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:89:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:90:5-74
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:90:22-71
+uses-sdk
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:92:5-74
+	android:targetSdkVersion
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:92:42-71
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:92:15-41
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+		INJECTED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml
+application
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:94:5-473:19
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:99:9-45
+	android:debuggable
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:97:9-35
+	android:allowBackup
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:96:9-35
+	android:icon
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:98:9-45
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:95:9-66
+activity#com.fineos.theme.activity.SplashActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:102:9-115:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:106:13-49
+	android:icon
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:105:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:104:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:109:13-48
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:103:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:110:13-114:29
+action#android.intent.action.MAIN
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:111:17-69
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:111:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:113:17-77
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:113:27-74
+activity#com.fineos.theme.activity.ThemeOnlineHomeActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:117:9-127:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:121:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:119:13-74
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:120:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:122:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:118:13-77
+intent-filter#android.intent.category.DEFAULT+com.fineos.theme.online.theme
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:123:13-126:29
+action#com.fineos.theme.online.theme
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:124:17-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:124:25-69
+category#android.intent.category.DEFAULT
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:125:17-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:125:27-73
+activity#com.fineos.theme.activity.ThemeLocalHomeActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:128:9-138:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:132:13-45
+	android:icon
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:131:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:130:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:134:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:129:13-76
+meta-data#enable_online
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:135:13-137:40
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:136:17-45
+	android:value
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:137:17-37
+activity#com.fineos.theme.activity.ThemeDetailActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:139:9-151:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:144:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:141:13-94
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:142:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:145:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:140:13-73
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:143:13-43
+intent-filter#android.intent.category.DEFAULT+com.fineos.theme.action.THEMEDETAIL
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:146:13-150:29
+action#com.fineos.theme.action.THEMEDETAIL
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:147:17-78
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:147:25-75
+activity#com.fineos.theme.activity.ThemeMixerActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:152:9-158:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:156:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:154:13-63
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:155:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:157:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:153:13-72
+activity#com.fineos.theme.activity.ThemeMixerBaseFragmentActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:159:9-162:20
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:161:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:160:13-84
+activity#com.fineos.theme.activity.ThemeIconActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:163:9-170:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:166:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:165:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:167:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:164:13-71
+activity#com.fineos.theme.activity.ThemeLockScreenActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:171:9-176:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:174:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:173:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:175:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:172:13-77
+activity#com.fineos.theme.activity.ThemeDynamicWallpaper
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:177:9-182:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:180:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:179:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:181:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:178:13-75
+activity#com.fineos.theme.activity.LiveWallpaperPreview
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:183:9-189:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:186:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:185:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:188:13-43
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:187:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:184:13-74
+activity#com.fineos.theme.activity.ThemeDetailLockscreenActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:190:9-195:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:193:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:192:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:194:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:191:13-83
+activity#com.fineos.theme.activity.ThemeDetailNewLockscreenActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:197:9-203:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:200:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:199:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:202:13-48
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:201:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:198:13-86
+activity#com.fineos.theme.activity.ThemeDetailDynamicWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:205:9-210:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:208:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:207:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:209:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:206:13-89
+activity#com.fineos.theme.activity.ThemeDetailNewDynamicWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:212:9-218:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:215:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:214:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:217:13-48
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:216:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:213:13-92
+activity#com.fineos.theme.activity.ThemeLockWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:220:9-226:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:223:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:222:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:225:13-75
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:224:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:221:13-80
+activity#com.fineos.theme.activity.ThemeWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:227:9-239:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:233:13-49
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:232:13-52
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:229:13-74
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:230:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:234:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:228:13-76
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:231:13-48
+intent-filter#android.intent.action.SET_WALLPAPER+android.intent.category.DEFAULT
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:235:6-238:29
+action#android.intent.action.SET_WALLPAPER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:236:17-78
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:236:25-75
+activity#com.fineos.theme.activity.ThemeOLWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:240:9-252:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:245:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:242:13-74
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:243:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:246:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:241:13-78
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:244:13-43
+intent-filter#android.intent.category.DEFAULT+com.fineos.theme.action.WALLPAPER+com.fineos.theme.online.wallpaper
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:247:13-251:29
+action#com.fineos.theme.action.WALLPAPER
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:248:17-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:248:25-73
+action#com.fineos.theme.online.wallpaper
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:249:17-76
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:249:25-73
+activity#com.fineos.theme.activity.ThemeDetailWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:253:9-259:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:256:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:255:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:258:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:254:13-82
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:257:13-48
+activity#com.fineos.theme.activity.ThemeDetailNewWallpaperActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:261:9-268:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:264:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:263:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:267:13-48
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:266:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:262:13-85
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:265:13-48
+activity#com.fineos.theme.activity.ThemeFontActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:270:9-275:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:273:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:272:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:274:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:271:13-71
+activity#com.fineos.theme.activity.ThemeDetailFontsActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:276:9-282:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:279:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:278:13-74
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:281:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:280:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:277:13-78
+activity#com.fineos.theme.activity.TabWebActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:283:9-289:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:286:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:285:13-74
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:288:13-36
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:287:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:284:13-68
+activity#com.fineos.theme.activity.ThemeRingtoneActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:291:9-296:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:294:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:293:13-74
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:295:13-52
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:292:13-75
+receiver#com.fineos.theme.download.DownloadReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:298:9-305:20
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:298:19-60
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE+android.intent.action.TIME_SET+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:299:13-304:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:300:17-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:300:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:301:17-77
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:301:25-74
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:302:17-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:302:25-79
+action#android.intent.action.TIME_SET
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:303:17-73
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:303:25-70
+provider#com.fineos.theme.provider.ThemeContentProvider
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:308:9-314:87
+	android:multiprocess
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:312:13-40
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:311:13-36
+	android:authorities
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:310:13-104
+	android:readPermission
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:313:13-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:309:13-74
+	android:writePermission
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:314:13-84
+activity#com.fineos.theme.activity.OneKeyFaceLiftActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:325:9-341:20
+	android:screenOrientation
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:333:13-49
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:331:13-52
+	android:icon
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:330:13-49
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:328:13-74
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:335:13-67
+	android:excludeFromRecents
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:329:13-46
+	android:taskAffinity
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:334:13-84
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:326:13-76
+	android:alwaysRetainTaskState
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:327:13-49
+	android:launchMode
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:332:13-44
+receiver#com.fineos.theme.ThridFontsReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:343:9-347:20
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:343:19-53
+intent-filter#com.fineos.thridfonts.apply
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:344:13-346:29
+action#com.fineos.thridfonts.apply
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:345:17-70
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:345:25-67
+service#com.qq.e.comm.DownloadService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:349:9-352:19
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:351:13-37
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:350:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:354:9-357:20
+	android:configChanges
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:356:13-83
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:355:13-51
+service#com.umeng.update.net.DownloadingService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:359:9-362:19
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:361:13-50
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:360:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:364:9-367:20
+	android:theme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:366:13-72
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:365:13-65
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:369:9-372:20
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:371:13-37
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:370:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:375:9-389:20
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:377:13-36
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:376:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:378:13-380:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:379:17-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:379:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:381:13-383:29
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:384:13-388:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:385:17-80
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:385:25-77
+data
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:387:17-50
+	android:scheme
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:387:23-47
+receiver#com.umeng.message.MessageReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:392:9-398:20
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:394:13-36
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:393:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:395:13-397:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:396:17-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:396:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:401:9-409:20
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:403:13-36
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:402:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:404:13-408:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:405:17-92
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:405:25-89
+category#umeng
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:407:17-50
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:407:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:413:9-419:20
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:415:13-37
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:414:13-66
+intent-filter#com.fineos.theme.intent.action.COMMAND
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:416:13-418:29
+action#com.fineos.theme.intent.action.COMMAND
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:417:17-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:417:25-78
+receiver#com.umeng.message.UmengMessageBootReceiver
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:420:9-424:20
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:420:19-76
+service#com.umeng.message.UmengService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:426:9-441:19
+	android:label
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:428:4-31
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:430:13-36
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:429:13-36
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:427:13-58
+intent-filter#com.fineos.theme.intent.action.START
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:431:13-433:29
+action#com.fineos.theme.intent.action.START
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:432:17-79
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:432:25-76
+intent-filter#com.fineos.theme.intent.action.COCKROACH
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:434:13-436:29
+action#com.fineos.theme.intent.action.COCKROACH
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:435:17-83
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:435:25-80
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:437:13-440:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:438:17-81
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:438:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:443:9-444:30
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:444:4-27
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:443:18-69
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:446:3-456:13
+	android:process
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:448:4-27
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:449:4-27
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:447:4-70
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:450:4-452:20
+action#org.android.agoo.client.MessageReceiverService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:451:5-77
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:451:13-74
+intent-filter#org.android.agoo.client.ElectionReceiverService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:453:4-455:20
+action#org.android.agoo.client.ElectionReceiverService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:454:5-78
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:454:13-75
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:458:3-472:19
+	android:exported
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:459:7-31
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:458:12-79
+intent-filter#com.umeng.messge.registercallback.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:460:13-462:29
+action#com.umeng.messge.registercallback.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:461:17-83
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:461:25-80
+intent-filter#com.umeng.message.unregistercallback.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:463:13-465:29
+action#com.umeng.message.unregistercallback.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:464:17-85
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:464:25-83
+intent-filter#com.umeng.message.message.handler.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:466:13-468:29
+action#com.umeng.message.message.handler.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:467:17-82
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:467:25-80
+intent-filter#com.umeng.message.autoupdate.handler.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:469:13-471:29
+action#com.umeng.message.autoupdate.handler.action
+ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:470:17-85
+	android:name
+		ADDED from /mnt/workplace/sss/master/src/main/AndroidManifest.xml:470:25-83

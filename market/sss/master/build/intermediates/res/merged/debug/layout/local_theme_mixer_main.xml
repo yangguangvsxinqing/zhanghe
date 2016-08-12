@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <com.fineos.theme.ui.HalfGridView
+        android:id="@+id/custom_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/theme_bg_color"
+        android:horizontalSpacing="13dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:overScrollMode="never"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="17dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp" >
+    </com.fineos.theme.ui.HalfGridView>
+
+</LinearLayout>

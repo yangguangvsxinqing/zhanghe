@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cate_list_menu"
+	android:layout_width="fill_parent" android:layout_height="@dimen/cate_listitem_size"
+	android:background="@drawable/bg_list_item_view">
+
+	<View  
+	android:id="@+id/line"  
+  	android:layout_width="1px"  
+  	android:layout_height="fill_parent"
+  	android:layout_alignParentRight="true"
+  	android:background="@drawable/line_catelist_divider"/>   
+  	<View  
+  	android:layout_width="fill_parent"  
+  	android:layout_height="@dimen/line_bottom"
+  	android:layout_alignParentBottom="true"
+  	android:background="@drawable/line_catelist_divider"/>
+
+    	<ImageView android:layout_width="@dimen/cate_listitem_tray_size" android:layout_height="@dimen/cate_listitem_tray_size"
+	    android:paddingLeft="@dimen/cate_list_item_tray_left_p"
+	    android:layout_centerVertical="true"
+	    android:id="@+id/ItemImage_trey"/>	
+	<ImageView android:layout_width="@dimen/cate_listitem_size_w" android:layout_height="@dimen/cate_listitem_size_h"
+	    android:paddingLeft="@dimen/cate_listitem_left_p"
+	    android:layout_centerVertical="true"
+	    android:id="@+id/ItemImage"/>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toRightOf="@+id/ItemImage"
+		android:paddingLeft="15dip"
+		android:textSize="20dip"
+		android:textColor="@color/text_blue"
+		android:id="@+id/ItemText" android:layout_centerVertical="true" />    
+	          
+</RelativeLayout>

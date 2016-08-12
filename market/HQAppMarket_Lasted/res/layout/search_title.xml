@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/search_title_layout"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@drawable/bg_search_topbar" android:orientation="horizontal" >
+	
+ 	<TextView
+		android:layout_width="wrap_content" android:layout_height="fill_parent"
+		android:layout_weight="1.0" android:layout_marginLeft="4.0dip"
+		android:gravity="left|center"
+		android:text="@string/search_hot_title"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:textColor="@color/black"  /> 
+	
+</LinearLayout>

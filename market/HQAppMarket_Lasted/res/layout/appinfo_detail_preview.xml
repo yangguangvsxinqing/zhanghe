@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<LinearLayout
+		android:id="@+id/appinfo_preview_layout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" >
+		<RelativeLayout 
+		    android:layout_width="fill_parent" android:layout_height="27dip"
+		    android:background="@drawable/bg_appinfo_splitbar"
+		    >
+		    <TextView
+					android:layout_width="wrap_content" android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+					android:paddingLeft="8.0dip"
+					android:textAppearance="?android:textAppearanceMedium"
+					android:textColor="@color/white"
+					android:layout_alignParentLeft="true"
+					android:textSize="15dip"
+					android:text="@string/app_preview" />
+		    
+		    <TextView
+			android:id="@+id/appinfo_preview_indicator"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:layout_marginRight="7.0dip"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:textSize="14.0sp" android:textColor="@color/white" />
+		</RelativeLayout>
+
+		<com.huaqin.market.ui.MarketGallery
+		android:id="@+id/appinfo_preview_gallery"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:fadingEdge="none"
+		android:scrollbars="none" android:spacing="1dip">
+    	</com.huaqin.market.ui.MarketGallery>
+		<FrameLayout
+			android:id="@+id/appinfo_preview_empty"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginBottom="10.0dip" android:visibility="gone" >
+			
+			<TextView
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:id="@+id/appinfo_preview_empty_text"
+				android:gravity="center"
+				android:text="@string/app_no_previews"
+				android:textAppearance="?android:textAppearanceMedium"
+				android:textColor="@color/black" />
+		</FrameLayout>
+	</LinearLayout>
+	
+    <include
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		layout="@layout/appinfo_loading_indicator"
+		android:layout_marginTop="5dip" android:visibility="visible" />
+	
+</merge>

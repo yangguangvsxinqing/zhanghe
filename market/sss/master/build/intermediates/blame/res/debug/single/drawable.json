@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_dialog_bg.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_game.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_game.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/bg_gallery_preview.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/bg_gallery_preview.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/checkbox.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/checkbox.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_app.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_app.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_play.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_play.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/bg_theme_header_text.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/bg_theme_header_text.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_alarm_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_alarm_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/bg_list_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/bg_list_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_close_bg_selector.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_download.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_download.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_red.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/btn_bg_download.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/btn_bg_download.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_phone.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_phone.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_button_custom.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_button_custom.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/btn_appinfo_comment_operate.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/btn_appinfo_comment_operate.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_cancle.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_cancle.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_apply.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_apply.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_menu_delete.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_menu_delete.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/line_list_divider.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/line_list_divider.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_read.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_read.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/tb_munion_item_selector.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/tb_munion_item_selector.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_notice_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_notice_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/btn_bg_mix.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/btn_bg_mix.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_sms_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_sms_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_ab_back.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_ab_back.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_sms.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_sms.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_pen.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_pen.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_orange.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_delete.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_delete.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/button_font_style.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/button_font_style.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_common_gradient_green.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_tap.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_notice.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_notice.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_check_selector.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_check_selector.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_phone_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_phone_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_push_notification_default_small_icon.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_push_notification_default_small_icon.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_refresh.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_refresh.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_selector.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_push_notification_default_large_icon.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_push_notification_default_large_icon.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_new_btn_apply.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_new_btn_apply.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_back.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_back.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/tab_holo_textcolor.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/tab_holo_textcolor.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_rtset_alarm.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_rtset_alarm.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_shopping.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_shopping.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_love.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_love.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_selector.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/button_local.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/button_local.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_wifi_disable.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_focused.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_title_bg.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_title_bg.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_btn_custom.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_btn_custom.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/empty_preview.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/empty_preview.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/tb_munion_icon.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/tb_munion_icon.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_cancel_bg_normal.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_pet.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_pet.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/button_online.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/button_online.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_normal.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/tab_textcolor.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/tab_textcolor.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/umeng_update_button_ok_bg_tap.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/umeng_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable/ic_newupdate.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable/ic_newupdate.xml"
+    }
+]

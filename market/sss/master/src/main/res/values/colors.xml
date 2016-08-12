@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="title_bg_color">#ffffff</color>
+    <color name="title_text_color">#646464</color>
+    <color name="white">#ffffffff</color>
+    <color name="sixty_percent_white">#99ffffff</color>
+    <color name="text_white">#ff1c79cc</color>
+    <color name="black">#ff000000</color>
+    <color name="sixty_percent_black">#99000000</color>
+    <color name="bg_header_text">#ff00ff00</color>
+    <color name="empty_preview_background">#FFFFFF</color>
+    <color name="mixer_item_label_color">#ffffff</color>
+    <color name="theme_bg_color">#ffffff</color>
+    <color name="theme_bg_ringstone_color">#e0e0e0</color>
+    <color name="text_color">#303030</color>
+    <color name="text_empty">#b5b5b5</color>
+    <color name="text_color2">#939393</color>
+    <color name="text_color3">#646464</color>
+    <color name="wallpaper_text_color">#555555</color>
+    <color name="wallpaper_text_bg">#f0ffffff</color>
+    <color name="ringtone_text_color">#585858</color>
+    <color name="ringtone_highlight_color">#00a0ea</color>
+    <color name="live_wallpaper_thumbnail_background">#CC666666</color>
+    <color name="live_wallpaper_thumbnail_text_color">#FFFFFFFF</color>
+    <color name="dividing_line_color">#e1e1e1</color>
+    <color name="tab_highlight_color">#eb624b</color>
+	<color name="primary">#ffffff</color>
+	<color name="primary_sub">#242424</color>
+<color name="tb_munion_item_force">#e3e3e3</color>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/web_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/web_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:padding="5dip"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/web_img"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/header_view_web_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_view1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ad_name1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ff00"
+            android:padding="5dip"
+            android:textSize="15sp" />
+        <!-- android:background="@drawable/bg_theme_header_text" -->
+
+        <ImageView
+            android:id="@+id/ad_name1_topad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ad_name1_bottom_ad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <ImageView
+                android:id="@+id/ad_name1_bottom_ad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/ad_name2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:padding="5dip"
+            android:textSize="15sp" />
+
+        <GridView
+            android:id="@+id/ad_view2_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_view3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ad_name3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:padding="5dip"
+            android:textSize="15sp" />
+
+        <GridView
+            android:id="@+id/ad_view3_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

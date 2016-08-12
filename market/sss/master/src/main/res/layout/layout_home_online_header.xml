@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <com.fineos.theme.ui.ADViewpager
+        android:id="@+id/ivHelp"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:src="@drawable/pic" />
+	
+    <com.fineos.theme.ui.ThemeHeaderViewGroup
+        android:id="@+id/themeheaderviewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ivHelp"
+        android:layout_marginLeft="@dimen/themedrawble_padding"
+        android:layout_marginRight="@dimen/themedrawble_padding"
+        android:layout_marginTop="@dimen/themedrawble_top"
+        android:orientation="horizontal" >
+    </com.fineos.theme.ui.ThemeHeaderViewGroup>
+    
+	<LinearLayout android:orientation="horizontal"
+        android:id="@+id/gallery_point_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/themeheaderviewgroup"
+        android:layout_marginBottom="@dimen/point_margin_left"
+        android:gravity="center">
+    </LinearLayout>
+
+     <View
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/themeheaderviewgroup"
+        android:background="@color/dividing_line_color" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_below="@id/divide"
+        android:gravity="center_vertical"
+        android:text="@string/title_remmend"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_15sp" />
+
+</RelativeLayout>

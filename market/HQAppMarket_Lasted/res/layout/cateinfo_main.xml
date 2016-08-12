@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:background="@drawable/bg_list_view"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	>
+	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" 
+		android:background="@drawable/bg_list_view"
+		>
+		<LinearLayout android:id="@+id/cat_tab_layout" 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingLeft="20dip" android:paddingTop="4dip"
+			android:paddingRight="20dip" android:paddingBottom="4dip"
+			android:background="@drawable/bg_tab_header">
+			<TabWidget
+				android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingLeft="2dip" android:paddingTop="2dip"
+				android:paddingRight="2dip" android:paddingBottom="2dip"
+				android:gravity="center"
+				android:background="@drawable/bg_tab_header_inner"  />
+		</LinearLayout>
+		
+		<FrameLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:background="@drawable/bg_list_view"
+			android:layout_below="@id/cat_tab_layout"/>
+		
+	</RelativeLayout>
+</TabHost>

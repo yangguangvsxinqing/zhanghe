@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.fineos.theme.ui.MyGridView xmlns:android="http://schemas.android.com/apk/res/android" 
+            	android:id="@+id/gridview"     			
+            	android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:numColumns="2"
+    			android:horizontalSpacing="0dp" 
+    			android:verticalSpacing="0dp"
+    			android:stretchMode="columnWidth"
+    			android:listSelector="@android:color/transparent"
+				android:background="@drawable/bg_list_view">             
+    </com.fineos.theme.ui.MyGridView> 
+	<FrameLayout
+		android:id="@+id/list_empty"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight="1" 
+		android:visibility="gone"
+		android:background="@drawable/bg_list_view" >
+		
+		<TextView
+			android:id="@+id/list_empty_text"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="@string/error_empty"
+			android:textAppearance="?android:textAppearanceSmall"
+			android:textColor="@color/black" />
+	</FrameLayout>
+	
+	<include
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		layout="@layout/low_speed_indicator" />
+	
+	<include
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		layout="@layout/fullscreen_loading_indicator"
+		android:visibility="visible" />
+	
+</merge>

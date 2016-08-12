@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/fineos_loading_anim.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/fineos_loading_anim.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/bottom_push_up_in.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/bottom_push_up_in.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/item_rightrun.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/item_rightrun.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/loading_anim.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/loading_anim.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/layout_animiation.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/layout_animiation.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/fineos_white_loading_anim.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/fineos_white_loading_anim.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/fade.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/fade.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/item_leftrun.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/item_leftrun.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/anim/hold.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/anim/hold.xml"
+    }
+]

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">应用商店</string>
+	<string name="app_initialize">正在初始化</string>
+	<string name="app_login">Loading...</string>
+	
+	<string name="app_detail">详情</string>
+	<string name="app_cursor">游标</string>
+	<string name="app_comment">评论</string>
+	<string name="app_relative">下载此应用的用户还下载了：</string>
+	<string name="add_app_comment_success">添加评论成功</string>
+	<string name="update_app_comment_success">修改评论成功</string>
+	
+	<string name="add_app_contact_success">感谢您的支持，我们会更加努力^_^</string>
+	
+	<string name="add_sub_up_comment_success">顶成功</string>
+	<string name="add_sub_down_comment_success">踩成功</string>
+	    
+	<string name="app_description">应用描述</string>
+	<string name="app_preview">应用预览</string>
+	<string name="app_no_previews">该应用没有预览图</string>
+	<string name="app_permission">此应用程序需要以下访问权限:</string>
+	<string name="appinfo_open">展开</string>
+	<string name="appinfo_close">收起</string>
+	<string name="webview_name">广告</string>
+	
+	<string name="app_rate_num">次评分</string>
+	<string name="app_fee_free">免费</string>
+	<string name="app_downloaded">已下载</string>
+	<string name="app_downloading">正在下载</string>
+	<string name="app_downloading_intro">下载详情</string>
+	<string name="app_installed">已安装</string>
+	<string name="app_update_available">更新</string>
+	<string name="app_install">安装</string>
+	
+	<string name="app_pause">暂停</string>
+	<string name="app_open">打开</string>
+	<string name="app_rezume">继续</string>
+	<string name="app_download">下载</string>
+	
+	<string name="app_downlods_item">次下载</string> 
+	<string name="app_downlods_item_large">万次下载</string> 
+	<string name="app_downlods">下载次数：</string> 
+	<string name="app_downlods_more">万+</string> 
+	<string name="app_size">大小：</string>
+	<string name="app_version">版本：</string>
+	<string name="app_lastupdate">更新：</string> 
+	<string name="app_price">价格：</string>
+	
+	<string name="app_has_installed">客官，您下载的应用已安装完成，请到主菜单查看^_^</string>
+	    
+	<string name="app_current_version">当前：</string>
+	<string name="app_newest_version">最新：</string>
+	
+	<string name="app_download_over">下载完成，点击安装，长按可删除</string> 
+	<string name="app_download_long_click_delete">长按可删除</string> 
+	<string name="app_downloading_view_other_layout">客官，下载完成会自动帮您安装^_^</string> 
+	<string name="app_downloading_without_network">客官，当前网络不稳定，请稍后再试^_^</string> 
+	
+	<string name="sub_reads">次阅读</string>
+	<string name="sub_date">日期：</string>
+	<string name="sub_visit">访问：</string>
+	
+	<string name="error_empty">没有找到匹配内容</string>
+	<string name="error_low_speed">您当前的网络情况不佳，请刷新页面，谢谢！</string>
+	
+	<string name="error_network_low_speed">客官，请检查网络连接是否正常，稍后再试^_^！</string>
+	<string name="error_listfooter_network_error">网络连接出错</string>
+	<string name="error_no_app_comment">该应用还没有评论！</string>
+	<string name="error_no_app_detail">无法载入该应用的详细信息！</string>
+	<string name="error_no_app_update">没有发现可升级的应用！</string>
+	<string name="error_no_download_task">未找到下载任务！</string>
+	
+	<string name="loading">加载中...</string>
+	
+	<string name="btn_ok">确定</string>
+	<string name="btn_cancel">取消</string>
+	<string name="btn_yes">是</string>
+	<string name="btn_no">否</string>
+	<string name="btn_refresh">刷新</string>
+	<string name="btn_retry">重试</string>
+	<string name="btn_edit">编辑</string>
+	<string name="btn_edit_settings">修改设置</string>
+	<string name="btn_appinfo_download">下载</string>
+	<string name="btn_appinfo_downloading">下载中</string>
+	<string name="btn_appinfo_installing">安装中</string>
+	<string name="btn_appinfo_install_complete">安装成功</string>
+	<string name="btn_appinfo_install_error">安装失败</string>
+	<string name="btn_add_comment">添加评论</string>
+	<string name="not_install_expression">您还没有安装此应用，还无法添加评论</string>
+	<string name="btn_report_error">报告错误</string>
+	<string name="btn_search">搜索</string>
+	<string name="text_comment">评论：</string>
+	<string name="text_anonymity_user">匿名用户</string>
+	<string name="btn_appinfo_comment_operate">编辑</string>
+	<string name="btn_refresh_comment">刷新评论</string>
+	
+	
+	<string name="search_hint">搜索应用</string>
+	<string name="search_hot_title">24小时内搜索最多的关键词：</string>
+	
+	<string name="dlg_exit_title">确认退出</string> 
+    <string name="dlg_exit_msg">确定要退出应用商店吗？</string> 	
+	<string name="dlg_network_error_title">网络出错</string>
+	<string name="dlg_network_error_msg">提示网络出错，请选择重试，或者选择取消返回上一屏幕</string>
+	<string name="dlg_network_error_and_exit">暂时连接不上服务器，可能是网络故障，请稍后重试！</string>
+	<string name="dlg_notmarket_warning_title">提示</string>
+	<string name="dlg_notmarket_warning_msg">您尚未允许安装非官方应用商店提供的应用程序，软件下载之后不能被成功安装。\n现在修改设置？</string>
+    <string name="dlg_update_or_not_title">升级提醒</string>
+	<string name="dlg_update_or_not_msg">系统检测到应用商店发布了新版本，是否升级？\n</string>
+	<string name="dlg_add_comment_content_null_title">评论为空</string>
+	<string name="dlg_add_comment_content_null_msg">评论为空，请返回重新填写评论</string>
+	<string name="dlg_add_comment_content_overflow_title">评论过长</string>
+	<string name="dlg_add_comment_content_overflow_msg">评论字数过长，请不要超过250个字</string>
+	<string name="dlg_sdcard_size_not_enough_title">SD卡空间不足</string>
+	<string name="dlg_sdcard_size_not_enough_msg">SD卡空间不足，请删除SD卡文件再下载</string>
+	<string name="dlg_apk_downloading_title">请不要重复下载</string>
+	<string name="dlg_apk_downloading_msg">此应用正在下载，请不要重复下载！</string>
+	<string name="dlg_apk_signature_hint">\n     前后版本签名不一致,\n\n     请先卸载旧的版本，\n\n     然后再重新安装新版本。</string>
+	<string name="list_not_installed_from">该应用未通过应用商店安装</string>
+	
+	<string name="menu_setting">设置</string> 
+	<string name="menu_account">我的账户</string> 
+	<string name="menu_contact">拍砖</string>
+	<string name="menu_about">关于</string>
+	
+	<string name="ctxmenu_delete">删除任务</string>
+	<string name="ctxmenu_cancel_downloads">取消下载</string>
+	
+	<string name="notification_filename_separator">", "</string>
+	<string name="notification_filename_extras">" 还有 %d 项"</string>
+	<string name="notification_download_complete">下载完成</string>
+	<string name="notification_download_failed">下载失败</string>
+	<string name="download_unknown_title">未命名</string>
+	<string name="settings_about">版本相关</string>
+	<string name="settings_about_data_summary">查看版本号及联系我们</string>
+	
+	<string name="settings_update">更新设置</string>
+	<string name="settings_check_update">检测应用商店更新</string>
+	<string name="settings_check_update_on">应用商店启动时检测更新</string>
+	<string name="settings_check_update_off">应用商店启动时不检测更新</string>
+	<string name="settings_check_update_summary">应用商店检测更新</string>
+	
+	<string name="settings_icon">图标设置</string>
+	<string name="settings_buffer_icon">缓存图标到设备</string>
+	<string name="settings_buffer_icon_on">加载的图标将保存在设备中节省流量</string> 
+	<string name="settings_buffer_icon_off">加载的图标不会保存在设备中</string>
+	
+	<string name="settings_shortcut">快捷方式设置</string>
+	<string name="settings_create_shortcut">为应用商店创建快捷方式</string>
+	<string name="settings_create_shortcut_on">自动为应用商店创建快捷方式</string>
+	<string name="settings_create_shortcut_off">不自动为应用商店创建快捷方式</string>
+	
+	<string name="settings_clean_data">数据清除</string>
+	<string name="settings_clean_buffer">清除缓存</string>
+	<string name="settings_clean_data_summary">删除设备上缓存的安装文件及图片等</string>
+	<string name="settings_clean_data_message">确定要从设备上删除缓存的安装文件及图片？</string>
+	<string name="settings_clean_data_finish">数据已清除！</string>
+	
+	<string name="tab_title_new">推荐</string> 
+	<string name="tab_title_category">分类</string>
+	<string name="tab_title_manage">管理</string>
+	<string name="tab_title_rank">排名</string>
+	<string name="tab_title_search">搜索</string>
+	<string name="tab_title_ule">邮乐</string>
+	
+	<string name="tab_newapp_recommend">编辑推荐</string>
+	<string name="tab_newapp_like">专题推荐</string>
+	<string name="tab_newapp_new">最新上架</string>
+	
+	<string name="tab_category_app">应用</string>
+	<string name="tab_category_game">游戏</string>
+	<string name="tab_category_preinstall">专题</string>
+	
+	<string name="tab_by_download">按下载</string>
+	<string name="tab_by_rating">按评分</string>
+	<string name="tab_by_date">按日期</string>
+	
+	<string name="tab_by_week">周排名</string>
+	<string name="tab_by_month">月排名</string>
+	<string name="tab_by_total">总排名</string>
+	
+	<string name="tab_search_hot">热门搜索</string>
+	<string name="tab_search_result">搜索结果</string>
+	
+	<string name="tab_installed">已安装</string>
+	<string name="tab_upgrade">可升级</string>
+	<string name="tab_download">下载管理</string>
+	
+	
+	<string name="toast_downlaod_deleted">任务已删除！</string>
+	
+	<string name="update_notification_title">升级提醒</string> 
+	<string name="update_notification_description">%1$s检测到%2$s个软件可升级。</string> 
+	
+	<string name="update_time_today">今日更新</string>
+	<string name="update_time_yesterday">昨日更新</string>
+	
+	<string name="default_permission_group">默认</string>
+	<string name="no_permissions">不需要任何权限</string>
+	<string name="permissions_format">%1$s, %2$s</string>
+	
+	<string name="sub_support_tx">顶</string>
+	<string name="sub_oppose_tx">踩</string>
+	
+	<string name="my_comment">我的评论</string>
+	<string name="add_hint">评分后在此添加评论</string>
+	<string name="add_hint_new">来分享一下使用感受吧！</string>
+	<string name="please_comment">请评分</string>
+	<string name="update_comment">修改我的评论</string>
+	<string name="please_update_comment">请修改评分</string>
+	
+	<string name="please_comment_title">意见反馈</string>
+	<string name="please_comment_hit">告诉我们您的意见，或告诉我您想要的软件</string>
+	<string name="please_comment_qq">我们滴官方QQ群:242203745</string>
+	    
+	<string name="sdcard_not_amount">SD卡不存在</string>
+	<string name="sdcard_not_amount_info">SD卡不存在，请安装好SD卡再下载</string>
+	
+	<string name="dlg_notifi_or_not_title">公告</string>
+	
+	<string name="about_app_name">应用商店</string>
+    <string name="version_name">版本：</string>
+    <string name="slogan">设计改变一切</string>
+    <string name="ver_contact">联系我们</string>
+    <string name="ver_contact_email_title">反馈邮箱</string>
+    <string name="ver_contact_email">zhuangjijingling@163.com</string>
+    <string name="ver_contact_qq_title">qq群</string>
+    <string name="ver_contact_qq">242203745</string>
+    <string name="confirm_button">确定</string>
+    <string name="btn_adapter_download">下载</string>
+    <string name="dlg_uninstallactivity_install">\n     旧的版本已卸载完毕，\n\n     请点击按钮安装新的版本。</string>
+    <string name="dlg_uninstallactivity_install_complete">\n     新版本已经安装完成，\n\n     请点击退出</string>
+    <string name="dlg_uninstallactivity_back">退出</string>
+    <string name="uninstallactivity_uninstall">卸载</string>
+    <string name="update_apps_hint">款应用可更新</string>
+	
+    <string name="download_net_error">下载中网络出错！</string>
+    <string name="download_stop">终止下载！</string>
+    <string name="menu_exit">退出</string>
+        
+</resources>

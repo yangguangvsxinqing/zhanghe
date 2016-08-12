@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg_list_view" >
+		
+	<include
+		android:id="@+id/appinfo_comment_operate"
+		android:layout_width="fill_parent" android:layout_height="48.0dip"
+		android:layout_alignParentBottom="true" android:layout_weight="1.0"
+		layout="@layout/appinfo_comments_operate" /> 
+	
+	<ListView
+		android:id="@+id/list_app_comments"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1.0" android:visibility="gone"
+		android:layout_alignParentTop="true"
+		android:divider="#00000000"
+		android:layout_above="@id/appinfo_comment_operate"
+		android:listSelector="@null" android:drawSelectorOnTop="false"
+		android:cacheColorHint="@android:color/transparent" />
+	
+	<FrameLayout
+		android:id="@+id/list_app_comments_empty"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1.0" android:visibility="gone" android:layout_above="@id/appinfo_comment_operate"
+		android:background="@drawable/bg_list_view" >
+			<TextView 
+				android:id="@+id/list_empty_text"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1.0" android:gravity="center"
+				android:text="@string/error_no_app_comment"
+				android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/black" />
+			
+	</FrameLayout>
+	
+	<include
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		layout="@layout/fullscreen_loading_indicator"/>
+</RelativeLayout>

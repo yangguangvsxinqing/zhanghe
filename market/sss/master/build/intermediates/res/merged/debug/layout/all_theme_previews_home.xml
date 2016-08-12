@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2013, The ChameleonOS Project
+**
+** * Licensed under the GNU GPLv2 license
+**
+** The text of the license can be found in the LICENSE file
+** or at https://www.gnu.org/licenses/gpl-2.0.txt
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:paddingLeft="10dp"
+        android:id="@+id/preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone" />
+		<ImageView
+            android:id="@+id/download_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="2.5dp"
+            android:src="@drawable/ic_theme_download"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/using_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="2.5dp"
+            android:src="@drawable/ic_theme_focused"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView android:paddingLeft="10dp"
+        android:id="@+id/theme_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color2"
+        android:textSize="@dimen/text_size3_dp"/>
+    
+     <TextView android:paddingLeft="10dp"
+        android:id="@+id/theme_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color2"
+        android:textSize="@dimen/text_size6_dp"/>
+    
+
+</LinearLayout>

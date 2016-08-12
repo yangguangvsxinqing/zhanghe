@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/home_title_ol"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_20sp" />
+
+    <ImageView
+        android:id="@+id/ivHelp"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:src="@drawable/pic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal" >
+
+        <com.fineos.theme.ui.DrawableCenterButton
+            android:id="@+id/btnMixer"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_mix"
+            android:drawableLeft="@drawable/ic_mixed"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:text="@string/home_btn_mix"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_17sp" />
+
+        <com.fineos.theme.ui.DrawableCenterButton
+            android:id="@+id/btnLocal"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/btnMixer"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_download"
+            android:drawableLeft="@drawable/ic_download"
+            android:drawablePadding="10dp"
+            android:singleLine="true"
+            android:text="@string/home_btn_local"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_17sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividing_line_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/title_remmend"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <GridView
+        android:id="@+id/onlineGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </GridView>
+
+</LinearLayout>

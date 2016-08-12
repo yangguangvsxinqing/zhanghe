@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/settings_icon">
+		<CheckBoxPreference android:title="@string/settings_buffer_icon"
+			android:key="settings_buffer_icon" android:defaultValue="true"
+			android:summaryOn="@string/settings_buffer_icon_on"
+			android:summaryOff="@string/settings_buffer_icon_off">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/settings_update">
+		<CheckBoxPreference android:title="@string/settings_check_update"
+			android:key="settings_check_update" android:defaultValue="true"
+			android:summaryOn="@string/settings_check_update_on"
+			android:summaryOff="@string/settings_check_update_off">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+	
+	<!-- 
+	<PreferenceCategory android:title="@string/settings_shortcut">
+		<CheckBoxPreference android:title="@string/settings_create_shortcut"
+			android:key="settings_create_shortcut" android:defaultValue="true"
+			android:summaryOn="@string/settings_create_shortcut_on"
+			android:summaryOff="@string/settings_create_shortcut_off">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+	-->
+	
+	<PreferenceCategory android:title="@string/settings_clean_data">
+		<com.huaqin.market.ui.DialogExPreference
+			android:title="@string/settings_clean_buffer"
+			android:key="settings_clean_data"
+			android:summary="@string/settings_clean_data_summary"
+			android:widgetLayout="@layout/nothing"
+			android:dialogTitle="@string/settings_clean_data"
+			android:dialogMessage="@string/settings_clean_data_message"
+			android:positiveButtonText="@string/btn_ok"
+			android:negativeButtonText="@string/btn_cancel" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/settings_about">
+	<PreferenceScreen
+        android:key="wifi_settings"
+        android:title="@string/menu_about"
+        android:summary="@string/settings_about_data_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.huaqin.market"
+            android:targetClass="com.huaqin.market.ui.VersionActivity" />
+    </PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

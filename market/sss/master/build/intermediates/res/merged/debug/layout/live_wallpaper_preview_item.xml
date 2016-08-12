@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2013, The ChameleonOS Project
+**
+** * Licensed under the GNU GPLv2 license
+**
+** The text of the license can be found in the LICENSE file
+** or at https://www.gnu.org/licenses/gpl-2.0.txt
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!--
+         <com.fineos.theme.ui.FlipImageView
+        android:id="@+id/preview_image"
+        android:layout_width="108dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY" />
+    -->
+
+    <FrameLayout
+        android:layout_width="@dimen/live_wallpaper_thumbnail_width"
+        android:layout_height="@dimen/live_wallpaper_thumbnail_height" >
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="@dimen/live_wallpaper_thumbnail_width"
+            android:layout_height="@dimen/live_wallpaper_thumbnail_height"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/using_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/theme_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color2"
+        android:textSize="@dimen/text_size3_dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

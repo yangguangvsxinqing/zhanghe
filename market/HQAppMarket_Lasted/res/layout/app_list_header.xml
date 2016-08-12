@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/top_app"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/white"
+	android:orientation="horizontal" >
+    <com.huaqin.market.ui.MarketGallery
+		android:id="@+id/gallery_image"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:fadingEdge="none"
+		android:soundEffectsEnabled="false"
+		android:scrollbars="none">
+    </com.huaqin.market.ui.MarketGallery>
+    <LinearLayout android:orientation="horizontal"
+        android:id="@+id/gallery_point_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gallery_point_bg"
+        android:gravity="center">
+    </LinearLayout>
+</RelativeLayout>

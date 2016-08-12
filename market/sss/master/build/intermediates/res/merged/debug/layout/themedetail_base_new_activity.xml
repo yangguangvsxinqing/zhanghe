@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_detail_base_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000" >
+
+    <com.fineos.theme.jazzyviewpager.JazzyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="68dip"
+        android:visible="false"
+        android:background="#00000000"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_theme_apply"
+            android:layout_width="171dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/ic_new_btn_apply"
+            android:textAllCaps="false"
+            android:visible="false"
+            android:textColor="@drawable/tab_holo_textcolor"
+            android:textSize="@dimen/text_18sp" />
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/theme_detail_actionbar"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:background="#8c444444"
+        android:layout_height="47dp" >
+        
+        <TextView
+            android:id="@+id/home_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@drawable/tab_holo_textcolor"
+            android:textSize="@dimen/text_20sp"
+            android:text="@string/theme_detail_actionbar_title"
+            android:paddingLeft="3dp"
+            android:drawablePadding="15dp"
+            android:scaleType="matrix" />
+        
+        <ImageView
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="3dp"
+            android:visibility="gone"
+            android:scaleType="matrix" />
+        
+    </FrameLayout>
+    
+    <ViewStub
+        android:id="@+id/themedetail_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/themedetail_cling" />
+
+</FrameLayout>

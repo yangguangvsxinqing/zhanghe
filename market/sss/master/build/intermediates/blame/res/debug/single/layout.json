@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_icon_gridview_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_icon_gridview_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/fragment_local_theme.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/fragment_local_theme.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/wallpaperitem.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/wallpaperitem.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_mixer_fragment.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_mixer_fragment.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/tb_munion_adview.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/tb_munion_adview.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/themedetail_cling.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/themedetail_cling.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_title_layout.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_title_layout.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_header_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_header_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/all_theme_previews_home.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/all_theme_previews_home.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_detail_preview_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_detail_preview_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_online_backup.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_online_backup.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/tab_web_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/tab_web_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/fullscreen_loading_indicator.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/fullscreen_loading_indicator.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/notification_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/notification_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/small_loading_indicator.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/small_loading_indicator.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/custom_gridview_item_local.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/custom_gridview_item_local.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_mixer_main.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_mixer_main.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_detail_dynamic_wallpaper.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_detail_dynamic_wallpaper.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_fragment_main.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_fragment_main.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/live_wallpaper_preview.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/live_wallpaper_preview.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/app_list_footer.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/app_list_footer.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/space_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/space_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/activity_fragment.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_actionbar.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_actionbar.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_online_header.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_online_header.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/update_content_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/update_content_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/umeng_update_dialog.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/umeng_update_dialog.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_drawable_button.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_drawable_button.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_ringtone_list_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_ringtone_list_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/hint_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/hint_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/custom_gridview_item_ol.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/custom_gridview_item_ol.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_detail.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_detail.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_local.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_local.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/coverflow.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/coverflow.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_list.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_list.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_local_backup.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_local_backup.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_detail_new_wallpaper.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_detail_new_wallpaper.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/tab_indicator.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/tab_indicator.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_ringtone.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_ringtone.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_online.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_online.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/themedetail_base_new_activity.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/themedetail_base_new_activity.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/permission_request_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/permission_request_view.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_mixer_fragment_activity.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_mixer_fragment_activity.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/adinfo_detail_preview_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/adinfo_detail_preview_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/live_wallpaper_preview_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/live_wallpaper_preview_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/layout_home_local_header.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/layout_home_local_header.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_web.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_web.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/low_speed_indicator.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/low_speed_indicator.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/live_wallpaper_loading.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/live_wallpaper_loading.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_detail_lockscreen.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_detail_lockscreen.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/all_theme_previews.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/all_theme_previews.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/theme_list_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/theme_list_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/tb_munion_aditem.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/tb_munion_aditem.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/live_wallpaper_gridview.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/live_wallpaper_gridview.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/local_theme_detail_wallpaper.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/local_theme_detail_wallpaper.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/sub_ad_item.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/sub_ad_item.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/boutique_fragment.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/boutique_fragment.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/third_font_err.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/third_font_err.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/translateanimation_icon.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/translateanimation_icon.xml"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/layout/grid_foot_view.xml",
+        "source": "/mnt/workplace/sss/master/src/main/res/layout/grid_foot_view.xml"
+    }
+]

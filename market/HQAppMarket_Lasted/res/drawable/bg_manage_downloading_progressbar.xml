@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/bg_manage_downloading_progressbar_background">
+        <shape>
+            <corners android:radius="5.0dip" /> 
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" android:drawable="@drawable/bg_manage_downloading_progressbar_foreground">
+        <clip>
+            <shape>
+                <corners android:radius="5.0dip" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

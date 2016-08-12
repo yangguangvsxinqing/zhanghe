@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs> 
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingItemsByClsService</name>
+		<url>/api/item/searchItemsByCls.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>categoryId</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <parameter>promotionId</parameter>
+	    <parameter>brandId</parameter>
+	    <parameter>channel</parameter>
+	    <parameter>sort</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+   	<config>
+		<name>com.tom.ule.api.service.android.AsyncAppStoreGetDirService</name>
+		<url>/open_api/1/getApi.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userId</parameter>
+	    <parameter>dirId</parameter>
+	    <parameter>method</parameter>
+	    <parameter>appKey</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncAppStoreGetPrdDetailService</name>
+		<url>/open_api/1/getApi.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userId</parameter>
+	    <parameter>productId</parameter>
+	    <parameter>productType</parameter>
+	    <parameter>method</parameter>
+	    <parameter>appKey</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncAppStoreGetPrdListService</name>
+		<url>/open_api/1/getApi.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userId</parameter>
+	    <parameter>productId</parameter>
+	    <parameter>productType</parameter>
+	    <parameter>method</parameter>
+	    <parameter>appKey</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <!-- <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingBigOrderService</name>
+		<url>/api/order/getOrderInfo.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userID</parameter>
+	    <parameter>orderId</parameter>
+	    <cfg>2#1#6</cfg>
+    </config> -->
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingCommentQueryService</name>
+		<url>/api/mobile/commentQuery.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>productId</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetAreaService</name>
+		<url>/api/user/getArea.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>cityId</parameter>
+	    <cfg>2#3#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetCategoryService</name>
+		<url>/api/catergory/getCatergory.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>catergoryId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetCategoryByIdService</name>
+		<url>/api/catergory/getCatergoryById.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>catergoryId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetCityService</name>
+		<url>/api/user/getCity.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>provinceId</parameter>
+	    <cfg>2#3#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetIndexService</name>
+		<url>/api/mobile/indexCommentGet.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>sectionKeys</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetItemDetailService</name>
+		<url>/api/item/searchItemDetail.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>listId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingGetProvinceService</name>
+		<url>/api/user/getProvince.do</url>
+	    <deprecated>432000000</deprecated>
+	    <cfg>2#3#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingItemsByBrandService</name>
+		<url>/api/item/searchItemsByBrand.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>brandId</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <parameter>promotionId</parameter>
+	    <parameter>sort</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingItemsByListIdService</name>
+		<url>/api/item/searchItemsByListId.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>listId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingItemsByNationalNumService</name>
+		<url>/api/item/searchItemsByNationalNum.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>nationalStandardNum</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingItemsByStoreService</name>
+		<url>/api/item/searchItemsByStore.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>storeId</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <parameter>promotionId</parameter>
+	    <parameter>brandId</parameter>
+	    <parameter>sort</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingKeywordsService</name>
+		<url>/api/mobile/indexKeywordInfo.do</url>
+	    <deprecated>432000000</deprecated>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingMutipleItemService</name>
+		<url>/api/item/searchMultipleItem.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>listIds</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <!-- <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingOrderDetailService</name>
+		<url>/api/order/getOrderDetail.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userID</parameter>
+	    <parameter>orderId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config> -->
+    
+    <!-- <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingPayPwdExistService</name>
+		<url>/api/payment/hasPayPwd.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userID</parameter>
+	    <parameter>sessionId</parameter>
+	    <cfg>2#1#1</cfg>
+    </config> -->
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingSearchItemsService</name>
+		<url>/api/item/searchItems.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>keywords</parameter>
+	    <parameter>storeId</parameter>
+	    <parameter>start</parameter>
+	    <parameter>end</parameter>
+	    <parameter>promotionId</parameter>
+	    <parameter>brandId</parameter>
+	    <parameter>sort</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+    <!-- <config>
+		<name>com.tom.ule.api.service.android.AsyncShoppingSmallOrderService</name>
+		<url>/api/order/orderDetail.do</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>userID</parameter>
+	    <parameter>deleveryOrderId</parameter>
+	    <cfg>2#2#1</cfg>
+    </config> -->
+    
+    <config>
+		<name>com.tom.ule.api.service.android.AsyncTomADGetADService</name>
+		<url>/ads/</url>
+	    <deprecated>432000000</deprecated>
+	    <parameter>pid</parameter>
+	    <cfg>2#2#1</cfg>
+    </config>
+    
+</configs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="CustomTitleText" format="string" />
+    <attr name="CustomTitleTextColor" format="color" />
+    <attr name="CustomTitleTextSize" format="dimension" />
+
+    <attr name="text_origin_color" format="color|reference" />
+    <attr name="text_change_color" format="color|reference" />
+    <attr name="progress" format="float" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="CustomTitleText" />
+        <attr name="CustomTitleTextColor" />
+        <attr name="CustomTitleTextSize" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="CustomTitleText" />
+        <attr name="CustomTitleTextColor" />
+        <attr name="CustomTitleTextSize" />
+        <attr name="Image" format="reference" />
+        <attr name="ImageScaleType" format="reference" >
+            <enum name="fitXY" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="CustomTitleText" />
+        <attr name="CustomTitleTextSize" />
+        <attr name="text_origin_color"/>
+        <attr name="text_change_color"/>
+        <attr name="progress"/>
+        <attr name="direction">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

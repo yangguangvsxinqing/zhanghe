@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/bg_listmenu_botton_background">
+        <shape>
+            <corners  
+                android:topRightRadius="8dp"  
+                android:bottomLeftRadius="8dp"  
+                android:topLeftRadius="8dp"  
+                android:bottomRightRadius="8dp" /> 
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" >
+        <clip>
+            <shape>
+                <gradient android:startColor="#ffeeddc3" android:endColor="#ffeeddc3" android:angle="225.0" />
+                <corners  
+                android:topRightRadius="8dp"  
+                android:bottomLeftRadius="8dp"  
+                android:topLeftRadius="8dp"  
+                android:bottomRightRadius="8dp" />  
+            </shape>
+        </clip>
+    </item>
+</layer-list>

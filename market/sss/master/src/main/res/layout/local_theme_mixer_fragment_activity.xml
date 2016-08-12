@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@drawable/bg_list_view" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/theme_title_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dividing_line_color" />
+
+    <LinearLayout
+        android:id="@+id/except_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/theme_title_shadow"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:shadowDy="1.0"
+                android:shadowRadius="3.0"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:shadowDy="1.0"
+                android:shadowRadius="3.0"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/text_size1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_cursor"
+            android:scaleType="matrix"
+            android:src="@drawable/slide_view_arrow_two" />
+
+        <ImageView
+            android:id="@+id/cursor_static"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_cursor"
+            android:src="@color/tab_highlight_color" />
+
+        <com.fineos.theme.ui.ThemePage
+            android:id="@+id/vPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fadingEdge="none"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" >
+        </com.fineos.theme.ui.ThemePage>
+    </LinearLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        layout="@layout/translateanimation_icon" />
+
+</RelativeLayout>

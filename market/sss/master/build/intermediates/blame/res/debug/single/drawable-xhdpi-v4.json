@@ -1,0 +1,626 @@
+[
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white1.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white1.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim6.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim6.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_apply_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/button_apply_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_sad.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_sad.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white7.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white7.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white5.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white5.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading03.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading03.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_download_apply_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_download_apply_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/switch_local_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/switch_local_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_local_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_local_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim2.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim2.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim1.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim1.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_tab_widget.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/bg_tab_widget.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading12.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading12.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading07.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading07.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_alarm_focused_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_alarm_focused_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slide_view_arrow_four.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/slide_view_arrow_four.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/feature_point.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/feature_point.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_delete_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_menu_delete_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_apply_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/button_apply_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading02.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading02.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_notice_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_notice_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_mixed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_mixed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_appinfo_comment_operate_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_appinfo_comment_operate_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_pic_loading.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_pic_loading.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_download.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_download.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_sms_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_sms_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading01.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading01.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cling_button_bg.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/cling_button_bg.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_sms_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_sms_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_icon_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_icon_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_wallpaper.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_wallpaper.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/actionbar.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/actionbar.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading06.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading06.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/switch_local_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/switch_local_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_cancle_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_cancle_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_notice_focused_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_notice_focused_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/feature_point_cur.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/feature_point_cur.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/switch_online_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/switch_online_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_back_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_back_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/gallery_point_bg.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/gallery_point_bg.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim4.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim4.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_dynamicwallpaper.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_dynamicwallpaper.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_reminder_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_reminder_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_tab_header.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/bg_tab_header.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cling_finger.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/cling_finger.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_font.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/bg_font.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_fonts_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_fonts_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim8.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim8.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_alarm_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_alarm_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/in_rtset_phone.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/in_rtset_phone.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_refresh_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_refresh_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_custom_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_custom_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/no_preview.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/no_preview.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_highlight.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/tab_highlight.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white2.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white2.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/checkbox_on.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/checkbox_on.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_fonts.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_fonts.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white10.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white10.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_download_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_download_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/in_rtset_sms.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/in_rtset_sms.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_theme_focused.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_theme_focused.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading09.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading09.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_apply_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_apply_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fonts_info_board.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/fonts_info_board.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/switch_online_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/switch_online_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_download_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_download_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_custom_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_custom_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slide_view_arrow_bg.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/slide_view_arrow_bg.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_online_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_online_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ringtone.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_ringtone.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_phone_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_phone_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_dynamicwallpaper_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_dynamicwallpaper_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sub_board.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/sub_board.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_theme_download.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_theme_download.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim10.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim10.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ab_back_holo_light_am_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_ab_back_holo_light_am_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white6.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white6.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_splash_text.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_splash_text.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/checkbox_off.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/checkbox_off.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading04.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading04.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_lockscreen_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_lockscreen_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/title_interval.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/title_interval.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_delete_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_delete_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/livewallpaper_placeholder.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/livewallpaper_placeholder.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_lockscreen.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_lockscreen.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white8.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white8.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_downloading.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_downloading.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading05.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading05.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading10.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading10.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_update.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_update.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_phone_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_phone_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_refresh_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_refresh_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_local_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_local_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_custom_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/bg_custom_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_alarm_focused_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_alarm_focused_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white4.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white4.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_custom_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/bg_custom_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_alarm_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_alarm_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim7.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim7.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white11.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white11.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_notice_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_notice_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_lock_wallpaper.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_lock_wallpaper.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_cancle_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_cancle_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_appinfo_comment_operate_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_appinfo_comment_operate_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slide_view_arrow_three.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/slide_view_arrow_three.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading11.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading11.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ringtone_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_ringtone_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_newupdate_w.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_newupdate_w.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_notice_focused_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_notice_focused_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_lockwallpaper_big.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_lockwallpaper_big.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_lockwallpaper.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_lockwallpaper.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/in_rtset_notice.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/in_rtset_notice.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_local_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_local_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/panel_shadow_holo_dark.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/panel_shadow_holo_dark.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_online_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_online_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_themeset.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_themeset.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_play_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_play_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim3.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim3.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_anim5.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/loading_anim5.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_sms_focused_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_sms_focused_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_applist_network_error.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_applist_network_error.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_download_apply_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_download_apply_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_icon.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_icon.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_bg_mix_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_bg_mix_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_bg_download_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_bg_download_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_shadw.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_shadw.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_ab_back_holo_light_am_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_ab_back_holo_light_am_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/top_board.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/top_board.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/splash_bg.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/splash_bg.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_divider_h.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_divider_h.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/in_rtset_alarm.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/in_rtset_alarm.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white3.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white3.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pic.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/pic.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slide_view_arrow_two.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/slide_view_arrow_two.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_back_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_back_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/title_bg.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/title_bg.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_apply_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_apply_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_newupdate.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_newupdate.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_btn_bg_wallpaper.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_btn_bg_wallpaper.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_delete_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_menu_delete_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_play_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_play_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading_white12.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading_white12.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_phone_focused_normal.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_phone_focused_normal.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_phone_focused_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_phone_focused_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/cling_arrow.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/cling_arrow.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_bg_mix_normal.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_bg_mix_normal.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_loading08.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_loading08.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_bg_download_pressed.9.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/btn_bg_download_pressed.9.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_sms_focused_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_sms_focused_pressed.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_applist_sadface.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_applist_sadface.png"
+    },
+    {
+        "merged": "/mnt/workplace/sss/master/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rtset_delete_pressed.png",
+        "source": "/mnt/workplace/sss/master/src/main/res/drawable-xhdpi/ic_rtset_delete_pressed.png"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/low_speed"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:background="@drawable/bg_list_view"
+	android:visibility="gone" >
+	
+	<TextView
+		android:id="@+id/list_empty_text"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingLeft="50dip" android:paddingRight="50dip"
+		android:gravity="center" android:layout_centerInParent="true"
+		android:text="@string/error_empty"
+		android:textAppearance="?android:textAppearanceSmall"
+		android:textColor="#ff868686" />
+	
+	<TextView
+		android:id="@+id/lowspeed_refresh"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingLeft="25dip" android:paddingBottom="4dip"
+		android:layout_marginTop="10dip" android:gravity="center"
+		android:layout_below="@id/list_empty_text"
+		android:layout_centerHorizontal="true"
+		android:text="@string/btn_refresh"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:textColor="@color/black"
+		android:background="@drawable/ic_btn_refresh" />
+	
+	<ImageView
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:paddingBottom="20dip"
+		android:layout_above="@id/list_empty_text"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/ic_applist_sadface" />
+	
+</RelativeLayout>

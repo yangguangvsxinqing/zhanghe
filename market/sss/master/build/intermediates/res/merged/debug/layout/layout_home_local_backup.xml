@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/home_title_ol"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_20sp"
+        android:visibility="gone" />
+
+    <com.fineos.theme.ui.HalfGridView
+        android:id="@+id/mixerGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_bg_color"
+        android:horizontalSpacing="13dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:overScrollMode="never"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="17dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="18dp" >
+    </com.fineos.theme.ui.HalfGridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/dividing_line_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/title_local"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <GridView
+        android:id="@+id/localGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_bg_color"
+        android:horizontalSpacing="@dimen/local_gridview_horizontalSpacing_allthemes"
+        android:numColumns="@integer/gridviewNumColumns"
+        android:overScrollMode="never"
+        android:paddingLeft="@dimen/local_gridview_paddingLeft_allthemes"
+        android:paddingRight="@dimen/local_gridview_paddingRight_allthemes"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/local_gridview_verticalSpacing_allthemes"
+        android:visibility="visible" />
+
+</LinearLayout>

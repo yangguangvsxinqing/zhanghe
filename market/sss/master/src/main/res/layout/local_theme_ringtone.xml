@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/line_list_divider"
+                android:footerDividersEnabled="true"
+                android:dividerHeight="1px"
+                android:drawSelectorOnTop="false"
+                android:fadingEdge="none" 
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/list_empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_list_view"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/list_empty_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/black" />
+            </FrameLayout>
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                layout="@layout/low_speed_indicator" />
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/fullscreen_loading_indicator"
+                android:visibility="visible" />
+        </LinearLayout>
+</LinearLayout>

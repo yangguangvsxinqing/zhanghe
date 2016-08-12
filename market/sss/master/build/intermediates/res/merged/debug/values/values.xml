@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="drawable_center_button_topdrawble" translatable="false"> 
+        <item>@drawable/ic_lockwallpaper_big</item>  
+        <item>@drawable/ic_dynamicwallpaper_big</item>  
+        <item>@drawable/ic_lockscreen_big</item>  
+        <item>@drawable/ic_fonts_big</item>  
+        <item>@drawable/ic_local_big</item> 
+    </array>
+    <string-array name="drawable_center_describe"> 
+        <item>@string/wallpaper</item>  
+        <item>@string/custom_dynamic_wallpaper</item>  
+        <item>@string/custom_lockscreen</item>  
+        <item>@string/tab_title_font</item>  
+        <item>@string/tab_local_theme</item> 
+    </string-array>
+    <string-array name="drawable_center_type"> 
+        <item>wallpaper</item>  
+        <item>livewallpaper</item>  
+        <item>lockscreen</item>  
+        <item>font</item>  
+        <item>localtheme</item> 
+    </string-array>
+    <bool name="google_billing_support">true</bool>
+    <bool name="online_fonts_third">true</bool>
+    <bool name="show_custom_action_bar">true</bool>
+    <color name="bg_header_text">#ff00ff00</color>
+    <color name="black">#ff000000</color>
+    <color name="dividing_line_color">#e1e1e1</color>
+    <color name="empty_preview_background">#FFFFFF</color>
+    <color name="live_wallpaper_thumbnail_background">#CC666666</color>
+    <color name="live_wallpaper_thumbnail_text_color">#FFFFFFFF</color>
+    <color name="mixer_item_label_color">#ffffff</color>
+    <color name="primary">#ffffff</color>
+    <color name="primary_sub">#242424</color>
+    <color name="ringtone_highlight_color">#00a0ea</color>
+    <color name="ringtone_text_color">#585858</color>
+    <color name="sixty_percent_black">#99000000</color>
+    <color name="sixty_percent_white">#99ffffff</color>
+    <color name="tab_highlight_color">#eb624b</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="text_color">#303030</color>
+    <color name="text_color2">#939393</color>
+    <color name="text_color3">#646464</color>
+    <color name="text_empty">#b5b5b5</color>
+    <color name="text_white">#ff1c79cc</color>
+    <color name="theme_bg_color">#ffffff</color>
+    <color name="theme_bg_ringstone_color">#e0e0e0</color>
+    <color name="title_bg_color">#ffffff</color>
+    <color name="title_text_color">#646464</color>
+    <color name="wallpaper_text_bg">#f0ffffff</color>
+    <color name="wallpaper_text_color">#555555</color>
+    <color name="white">#ffffffff</color>
+    <dimen name="app_listitem_tray_size">40.0dip</dimen>
+    <dimen name="cling_finger_move_distance">50dp</dimen>
+    <dimen name="coverflow_item_width">280dp</dimen>
+    <dimen name="custom_item_height">70dip</dimen>
+    <dimen name="detail_preview_item_height">300dp</dimen>
+    <dimen name="detail_preview_item_width">194dp</dimen>
+    <dimen name="detail_preview_lock_item_height">448dp</dimen>
+    <dimen name="detail_preview_lock_item_width">252dp</dimen>
+    <dimen name="dialog_content_inset">0dip</dimen>
+    <dimen name="drawble_icon_item_height">96dip</dimen>
+    <dimen name="drawble_icon_padding_top">9dip</dimen>
+    <dimen name="fineos_actionbar_height">47dp</dimen>
+    <dimen name="header_view_web_height">120dip</dimen>
+    <dimen name="icon_item_height">170dip</dimen>
+    <dimen name="live_wallpaper_preview_button_width">160dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_height">100dp</dimen>
+    <dimen name="live_wallpaper_thumbnail_text_offset">12dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_text_size">14dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_widtspaceViewHeighth">100dp</dimen>
+    <dimen name="local_gridview_horizontalSpacing_allthemes">8dp</dimen>
+    <dimen name="local_gridview_horizontalSpacing_fonts">13dp</dimen>
+    <dimen name="local_gridview_paddingLeft_allthemes">10dp</dimen>
+    <dimen name="local_gridview_paddingLeft_fonts">11dp</dimen>
+    <dimen name="local_gridview_paddingRight_allthemes">10dp</dimen>
+    <dimen name="local_gridview_paddingRight_fonts">11dp</dimen>
+    <dimen name="local_gridview_paddingtop_allthemes">0dp</dimen>
+    <dimen name="local_gridview_verticalSpacing_allthemes">7dp</dimen>
+    <dimen name="local_gridview_verticalSpacing_dynamicWallpaper">3dp</dimen>
+    <dimen name="local_gridview_verticalSpacing_fonts">13dp</dimen>
+    <dimen name="local_gridview_verticalSpacing_lockwallpaper">4dp</dimen>
+    <dimen name="local_theme_child_view_height">65dp</dimen>
+    <dimen name="local_theme_headerView_horizontal_gap">13dp</dimen>
+    <dimen name="local_theme_headerView_vertical_gap">8dp</dimen>
+    <dimen name="local_title_height">55dip</dimen>
+    <dimen name="mixer_item_height">80dp</dimen>
+    <dimen name="point_margin_left">5dp</dimen>
+    <dimen name="preview_height_all_themes">152dp</dimen>
+    <dimen name="preview_height_fonts">80dp</dimen>
+    <dimen name="preview_height_icon">120dp</dimen>
+    <dimen name="preview_height_static_wallpaper">147dp</dimen>
+    <dimen name="preview_width_all_themes">108dp</dimen>
+    <dimen name="preview_width_all_themes_home">118dp</dimen>
+    <dimen name="preview_width_fonts">156dp</dimen>
+    <dimen name="preview_width_icon">166dp</dimen>
+    <dimen name="preview_width_static_wallpaper">166dp</dimen>
+    <dimen name="ringtone_list_item_area_ex_height">50dip</dimen>
+    <dimen name="slideview_title_size">15.0dip</dimen>
+    <dimen name="space_dyview_height">7.5dp</dimen>
+    <dimen name="space_view_height">10dp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_13sp">13sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_17sp">17sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_size1">20sp</dimen>
+    <dimen name="text_size2">17sp</dimen>
+    <dimen name="text_size2_dp">17dp</dimen>
+    <dimen name="text_size3">14sp</dimen>
+    <dimen name="text_size3_dp">13dp</dimen>
+    <dimen name="text_size4">15sp</dimen>
+    <dimen name="text_size4_dp">15dp</dimen>
+    <dimen name="text_size5">12sp</dimen>
+    <dimen name="text_size6">11sp</dimen>
+    <dimen name="text_size6_dp">11dp</dimen>
+    <dimen name="theme_listitem_size">60dip</dimen>
+    <dimen name="theme_title_height">45dp</dimen>
+    <dimen name="themedrawble_height">15dip</dimen>
+    <dimen name="themedrawble_padding">5dip</dimen>
+    <dimen name="themedrawble_top">15dip</dimen>
+    <dimen name="title1_padding">10dp</dimen>
+    <dimen name="title_custom_mr">12dip</dimen>
+    <dimen name="title_custom_w">38dip</dimen>
+    <dimen name="title_interval_mr">5dip</dimen>
+    <dimen name="title_search_mr">5dip</dimen>
+    <dimen name="title_text_size">18dip</dimen>
+    <dimen name="using_tag_marginleft_font">130dp</dimen>
+    <dimen name="using_tag_marginleft_icons">139dp</dimen>
+    <dimen name="using_tag_marginleft_live_wallpaper">40dp</dimen>
+    <dimen name="using_tag_marginleft_lock_wallpaper">84dp</dimen>
+    <dimen name="using_tag_marginleft_wallpapespaceViewHeightr">139dp</dimen>
+    <dimen name="using_tag_margintop_font">54dp</dimen>
+    <dimen name="using_tag_margintop_icons">93dp</dimen>
+    <dimen name="using_tag_margintop_live_wallpaper">40dp</dimen>
+    <dimen name="using_tag_margintop_lock_wallpaper">126dp</dimen>
+    <dimen name="using_tag_margintop_wallpaper">120dp</dimen>
+    <integer name="NumColumnsIcons">2</integer>
+    <integer name="NumColumnsLockScreen">3</integer>
+    <integer name="NumColumnsThree">3</integer>
+    <integer name="NumColumnsTwo">2</integer>
+    <integer name="gridviewNumColumns">3</integer>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size:</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size:</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="aciton_bar_local">Local</string>
+    <string name="aciton_bar_online">OnLine</string>
+    <string name="alert_delete">Are you sure to delete?</string>
+    <string name="apk_deleted">The corresponding APK file has been deleted.</string>
+    <string name="app_cursor">Cursor</string>
+    <string name="app_name">Themes</string>
+    <string name="apply_failed_tip">Failed</string>
+    <string name="apply_failed_tip_once">Only one theme, cannot switched</string>
+    <string name="apply_success_tip">Applied Success</string>
+    <string name="applying_font">Applying...</string>
+    <string name="applying_icons">Applying...</string>
+    <string name="applying_lockscreen">Applying...</string>
+    <string name="applying_theme">Applying...</string>
+    <string name="applying_wallpaper">Applying...</string>
+    <string name="author_lable">Author :</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_cancle">Cancel</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_downloading">Downloading</string>
+    <string name="btn_install">Install</string>
+    <string name="btn_network">Set</string>
+    <string name="btn_next">next step</string>
+    <string name="btn_no">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_set">Set</string>
+    <string name="btn_text_buy">Buy</string>
+    <string name="btn_use">Set</string>
+    <string name="btn_yes">OK</string>
+    <string name="buyed_text">Purchased</string>
+    <string name="check_network_error">Please check your network state</string>
+    <string name="cling_action">Single finger</string>
+    <string name="cling_discription">sliding switch</string>
+    <string name="cling_know">Got it</string>
+    <string name="configure_wallpaper">Settings…</string>
+    <string name="custom_dynamic_wallpaper">Live wallpaper</string>
+    <string name="custom_fonts">Fonts</string>
+    <string name="custom_icon">Icons</string>
+    <string name="custom_local_dynamic_wallpaper">Local Live wallpaper</string>
+    <string name="custom_local_fonts">Local Fonts</string>
+    <string name="custom_local_icon">Local Icons</string>
+    <string name="custom_local_lock_wallpaper">Local Lock wallpaper</string>
+    <string name="custom_local_lockscreen">Local Lock screen</string>
+    <string name="custom_lock_wallpaper">Lock wallpaper</string>
+    <string name="custom_lockscreen">Lock screen</string>
+    <string name="custom_reminder_wallpaper">Reminder wallpaper</string>
+    <string name="custom_ringtone">Ring tone</string>
+    <string name="custom_wallpaper">Wallpaper</string>
+    <string name="default_price">$0.0</string>
+    <string name="default_price_text">Free</string>
+    <string name="default_theme_title">Default</string>
+    <string name="delete">Delete</string>
+    <string name="delete_faild">Sorry, delete failed</string>
+    <string name="deleting">Deleting</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dlg_request_permission">Apply for permission</string>
+    <string name="dlg_theme_failed_body">Application Error .\n\nPlease reapply or replace another.</string>
+    <string name="dlg_theme_failed_title">Theme apply failed !</string>
+    <string name="dlg_update_not_msg">This is the latest version:</string>
+    <string name="dlg_update_not_title">Version</string>
+    <string name="dlg_update_or_not_msg">New version available ,update?\n</string>
+    <string name="dlg_update_or_not_title">Update tips</string>
+    <string name="error_empty">No match available</string>
+    <string name="error_listfooter_network_error">Network link error</string>
+    <string name="error_low_speed">Bad network condition, Please refresh the page later</string>
+    <string name="error_network_low_speed">Please check network and try again</string>
+    <string name="file_download_complete">Download completed</string>
+    <string name="file_download_more">File while downloading, please wait.</string>
+    <string name="file_downloaded">File exists, do not need to re-download</string>
+    <string name="font_apply_success_tip">Success</string>
+    <string name="google_billing_unsupport_tip">Please Check Google billing environment and signed in google account first !</string>
+    <string name="help_title">Help</string>
+    <string name="hide_hint">No longer prompt</string>
+    <string name="home_btn_local">Local</string>
+    <string name="home_btn_mix">Mixer</string>
+    <string name="home_title_ol">Themes</string>
+    <string name="icon_apply_success_tip">Applied Success</string>
+    <string name="install_fail">Install failed,Please check the installation privileges or try to change other theme</string>
+    <string name="installing">Installing</string>
+    <string name="live_apply_fail_tip">Applied failed</string>
+    <string name="live_apply_success_tip">Applied Success</string>
+    <string name="live_wallpaper_loading">Loading live wallpaper…</string>
+    <string name="load">Load</string>
+    <string name="loading">Loading, please wait</string>
+    <string name="loading_faild">Sorry, get data failed, please wait.</string>
+    <string name="local_wallpaper">Local Wallpaper</string>
+    <string name="lockscreen_detail">Lockscreen Detail</string>
+    <string name="lockwallpaper_apply_success_tip">Applied Success</string>
+    <string name="menu_settings">Settings</string>
+    <string name="message_sign_in_google">\nPlease sign in Google account first！\n</string>
+    <string name="net_work_hint">The theme manager app is a free security system application, in use process may get your location and produce a small amount of data traffic fee, please consult the local operators. Whether or not to continue to use?</string>
+    <string name="new_app_name">Theme Park</string>
+    <string name="onekey_app_name">Switching</string>
+    <string name="permdesc_read_settings">Allows an application to read the settings and shortcuts in Home.</string>
+    <string name="permdesc_write_settings">Allows an application to change the settings and shortcuts in Home.</string>
+    <string name="permlab_read_settings">Read Home settings and shortcuts</string>
+    <string name="permlab_write_settings">Write Home settings and shortcuts</string>
+    <string name="price_lable">Price :</string>
+    <string name="request_permission_coarse_location">In order to optimize network configuration, choose the most appropriate server，Theme need to request permission of location info.</string>
+    <string name="request_permission_external_storage">In order to load or download theme packages,Theme need to request permission of read/write external storage.</string>
+    <string name="request_permission_get_accounts">In order to obtain google play service，Theme need to request permission of get user accounts.</string>
+    <string name="request_permission_read_phone_state">In order to obtain the configuration information used to initialize models,Theme need to request permission of read phone state.</string>
+    <string name="ringtone_item_alarm">Alarm</string>
+    <string name="ringtone_item_delete">Delete</string>
+    <string name="ringtone_item_notice">Notice</string>
+    <string name="ringtone_item_phone">Phone</string>
+    <string name="ringtone_item_sms">SMS</string>
+    <string name="ringtone_set_success">Success</string>
+    <string name="sd_unmounted">Default Storage is in use</string>
+    <string name="sign_in_google">Sign in Google account</string>
+    <string name="size_lable">Size :</string>
+    <string name="start_download">downloading, please wait.</string>
+    <string name="tab_local_theme">Local</string>
+    <string name="tab_title_boutique">Boutique</string>
+    <string name="tab_title_cate">Category</string>
+    <string name="tab_title_custom">Custom</string>
+    <string name="tab_title_download_ringtone">Other Ring</string>
+    <string name="tab_title_dynamic_wallpaper">Live Wallpaper</string>
+    <string name="tab_title_font">Fonts</string>
+    <string name="tab_title_local_ringtone">System Ring</string>
+    <string name="tab_title_lockscreen">Lock screen</string>
+    <string name="tab_title_mytheme">Local Theme</string>
+    <string name="tab_title_rank">Rank</string>
+    <string name="tab_title_ring">Ring</string>
+    <string name="tab_title_search">Search</string>
+    <string name="tab_title_static_wallpaper">Wallpaper</string>
+    <string name="tab_title_theme">Theme</string>
+    <string name="tab_title_wallpaper">Wallpaper</string>
+    <string name="tb_munion_tip_download_prefix">Downloading</string>
+    <string name="text_feedback">Customer Feedback</string>
+    <string name="text_more">More</string>
+    <string name="text_update">Check for updates</string>
+    <string name="theme_custom">Customize Themes</string>
+    <string name="theme_description">Description</string>
+    <string name="theme_detail_actionbar_title">ThemeDetails</string>
+    <string name="third_err">Sorry,Load error</string>
+    <string name="title_local">My Theme</string>
+    <string name="title_local_dynamic_wallpaper">Live Wallpaper</string>
+    <string name="title_local_fonts">Fonts</string>
+    <string name="title_local_icon">Icons</string>
+    <string name="title_local_lock_wallpaper">Lock Wallpaper</string>
+    <string name="title_local_lockscreen">Lock screen</string>
+    <string name="title_local_ringtone">Ring tone</string>
+    <string name="title_local_wallpaper">Wallpaper</string>
+    <string name="title_remmend">Recommends</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed!</string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause:</string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="update_theme_hint">Theme Manager can update a new version</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="wallpaper_apply_all_wallpaper">both</string>
+    <string name="wallpaper_apply_desktop_wallpaper">Desktop wallpaper</string>
+    <string name="wallpaper_apply_lockscreen_wallpaper">Lockscreen wallpaper</string>
+    <string name="wallpaper_apply_success_tip">Success</string>
+    <string name="wallpaper_detail">Wallpaper Detail</string>
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="wallpaper_preview_tip">Wallpaper preview</string>
+    <style name="AcBar_titleStyle">  
+        <item name="android:textSize">@dimen/text_size1</item>  
+        <item name="android:textColor">@drawable/tab_textcolor</item>
+    </style>
+    <style name="AlertCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DetailInfoLabel" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mixer_item_label_color</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="DetailLabel" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mixer_item_label_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="DrawbleIcon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/text_color2</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+        <item name="android:background">#00000000</item>
+        
+    </style>
+    <style name="My.Translucent" parent="@android:style/Theme.Holo.Light.NoActionBar"/>
+    <style name="Preview" parent="@android:style/Theme.Holo.Light">
+        <!--  
+        <item name="android:homeAsUpIndicator">@com.fineos:drawable/ic_ab_back_holo_light</item>
+        -->
+    	<item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+    <style name="Theme.Holo.Wallpaper.NoTitleBar" parent="android:Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+    <style name="Theme_new_ui" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>-->
+        <item name="android:background">@android:color/transparent</item> 
+    </style>
+    <style name="list_font_l_normal">
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+	    <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+    </style>
+</resources>
